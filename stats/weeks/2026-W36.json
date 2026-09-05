@@ -1,0 +1,329 @@
+{
+ "cves": [
+  {
+   "cve": "CVE-2012-1823",
+   "sources": 6
+  },
+  {
+   "cve": "CVE-2021-41773",
+   "sources": 6
+  },
+  {
+   "cve": "CVE-2017-9841",
+   "sources": 6
+  },
+  {
+   "cve": "CVE-2018-20062",
+   "sources": 3
+  }
+ ],
+ "funnel": {
+  "connected": 1246,
+  "delivered_sample": 89,
+  "fetched_payload": 154,
+  "ran_commands": 814,
+  "returned": 580,
+  "tried_creds": 855
+ },
+ "samples": [
+  "140fc71a1e94813f1ce6be8e6328dff3cdea403bfdd0b11a6b60f70ceba77773",
+  "1b82e9a4722c37a2a0d6ee9eeaad1458c815021650c8ae977ae46a2bcce22153",
+  "302f55e14d65190946220886bfb9e860f909857b6e9cfa9d91e7e214d293a6e0",
+  "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
+  "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
+  "662a4c450a73dd45622856fb0f44cbbeab101a326b89aedbd07ec41c08a5f73b",
+  "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
+  "8472e2bb1b967f8517256bc9cc54c77e9514be80341c9e6209126ad33639e91c",
+  "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
+  "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
+  "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
+  "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002",
+  "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d"
+ ],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   37
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   33
+  ],
+  [
+   "Huawei HG gateway",
+   24
+  ],
+  [
+   "DrayTek router",
+   19
+  ],
+  [
+   "ZTE CPE",
+   19
+  ],
+  [
+   "IoT OEM default account",
+   17
+  ],
+  [
+   "ISP-branded DSL gateway",
+   14
+  ],
+  [
+   "firmware backdoor account",
+   14
+  ],
+  [
+   "SMC Networks CPE",
+   11
+  ],
+  [
+   "WordPress",
+   9
+  ],
+  [
+   "Apache HTTP Server (CGI)",
+   6
+  ],
+  [
+   "PHP-CGI",
+   5
+  ],
+  [
+   "embedded web server (boa/goform)",
+   5
+  ],
+  [
+   "Hikvision camera",
+   1
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   1
+  ],
+  [
+   "Java middleware",
+   1
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "154.70.152.216",
+   98
+  ],
+  [
+   "27.215.49.38",
+   16
+  ],
+  [
+   "42.232.237.170",
+   4
+  ],
+  [
+   "61.53.151.142",
+   4
+  ],
+  [
+   "182.126.124.244",
+   4
+  ],
+  [
+   "198.144.179.82",
+   4
+  ],
+  [
+   "219.156.181.248",
+   3
+  ],
+  [
+   "113.230.103.187",
+   2
+  ],
+  [
+   "174.105.154.212",
+   2
+  ],
+  [
+   "193.163.187.75",
+   2
+  ],
+  [
+   "39.87.50.123",
+   2
+  ],
+  [
+   "102.33.29.92",
+   2
+  ],
+  [
+   "194.59.31.5",
+   2
+  ],
+  [
+   "194.59.31.57",
+   2
+  ],
+  [
+   "182.117.68.170",
+   2
+  ],
+  [
+   "217.60.195.113",
+   2
+  ],
+  [
+   "42.233.190.252",
+   2
+  ],
+  [
+   "116.2.43.97",
+   2
+  ],
+  [
+   "213.232.114.14",
+   2
+  ],
+  [
+   "39.65.202.109",
+   2
+  ],
+  [
+   "27.206.202.203",
+   1
+  ],
+  [
+   "125.43.45.149",
+   1
+  ],
+  [
+   "112.239.102.38",
+   1
+  ],
+  [
+   "42.231.42.243",
+   1
+  ],
+  [
+   "210.208.111.100",
+   1
+  ]
+ ],
+ "top_credentials": [
+  [
+   "admin/admin",
+   23185
+  ],
+  [
+   "root/kopp",
+   15858
+  ],
+  [
+   "admin/88888888",
+   12461
+  ],
+  [
+   "admin/smcadmin",
+   8780
+  ],
+  [
+   "Admin/Admin",
+   5662
+  ],
+  [
+   "root/admin",
+   5395
+  ],
+  [
+   "root/Pon521",
+   4687
+  ],
+  [
+   "root/root",
+   4601
+  ],
+  [
+   "root/bluehorse",
+   4312
+  ],
+  [
+   "666666/666666",
+   4057
+  ],
+  [
+   "super/xJ4pCYeW",
+   3466
+  ],
+  [
+   "root/Zte521",
+   3443
+  ],
+  [
+   "root/klv1234",
+   3217
+  ],
+  [
+   "root/hi3518",
+   2699
+  ],
+  [
+   "root/2010vesta",
+   2643
+  ],
+  [
+   "admin/bayandsl",
+   2538
+  ],
+  [
+   "admin/meinsm",
+   2458
+  ],
+  [
+   "root/anko",
+   2321
+  ],
+  [
+   "root/e2008jl",
+   1831
+  ],
+  [
+   "admin/vnpt",
+   1820
+  ],
+  [
+   "user/",
+   1622
+  ],
+  [
+   "cunmgadmin/cunmgadmin",
+   1407
+  ],
+  [
+   "root/xc3511",
+   1342
+  ],
+  [
+   "support/support",
+   1342
+  ],
+  [
+   "root/1234",
+   950
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 54,
+  "distinct_credentials": 2078,
+  "distinct_payload_urls": 68,
+  "events": 2914341,
+  "new_sources": 1246,
+  "shared_c2_hosts": 20,
+  "sources": 1246
+ },
+ "window": {
+  "days": 3,
+  "first_day": "2026-09-03",
+  "last_day": "2026-09-05",
+  "week": "2026-W36"
+ }
+}
