@@ -27,6 +27,8 @@
 
 ## How far they got
 
+Counting only the addresses that found this sensor for the first time this week, so that every stage below describes the same seven days.
+
 | stage | addresses | share |
 |---|---|---|
 | connected | 1,246 | 100% |
@@ -42,15 +44,15 @@ A previously unseen address found this machine every 58 seconds on average. It h
 | cve | | addresses | age | description |
 |---|---|---|---|---|
 | `CVE-2012-1823` | **KEV** | 6 | 14y | PHP-CGI argument injection RCE |
-| `CVE-2021-41773` | **KEV** | 6 | 5y | Apache HTTP Server path traversal to RCE |
 | `CVE-2017-9841` |  | 6 | 9y |  |
+| `CVE-2021-41773` | **KEV** | 6 | 5y | Apache HTTP Server path traversal to RCE |
 | `CVE-2018-20062` |  | 3 | 8y |  |
 
 The median attempted vulnerability, weighted by how many addresses tried it, is 9 years old.
 
 ## Credentials
 
-2,078 distinct pairs. The ten most common account for 59% of all attempts — a small dictionary applied relentlessly.
+2,078 distinct pairs across 149,731 recorded attempts. The ten most common account for 59% of those — a small dictionary applied relentlessly.
 
 | username | password | attempts |
 |---|---|---|
@@ -93,4 +95,4 @@ Inferred from the credentials and request paths chosen, which only make sense ag
 
 Indicators, samples and per-address write-ups: https://github.com/1Birdo/lyrebird-intel
 
-*Generated 2026-09-05 22:36 UTC.*
+*Generated 2026-09-05 23:12 UTC.*
