@@ -220,11 +220,11 @@
  "top_credentials": [
   [
    "admin/admin",
-   33698
+   33708
   ],
   [
    "root/kopp",
-   16718
+   16719
   ],
   [
    "admin/88888888",
@@ -232,11 +232,11 @@
   ],
   [
    "root/Zte521",
-   10019
+   10026
   ],
   [
    "root/admin",
-   9890
+   9896
   ],
   [
    "admin/smcadmin",
@@ -252,11 +252,11 @@
   ],
   [
    "root/Pon521",
-   6136
+   6128
   ],
   [
    "root/hi3518",
-   5888
+   5890
   ],
   [
    "Admin/Admin",
@@ -264,7 +264,7 @@
   ],
   [
    "root/klv1234",
-   5527
+   5551
   ],
   [
    "root/root",
@@ -276,7 +276,7 @@
   ],
   [
    "root/bluehorse",
-   4708
+   4692
   ],
   [
    "root/password",
@@ -296,23 +296,23 @@
   ],
   [
    "root/xc3511",
-   4018
+   4020
   ],
   [
    "admin/adminHW",
-   3419
+   3429
   ],
   [
    "root/2010vesta",
-   2670
+   2663
   ],
   [
    "admin/bayandsl",
-   2625
+   2626
   ],
   [
    "user/",
-   2577
+   2581
   ],
   [
    "admin/meinsm",
@@ -320,9 +320,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 80,
-  "distinct_credentials": 2526,
-  "distinct_payload_urls": 100,
+  "distinct_c2_hosts": 85,
+  "distinct_credentials": 2543,
+  "distinct_payload_urls": 105,
   "events": 4309628,
   "new_sources": 1690,
   "shared_c2_hosts": 20,

@@ -1,12 +1,12 @@
 {
  "cves": [],
  "funnel": {
-  "connected": 175,
+  "connected": 187,
   "delivered_sample": 3,
-  "fetched_payload": 100,
-  "ran_commands": 124,
-  "returned": 136,
-  "tried_creds": 133
+  "fetched_payload": 105,
+  "ran_commands": 130,
+  "returned": 142,
+  "tried_creds": 139
  },
  "samples": [
   "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
@@ -19,15 +19,15 @@
  "targets": [
   [
    "ZTE CPE",
-   90
+   91
   ],
   [
    "DVR / IP camera (OEM default)",
-   27
+   29
   ],
   [
    "GPON/ONT fibre terminal",
-   23
+   24
   ],
   [
    "Huawei HG gateway",
@@ -43,7 +43,7 @@
   ],
   [
    "firmware backdoor account",
-   11
+   12
   ],
   [
    "IoT OEM default account",
@@ -84,6 +84,10 @@
    2
   ],
   [
+   "193.163.187.75",
+   2
+  ],
+  [
    "220.115.58.37",
    2
   ],
@@ -100,7 +104,15 @@
    2
   ],
   [
+   "42.238.242.50",
+   2
+  ],
+  [
    "61.53.151.142",
+   2
+  ],
+  [
+   "88.88.191.25",
    2
   ],
   [
@@ -117,6 +129,14 @@
   ],
   [
    "113.230.103.187",
+   1
+  ],
+  [
+   "113.230.81.174",
+   1
+  ],
+  [
+   "115.59.84.47",
    1
   ],
   [
@@ -142,40 +162,20 @@
   [
    "175.150.244.110",
    1
-  ],
-  [
-   "175.151.123.5",
-   1
-  ],
-  [
-   "175.167.230.83",
-   1
-  ],
-  [
-   "175.44.156.36",
-   1
-  ],
-  [
-   "192.21.160.43",
-   1
-  ],
-  [
-   "193.163.187.75",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   11027
+   11038
   ],
   [
    "root/hi3518",
-   5548
+   5551
   ],
   [
    "root/klv1234",
-   5484
+   5508
   ],
   [
    "administrator/",
@@ -183,19 +183,19 @@
   ],
   [
    "super/xJ4pCYeW",
-   4854
-  ],
-  [
-   "root/password",
-   4614
+   4855
   ],
   [
    "super/PhrQjGzk",
-   4614
+   4651
+  ],
+  [
+   "root/password",
+   4617
   ],
   [
    "admin/v2mprt",
-   4187
+   4197
   ],
   [
    "root/12341234",
@@ -203,15 +203,15 @@
   ],
   [
    "root/Zte521",
-   3950
+   3958
   ],
   [
    "root/xc3511",
-   3397
+   3405
   ],
   [
    "admin/adminHW",
-   3365
+   3375
   ],
   [
    "root/1234",
@@ -219,7 +219,7 @@
   ],
   [
    "root/admin",
-   1870
+   1878
   ],
   [
    "root/root",
@@ -231,54 +231,54 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   1178
+   1184
   ],
   [
    "admin/aquario",
-   755
+   765
   ],
   [
    "root/",
-   708
+   715
   ],
   [
    "guest/guest",
-   684
+   689
   ],
   [
    "admin/gw1admin",
-   658
+   659
+  ],
+  [
+   "support/support",
+   638
   ],
   [
    "super/super",
    637
   ],
   [
-   "support/support",
-   634
-  ],
-  [
    "admin/1234",
-   604
+   606
   ],
   [
    "user/",
-   594
+   598
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 42,
-  "distinct_credentials": 392,
-  "distinct_payload_urls": 55,
-  "events": 251343,
-  "new_sources": 67,
-  "shared_c2_hosts": 10,
-  "sources": 175
+  "distinct_c2_hosts": 49,
+  "distinct_credentials": 394,
+  "distinct_payload_urls": 62,
+  "events": 257693,
+  "new_sources": 79,
+  "shared_c2_hosts": 13,
+  "sources": 187
  },
  "window": {
-  "days": 1,
+  "days": 2,
   "first_day": "2026-09-07",
-  "last_day": "2026-09-07",
+  "last_day": "2026-09-09",
   "week": "2026-W37"
  }
 }
