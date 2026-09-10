@@ -22,11 +22,11 @@
   }
  ],
  "funnel": {
-  "connected": 1690,
+  "connected": 1689,
   "delivered_sample": 95,
   "fetched_payload": 275,
-  "ran_commands": 1025,
-  "returned": 822,
+  "ran_commands": 1026,
+  "returned": 823,
   "tried_creds": 1068
  },
  "samples": [
@@ -52,31 +52,31 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   62
+   65
   ],
   [
    "GPON/ONT fibre terminal",
-   52
+   54
   ],
   [
    "Huawei HG gateway",
-   38
+   37
   ],
   [
    "DrayTek router",
-   29
+   32
   ],
   [
    "ISP-branded DSL gateway",
-   23
+   25
   ],
   [
    "IoT OEM default account",
-   22
+   25
   ],
   [
    "firmware backdoor account",
-   22
+   25
   ],
   [
    "SMC Networks CPE",
@@ -122,6 +122,10 @@
   ],
   [
    "27.215.49.38",
+   16
+  ],
+  [
+   "42.234.162.27",
    16
   ],
   [
@@ -211,16 +215,12 @@
   [
    "111.92.157.247",
    1
-  ],
-  [
-   "112.239.102.38",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34088
+   34278
   ],
   [
    "root/kopp",
@@ -228,19 +228,23 @@
   ],
   [
    "admin/88888888",
-   12499
+   12500
   ],
   [
    "root/Zte521",
-   10143
+   10192
   ],
   [
    "root/admin",
-   9911
+   9917
   ],
   [
    "admin/smcadmin",
    9170
+  ],
+  [
+   "root/klv1234",
+   6306
   ],
   [
    "administrator/",
@@ -248,19 +252,15 @@
   ],
   [
    "666666/666666",
-   6150
+   6167
   ],
   [
    "root/Pon521",
-   6137
-  ],
-  [
-   "root/klv1234",
-   6060
+   6125
   ],
   [
    "root/hi3518",
-   5948
+   5997
   ],
   [
    "Admin/Admin",
@@ -268,19 +268,19 @@
   ],
   [
    "root/root",
-   4989
+   5011
   ],
   [
    "super/xJ4pCYeW",
-   4887
+   4897
   ],
   [
    "root/password",
-   4755
+   4783
   ],
   [
    "root/bluehorse",
-   4709
+   4719
   ],
   [
    "super/PhrQjGzk",
@@ -288,45 +288,45 @@
   ],
   [
    "admin/v2mprt",
-   4574
+   4563
   ],
   [
    "root/12341234",
-   4387
+   4382
   ],
   [
    "root/xc3511",
-   4036
+   4045
   ],
   [
    "admin/adminHW",
-   3453
+   3454
   ],
   [
    "root/2010vesta",
    2673
   ],
   [
+   "admin/12345678",
+   2658
+  ],
+  [
    "admin/bayandsl",
-   2613
+   2633
   ],
   [
    "user/",
-   2585
-  ],
-  [
-   "admin/meinsm",
-   2553
+   2593
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 89,
-  "distinct_credentials": 2543,
-  "distinct_payload_urls": 113,
-  "events": 4309628,
-  "new_sources": 1690,
-  "shared_c2_hosts": 21,
-  "sources": 1690
+  "distinct_c2_hosts": 90,
+  "distinct_credentials": 2555,
+  "distinct_payload_urls": 114,
+  "events": 4309610,
+  "new_sources": 1689,
+  "shared_c2_hosts": 22,
+  "sources": 1689
  },
  "window": {
   "days": 4,
