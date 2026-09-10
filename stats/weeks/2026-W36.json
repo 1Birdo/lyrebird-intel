@@ -26,7 +26,7 @@
   "delivered_sample": 95,
   "fetched_payload": 275,
   "ran_commands": 1025,
-  "returned": 820,
+  "returned": 822,
   "tried_creds": 1068
  },
  "samples": [
@@ -64,18 +64,18 @@
   ],
   [
    "DrayTek router",
-   28
+   29
   ],
   [
    "ISP-branded DSL gateway",
    23
   ],
   [
-   "firmware backdoor account",
-   23
+   "IoT OEM default account",
+   22
   ],
   [
-   "IoT OEM default account",
+   "firmware backdoor account",
    22
   ],
   [
@@ -145,6 +145,10 @@
    2
   ],
   [
+   "194.59.31.231",
+   2
+  ],
+  [
    "194.59.31.5",
    2
   ],
@@ -211,16 +215,12 @@
   [
    "112.239.102.38",
    1
-  ],
-  [
-   "112.240.167.177",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   33915
+   34088
   ],
   [
    "root/kopp",
@@ -228,15 +228,15 @@
   ],
   [
    "admin/88888888",
-   12498
+   12499
   ],
   [
    "root/Zte521",
-   10069
+   10143
   ],
   [
    "root/admin",
-   9909
+   9911
   ],
   [
    "admin/smcadmin",
@@ -252,15 +252,15 @@
   ],
   [
    "root/Pon521",
-   6144
-  ],
-  [
-   "root/hi3518",
-   5922
+   6137
   ],
   [
    "root/klv1234",
-   5833
+   6060
+  ],
+  [
+   "root/hi3518",
+   5948
   ],
   [
    "Admin/Admin",
@@ -268,19 +268,19 @@
   ],
   [
    "root/root",
-   4981
+   4989
   ],
   [
    "super/xJ4pCYeW",
-   4886
+   4887
   ],
   [
    "root/password",
-   4737
+   4755
   ],
   [
    "root/bluehorse",
-   4708
+   4709
   ],
   [
    "super/PhrQjGzk",
@@ -288,7 +288,7 @@
   ],
   [
    "admin/v2mprt",
-   4561
+   4574
   ],
   [
    "root/12341234",
@@ -296,7 +296,7 @@
   ],
   [
    "root/xc3511",
-   4031
+   4036
   ],
   [
    "admin/adminHW",
@@ -308,24 +308,24 @@
   ],
   [
    "admin/bayandsl",
-   2623
+   2613
   ],
   [
    "user/",
-   2582
+   2585
   ],
   [
    "admin/meinsm",
-   2513
+   2553
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 89,
-  "distinct_credentials": 2541,
-  "distinct_payload_urls": 112,
+  "distinct_credentials": 2543,
+  "distinct_payload_urls": 113,
   "events": 4309628,
   "new_sources": 1690,
-  "shared_c2_hosts": 20,
+  "shared_c2_hosts": 21,
   "sources": 1690
  },
  "window": {
