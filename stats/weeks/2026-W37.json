@@ -2,19 +2,19 @@
  "cves": [
   {
    "cve": "CVE-2012-1823",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2017-9841",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2021-41773",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2014-8361",
@@ -22,12 +22,12 @@
   }
  ],
  "funnel": {
-  "connected": 511,
-  "delivered_sample": 21,
-  "fetched_payload": 129,
-  "ran_commands": 235,
-  "returned": 282,
-  "tried_creds": 248
+  "connected": 611,
+  "delivered_sample": 28,
+  "fetched_payload": 130,
+  "ran_commands": 265,
+  "returned": 322,
+  "tried_creds": 271
  },
  "samples": [
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
@@ -36,17 +36,19 @@
   "662a4c450a73dd45622856fb0f44cbbeab101a326b89aedbd07ec41c08a5f73b",
   "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
   "8472e2bb1b967f8517256bc9cc54c77e9514be80341c9e6209126ad33639e91c",
+  "87fcc79d8550401d9e5e3ac728cef495444e064e19035aafd809bab12097d821",
   "94fba137352296f09ce746c7a2ce040f3f4d300d49b8cfddf3b00360a2f3b09b",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
+  "e88f1198b9db53e0b24ca380a160516be03e0ed659f94d28e684507b4c74cab3",
   "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002"
  ],
  "targets": [
   [
    "ZTE CPE",
-   95
+   98
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -57,16 +59,16 @@
    41
   ],
   [
-   "Huawei HG gateway",
+   "DrayTek router",
    23
   ],
   [
    "firmware backdoor account",
-   22
+   23
   ],
   [
-   "DrayTek router",
-   21
+   "Huawei HG gateway",
+   22
   ],
   [
    "ISP-branded DSL gateway",
@@ -78,23 +80,23 @@
   ],
   [
    "SMC Networks CPE",
-   7
+   6
+  ],
+  [
+   "Apache HTTP Server (CGI)",
+   3
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   3
+  ],
+  [
+   "PHP-CGI",
+   3
   ],
   [
    "embedded web server (boa/goform)",
    3
-  ],
-  [
-   "Apache HTTP Server (CGI)",
-   2
-  ],
-  [
-   "Hikvision / ONVIF camera",
-   2
-  ],
-  [
-   "PHP-CGI",
-   2
   ],
   [
    "WordPress",
@@ -206,113 +208,113 @@
  "top_credentials": [
   [
    "admin/admin",
-   11686
+   11824
   ],
   [
    "administrator/",
    8486
   ],
   [
-   "administrator/1234",
-   6452
-  ],
-  [
    "root/klv1234",
-   6382
+   6665
   ],
   [
-   "root/hi3518",
-   5690
-  ],
-  [
-   "super/PhrQjGzk",
-   5532
+   "administrator/1234",
+   6462
   ],
   [
    "admin/meinsm",
-   5412
+   5793
   ],
   [
-   "super/xJ4pCYeW",
-   4901
+   "super/PhrQjGzk",
+   5741
+  ],
+  [
+   "root/hi3518",
+   5732
   ],
   [
    "root/password",
-   4859
+   4913
+  ],
+  [
+   "super/xJ4pCYeW",
+   4902
   ],
   [
    "admin/v2mprt",
-   4659
+   4791
   ],
   [
    "666666/666666",
-   4275
+   4263
   ],
   [
    "root/Zte521",
-   4165
+   4227
   ],
   [
    "root/12341234",
-   4086
+   4087
   ],
   [
    "root/xc3511",
-   3587
+   3628
   ],
   [
    "admin/adminHW",
-   3404
+   3402
   ],
   [
    "admin/12345678",
-   2304
+   2336
   ],
   [
    "root/1234",
-   2040
-  ],
-  [
-   "root/e2008jl",
-   1957
+   2053
   ],
   [
    "root/admin",
-   1948
+   1974
+  ],
+  [
+   "root/e2008jl",
+   1974
   ],
   [
    "root/root",
-   1637
+   1657
   ],
   [
    "CUAdmin/CUAdmin",
-   1356
-  ],
-  [
-   "root/zyad1234",
-   1295
+   1400
   ],
   [
    "root/",
-   1235
+   1394
+  ],
+  [
+   "root/zyad1234",
+   1292
   ],
   [
    "admin/aquario",
-   887
+   932
   ],
   [
    "user/",
-   851
+   915
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 61,
-  "distinct_credentials": 649,
-  "distinct_payload_urls": 82,
-  "events": 723032,
-  "new_sources": 368,
+  "distinct_c2_hosts": 62,
+  "distinct_credentials": 711,
+  "distinct_payload_urls": 83,
+  "events": 788004,
+  "new_sources": 462,
   "shared_c2_hosts": 23,
-  "sources": 511
+  "sources": 611
  },
  "window": {
   "days": 3,

@@ -26,7 +26,7 @@
   "delivered_sample": 95,
   "fetched_payload": 275,
   "ran_commands": 1026,
-  "returned": 823,
+  "returned": 825,
   "tried_creds": 1068
  },
  "samples": [
@@ -48,7 +48,7 @@
  "targets": [
   [
    "ZTE CPE",
-   121
+   122
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -60,19 +60,19 @@
   ],
   [
    "Huawei HG gateway",
-   37
+   36
   ],
   [
    "DrayTek router",
-   32
+   33
   ],
   [
    "ISP-branded DSL gateway",
-   25
+   26
   ],
   [
    "IoT OEM default account",
-   25
+   26
   ],
   [
    "firmware backdoor account",
@@ -80,7 +80,7 @@
   ],
   [
    "SMC Networks CPE",
-   13
+   12
   ],
   [
    "WordPress",
@@ -99,12 +99,12 @@
    6
   ],
   [
-   "Java middleware",
+   "Hikvision / ONVIF camera",
    2
   ],
   [
-   "Hikvision / ONVIF camera",
-   1
+   "Java middleware",
+   2
   ],
   [
    "Hikvision camera",
@@ -220,7 +220,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34278
+   34394
   ],
   [
    "root/kopp",
@@ -232,19 +232,19 @@
   ],
   [
    "root/Zte521",
-   10192
+   10239
   ],
   [
    "root/admin",
-   9917
+   9920
   ],
   [
    "admin/smcadmin",
-   9170
+   9165
   ],
   [
    "root/klv1234",
-   6306
+   6555
   ],
   [
    "administrator/",
@@ -252,15 +252,15 @@
   ],
   [
    "666666/666666",
-   6167
+   6159
   ],
   [
    "root/Pon521",
-   6125
+   6138
   ],
   [
    "root/hi3518",
-   5997
+   6028
   ],
   [
    "Admin/Admin",
@@ -268,15 +268,15 @@
   ],
   [
    "root/root",
-   5011
+   5020
   ],
   [
    "super/xJ4pCYeW",
-   4897
+   4899
   ],
   [
    "root/password",
-   4783
+   4792
   ],
   [
    "root/bluehorse",
@@ -284,11 +284,11 @@
   ],
   [
    "super/PhrQjGzk",
-   4689
+   4690
   ],
   [
    "admin/v2mprt",
-   4563
+   4592
   ],
   [
    "root/12341234",
@@ -296,7 +296,7 @@
   ],
   [
    "root/xc3511",
-   4045
+   4053
   ],
   [
    "admin/adminHW",
@@ -304,7 +304,7 @@
   ],
   [
    "root/2010vesta",
-   2673
+   2674
   ],
   [
    "admin/12345678",
@@ -312,7 +312,7 @@
   ],
   [
    "admin/bayandsl",
-   2633
+   2639
   ],
   [
    "user/",
@@ -321,7 +321,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 90,
-  "distinct_credentials": 2555,
+  "distinct_credentials": 2544,
   "distinct_payload_urls": 114,
   "events": 4309610,
   "new_sources": 1689,
