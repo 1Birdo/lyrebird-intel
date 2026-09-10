@@ -1,57 +1,91 @@
 {
- "cves": [],
+ "cves": [
+  {
+   "cve": "CVE-2012-1823",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2017-9841",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-20062",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2021-41773",
+   "sources": 1
+  }
+ ],
  "funnel": {
-  "connected": 187,
-  "delivered_sample": 3,
-  "fetched_payload": 105,
-  "ran_commands": 130,
-  "returned": 142,
-  "tried_creds": 139
+  "connected": 286,
+  "delivered_sample": 10,
+  "fetched_payload": 109,
+  "ran_commands": 159,
+  "returned": 179,
+  "tried_creds": 165
  },
  "samples": [
+  "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
+  "3bba83cbf0b630d014c5b23081fac0f27fea8c6b5aeb470acfa36db606313672",
+  "62a4b82cadbf1da27c616c27dfa81a668439b36bd691e8f967104b24a7653996",
+  "662a4c450a73dd45622856fb0f44cbbeab101a326b89aedbd07ec41c08a5f73b",
   "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
   "8472e2bb1b967f8517256bc9cc54c77e9514be80341c9e6209126ad33639e91c",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
   "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002"
  ],
  "targets": [
   [
    "ZTE CPE",
-   91
+   92
   ],
   [
    "DVR / IP camera (OEM default)",
-   29
+   34
   ],
   [
    "GPON/ONT fibre terminal",
-   24
+   29
   ],
   [
    "Huawei HG gateway",
-   15
+   17
   ],
   [
    "DrayTek router",
-   13
-  ],
-  [
-   "ISP-branded DSL gateway",
-   12
+   15
   ],
   [
    "firmware backdoor account",
-   12
+   15
+  ],
+  [
+   "ISP-branded DSL gateway",
+   14
   ],
   [
    "IoT OEM default account",
-   8
+   12
   ],
   [
    "SMC Networks CPE",
-   6
+   7
+  ],
+  [
+   "Apache HTTP Server (CGI)",
+   1
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   1
+  ],
+  [
+   "PHP-CGI",
+   1
   ],
   [
    "WordPress",
@@ -65,6 +99,10 @@
  "top_c2_hosts": [
   [
    "27.106.150.104",
+   4
+  ],
+  [
+   "220.115.58.37",
    3
   ],
   [
@@ -88,7 +126,15 @@
    2
   ],
   [
-   "220.115.58.37",
+   "194.59.31.5",
+   2
+  ],
+  [
+   "194.59.31.57",
+   2
+  ],
+  [
+   "216.196.170.32",
    2
   ],
   [
@@ -97,6 +143,10 @@
   ],
   [
    "39.87.50.123",
+   2
+  ],
+  [
+   "39.90.147.246",
    2
   ],
   [
@@ -116,6 +166,10 @@
    2
   ],
   [
+   "102.33.12.87",
+   1
+  ],
+  [
    "111.92.157.247",
    1
   ],
@@ -125,6 +179,10 @@
   ],
   [
    "113.221.76.194",
+   1
+  ],
+  [
+   "113.229.49.112",
    1
   ],
   [
@@ -138,147 +196,123 @@
   [
    "115.59.84.47",
    1
-  ],
-  [
-   "116.2.43.97",
-   1
-  ],
-  [
-   "119.179.30.73",
-   1
-  ],
-  [
-   "123.245.97.124",
-   1
-  ],
-  [
-   "125.43.37.95",
-   1
-  ],
-  [
-   "154.70.152.216",
-   1
-  ],
-  [
-   "175.150.244.110",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   11038
-  ],
-  [
-   "root/hi3518",
-   5551
+   11275
   ],
   [
    "root/klv1234",
-   5508
+   5826
+  ],
+  [
+   "root/hi3518",
+   5583
   ],
   [
    "administrator/",
    5381
   ],
   [
-   "super/xJ4pCYeW",
-   4855
+   "super/PhrQjGzk",
+   4926
   ],
   [
-   "super/PhrQjGzk",
-   4651
+   "super/xJ4pCYeW",
+   4862
   ],
   [
    "root/password",
-   4617
+   4706
   ],
   [
    "admin/v2mprt",
-   4197
+   4363
   ],
   [
    "root/12341234",
-   4084
+   4087
   ],
   [
    "root/Zte521",
-   3958
+   4013
   ],
   [
    "root/xc3511",
-   3405
+   3476
   ],
   [
    "admin/adminHW",
-   3375
+   3400
   ],
   [
    "root/1234",
-   2036
+   2049
   ],
   [
    "root/admin",
-   1878
+   1911
   ],
   [
    "root/root",
-   1475
+   1516
   ],
   [
    "root/zyad1234",
-   1274
+   1279
   ],
   [
    "CUAdmin/CUAdmin",
-   1184
-  ],
-  [
-   "admin/aquario",
-   765
+   1245
   ],
   [
    "root/",
-   715
+   866
+  ],
+  [
+   "admin/aquario",
+   803
   ],
   [
    "guest/guest",
-   689
+   734
   ],
   [
    "admin/gw1admin",
-   659
-  ],
-  [
-   "support/support",
-   638
-  ],
-  [
-   "super/super",
-   637
-  ],
-  [
-   "admin/1234",
-   606
+   703
   ],
   [
    "user/",
-   598
+   690
+  ],
+  [
+   "admin/1234",
+   673
+  ],
+  [
+   "support/support",
+   663
+  ],
+  [
+   "super/super",
+   650
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 49,
-  "distinct_credentials": 394,
-  "distinct_payload_urls": 62,
-  "events": 257693,
-  "new_sources": 79,
-  "shared_c2_hosts": 13,
-  "sources": 187
+  "distinct_c2_hosts": 56,
+  "distinct_credentials": 482,
+  "distinct_payload_urls": 76,
+  "events": 321325,
+  "new_sources": 171,
+  "shared_c2_hosts": 17,
+  "sources": 286
  },
  "window": {
-  "days": 2,
+  "days": 3,
   "first_day": "2026-09-07",
-  "last_day": "2026-09-09",
+  "last_day": "2026-09-10",
   "week": "2026-W37"
  }
 }
