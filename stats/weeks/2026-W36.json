@@ -26,7 +26,7 @@
   "delivered_sample": 95,
   "fetched_payload": 275,
   "ran_commands": 1026,
-  "returned": 825,
+  "returned": 828,
   "tried_creds": 1068
  },
  "samples": [
@@ -48,7 +48,7 @@
  "targets": [
   [
    "ZTE CPE",
-   122
+   120
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -56,27 +56,27 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   54
+   55
   ],
   [
    "Huawei HG gateway",
-   36
+   38
   ],
   [
    "DrayTek router",
-   33
+   32
   ],
   [
    "ISP-branded DSL gateway",
-   26
+   25
   ],
   [
    "IoT OEM default account",
-   26
+   25
   ],
   [
    "firmware backdoor account",
-   25
+   24
   ],
   [
    "SMC Networks CPE",
@@ -220,7 +220,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34394
+   34408
   ],
   [
    "root/kopp",
@@ -228,15 +228,15 @@
   ],
   [
    "admin/88888888",
-   12500
+   12502
   ],
   [
    "root/Zte521",
-   10239
+   10237
   ],
   [
    "root/admin",
-   9920
+   9922
   ],
   [
    "admin/smcadmin",
@@ -244,7 +244,7 @@
   ],
   [
    "root/klv1234",
-   6555
+   6768
   ],
   [
    "administrator/",
@@ -252,15 +252,15 @@
   ],
   [
    "666666/666666",
-   6159
+   6165
   ],
   [
    "root/Pon521",
-   6138
+   6123
   ],
   [
    "root/hi3518",
-   6028
+   6057
   ],
   [
    "Admin/Admin",
@@ -268,19 +268,19 @@
   ],
   [
    "root/root",
-   5020
+   5025
   ],
   [
    "super/xJ4pCYeW",
-   4899
+   4901
   ],
   [
    "root/password",
-   4792
+   4793
   ],
   [
    "root/bluehorse",
-   4719
+   4728
   ],
   [
    "super/PhrQjGzk",
@@ -288,15 +288,15 @@
   ],
   [
    "admin/v2mprt",
-   4592
+   4611
   ],
   [
    "root/12341234",
-   4382
+   4385
   ],
   [
    "root/xc3511",
-   4053
+   4052
   ],
   [
    "admin/adminHW",
@@ -312,16 +312,16 @@
   ],
   [
    "admin/bayandsl",
-   2639
+   2634
   ],
   [
    "user/",
-   2593
+   2594
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 90,
-  "distinct_credentials": 2544,
+  "distinct_credentials": 2582,
   "distinct_payload_urls": 114,
   "events": 4309610,
   "new_sources": 1689,
