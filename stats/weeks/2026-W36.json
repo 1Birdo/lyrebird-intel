@@ -60,7 +60,7 @@
   ],
   [
    "Huawei HG gateway",
-   40
+   38
   ],
   [
    "DrayTek router",
@@ -68,11 +68,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   26
   ],
   [
    "IoT OEM default account",
-   26
+   25
   ],
   [
    "firmware backdoor account",
@@ -220,31 +220,31 @@
  "top_credentials": [
   [
    "admin/admin",
-   34417
+   34426
   ],
   [
    "root/kopp",
-   16717
-  ],
-  [
-   "admin/88888888",
-   12491
+   16719
   ],
   [
    "root/Zte521",
-   10811
+   12544
+  ],
+  [
+   "admin/88888888",
+   12503
   ],
   [
    "root/admin",
-   9935
+   9942
   ],
   [
    "admin/smcadmin",
-   9173
+   9180
   ],
   [
    "root/klv1234",
-   6990
+   7209
   ],
   [
    "administrator/",
@@ -252,35 +252,35 @@
   ],
   [
    "666666/666666",
-   6162
-  ],
-  [
-   "root/Pon521",
-   6137
+   6167
   ],
   [
    "root/hi3518",
-   6095
+   6149
   ],
   [
-   "Admin/Admin",
-   5744
-  ],
-  [
-   "root/root",
-   5040
-  ],
-  [
-   "super/xJ4pCYeW",
-   4907
-  ],
-  [
-   "root/password",
-   4793
+   "root/Pon521",
+   6130
   ],
   [
    "root/xc3511",
-   4761
+   5764
+  ],
+  [
+   "Admin/Admin",
+   5745
+  ],
+  [
+   "root/root",
+   5054
+  ],
+  [
+   "super/xJ4pCYeW",
+   4917
+  ],
+  [
+   "root/password",
+   4790
   ],
   [
    "root/bluehorse",
@@ -292,31 +292,31 @@
   ],
   [
    "admin/v2mprt",
-   4630
+   4643
   ],
   [
    "root/12341234",
-   4384
+   4389
   ],
   [
    "admin/adminHW",
-   3464
+   3552
   ],
   [
    "root/2010vesta",
-   2674
+   2679
   ],
   [
    "admin/12345678",
-   2660
+   2662
   ],
   [
    "admin/bayandsl",
-   2645
+   2639
   ],
   [
    "user/",
-   2602
+   2604
   ]
  ],
  "totals": {
