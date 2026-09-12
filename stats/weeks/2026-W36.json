@@ -26,7 +26,7 @@
   "delivered_sample": 96,
   "fetched_payload": 276,
   "ran_commands": 1029,
-  "returned": 835,
+  "returned": 839,
   "tried_creds": 1069
  },
  "samples": [
@@ -52,15 +52,15 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   66
+   68
   ],
   [
    "GPON/ONT fibre terminal",
-   55
+   56
   ],
   [
    "Huawei HG gateway",
-   38
+   37
   ],
   [
    "DrayTek router",
@@ -68,11 +68,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   30
+   28
   ],
   [
    "IoT OEM default account",
-   26
+   27
   ],
   [
    "firmware backdoor account",
@@ -99,11 +99,11 @@
    6
   ],
   [
-   "Hikvision / ONVIF camera",
-   2
+   "Java middleware",
+   3
   ],
   [
-   "Java middleware",
+   "Hikvision / ONVIF camera",
    2
   ],
   [
@@ -119,6 +119,10 @@
   [
    "154.70.152.216",
    98
+  ],
+  [
+   "222.141.120.46",
+   16
   ],
   [
    "27.215.49.38",
@@ -211,48 +215,48 @@
   [
    "103.82.255.38",
    1
-  ],
-  [
-   "109.236.46.215",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34449
+   34454
   ],
   [
    "root/kopp",
-   16717
+   16719
   ],
   [
    "root/Zte521",
-   13179
+   13248
   ],
   [
    "admin/88888888",
-   12507
+   12509
   ],
   [
    "root/admin",
-   9947
+   9950
   ],
   [
    "admin/smcadmin",
-   9189
-  ],
-  [
-   "root/klv1234",
-   7509
+   9193
   ],
   [
    "root/xc3511",
-   7149
+   7882
+  ],
+  [
+   "admin/pass",
+   7594
+  ],
+  [
+   "root/klv1234",
+   7513
   ],
   [
    "root/hi3518",
-   6228
+   6246
   ],
   [
    "administrator/",
@@ -260,35 +264,31 @@
   ],
   [
    "666666/666666",
-   6159
+   6188
   ],
   [
    "root/Pon521",
-   6159
+   6162
   ],
   [
    "Admin/Admin",
    5747
   ],
   [
-   "admin/pass",
-   5446
-  ],
-  [
    "root/root",
-   5101
+   5124
   ],
   [
    "super/xJ4pCYeW",
-   4937
+   4940
   ],
   [
    "root/password",
-   4798
+   4803
   ],
   [
    "super/PhrQjGzk",
-   4723
+   4729
   ],
   [
    "root/bluehorse",
@@ -296,36 +296,36 @@
   ],
   [
    "admin/v2mprt",
-   4656
+   4643
   ],
   [
    "root/12341234",
-   4382
-  ],
-  [
-   "admin/adminHW",
-   3563
+   4387
   ],
   [
    "root/1234",
-   3408
+   3710
+  ],
+  [
+   "admin/adminHW",
+   3572
   ],
   [
    "telnetadmin/telnetadmin",
-   2719
+   3068
   ],
   [
    "root/2010vesta",
-   2676
+   2680
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 95,
-  "distinct_credentials": 2597,
-  "distinct_payload_urls": 122,
+  "distinct_c2_hosts": 98,
+  "distinct_credentials": 2598,
+  "distinct_payload_urls": 128,
   "events": 4309585,
   "new_sources": 1688,
-  "shared_c2_hosts": 22,
+  "shared_c2_hosts": 23,
   "sources": 1688
  },
  "window": {
