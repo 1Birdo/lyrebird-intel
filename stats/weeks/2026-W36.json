@@ -25,8 +25,8 @@
   "connected": 1688,
   "delivered_sample": 96,
   "fetched_payload": 276,
-  "ran_commands": 1028,
-  "returned": 833,
+  "ran_commands": 1029,
+  "returned": 835,
   "tried_creds": 1069
  },
  "samples": [
@@ -48,7 +48,7 @@
  "targets": [
   [
    "ZTE CPE",
-   123
+   134
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -64,15 +64,15 @@
   ],
   [
    "DrayTek router",
-   34
+   35
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   30
   ],
   [
    "IoT OEM default account",
-   27
+   26
   ],
   [
    "firmware backdoor account",
@@ -220,109 +220,109 @@
  "top_credentials": [
   [
    "admin/admin",
-   34435
+   34449
   ],
   [
    "root/kopp",
-   16719
+   16717
   ],
   [
    "root/Zte521",
-   12562
+   13179
   ],
   [
    "admin/88888888",
-   12504
+   12507
   ],
   [
    "root/admin",
-   9930
+   9947
   ],
   [
    "admin/smcadmin",
-   9184
+   9189
   ],
   [
    "root/klv1234",
-   7396
+   7509
   ],
   [
    "root/xc3511",
-   6563
+   7149
+  ],
+  [
+   "root/hi3518",
+   6228
   ],
   [
    "administrator/",
    6218
   ],
   [
-   "root/hi3518",
-   6191
-  ],
-  [
    "666666/666666",
-   6160
+   6159
   ],
   [
    "root/Pon521",
-   6138
+   6159
   ],
   [
    "Admin/Admin",
-   5746
+   5747
+  ],
+  [
+   "admin/pass",
+   5446
   ],
   [
    "root/root",
-   5079
+   5101
   ],
   [
    "super/xJ4pCYeW",
-   4930
+   4937
   ],
   [
    "root/password",
    4798
   ],
   [
-   "root/bluehorse",
-   4728
+   "super/PhrQjGzk",
+   4723
   ],
   [
-   "super/PhrQjGzk",
-   4690
+   "root/bluehorse",
+   4719
   ],
   [
    "admin/v2mprt",
-   4643
+   4656
   ],
   [
    "root/12341234",
-   4386
+   4382
   ],
   [
    "admin/adminHW",
-   3560
+   3563
   ],
   [
    "root/1234",
-   3066
+   3408
+  ],
+  [
+   "telnetadmin/telnetadmin",
+   2719
   ],
   [
    "root/2010vesta",
-   2671
-  ],
-  [
-   "admin/12345678",
-   2663
-  ],
-  [
-   "admin/bayandsl",
-   2653
+   2676
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 94,
-  "distinct_credentials": 2587,
-  "distinct_payload_urls": 120,
+  "distinct_c2_hosts": 95,
+  "distinct_credentials": 2597,
+  "distinct_payload_urls": 122,
   "events": 4309585,
   "new_sources": 1688,
   "shared_c2_hosts": 22,
