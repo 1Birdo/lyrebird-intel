@@ -26,7 +26,7 @@
   "delivered_sample": 95,
   "fetched_payload": 276,
   "ran_commands": 1030,
-  "returned": 849,
+  "returned": 851,
   "tried_creds": 1069
  },
  "samples": [
@@ -48,11 +48,11 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   134
   ],
   [
    "DVR / IP camera (OEM default)",
-   69
+   70
   ],
   [
    "GPON/ONT fibre terminal",
@@ -68,7 +68,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   32
+   31
   ],
   [
    "firmware backdoor account",
@@ -141,8 +141,12 @@
    16
   ],
   [
+   "95.155.243.196",
+   16
+  ],
+  [
    "203.99.56.134",
-   7
+   8
   ],
   [
    "198.144.179.82",
@@ -181,6 +185,10 @@
    2
   ],
   [
+   "203.99.56.139",
+   2
+  ],
+  [
    "213.232.114.14",
    2
   ],
@@ -207,20 +215,12 @@
   [
    "39.87.50.123",
    2
-  ],
-  [
-   "42.232.237.170",
-   2
-  ],
-  [
-   "61.53.151.142",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34538
+   34502
   ],
   [
    "root/kopp",
@@ -228,35 +228,35 @@
   ],
   [
    "root/Zte521",
-   13698
+   13724
   ],
   [
    "admin/88888888",
-   12954
+   13017
   ],
   [
    "admin/pass",
-   11393
+   11805
   ],
   [
    "root/xc3511",
-   10429
+   10650
   ],
   [
    "root/admin",
-   9924
+   9923
   ],
   [
    "admin/smcadmin",
-   9211
+   9214
   ],
   [
    "root/klv1234",
-   7531
+   7535
   ],
   [
    "root/hi3518",
-   6314
+   6334
   ],
   [
    "administrator/",
@@ -264,11 +264,11 @@
   ],
   [
    "root/Pon521",
-   6184
+   6216
   ],
   [
    "666666/666666",
-   6174
+   6189
   ],
   [
    "Admin/Admin",
@@ -276,56 +276,56 @@
   ],
   [
    "root/root",
-   5192
+   5206
   ],
   [
    "super/xJ4pCYeW",
-   4953
+   4955
   ],
   [
    "root/password",
-   4817
-  ],
-  [
-   "super/PhrQjGzk",
-   4754
+   4826
   ],
   [
    "root/bluehorse",
    4719
   ],
   [
-   "admin/v2mprt",
-   4664
+   "super/PhrQjGzk",
+   4711
   ],
   [
    "root/1234",
-   4591
+   4700
+  ],
+  [
+   "admin/v2mprt",
+   4669
   ],
   [
    "root/12341234",
-   4385
+   4380
   ],
   [
    "telnetadmin/telnetadmin",
-   4164
+   4302
   ],
   [
    "CUAdmin/CUAdmin",
-   3610
+   3848
   ],
   [
    "admin/adminHW",
-   3584
+   3600
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 113,
-  "distinct_credentials": 2625,
-  "distinct_payload_urls": 154,
+  "distinct_c2_hosts": 117,
+  "distinct_credentials": 2629,
+  "distinct_payload_urls": 159,
   "events": 4309555,
   "new_sources": 1687,
-  "shared_c2_hosts": 27,
+  "shared_c2_hosts": 29,
   "sources": 1687
  },
  "window": {

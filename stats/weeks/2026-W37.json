@@ -2,19 +2,19 @@
  "cves": [
   {
    "cve": "CVE-2021-41773",
-   "sources": 8
-  },
-  {
-   "cve": "CVE-2017-9841",
    "sources": 7
   },
   {
-   "cve": "CVE-2012-1823",
+   "cve": "CVE-2017-9841",
    "sources": 6
   },
   {
+   "cve": "CVE-2012-1823",
+   "sources": 5
+  },
+  {
    "cve": "CVE-2018-20062",
-   "sources": 6
+   "sources": 5
   },
   {
    "cve": "CVE-2015-2051",
@@ -38,12 +38,12 @@
   }
  ],
  "funnel": {
-  "connected": 1786,
+  "connected": 1883,
   "delivered_sample": 82,
-  "fetched_payload": 169,
-  "ran_commands": 604,
-  "returned": 800,
-  "tried_creds": 654
+  "fetched_payload": 170,
+  "ran_commands": 628,
+  "returned": 833,
+  "tried_creds": 666
  },
  "samples": [
   "00191bd7f825efdad8517fc426ad9fb3a7db18bc305a08285f516ebe6d811ae9",
@@ -86,7 +86,6 @@
   "bd0dca600485b83deb6a4d248f3bed0d453dc7920b947dfe0ad35308cf73569c",
   "c1f252ac1e2eb74611c0bcb7568ee37967688e1d3b9a8cb15f06259e377ee329",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
-  "d0738acb402e1949f5c7ac6a70070be3f2ae43b1282fba315714b7209ca3ba25",
   "dbb1e585efe9bb66f33b50181946f7f0fefcd7fce76c52c3fe84684ba915c78c",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "e88f1198b9db53e0b24ca380a160516be03e0ed659f94d28e684507b4c74cab3",
@@ -103,15 +102,15 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   89
+   91
   ],
   [
    "GPON/ONT fibre terminal",
-   84
+   86
   ],
   [
    "Huawei HG gateway",
-   53
+   54
   ],
   [
    "DrayTek router",
@@ -119,23 +118,23 @@
   ],
   [
    "firmware backdoor account",
-   44
-  ],
-  [
-   "ISP-branded DSL gateway",
-   38
+   49
   ],
   [
    "IoT OEM default account",
+   38
+  ],
+  [
+   "ISP-branded DSL gateway",
    37
   ],
   [
    "SMC Networks CPE",
-   15
+   14
   ],
   [
    "Apache HTTP Server (CGI)",
-   8
+   7
   ],
   [
    "WordPress",
@@ -184,8 +183,12 @@
    16
   ],
   [
+   "95.155.243.196",
+   16
+  ],
+  [
    "203.99.56.134",
-   7
+   8
   ],
   [
    "27.106.150.104",
@@ -258,16 +261,12 @@
   [
    "194.59.31.5",
    2
-  ],
-  [
-   "194.59.31.57",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   39636
+   39776
   ],
   [
    "administrator/",
@@ -275,55 +274,59 @@
   ],
   [
    "root/Zte521",
-   21080
+   21331
   ],
   [
    "CUAdmin/CUAdmin",
-   16335
-  ],
-  [
-   "root/xc3511",
-   13283
-  ],
-  [
-   "root/hi3518",
-   12702
+   16580
   ],
   [
    "admin/v2mprt",
-   11644
+   14965
+  ],
+  [
+   "root/xc3511",
+   13582
+  ],
+  [
+   "root/hi3518",
+   12809
   ],
   [
    "admin/pass",
-   11401
-  ],
-  [
-   "root/klv1234",
-   8997
-  ],
-  [
-   "super/PhrQjGzk",
-   7799
-  ],
-  [
-   "root/1234",
-   7411
+   11817
   ],
   [
    "rapport/r@p8p0r+",
-   6754
+   10027
+  ],
+  [
+   "root/1234",
+   9603
+  ],
+  [
+   "root/klv1234",
+   9122
+  ],
+  [
+   "super/PhrQjGzk",
+   7894
+  ],
+  [
+   "root/root",
+   7541
   ],
   [
    "administrator/1234",
-   6587
+   6729
   ],
   [
    "Administrator/admin",
-   6530
+   6553
   ],
   [
    "admin/plumeria0077",
-   6459
+   6473
   ],
   [
    "admin/meinsm",
@@ -331,49 +334,45 @@
   ],
   [
    "root/password",
-   5558
+   5625
   ],
   [
    "admin/adminHW",
-   5279
+   5334
   ],
   [
    "admin/1234",
-   5257
-  ],
-  [
-   "super/xJ4pCYeW",
-   5011
+   5294
   ],
   [
    "support/support",
-   4999
+   5093
   ],
   [
-   "666666/666666",
-   4395
-  ],
-  [
-   "telnetadmin/telnetadmin",
-   4264
+   "super/xJ4pCYeW",
+   5041
   ],
   [
    "root/klv123",
-   4257
+   4935
   ],
   [
-   "root/12341234",
-   4237
+   "root/888888",
+   4659
+  ],
+  [
+   "666666/666666",
+   4421
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 140,
-  "distinct_credentials": 1780,
-  "distinct_payload_urls": 194,
-  "events": 4077660,
-  "new_sources": 1586,
-  "shared_c2_hosts": 35,
-  "sources": 1786
+  "distinct_c2_hosts": 147,
+  "distinct_credentials": 1766,
+  "distinct_payload_urls": 205,
+  "events": 4495823,
+  "new_sources": 1681,
+  "shared_c2_hosts": 37,
+  "sources": 1883
  },
  "window": {
   "days": 6,
