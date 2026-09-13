@@ -2,19 +2,19 @@
  "cves": [
   {
    "cve": "CVE-2021-41773",
-   "sources": 6
+   "sources": 7
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 4
+   "sources": 5
   },
   {
    "cve": "CVE-2017-9841",
-   "sources": 4
+   "sources": 5
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 4
+   "sources": 5
   },
   {
    "cve": "CVE-2015-2051",
@@ -30,19 +30,22 @@
   }
  ],
  "funnel": {
-  "connected": 1489,
-  "delivered_sample": 69,
-  "fetched_payload": 158,
-  "ran_commands": 511,
-  "returned": 662,
-  "tried_creds": 544
+  "connected": 1593,
+  "delivered_sample": 74,
+  "fetched_payload": 162,
+  "ran_commands": 543,
+  "returned": 706,
+  "tried_creds": 592
  },
  "samples": [
   "00191bd7f825efdad8517fc426ad9fb3a7db18bc305a08285f516ebe6d811ae9",
   "021b737b3e5ae81c30111587c2b109a20205b33a2c13220491a402e892e4c062",
   "12edefda136640606e304f5e22eb7779b7d5576bd7ded350b5e2c2f66bb984c6",
+  "180975de9c76759efb2e77992c44ac40b5534852ba63eb365dc6f520dc693b7d",
   "2a2c3fec2bab0b2c8d716e184740faec6af526ec6d4f2d909d00dfcaf205e503",
   "2b901a472f87a14b153d836e8a611d29bd8d475a7d162fb6adfb0abf987f72f1",
+  "37302e86fb20394354731dec8fb0c67a2b1714acce952be888cca052befbb368",
+  "3777ea8f92b3bc5af807bf7ebf26010dd361e23d521fcc88db2b19240f4cc9e3",
   "37f56fd97af1e3bb0fc9dababd806ea9d2dc6ac9a625dc165bba911716e6ff9f",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "3bba83cbf0b630d014c5b23081fac0f27fea8c6b5aeb470acfa36db606313672",
@@ -55,6 +58,7 @@
   "6786e4724fae275be1baa3ab4bcbc0f5c34bb6e1c5f16879876700f48c1454f9",
   "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
   "6e0d6c8d02bbb95ae463754fba319c7bd7c9fcfc2433c90974e851b2c224df8c",
+  "73a80d9f0b26a8ae1785972a4febee9df8bb95969aa256bc817a1665d5aef6d4",
   "7c003fcb8152be894923225d630e7103a4f7d592ef59b9c7bcca19070380bbca",
   "80c2c0d532e1557ed2a57d7557d47a07c0846729595ddb3fefa79ee2cf9140a2",
   "8472e2bb1b967f8517256bc9cc54c77e9514be80341c9e6209126ad33639e91c",
@@ -62,60 +66,65 @@
   "94fba137352296f09ce746c7a2ce040f3f4d300d49b8cfddf3b00360a2f3b09b",
   "9da378872ca49fa300d2fd9573072bc7d81bb3dd3a0893a1c758a1b109a5e870",
   "a7aaea314591d7774926bf15ba1028b52710dd55567db3f64ea710b546cc8db3",
+  "a84517ac01ee61f1f980508f4a66b0c8bc12c05d7c8190fef2033c23232628c3",
   "a92c33568de0e5cd0d1fc8e9a11cd263a844a041a7c6af0e74702090c6f63287",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "aacc662ba8c7754fca55f783ec530ecc5cb0d39045627727913cff9ce9666255",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bbcb1063b9730907b2c47910eeff1b7c8d0c02e272c77444c1a91e3532672cfa",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "c1f252ac1e2eb74611c0bcb7568ee37967688e1d3b9a8cb15f06259e377ee329",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
+  "d0738acb402e1949f5c7ac6a70070be3f2ae43b1282fba315714b7209ca3ba25",
   "dbb1e585efe9bb66f33b50181946f7f0fefcd7fce76c52c3fe84684ba915c78c",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "e88f1198b9db53e0b24ca380a160516be03e0ed659f94d28e684507b4c74cab3",
+  "ed7e5a6a6d5435842166e8153501d120616aa851069677b3202a95f9158b8f90",
   "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002",
   "f70398b06589c320a1794a603abdb394890fe04166da190380c7b0b003148a28",
-  "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d"
+  "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d",
+  "f7a54dccd317d4c7908ec453fb26df4db518e520b507dd3a69b2dc2d145bd588"
  ],
  "targets": [
   [
    "ZTE CPE",
-   125
+   129
   ],
   [
    "DVR / IP camera (OEM default)",
-   77
+   81
   ],
   [
    "GPON/ONT fibre terminal",
-   72
+   76
   ],
   [
    "DrayTek router",
-   45
+   47
   ],
   [
    "Huawei HG gateway",
-   44
+   47
   ],
   [
    "firmware backdoor account",
-   42
+   43
   ],
   [
    "IoT OEM default account",
-   30
+   31
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   29
   ],
   [
    "SMC Networks CPE",
-   10
+   11
   ],
   [
    "Apache HTTP Server (CGI)",
-   6
+   7
   ],
   [
    "PHP-CGI",
@@ -156,12 +165,20 @@
    16
   ],
   [
+   "61.54.240.99",
+   16
+  ],
+  [
    "27.106.150.104",
    6
   ],
   [
    "220.115.58.37",
    5
+  ],
+  [
+   "216.196.170.32",
+   3
   ],
   [
    "102.33.12.87",
@@ -216,7 +233,7 @@
    2
   ],
   [
-   "216.196.170.32",
+   "203.99.56.134",
    2
   ],
   [
@@ -234,131 +251,123 @@
   [
    "39.90.147.246",
    2
-  ],
-  [
-   "42.232.237.170",
-   2
-  ],
-  [
-   "42.238.242.50",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   39123
+   39249
   ],
   [
    "administrator/",
-   21057
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   15507
+   25326
   ],
   [
    "root/Zte521",
-   15033
+   16784
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   15873
   ],
   [
    "root/hi3518",
-   12378
+   12477
   ],
   [
    "root/xc3511",
-   10355
+   11034
   ],
   [
    "admin/pass",
-   9767
+   10345
   ],
   [
    "root/klv1234",
-   8491
+   8683
   ],
   [
    "super/PhrQjGzk",
-   7308
+   7488
   ],
   [
    "administrator/1234",
-   6556
+   6570
   ],
   [
    "Administrator/admin",
-   6477
+   6515
   ],
   [
    "admin/plumeria0077",
-   6381
-  ],
-  [
-   "admin/meinsm",
-   5857
+   6405
   ],
   [
    "admin/v2mprt",
-   5809
+   5913
+  ],
+  [
+   "admin/meinsm",
+   5812
   ],
   [
    "root/password",
-   5384
+   5439
   ],
   [
    "admin/1234",
-   5100
+   5148
   ],
   [
    "super/xJ4pCYeW",
-   5011
+   5012
   ],
   [
    "admin/adminHW",
-   4910
+   4980
   ],
   [
    "666666/666666",
-   4336
-  ],
-  [
-   "root/12341234",
-   4176
+   4348
   ],
   [
    "root/1234",
-   4147
+   4300
+  ],
+  [
+   "root/12341234",
+   4199
   ],
   [
    "telnetadmin/telnetadmin",
-   3714
+   3854
   ],
   [
    "supervisor/supervisor",
-   3600
+   3662
+  ],
+  [
+   "support/support",
+   3584
   ],
   [
    "root/",
-   3255
-  ],
-  [
-   "e8telnet/e8telnet",
-   2754
+   3497
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 108,
-  "distinct_credentials": 1673,
-  "distinct_payload_urls": 147,
-  "events": 3075613,
-  "new_sources": 1297,
-  "shared_c2_hosts": 29,
-  "sources": 1489
+  "distinct_c2_hosts": 116,
+  "distinct_credentials": 1712,
+  "distinct_payload_urls": 158,
+  "events": 3324084,
+  "new_sources": 1397,
+  "shared_c2_hosts": 31,
+  "sources": 1593
  },
  "window": {
-  "days": 5,
+  "days": 6,
   "first_day": "2026-09-07",
-  "last_day": "2026-09-12",
+  "last_day": "2026-09-13",
   "week": "2026-W37"
  }
 }
