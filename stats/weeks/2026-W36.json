@@ -52,11 +52,11 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   68
+   69
   ],
   [
    "GPON/ONT fibre terminal",
-   59
+   58
   ],
   [
    "Huawei HG gateway",
@@ -67,12 +67,12 @@
    37
   ],
   [
-   "firmware backdoor account",
-   29
+   "ISP-branded DSL gateway",
+   31
   ],
   [
-   "ISP-branded DSL gateway",
-   27
+   "firmware backdoor account",
+   29
   ],
   [
    "IoT OEM default account",
@@ -141,6 +141,10 @@
    4
   ],
   [
+   "203.99.56.134",
+   4
+  ],
+  [
    "102.33.29.92",
    2
   ],
@@ -166,10 +170,6 @@
   ],
   [
    "194.59.31.57",
-   2
-  ],
-  [
-   "203.99.56.134",
    2
   ],
   [
@@ -220,43 +220,43 @@
  "top_credentials": [
   [
    "admin/admin",
-   34482
+   34529
   ],
   [
    "root/kopp",
-   16717
+   16719
   ],
   [
    "root/Zte521",
-   13502
+   13616
   ],
   [
    "admin/88888888",
-   12692
+   12862
   ],
   [
    "admin/pass",
-   10337
-  ],
-  [
-   "root/admin",
-   9928
+   10938
   ],
   [
    "root/xc3511",
-   9792
+   10241
+  ],
+  [
+   "root/admin",
+   9927
   ],
   [
    "admin/smcadmin",
-   9206
+   9210
   ],
   [
    "root/klv1234",
-   7526
+   7527
   ],
   [
    "root/hi3518",
-   6288
+   6304
   ],
   [
    "administrator/",
@@ -264,11 +264,11 @@
   ],
   [
    "root/Pon521",
-   6170
+   6172
   ],
   [
    "666666/666666",
-   6166
+   6170
   ],
   [
    "Admin/Admin",
@@ -276,15 +276,15 @@
   ],
   [
    "root/root",
-   5162
+   5175
   ],
   [
    "super/xJ4pCYeW",
-   4959
+   4969
   ],
   [
    "root/password",
-   4808
+   4812
   ],
   [
    "root/bluehorse",
@@ -296,33 +296,33 @@
   ],
   [
    "admin/v2mprt",
-   4670
-  ],
-  [
-   "root/12341234",
-   4388
+   4676
   ],
   [
    "root/1234",
-   4292
+   4472
+  ],
+  [
+   "root/12341234",
+   4385
   ],
   [
    "telnetadmin/telnetadmin",
-   3778
+   4007
   ],
   [
    "admin/adminHW",
-   3576
+   3580
   ],
   [
    "CUAdmin/CUAdmin",
-   3175
+   3393
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 103,
-  "distinct_credentials": 2619,
-  "distinct_payload_urls": 138,
+  "distinct_c2_hosts": 107,
+  "distinct_credentials": 2616,
+  "distinct_payload_urls": 146,
   "events": 4309555,
   "new_sources": 1687,
   "shared_c2_hosts": 25,
