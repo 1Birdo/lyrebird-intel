@@ -25,8 +25,8 @@
   "connected": 1687,
   "delivered_sample": 97,
   "fetched_payload": 276,
-  "ran_commands": 1030,
-  "returned": 856,
+  "ran_commands": 1031,
+  "returned": 859,
   "tried_creds": 1069
  },
  "samples": [
@@ -62,7 +62,7 @@
   ],
   [
    "Huawei HG gateway",
-   45
+   44
   ],
   [
    "DrayTek router",
@@ -70,7 +70,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   32
+   30
   ],
   [
    "firmware backdoor account",
@@ -82,7 +82,7 @@
   ],
   [
    "SMC Networks CPE",
-   18
+   19
   ],
   [
    "WordPress",
@@ -226,43 +226,43 @@
   ],
   [
    "root/kopp",
-   16719
+   16729
   ],
   [
    "root/Zte521",
-   13899
+   13983
   ],
   [
    "admin/88888888",
-   13129
+   13164
   ],
   [
    "admin/pass",
-   12485
+   12695
   ],
   [
    "root/xc3511",
-   11019
+   11136
   ],
   [
    "root/admin",
-   9929
+   9948
   ],
   [
    "admin/smcadmin",
-   9328
+   9371
   ],
   [
    "root/klv1234",
-   7537
+   7538
   ],
   [
    "666666/666666",
-   6404
+   6486
   ],
   [
    "root/hi3518",
-   6355
+   6360
   ],
   [
    "administrator/",
@@ -270,7 +270,7 @@
   ],
   [
    "root/Pon521",
-   6187
+   6197
   ],
   [
    "Admin/Admin",
@@ -278,52 +278,52 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   5303
+   5536
   ],
   [
    "root/root",
-   5245
-  ],
-  [
-   "super/xJ4pCYeW",
-   4975
+   5251
   ],
   [
    "root/1234",
-   4968
+   5035
+  ],
+  [
+   "super/xJ4pCYeW",
+   4978
   ],
   [
    "root/password",
-   4921
-  ],
-  [
-   "root/bluehorse",
-   4728
-  ],
-  [
-   "super/PhrQjGzk",
-   4717
-  ],
-  [
-   "admin/v2mprt",
-   4639
+   4946
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4511
+   4771
+  ],
+  [
+   "root/bluehorse",
+   4736
+  ],
+  [
+   "super/PhrQjGzk",
+   4724
+  ],
+  [
+   "admin/v2mprt",
+   4615
   ],
   [
    "CUAdmin/CUAdmin",
-   4422
+   4595
   ],
   [
    "root/12341234",
-   4379
+   4384
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 124,
-  "distinct_credentials": 2645,
+  "distinct_credentials": 2634,
   "distinct_payload_urls": 170,
   "events": 4309555,
   "new_sources": 1687,

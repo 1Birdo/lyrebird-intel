@@ -15,12 +15,12 @@ where it runs.
 
 | path | what |
 |---|---|
-| `iocs/source-ips.csv` | 3,661 attacking addresses with evidence summary |
-| `iocs/payload-urls.csv` | 727 URLs attackers tried to fetch malware from |
-| `iocs/sample-hashes.csv` | 268 delivered samples, hashed |
-| `credentials/attempted-credentials.csv` | 3,761 distinct username/password pairs |
+| `iocs/source-ips.csv` | 3,801 attacking addresses with evidence summary |
+| `iocs/payload-urls.csv` | 742 URLs attackers tried to fetch malware from |
+| `iocs/sample-hashes.csv` | 271 delivered samples, hashed |
+| `credentials/attempted-credentials.csv` | 3,782 distinct username/password pairs |
 | `samples/` | the captured binaries, zip-encrypted |
-| `incidents/` | 1,690 per-address write-ups of reported attacks |
+| `incidents/` | 1,720 per-address write-ups of reported attacks |
 
 ## Samples
 
@@ -55,4 +55,4 @@ Data is published for research and defensive use.
 
 ---
 
-*Generated 2026-09-14 12:02 UTC.*
+*Generated 2026-09-14 18:09 UTC.*
