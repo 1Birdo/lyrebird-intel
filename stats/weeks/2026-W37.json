@@ -2,15 +2,15 @@
  "cves": [
   {
    "cve": "CVE-2021-41773",
-   "sources": 7
+   "sources": 8
   },
   {
    "cve": "CVE-2017-9841",
-   "sources": 6
+   "sources": 7
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 5
+   "sources": 6
   },
   {
    "cve": "CVE-2018-20062",
@@ -38,12 +38,12 @@
   }
  ],
  "funnel": {
-  "connected": 1883,
-  "delivered_sample": 82,
-  "fetched_payload": 170,
-  "ran_commands": 628,
-  "returned": 833,
-  "tried_creds": 666
+  "connected": 1971,
+  "delivered_sample": 86,
+  "fetched_payload": 181,
+  "ran_commands": 663,
+  "returned": 877,
+  "tried_creds": 697
  },
  "samples": [
   "00191bd7f825efdad8517fc426ad9fb3a7db18bc305a08285f516ebe6d811ae9",
@@ -98,31 +98,31 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   139
   ],
   [
    "DVR / IP camera (OEM default)",
-   91
+   96
   ],
   [
    "GPON/ONT fibre terminal",
-   86
+   90
   ],
   [
    "Huawei HG gateway",
-   54
+   59
   ],
   [
    "DrayTek router",
-   51
+   54
   ],
   [
    "firmware backdoor account",
-   49
+   51
   ],
   [
    "IoT OEM default account",
-   38
+   41
   ],
   [
    "ISP-branded DSL gateway",
@@ -130,19 +130,19 @@
   ],
   [
    "SMC Networks CPE",
-   14
+   15
   ],
   [
    "Apache HTTP Server (CGI)",
-   7
+   8
+  ],
+  [
+   "PHP-CGI",
+   5
   ],
   [
    "WordPress",
    5
-  ],
-  [
-   "PHP-CGI",
-   4
   ],
   [
    "embedded web server (boa/goform)",
@@ -187,6 +187,14 @@
    16
   ],
   [
+   "115.57.215.207",
+   10
+  ],
+  [
+   "182.119.93.212",
+   8
+  ],
+  [
    "203.99.56.134",
    8
   ],
@@ -204,6 +212,10 @@
   ],
   [
    "60.23.72.153",
+   3
+  ],
+  [
+   "90.224.208.161",
    3
   ],
   [
@@ -239,10 +251,6 @@
    2
   ],
   [
-   "182.119.93.212",
-   2
-  ],
-  [
    "182.121.41.150",
    2
   ],
@@ -253,126 +261,118 @@
   [
    "193.163.187.75",
    2
-  ],
-  [
-   "194.59.31.231",
-   2
-  ],
-  [
-   "194.59.31.5",
-   2
   ]
  ],
  "top_credentials": [
   [
-   "admin/admin",
-   39776
+   "administrator/",
+   42562
   ],
   [
-   "administrator/",
-   28444
+   "admin/admin",
+   40077
   ],
   [
    "root/Zte521",
-   21331
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   16580
+   23198
   ],
   [
    "admin/v2mprt",
-   14965
+   18239
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   16776
   ],
   [
    "root/xc3511",
-   13582
-  ],
-  [
-   "root/hi3518",
-   12809
-  ],
-  [
-   "admin/pass",
-   11817
+   13805
   ],
   [
    "rapport/r@p8p0r+",
-   10027
+   13301
   ],
   [
-   "root/1234",
-   9603
+   "root/hi3518",
+   12906
   ],
   [
-   "root/klv1234",
-   9122
-  ],
-  [
-   "super/PhrQjGzk",
-   7894
+   "admin/pass",
+   12104
   ],
   [
    "root/root",
-   7541
+   11638
+  ],
+  [
+   "root/1234",
+   11085
+  ],
+  [
+   "root/xmhdipc",
+   10843
+  ],
+  [
+   "root/klv1234",
+   9270
+  ],
+  [
+   "super/PhrQjGzk",
+   8004
   ],
   [
    "administrator/1234",
-   6729
-  ],
-  [
-   "Administrator/admin",
-   6553
-  ],
-  [
-   "admin/plumeria0077",
-   6473
-  ],
-  [
-   "admin/meinsm",
-   5874
-  ],
-  [
-   "root/password",
-   5625
-  ],
-  [
-   "admin/adminHW",
-   5334
-  ],
-  [
-   "admin/1234",
-   5294
-  ],
-  [
-   "support/support",
-   5093
-  ],
-  [
-   "super/xJ4pCYeW",
-   5041
-  ],
-  [
-   "root/klv123",
-   4935
+   6863
   ],
   [
    "root/888888",
-   4659
+   6809
   ],
   [
-   "666666/666666",
-   4421
+   "admin/meinsm",
+   6698
+  ],
+  [
+   "Administrator/admin",
+   6546
+  ],
+  [
+   "admin/plumeria0077",
+   6491
+  ],
+  [
+   "root/password",
+   5658
+  ],
+  [
+   "root/klv123",
+   5576
+  ],
+  [
+   "admin/1234",
+   5384
+  ],
+  [
+   "admin/adminHW",
+   5382
+  ],
+  [
+   "support/support",
+   5133
+  ],
+  [
+   "super/xJ4pCYeW",
+   5039
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 147,
-  "distinct_credentials": 1766,
-  "distinct_payload_urls": 205,
-  "events": 4495823,
-  "new_sources": 1681,
-  "shared_c2_hosts": 37,
-  "sources": 1883
+  "distinct_c2_hosts": 157,
+  "distinct_credentials": 1808,
+  "distinct_payload_urls": 219,
+  "events": 5215988,
+  "new_sources": 1767,
+  "shared_c2_hosts": 39,
+  "sources": 1971
  },
  "window": {
   "days": 6,
