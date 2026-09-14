@@ -23,10 +23,10 @@
  ],
  "funnel": {
   "connected": 1687,
-  "delivered_sample": 96,
+  "delivered_sample": 97,
   "fetched_payload": 276,
   "ran_commands": 1030,
-  "returned": 853,
+  "returned": 856,
   "tried_creds": 1069
  },
  "samples": [
@@ -35,11 +35,13 @@
   "302f55e14d65190946220886bfb9e860f909857b6e9cfa9d91e7e214d293a6e0",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
+  "62a4b82cadbf1da27c616c27dfa81a668439b36bd691e8f967104b24a7653996",
   "662a4c450a73dd45622856fb0f44cbbeab101a326b89aedbd07ec41c08a5f73b",
   "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
   "8472e2bb1b967f8517256bc9cc54c77e9514be80341c9e6209126ad33639e91c",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002",
@@ -56,7 +58,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   59
+   61
   ],
   [
    "Huawei HG gateway",
@@ -72,15 +74,15 @@
   ],
   [
    "firmware backdoor account",
-   28
+   29
   ],
   [
    "IoT OEM default account",
-   27
+   26
   ],
   [
    "SMC Networks CPE",
-   16
+   18
   ],
   [
    "WordPress",
@@ -220,47 +222,47 @@
  "top_credentials": [
   [
    "admin/admin",
-   34578
+   34591
   ],
   [
    "root/kopp",
-   16727
+   16719
   ],
   [
    "root/Zte521",
-   13841
+   13899
   ],
   [
    "admin/88888888",
-   13099
+   13129
   ],
   [
    "admin/pass",
-   12255
+   12485
   ],
   [
    "root/xc3511",
-   10918
+   11019
   ],
   [
    "root/admin",
-   9925
+   9929
   ],
   [
    "admin/smcadmin",
-   9266
+   9328
   ],
   [
    "root/klv1234",
-   7536
-  ],
-  [
-   "root/hi3518",
-   6348
+   7537
   ],
   [
    "666666/666666",
-   6315
+   6404
+  ],
+  [
+   "root/hi3518",
+   6355
   ],
   [
    "administrator/",
@@ -268,61 +270,61 @@
   ],
   [
    "root/Pon521",
-   6186
+   6187
   ],
   [
    "Admin/Admin",
    5748
   ],
   [
+   "telnetadmin/telnetadmin",
+   5303
+  ],
+  [
    "root/root",
-   5236
+   5245
   ],
   [
    "super/xJ4pCYeW",
-   4962
+   4975
   ],
   [
    "root/1234",
-   4892
+   4968
   ],
   [
    "root/password",
-   4890
-  ],
-  [
-   "telnetadmin/telnetadmin",
-   4889
+   4921
   ],
   [
    "root/bluehorse",
-   4719
+   4728
   ],
   [
    "super/PhrQjGzk",
-   4710
+   4717
   ],
   [
    "admin/v2mprt",
-   4619
-  ],
-  [
-   "root/12341234",
-   4387
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   4216
+   4639
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   3909
+   4511
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   4422
+  ],
+  [
+   "root/12341234",
+   4379
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 122,
-  "distinct_credentials": 2629,
-  "distinct_payload_urls": 167,
+  "distinct_c2_hosts": 124,
+  "distinct_credentials": 2645,
+  "distinct_payload_urls": 170,
   "events": 4309555,
   "new_sources": 1687,
   "shared_c2_hosts": 31,
