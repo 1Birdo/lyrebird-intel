@@ -23,7 +23,7 @@
  ],
  "funnel": {
   "connected": 1686,
-  "delivered_sample": 97,
+  "delivered_sample": 98,
   "fetched_payload": 276,
   "ran_commands": 1033,
   "returned": 866,
@@ -66,15 +66,15 @@
   ],
   [
    "DrayTek router",
-   39
+   40
   ],
   [
    "firmware backdoor account",
-   29
+   28
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   26
   ],
   [
    "IoT OEM default account",
@@ -127,6 +127,10 @@
    16
   ],
   [
+   "182.127.109.49",
+   16
+  ],
+  [
    "219.157.169.159",
    16
   ],
@@ -151,16 +155,16 @@
    16
   ],
   [
-   "182.127.109.49",
-   13
-  ],
-  [
    "219.157.237.251",
    9
   ],
   [
    "203.99.56.134",
    8
+  ],
+  [
+   "196.189.101.82",
+   6
   ],
   [
    "198.144.179.82",
@@ -213,24 +217,20 @@
   [
    "203.99.56.137",
    2
-  ],
-  [
-   "203.99.56.139",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34775
+   34778
   ],
   [
    "root/kopp",
-   16835
+   16859
   ],
   [
    "root/xc3511",
-   15060
+   15084
   ],
   [
    "root/Zte521",
@@ -238,27 +238,27 @@
   ],
   [
    "admin/88888888",
-   13178
+   13181
   ],
   [
    "admin/pass",
-   12970
+   13089
   ],
   [
    "root/admin",
-   9970
+   9968
   ],
   [
    "admin/smcadmin",
-   9553
+   9600
   ],
   [
    "root/klv1234",
-   7542
+   7543
   ],
   [
    "666666/666666",
-   6580
+   6620
   ],
   [
    "root/hi3518",
@@ -270,39 +270,39 @@
   ],
   [
    "root/Pon521",
-   6198
+   6200
   ],
   [
    "Admin/Admin",
-   5749
+   5750
   ],
   [
    "telnetadmin/telnetadmin",
-   5580
+   5606
   ],
   [
    "root/root",
-   5275
+   5280
   ],
   [
    "root/1234",
-   5061
-  ],
-  [
-   "super/xJ4pCYeW",
-   4981
+   5057
   ],
   [
    "root/password",
-   4957
+   4959
   ],
   [
-   "nmgcuadmin/nmgcuadmin",
-   4792
+   "super/xJ4pCYeW",
+   4955
   ],
   [
    "CUAdmin/CUAdmin",
-   4783
+   4843
+  ],
+  [
+   "nmgcuadmin/nmgcuadmin",
+   4799
   ],
   [
    "root/bluehorse",
@@ -314,20 +314,20 @@
   ],
   [
    "admin/v2mprt",
-   4616
+   4619
   ],
   [
    "root/12341234",
-   4387
+   4382
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 134,
-  "distinct_credentials": 2656,
-  "distinct_payload_urls": 189,
+  "distinct_c2_hosts": 135,
+  "distinct_credentials": 2652,
+  "distinct_payload_urls": 191,
   "events": 4309552,
   "new_sources": 1686,
-  "shared_c2_hosts": 35,
+  "shared_c2_hosts": 36,
   "sources": 1686
  },
  "window": {
