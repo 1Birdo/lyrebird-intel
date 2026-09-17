@@ -25,8 +25,8 @@
   "connected": 1686,
   "delivered_sample": 100,
   "fetched_payload": 276,
-  "ran_commands": 1035,
-  "returned": 874,
+  "ran_commands": 1036,
+  "returned": 876,
   "tried_creds": 1069
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   134
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -71,19 +71,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   29
+   28
   ],
   [
    "firmware backdoor account",
-   29
-  ],
-  [
-   "IoT OEM default account",
-   24
+   28
   ],
   [
    "SMC Networks CPE",
-   24
+   25
+  ],
+  [
+   "IoT OEM default account",
+   23
   ],
   [
    "WordPress",
@@ -223,43 +223,43 @@
  "top_credentials": [
   [
    "admin/admin",
-   34805
+   34807
   ],
   [
    "root/kopp",
-   16973
+   16985
   ],
   [
    "root/xc3511",
-   15200
+   15224
   ],
   [
    "root/Zte521",
-   14127
+   14155
   ],
   [
    "admin/pass",
-   13379
+   13477
   ],
   [
    "admin/88888888",
-   13177
+   13166
   ],
   [
    "root/admin",
-   9973
+   9968
   ],
   [
    "admin/smcadmin",
-   9758
+   9788
   ],
   [
    "root/klv1234",
-   7548
+   7549
   ],
   [
    "666666/666666",
-   6711
+   6739
   ],
   [
    "root/hi3518",
@@ -271,7 +271,7 @@
   ],
   [
    "root/Pon521",
-   6202
+   6198
   ],
   [
    "Admin/Admin",
@@ -283,19 +283,19 @@
   ],
   [
    "root/root",
-   5299
+   5298
   ],
   [
    "CUAdmin/CUAdmin",
-   5101
+   5142
   ],
   [
    "root/1234",
-   5084
+   5077
   ],
   [
    "super/xJ4pCYeW",
-   4989
+   4965
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4821
+   4827
   ],
   [
    "root/bluehorse",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4616
+   4619
   ],
   [
    "root/12341234",
-   4384
+   4379
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 136,
-  "distinct_credentials": 2660,
+  "distinct_credentials": 2668,
   "distinct_payload_urls": 193,
   "events": 4309552,
   "new_sources": 1686,
