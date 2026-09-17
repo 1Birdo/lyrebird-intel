@@ -42,7 +42,7 @@
   "delivered_sample": 90,
   "fetched_payload": 182,
   "ran_commands": 678,
-  "returned": 940,
+  "returned": 942,
   "tried_creds": 700
  },
  "samples": [
@@ -102,11 +102,11 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   95
+   96
   ],
   [
    "GPON/ONT fibre terminal",
-   91
+   90
   ],
   [
    "Huawei HG gateway",
@@ -122,15 +122,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   36
+   37
   ],
   [
    "IoT OEM default account",
-   36
+   34
   ],
   [
    "SMC Networks CPE",
-   23
+   25
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -195,12 +195,12 @@
    16
   ],
   [
-   "196.189.101.82",
-   13
+   "175.150.139.66",
+   15
   ],
   [
-   "175.150.139.66",
-   11
+   "196.189.101.82",
+   13
   ],
   [
    "219.157.237.251",
@@ -266,7 +266,7 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   46730
+   48141
   ],
   [
    "administrator/",
@@ -274,101 +274,101 @@
   ],
   [
    "admin/admin",
-   41798
+   41871
   ],
   [
    "admin/v2mprt",
-   28573
+   29701
   ],
   [
    "root/root",
-   27212
+   27482
   ],
   [
    "root/Zte521",
-   25272
+   25288
   ],
   [
    "CUAdmin/CUAdmin",
-   17988
+   18070
   ],
   [
    "root/xc3511",
-   17327
+   17380
   ],
   [
    "root/1234",
-   16181
+   16187
   ],
   [
    "admin/meinsm",
-   15045
+   15420
   ],
   [
    "admin/pass",
-   13400
+   13477
   ],
   [
    "root/hi3518",
-   13285
+   13303
   ],
   [
    "root/xmhdipc",
-   13141
+   13193
   ],
   [
    "root/888888",
-   12066
+   12216
   ],
   [
    "root/klv1234",
-   9799
+   9805
   ],
   [
    "super/PhrQjGzk",
-   8592
+   8597
   ],
   [
    "root/klv123",
-   7612
-  ],
-  [
-   "support/support",
-   7314
+   7655
   ],
   [
    "telnetadmin/telnetadmin",
-   7314
+   7530
+  ],
+  [
+   "support/support",
+   7466
   ],
   [
    "administrator/1234",
-   7007
+   7012
   ],
   [
    "admin/plumeria0077",
-   6759
+   6954
   ],
   [
    "Administrator/admin",
-   6682
+   6687
   ],
   [
    "root/",
-   6239
+   6281
   ],
   [
    "root/password",
-   6065
+   6066
   ],
   [
    "admin/1234",
-   5738
+   5754
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 203,
-  "distinct_credentials": 1876,
-  "distinct_payload_urls": 308,
+  "distinct_c2_hosts": 207,
+  "distinct_credentials": 1873,
+  "distinct_payload_urls": 315,
   "events": 5215973,
   "new_sources": 1763,
   "shared_c2_hosts": 60,
