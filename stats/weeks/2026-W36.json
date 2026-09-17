@@ -26,7 +26,7 @@
   "delivered_sample": 100,
   "fetched_payload": 276,
   "ran_commands": 1036,
-  "returned": 876,
+  "returned": 877,
   "tried_creds": 1069
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   134
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   30
   ],
   [
    "firmware backdoor account",
@@ -223,47 +223,47 @@
  "top_credentials": [
   [
    "admin/admin",
-   34807
+   34812
   ],
   [
    "root/kopp",
-   16985
+   17008
   ],
   [
    "root/xc3511",
-   15224
+   15236
   ],
   [
    "root/Zte521",
-   14155
+   14170
   ],
   [
    "admin/pass",
-   13477
+   13546
   ],
   [
    "admin/88888888",
-   13166
+   13177
   ],
   [
    "root/admin",
-   9968
+   9971
   ],
   [
    "admin/smcadmin",
-   9788
+   9830
   ],
   [
    "root/klv1234",
-   7549
+   7550
   ],
   [
    "666666/666666",
-   6739
+   6752
   ],
   [
    "root/hi3518",
-   6387
+   6388
   ],
   [
    "administrator/",
@@ -271,7 +271,7 @@
   ],
   [
    "root/Pon521",
-   6198
+   6212
   ],
   [
    "Admin/Admin",
@@ -283,31 +283,31 @@
   ],
   [
    "root/root",
-   5298
+   5303
   ],
   [
    "CUAdmin/CUAdmin",
-   5142
+   5174
   ],
   [
    "root/1234",
-   5077
+   5084
   ],
   [
    "super/xJ4pCYeW",
-   4965
+   4966
   ],
   [
    "root/password",
-   4961
+   4962
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4827
+   4837
   ],
   [
    "root/bluehorse",
-   4752
+   4747
   ],
   [
    "super/PhrQjGzk",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4619
+   4602
   ],
   [
    "root/12341234",
-   4379
+   4387
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 136,
-  "distinct_credentials": 2668,
+  "distinct_credentials": 2666,
   "distinct_payload_urls": 193,
   "events": 4309552,
   "new_sources": 1686,
