@@ -26,7 +26,7 @@
   "delivered_sample": 100,
   "fetched_payload": 277,
   "ran_commands": 1037,
-  "returned": 881,
+  "returned": 882,
   "tried_creds": 1070
  },
  "samples": [
@@ -63,15 +63,15 @@
   ],
   [
    "Huawei HG gateway",
-   44
+   43
   ],
   [
    "DrayTek router",
-   41
+   40
   ],
   [
    "ISP-branded DSL gateway",
-   29
+   30
   ],
   [
    "firmware backdoor account",
@@ -223,15 +223,15 @@
  "top_credentials": [
   [
    "admin/admin",
-   34829
+   34830
   ],
   [
    "root/kopp",
-   17063
+   17083
   ],
   [
    "root/xc3511",
-   15302
+   15338
   ],
   [
    "root/Zte521",
@@ -239,7 +239,7 @@
   ],
   [
    "admin/pass",
-   13716
+   13767
   ],
   [
    "admin/88888888",
@@ -247,27 +247,27 @@
   ],
   [
    "root/admin",
-   9973
+   9971
   ],
   [
    "admin/smcadmin",
-   9912
+   9941
   ],
   [
    "root/klv1234",
-   7551
+   7552
   ],
   [
    "666666/666666",
-   6814
+   6830
   ],
   [
    "root/hi3518",
-   6385
+   6389
   ],
   [
    "root/Pon521",
-   6220
+   6222
   ],
   [
    "administrator/",
@@ -282,16 +282,16 @@
    5582
   ],
   [
-   "root/root",
-   5315
+   "CUAdmin/CUAdmin",
+   5340
   ],
   [
-   "CUAdmin/CUAdmin",
-   5284
+   "root/root",
+   5325
   ],
   [
    "root/1234",
-   5085
+   5070
   ],
   [
    "super/xJ4pCYeW",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4854
+   4859
   ],
   [
    "root/bluehorse",
@@ -315,11 +315,11 @@
   ],
   [
    "admin/v2mprt",
-   4616
+   4614
   ],
   [
    "root/12341234",
-   4384
+   4387
   ]
  ],
  "totals": {
