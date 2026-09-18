@@ -24,10 +24,10 @@
  "funnel": {
   "connected": 1686,
   "delivered_sample": 100,
-  "fetched_payload": 276,
-  "ran_commands": 1036,
-  "returned": 877,
-  "tried_creds": 1069
+  "fetched_payload": 277,
+  "ran_commands": 1037,
+  "returned": 880,
+  "tried_creds": 1070
  },
  "samples": [
   "016375769c3c8028456603a5e78a2305b4617304a001fcbdd2001330d135bef2",
@@ -55,11 +55,11 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   71
+   72
   ],
   [
    "GPON/ONT fibre terminal",
-   59
+   60
   ],
   [
    "Huawei HG gateway",
@@ -176,7 +176,15 @@
    4
   ],
   [
+   "213.232.114.14",
+   3
+  ],
+  [
    "87.68.238.101",
+   3
+  ],
+  [
+   "tftp2.sh",
    3
   ],
   [
@@ -210,60 +218,52 @@
   [
    "194.59.31.5",
    2
-  ],
-  [
-   "194.59.31.57",
-   2
-  ],
-  [
-   "203.99.56.133",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34818
+   34826
   ],
   [
    "root/kopp",
-   17023
+   17041
   ],
   [
    "root/xc3511",
-   15255
+   15275
   ],
   [
    "root/Zte521",
-   14171
+   14177
   ],
   [
    "admin/pass",
-   13625
+   13673
   ],
   [
    "admin/88888888",
-   13166
+   13177
   ],
   [
    "root/admin",
-   9971
+   9973
   ],
   [
    "admin/smcadmin",
-   9867
+   9894
   ],
   [
    "root/klv1234",
-   7550
+   7551
   ],
   [
    "666666/666666",
-   6783
+   6792
   ],
   [
    "root/hi3518",
-   6388
+   6389
   ],
   [
    "administrator/",
@@ -271,7 +271,7 @@
   ],
   [
    "root/Pon521",
-   6217
+   6213
   ],
   [
    "Admin/Admin",
@@ -283,15 +283,15 @@
   ],
   [
    "root/root",
-   5305
+   5315
   ],
   [
    "CUAdmin/CUAdmin",
-   5217
+   5252
   ],
   [
    "root/1234",
-   5087
+   5085
   ],
   [
    "super/xJ4pCYeW",
@@ -299,11 +299,11 @@
   ],
   [
    "root/password",
-   4962
+   4965
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4841
+   4847
   ],
   [
    "root/bluehorse",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4614
+   4616
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 136,
-  "distinct_credentials": 2667,
+  "distinct_credentials": 2657,
   "distinct_payload_urls": 193,
   "events": 4309552,
   "new_sources": 1686,
