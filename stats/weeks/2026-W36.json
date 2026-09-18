@@ -26,7 +26,7 @@
   "delivered_sample": 100,
   "fetched_payload": 277,
   "ran_commands": 1037,
-  "returned": 880,
+  "returned": 881,
   "tried_creds": 1070
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -59,7 +59,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   60
+   59
   ],
   [
    "Huawei HG gateway",
@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   30
+   29
   ],
   [
    "firmware backdoor account",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   24
+   23
   ],
   [
    "WordPress",
@@ -223,23 +223,23 @@
  "top_credentials": [
   [
    "admin/admin",
-   34826
+   34829
   ],
   [
    "root/kopp",
-   17041
+   17063
   ],
   [
    "root/xc3511",
-   15275
+   15302
   ],
   [
    "root/Zte521",
-   14177
+   14183
   ],
   [
    "admin/pass",
-   13673
+   13716
   ],
   [
    "admin/88888888",
@@ -251,7 +251,7 @@
   ],
   [
    "admin/smcadmin",
-   9894
+   9912
   ],
   [
    "root/klv1234",
@@ -259,19 +259,19 @@
   ],
   [
    "666666/666666",
-   6792
+   6814
   ],
   [
    "root/hi3518",
-   6389
+   6385
+  ],
+  [
+   "root/Pon521",
+   6220
   ],
   [
    "administrator/",
    6218
-  ],
-  [
-   "root/Pon521",
-   6213
   ],
   [
    "Admin/Admin",
@@ -287,7 +287,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5252
+   5284
   ],
   [
    "root/1234",
@@ -295,7 +295,7 @@
   ],
   [
    "super/xJ4pCYeW",
-   4967
+   4968
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4847
+   4854
   ],
   [
    "root/bluehorse",
