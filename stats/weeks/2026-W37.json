@@ -41,8 +41,8 @@
   "connected": 1967,
   "delivered_sample": 91,
   "fetched_payload": 182,
-  "ran_commands": 679,
-  "returned": 957,
+  "ran_commands": 682,
+  "returned": 959,
   "tried_creds": 702
  },
  "samples": [
@@ -110,7 +110,7 @@
   ],
   [
    "Huawei HG gateway",
-   63
+   62
   ],
   [
    "DrayTek router",
@@ -122,7 +122,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   39
+   38
   ],
   [
    "IoT OEM default account",
@@ -266,7 +266,7 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   52156
+   53369
   ],
   [
    "administrator/",
@@ -274,51 +274,51 @@
   ],
   [
    "admin/admin",
-   42287
+   42407
   ],
   [
    "admin/v2mprt",
-   32599
+   33592
   ],
   [
    "root/root",
-   28242
+   28434
   ],
   [
    "root/Zte521",
-   25419
+   25434
   ],
   [
    "CUAdmin/CUAdmin",
-   18198
+   18241
   ],
   [
    "root/xc3511",
-   17519
+   17547
   ],
   [
    "admin/meinsm",
-   16865
+   17278
   ],
   [
    "root/1234",
-   16196
+   16197
   ],
   [
    "admin/pass",
-   13702
+   13781
   ],
   [
    "root/xmhdipc",
-   13345
+   13378
   ],
   [
    "root/hi3518",
-   13329
+   13335
   ],
   [
    "root/888888",
-   12715
+   12901
   ],
   [
    "root/klv1234",
@@ -326,52 +326,52 @@
   ],
   [
    "super/PhrQjGzk",
-   8607
+   8611
   ],
   [
    "telnetadmin/telnetadmin",
-   8273
+   8485
   ],
   [
    "support/support",
-   7800
+   7856
   ],
   [
    "root/klv123",
-   7725
+   7764
   ],
   [
    "administrator/1234",
-   7013
+   7008
   ],
   [
    "admin/plumeria0077",
-   6960
+   6961
   ],
   [
    "Administrator/admin",
-   6698
+   6706
   ],
   [
    "root/",
-   6362
+   6394
   ],
   [
    "root/password",
-   6070
+   6076
   ],
   [
    "admin/1234",
-   5781
+   5792
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 212,
-  "distinct_credentials": 1923,
-  "distinct_payload_urls": 325,
+  "distinct_c2_hosts": 213,
+  "distinct_credentials": 1928,
+  "distinct_payload_urls": 328,
   "events": 5215973,
   "new_sources": 1763,
-  "shared_c2_hosts": 61,
+  "shared_c2_hosts": 62,
   "sources": 1967
  },
  "window": {
