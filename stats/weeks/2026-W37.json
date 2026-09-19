@@ -42,7 +42,7 @@
   "delivered_sample": 94,
   "fetched_payload": 183,
   "ran_commands": 686,
-  "returned": 981,
+  "returned": 983,
   "tried_creds": 706
  },
  "samples": [
@@ -122,11 +122,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   40
+   39
   ],
   [
    "IoT OEM default account",
-   36
+   35
   ],
   [
    "SMC Networks CPE",
@@ -266,11 +266,11 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   58559
+   59936
   ],
   [
    "admin/admin",
-   42647
+   42671
   ],
   [
    "administrator/",
@@ -278,96 +278,96 @@
   ],
   [
    "admin/v2mprt",
-   37574
+   38542
   ],
   [
    "root/root",
-   28998
+   29133
   ],
   [
    "root/Zte521",
-   25523
+   25543
   ],
   [
    "CUAdmin/CUAdmin",
-   18488
+   18520
   ],
   [
    "admin/meinsm",
-   17938
+   17976
   ],
   [
    "root/xc3511",
-   17753
+   17813
   ],
   [
    "root/1234",
-   16195
+   16198
   ],
   [
    "admin/pass",
-   13987
+   14086
   ],
   [
    "root/888888",
-   13516
+   13620
   ],
   [
    "root/xmhdipc",
-   13473
+   13488
   ],
   [
    "root/hi3518",
-   13351
+   13355
   ],
   [
    "root/klv1234",
-   9816
+   9821
   ],
   [
    "telnetadmin/telnetadmin",
-   9420
+   9653
   ],
   [
    "super/PhrQjGzk",
-   8618
+   8621
   ],
   [
    "support/support",
-   8172
+   8210
   ],
   [
    "root/klv123",
-   7819
+   7842
   ],
   [
    "admin/plumeria0077",
-   7662
+   7663
   ],
   [
    "administrator/1234",
-   7062
+   7066
   ],
   [
    "Administrator/admin",
-   6713
+   6716
   ],
   [
    "root/",
-   6522
+   6556
   ],
   [
    "root/password",
-   6085
+   6084
   ],
   [
    "admin/1234",
-   5820
+   5826
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 222,
-  "distinct_credentials": 1943,
+  "distinct_credentials": 1940,
   "distinct_payload_urls": 341,
   "events": 5215973,
   "new_sources": 1763,
