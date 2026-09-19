@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   135
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -59,11 +59,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   58
+   60
   ],
   [
    "Huawei HG gateway",
-   43
+   44
   ],
   [
    "DrayTek router",
@@ -71,11 +71,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "firmware backdoor account",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -223,31 +223,31 @@
  "top_credentials": [
   [
    "admin/admin",
-   34830
+   34840
   ],
   [
    "root/kopp",
-   17108
+   17117
   ],
   [
    "root/xc3511",
-   15396
+   15421
   ],
   [
    "root/Zte521",
-   14184
+   14185
   ],
   [
    "admin/pass",
-   13866
+   13905
   ],
   [
    "admin/88888888",
-   13164
+   13176
   ],
   [
    "admin/smcadmin",
-   10002
+   10011
   ],
   [
    "root/admin",
@@ -255,15 +255,15 @@
   ],
   [
    "root/klv1234",
-   7552
+   7554
   ],
   [
    "666666/666666",
-   6863
+   6876
   ],
   [
    "root/hi3518",
-   6392
+   6388
   ],
   [
    "root/Pon521",
@@ -279,15 +279,15 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   5582
+   5583
   ],
   [
    "CUAdmin/CUAdmin",
-   5401
+   5418
   ],
   [
    "root/root",
-   5357
+   5368
   ],
   [
    "root/1234",
@@ -295,7 +295,7 @@
   ],
   [
    "super/xJ4pCYeW",
-   4970
+   4969
   ],
   [
    "root/password",
@@ -303,19 +303,19 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4868
+   4876
+  ],
+  [
+   "super/PhrQjGzk",
+   4773
   ],
   [
    "root/bluehorse",
    4747
   ],
   [
-   "super/PhrQjGzk",
-   4734
-  ],
-  [
    "admin/v2mprt",
-   4622
+   4625
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 136,
-  "distinct_credentials": 2657,
+  "distinct_credentials": 2673,
   "distinct_payload_urls": 193,
   "events": 4309552,
   "new_sources": 1686,
