@@ -46,7 +46,7 @@
   "delivered_sample": 95,
   "fetched_payload": 183,
   "ran_commands": 686,
-  "returned": 985,
+  "returned": 992,
   "tried_creds": 706
  },
  "samples": [
@@ -110,11 +110,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   93
+   92
   ],
   [
    "Huawei HG gateway",
-   63
+   64
   ],
   [
    "DrayTek router",
@@ -122,11 +122,11 @@
   ],
   [
    "firmware backdoor account",
-   47
+   48
   ],
   [
    "ISP-branded DSL gateway",
-   37
+   38
   ],
   [
    "IoT OEM default account",
@@ -270,11 +270,11 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   61179
+   62442
   ],
   [
    "admin/admin",
-   42706
+   42731
   ],
   [
    "administrator/",
@@ -282,27 +282,27 @@
   ],
   [
    "admin/v2mprt",
-   39424
+   40424
   ],
   [
    "root/root",
-   29248
+   29361
   ],
   [
    "root/Zte521",
-   25567
+   25584
   ],
   [
    "CUAdmin/CUAdmin",
-   18538
+   18562
   ],
   [
    "admin/meinsm",
-   17963
+   18028
   ],
   [
    "root/xc3511",
-   17863
+   17900
   ],
   [
    "root/1234",
@@ -310,55 +310,55 @@
   ],
   [
    "admin/pass",
-   14130
+   14169
   ],
   [
    "root/888888",
-   13629
+   13638
   ],
   [
    "root/xmhdipc",
-   13489
+   13503
   ],
   [
    "root/hi3518",
-   13360
+   13362
   ],
   [
    "telnetadmin/telnetadmin",
-   9869
+   10103
   ],
   [
    "root/klv1234",
-   9825
+   9829
   ],
   [
    "super/PhrQjGzk",
-   8636
+   8597
   ],
   [
    "support/support",
-   8220
+   8226
   ],
   [
    "root/klv123",
-   7822
+   7824
   ],
   [
    "admin/plumeria0077",
-   7684
+   7686
   ],
   [
    "administrator/1234",
-   7064
+   7067
   ],
   [
    "Administrator/admin",
-   6744
+   6746
   ],
   [
    "root/",
-   6582
+   6614
   ],
   [
    "root/password",
@@ -366,12 +366,12 @@
   ],
   [
    "admin/1111111",
-   5887
+   5971
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 225,
-  "distinct_credentials": 1954,
+  "distinct_c2_hosts": 226,
+  "distinct_credentials": 1944,
   "distinct_payload_urls": 345,
   "events": 5215973,
   "new_sources": 1763,
