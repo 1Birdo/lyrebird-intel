@@ -22,11 +22,11 @@
   }
  ],
  "funnel": {
-  "connected": 1686,
+  "connected": 1685,
   "delivered_sample": 101,
   "fetched_payload": 278,
-  "ran_commands": 1042,
-  "returned": 887,
+  "ran_commands": 1041,
+  "returned": 888,
   "tried_creds": 1072
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,27 +63,27 @@
   ],
   [
    "Huawei HG gateway",
-   46
+   45
   ],
   [
    "DrayTek router",
-   41
+   40
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   28
+  ],
+  [
+   "firmware backdoor account",
+   28
   ],
   [
    "SMC Networks CPE",
    26
   ],
   [
-   "firmware backdoor account",
-   26
-  ],
-  [
    "IoT OEM default account",
-   22
+   23
   ],
   [
    "WordPress",
@@ -176,6 +176,14 @@
    8
   ],
   [
+   "196.190.0.118",
+   7
+  ],
+  [
+   "115.48.24.224",
+   6
+  ],
+  [
    "198.144.179.82",
    4
   ],
@@ -210,64 +218,56 @@
   [
    "182.126.124.244",
    2
-  ],
-  [
-   "194.59.30.143",
-   2
-  ],
-  [
-   "194.59.31.231",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34845
+   34850
   ],
   [
    "root/kopp",
-   17139
+   17144
   ],
   [
    "root/xc3511",
-   15466
+   15477
   ],
   [
    "root/Zte521",
-   14191
+   14193
   ],
   [
    "admin/pass",
-   13991
+   14016
   ],
   [
    "admin/88888888",
-   13174
+   13175
   ],
   [
    "admin/smcadmin",
-   10050
+   10063
   ],
   [
    "root/admin",
-   9972
+   9977
   ],
   [
    "root/klv1234",
-   7556
+   7558
   ],
   [
    "666666/666666",
-   6903
+   6911
   ],
   [
    "root/hi3518",
-   6392
+   6389
   ],
   [
    "root/Pon521",
-   6233
+   6231
   ],
   [
    "administrator/",
@@ -279,23 +279,23 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   5583
+   5584
   ],
   [
    "CUAdmin/CUAdmin",
-   5464
+   5476
   ],
   [
    "root/root",
-   5389
+   5402
   ],
   [
    "root/1234",
-   5091
+   5070
   ],
   [
    "super/xJ4pCYeW",
-   4967
+   4970
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4882
+   4887
   ],
   [
    "root/bluehorse",
@@ -311,25 +311,25 @@
   ],
   [
    "super/PhrQjGzk",
-   4734
+   4745
   ],
   [
    "admin/v2mprt",
-   4631
+   4616
   ],
   [
    "root/12341234",
-   4379
+   4384
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 139,
-  "distinct_credentials": 2662,
-  "distinct_payload_urls": 197,
-  "events": 4309552,
-  "new_sources": 1686,
-  "shared_c2_hosts": 38,
-  "sources": 1686
+  "distinct_c2_hosts": 141,
+  "distinct_credentials": 2664,
+  "distinct_payload_urls": 201,
+  "events": 4309548,
+  "new_sources": 1685,
+  "shared_c2_hosts": 40,
+  "sources": 1685
  },
  "window": {
   "days": 4,

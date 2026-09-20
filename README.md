@@ -4,7 +4,8 @@ Data captured by an internet-facing honeypot operated by
 [birdo.uk](https://birdo.uk). Updated several times a day.
 
 **[Browse the summary →](https://1birdo.github.io/lyrebird-intel/)** ·
-[Weekly reports](reports/index.md) · [Latest week](reports/latest.md)
+[Weekly reports](reports/index.md) · [Latest week](reports/latest.md) ·
+[How to read this data](docs/INTERPRETING-THE-DATA.md)
 
 **This repository contains data only.** The honeypot itself — its emulation,
 detection logic, deployment and tooling — is private and deliberately not
@@ -15,12 +16,12 @@ where it runs.
 
 | path | what |
 |---|---|
-| `iocs/source-ips.csv` | 6,107 attacking addresses with evidence summary |
-| `iocs/payload-urls.csv` | 1,256 URLs attackers tried to fetch malware from |
-| `iocs/sample-hashes.csv` | 409 delivered samples, hashed |
-| `credentials/attempted-credentials.csv` | 4,433 distinct username/password pairs |
+| `iocs/source-ips.csv` | 6,230 attacking addresses with evidence summary |
+| `iocs/payload-urls.csv` | 1,285 URLs attackers tried to fetch malware from |
+| `iocs/sample-hashes.csv` | 413 delivered samples, hashed |
+| `credentials/attempted-credentials.csv` | 4,499 distinct username/password pairs |
 | `samples/` | the captured binaries, zip-encrypted |
-| `incidents/` | 2,511 per-address write-ups of reported attacks |
+| `incidents/` | 2,547 per-address write-ups of reported attacks |
 
 ## Samples
 
@@ -55,4 +56,4 @@ Data is published for research and defensive use.
 
 ---
 
-*Generated 2026-09-20 00:13 UTC.*
+*Generated 2026-09-20 06:13 UTC.*
