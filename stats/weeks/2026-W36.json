@@ -24,9 +24,9 @@
  "funnel": {
   "connected": 1686,
   "delivered_sample": 101,
-  "fetched_payload": 277,
-  "ran_commands": 1040,
-  "returned": 885,
+  "fetched_payload": 278,
+  "ran_commands": 1042,
+  "returned": 887,
   "tried_creds": 1072
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   135
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,7 +63,7 @@
   ],
   [
    "Huawei HG gateway",
-   45
+   46
   ],
   [
    "DrayTek router",
@@ -74,16 +74,16 @@
    27
   ],
   [
-   "firmware backdoor account",
-   27
-  ],
-  [
    "SMC Networks CPE",
    26
   ],
   [
+   "firmware backdoor account",
+   26
+  ],
+  [
    "IoT OEM default account",
-   23
+   22
   ],
   [
    "WordPress",
@@ -160,6 +160,10 @@
    16
   ],
   [
+   "202.166.165.60",
+   14
+  ],
+  [
    "196.189.101.82",
    13
   ],
@@ -214,40 +218,36 @@
   [
    "194.59.31.231",
    2
-  ],
-  [
-   "194.59.31.5",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34841
+   34845
   ],
   [
    "root/kopp",
-   17133
+   17139
   ],
   [
    "root/xc3511",
-   15446
+   15466
   ],
   [
    "root/Zte521",
-   14190
+   14191
   ],
   [
    "admin/pass",
-   13946
+   13991
   ],
   [
    "admin/88888888",
-   13175
+   13174
   ],
   [
    "admin/smcadmin",
-   10032
+   10050
   ],
   [
    "root/admin",
@@ -255,19 +255,19 @@
   ],
   [
    "root/klv1234",
-   7555
+   7556
   ],
   [
    "666666/666666",
-   6891
+   6903
   ],
   [
    "root/hi3518",
-   6388
+   6392
   ],
   [
    "root/Pon521",
-   6230
+   6233
   ],
   [
    "administrator/",
@@ -283,23 +283,23 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5442
+   5464
   ],
   [
    "root/root",
-   5380
+   5389
   ],
   [
    "root/1234",
-   5087
+   5091
   ],
   [
    "super/xJ4pCYeW",
-   4970
+   4967
   ],
   [
    "root/password",
-   4965
+   4966
   ],
   [
    "nmgcuadmin/nmgcuadmin",
@@ -315,20 +315,20 @@
   ],
   [
    "admin/v2mprt",
-   4626
+   4631
   ],
   [
    "root/12341234",
-   4384
+   4379
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 136,
-  "distinct_credentials": 2663,
-  "distinct_payload_urls": 193,
+  "distinct_c2_hosts": 139,
+  "distinct_credentials": 2662,
+  "distinct_payload_urls": 197,
   "events": 4309552,
   "new_sources": 1686,
-  "shared_c2_hosts": 37,
+  "shared_c2_hosts": 38,
   "sources": 1686
  },
  "window": {
