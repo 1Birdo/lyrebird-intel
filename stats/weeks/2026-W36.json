@@ -63,23 +63,23 @@
   ],
   [
    "Huawei HG gateway",
-   45
+   53
   ],
   [
    "DrayTek router",
-   40
+   41
   ],
   [
    "ISP-branded DSL gateway",
    28
   ],
   [
-   "firmware backdoor account",
-   28
+   "SMC Networks CPE",
+   27
   ],
   [
-   "SMC Networks CPE",
-   26
+   "firmware backdoor account",
+   27
   ],
   [
    "IoT OEM default account",
@@ -140,6 +140,10 @@
    16
   ],
   [
+   "221.14.13.102",
+   16
+  ],
+  [
    "222.141.120.46",
    16
   ],
@@ -168,6 +172,14 @@
    13
   ],
   [
+   "115.50.202.112",
+   11
+  ],
+  [
+   "115.48.24.224",
+   10
+  ],
+  [
    "219.157.237.251",
    9
   ],
@@ -178,10 +190,6 @@
   [
    "196.190.0.118",
    7
-  ],
-  [
-   "115.48.24.224",
-   6
   ],
   [
    "198.144.179.82",
@@ -210,28 +218,20 @@
   [
    "151.241.154.172",
    2
-  ],
-  [
-   "182.121.41.150",
-   2
-  ],
-  [
-   "182.126.124.244",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34850
+   34852
   ],
   [
    "root/kopp",
-   17144
+   17158
   ],
   [
    "root/xc3511",
-   15477
+   15496
   ],
   [
    "root/Zte521",
@@ -239,27 +239,27 @@
   ],
   [
    "admin/pass",
-   14016
+   14038
   ],
   [
    "admin/88888888",
-   13175
+   13174
   ],
   [
    "admin/smcadmin",
-   10063
+   10070
   ],
   [
    "root/admin",
-   9977
+   9976
   ],
   [
    "root/klv1234",
-   7558
+   7561
   ],
   [
    "666666/666666",
-   6911
+   6923
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6231
+   6239
   ],
   [
    "administrator/",
@@ -283,15 +283,15 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5476
+   5494
   ],
   [
    "root/root",
-   5402
+   5419
   ],
   [
    "root/1234",
-   5070
+   5088
   ],
   [
    "super/xJ4pCYeW",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4887
+   4889
   ],
   [
    "root/bluehorse",
@@ -311,11 +311,11 @@
   ],
   [
    "super/PhrQjGzk",
-   4745
+   4733
   ],
   [
    "admin/v2mprt",
-   4616
+   4602
   ],
   [
    "root/12341234",
@@ -323,12 +323,12 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 141,
-  "distinct_credentials": 2664,
-  "distinct_payload_urls": 201,
+  "distinct_c2_hosts": 146,
+  "distinct_credentials": 2659,
+  "distinct_payload_urls": 207,
   "events": 4309548,
   "new_sources": 1685,
-  "shared_c2_hosts": 40,
+  "shared_c2_hosts": 42,
   "sources": 1685
  },
  "window": {
