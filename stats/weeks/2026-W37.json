@@ -39,14 +39,18 @@
   {
    "cve": "CVE-2018-10562",
    "sources": 1
+  },
+  {
+   "cve": "CVE-2022-0543",
+   "sources": 1
   }
  ],
  "funnel": {
   "connected": 1964,
   "delivered_sample": 96,
   "fetched_payload": 183,
-  "ran_commands": 689,
-  "returned": 1026,
+  "ran_commands": 690,
+  "returned": 1031,
   "tried_creds": 706
  },
  "samples": [
@@ -90,6 +94,7 @@
   "bd0dca600485b83deb6a4d248f3bed0d453dc7920b947dfe0ad35308cf73569c",
   "c1f252ac1e2eb74611c0bcb7568ee37967688e1d3b9a8cb15f06259e377ee329",
   "ce165a647a5a7e83bd63b00fbf1f2be6d50d02affdc20c12cb6e5614e5246d4e",
+  "d2626125426703c6efb15572cedb3d1fef3a78cd8a133b1562bedd64be03e3de",
   "dbb1e585efe9bb66f33b50181946f7f0fefcd7fce76c52c3fe84684ba915c78c",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "e88f1198b9db53e0b24ca380a160516be03e0ed659f94d28e684507b4c74cab3",
@@ -110,11 +115,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   93
+   94
   ],
   [
    "Huawei HG gateway",
-   73
+   72
   ],
   [
    "DrayTek router",
@@ -122,7 +127,7 @@
   ],
   [
    "firmware backdoor account",
-   47
+   48
   ],
   [
    "ISP-branded DSL gateway",
@@ -195,6 +200,10 @@
    16
   ],
   [
+   "27.215.213.36",
+   16
+  ],
+  [
    "27.215.49.38",
    16
   ],
@@ -259,10 +268,6 @@
    3
   ],
   [
-   "27.215.213.36",
-   3
-  ],
-  [
    "60.23.72.153",
    3
   ]
@@ -270,15 +275,15 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   70429
+   71445
   ],
   [
    "admin/v2mprt",
-   46026
+   46586
   ],
   [
    "admin/admin",
-   42820
+   42825
   ],
   [
    "administrator/",
@@ -286,23 +291,23 @@
   ],
   [
    "root/root",
-   30024
+   30108
   ],
   [
    "root/Zte521",
-   25651
+   25659
   ],
   [
    "CUAdmin/CUAdmin",
-   18702
+   18716
   ],
   [
    "admin/meinsm",
-   18212
+   18240
   ],
   [
    "root/xc3511",
-   18074
+   18089
   ],
   [
    "root/1234",
@@ -310,35 +315,35 @@
   ],
   [
    "admin/pass",
-   14420
+   14456
   ],
   [
    "root/888888",
-   13723
+   13733
   ],
   [
    "root/xmhdipc",
-   13523
+   13526
   ],
   [
    "root/hi3518",
-   13385
+   13387
   ],
   [
    "telnetadmin/telnetadmin",
-   11577
+   11740
   ],
   [
    "root/klv1234",
-   9849
+   9857
   ],
   [
    "super/PhrQjGzk",
-   8635
+   8638
   ],
   [
    "support/support",
-   8270
+   8280
   ],
   [
    "root/klv123",
@@ -346,7 +351,7 @@
   ],
   [
    "admin/plumeria0077",
-   7695
+   7697
   ],
   [
    "administrator/1234",
@@ -354,24 +359,24 @@
   ],
   [
    "root/",
-   6825
+   6879
   ],
   [
    "Administrator/admin",
-   6699
+   6726
   ],
   [
    "admin/1111111",
-   6559
+   6658
   ],
   [
    "root/password",
-   6095
+   6094
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 241,
-  "distinct_credentials": 2120,
+  "distinct_credentials": 2116,
   "distinct_payload_urls": 364,
   "events": 5215875,
   "new_sources": 1761,

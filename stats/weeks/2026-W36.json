@@ -26,7 +26,7 @@
   "delivered_sample": 101,
   "fetched_payload": 278,
   "ran_commands": 1041,
-  "returned": 891,
+  "returned": 892,
   "tried_creds": 1072
  },
  "samples": [
@@ -59,11 +59,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   60
+   61
   ],
   [
    "Huawei HG gateway",
-   53
+   52
   ],
   [
    "DrayTek router",
@@ -152,6 +152,10 @@
    16
   ],
   [
+   "27.215.213.36",
+   16
+  ],
+  [
    "27.215.49.38",
    16
   ],
@@ -204,10 +208,6 @@
    3
   ],
   [
-   "27.215.213.36",
-   3
-  ],
-  [
    "87.68.238.101",
    3
   ],
@@ -223,23 +223,23 @@
  "top_credentials": [
   [
    "admin/admin",
-   34866
+   34868
   ],
   [
    "root/kopp",
-   17190
+   17196
   ],
   [
    "root/xc3511",
-   15568
+   15583
+  ],
+  [
+   "admin/pass",
+   14219
   ],
   [
    "root/Zte521",
    14197
-  ],
-  [
-   "admin/pass",
-   14185
   ],
   [
    "admin/88888888",
@@ -247,19 +247,19 @@
   ],
   [
    "admin/smcadmin",
-   10125
+   10134
   ],
   [
    "root/admin",
-   9981
+   9982
   ],
   [
    "root/klv1234",
-   7565
+   7569
   ],
   [
    "666666/666666",
-   6956
+   6970
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6249
+   6244
   ],
   [
    "administrator/",
@@ -278,32 +278,32 @@
    5750
   ],
   [
+   "CUAdmin/CUAdmin",
+   5590
+  ],
+  [
    "telnetadmin/telnetadmin",
    5586
   ],
   [
-   "CUAdmin/CUAdmin",
-   5577
-  ],
-  [
    "root/root",
-   5457
+   5465
   ],
   [
    "root/1234",
-   5064
+   5067
   ],
   [
    "super/xJ4pCYeW",
-   4973
+   4974
   ],
   [
    "root/password",
-   4968
+   4969
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4904
+   4907
   ],
   [
    "root/bluehorse",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4615
+   4599
   ],
   [
    "root/12341234",
