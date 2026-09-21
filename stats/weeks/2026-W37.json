@@ -42,11 +42,11 @@
   }
  ],
  "funnel": {
-  "connected": 1966,
+  "connected": 1965,
   "delivered_sample": 96,
   "fetched_payload": 183,
   "ran_commands": 689,
-  "returned": 1014,
+  "returned": 1017,
   "tried_creds": 706
  },
  "samples": [
@@ -118,7 +118,7 @@
   ],
   [
    "DrayTek router",
-   61
+   60
   ],
   [
    "firmware backdoor account",
@@ -167,6 +167,10 @@
  ],
  "top_c2_hosts": [
   [
+   "115.50.202.112",
+   16
+  ],
+  [
    "115.57.215.207",
    16
   ],
@@ -205,10 +209,6 @@
   [
    "95.155.243.196",
    16
-  ],
-  [
-   "115.50.202.112",
-   15
   ],
   [
    "202.166.165.60",
@@ -270,15 +270,15 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   67085
+   68319
   ],
   [
    "admin/v2mprt",
-   44189
+   44989
   ],
   [
    "admin/admin",
-   42803
+   42812
   ],
   [
    "administrator/",
@@ -286,59 +286,59 @@
   ],
   [
    "root/root",
-   29734
+   29844
   ],
   [
    "root/Zte521",
-   25620
+   25632
   ],
   [
    "CUAdmin/CUAdmin",
-   18645
+   18665
   ],
   [
    "admin/meinsm",
-   18129
+   18163
   ],
   [
    "root/xc3511",
-   18020
+   18036
   ],
   [
    "root/1234",
-   16190
+   16191
   ],
   [
    "admin/pass",
-   14314
+   14366
   ],
   [
    "root/888888",
-   13676
+   13687
   ],
   [
    "root/xmhdipc",
-   13509
+   13525
   ],
   [
    "root/hi3518",
-   13376
+   13379
   ],
   [
    "telnetadmin/telnetadmin",
-   10957
+   11225
   ],
   [
    "root/klv1234",
-   9839
+   9842
   ],
   [
    "super/PhrQjGzk",
-   8633
+   8634
   ],
   [
    "support/support",
-   8243
+   8251
   ],
   [
    "root/klv123",
@@ -346,37 +346,37 @@
   ],
   [
    "admin/plumeria0077",
-   7689
+   7690
   ],
   [
    "administrator/1234",
    7064
   ],
   [
-   "Administrator/admin",
-   6718
+   "root/",
+   6751
   ],
   [
-   "root/",
-   6706
+   "Administrator/admin",
+   6720
   ],
   [
    "admin/1111111",
-   6280
+   6382
   ],
   [
    "root/password",
-   6090
+   6091
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 240,
-  "distinct_credentials": 2044,
+  "distinct_credentials": 2075,
   "distinct_payload_urls": 360,
-  "events": 5215881,
-  "new_sources": 1763,
+  "events": 5215879,
+  "new_sources": 1762,
   "shared_c2_hosts": 76,
-  "sources": 1966
+  "sources": 1965
  },
  "window": {
   "days": 6,

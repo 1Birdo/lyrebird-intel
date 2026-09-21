@@ -1,0 +1,268 @@
+{
+ "cves": [],
+ "funnel": {
+  "connected": 35,
+  "fetched_payload": 27,
+  "ran_commands": 31,
+  "returned": 34,
+  "tried_creds": 34
+ },
+ "samples": [],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   25
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   23
+  ],
+  [
+   "Huawei HG gateway",
+   20
+  ],
+  [
+   "ZTE CPE",
+   19
+  ],
+  [
+   "DrayTek router",
+   18
+  ],
+  [
+   "firmware backdoor account",
+   12
+  ],
+  [
+   "ISP-branded DSL gateway",
+   11
+  ],
+  [
+   "SMC Networks CPE",
+   8
+  ],
+  [
+   "IoT OEM default account",
+   7
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "109.236.44.237",
+   2
+  ],
+  [
+   "115.55.244.189",
+   2
+  ],
+  [
+   "119.116.237.187",
+   2
+  ],
+  [
+   "100.1.78.110",
+   1
+  ],
+  [
+   "100.83.13.228",
+   1
+  ],
+  [
+   "100.83.20.186",
+   1
+  ],
+  [
+   "102.53.211.127",
+   1
+  ],
+  [
+   "103.172.186.195",
+   1
+  ],
+  [
+   "103.249.199.3",
+   1
+  ],
+  [
+   "103.82.120.148",
+   1
+  ],
+  [
+   "103.82.121.141",
+   1
+  ],
+  [
+   "105.184.35.190",
+   1
+  ],
+  [
+   "105.224.111.111",
+   1
+  ],
+  [
+   "108.59.215.252",
+   1
+  ],
+  [
+   "110.136.235.240",
+   1
+  ],
+  [
+   "113.228.149.83",
+   1
+  ],
+  [
+   "115.199.196.35",
+   1
+  ],
+  [
+   "115.201.178.194",
+   1
+  ],
+  [
+   "115.48.24.224",
+   1
+  ],
+  [
+   "115.49.78.195",
+   1
+  ],
+  [
+   "115.50.202.112",
+   1
+  ],
+  [
+   "115.55.201.246",
+   1
+  ],
+  [
+   "115.55.252.148",
+   1
+  ],
+  [
+   "115.55.46.41",
+   1
+  ],
+  [
+   "115.56.170.234",
+   1
+  ]
+ ],
+ "top_credentials": [
+  [
+   "admin/v2mprt",
+   84773
+  ],
+  [
+   "rapport/r@p8p0r+",
+   68217
+  ],
+  [
+   "admin/meinsm",
+   39141
+  ],
+  [
+   "root/root",
+   28084
+  ],
+  [
+   "telnet/telnet",
+   20146
+  ],
+  [
+   "root/Zte521",
+   10737
+  ],
+  [
+   "admin/plumeria0077",
+   9862
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   8644
+  ],
+  [
+   "root/Pon521",
+   8107
+  ],
+  [
+   "root/xc3511",
+   5977
+  ],
+  [
+   "telnetadmin/telnetadmin",
+   5642
+  ],
+  [
+   "admin/admin",
+   4902
+  ],
+  [
+   "admin/1111111",
+   4824
+  ],
+  [
+   "support/support",
+   3917
+  ],
+  [
+   "root/e2008jl",
+   3332
+  ],
+  [
+   "root/samsung",
+   2866
+  ],
+  [
+   "admin/bayandsl",
+   2630
+  ],
+  [
+   "supervisor/zyad1234",
+   2308
+  ],
+  [
+   "root/gpon",
+   2179
+  ],
+  [
+   "admin/CenturyL1nk",
+   1864
+  ],
+  [
+   "admin/qwerty",
+   1791
+  ],
+  [
+   "root/",
+   1741
+  ],
+  [
+   "root/hi3518",
+   1538
+  ],
+  [
+   "guest/123456",
+   1511
+  ],
+  [
+   "root/1234horses",
+   1427
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 114,
+  "distinct_credentials": 286,
+  "distinct_payload_urls": 158,
+  "events": 14043,
+  "new_sources": 2,
+  "shared_c2_hosts": 3,
+  "sources": 35
+ },
+ "window": {
+  "days": 1,
+  "first_day": "2026-09-21",
+  "last_day": "2026-09-21",
+  "week": "2026-W39"
+ }
+}

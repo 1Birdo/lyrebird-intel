@@ -26,7 +26,7 @@
   "delivered_sample": 101,
   "fetched_payload": 278,
   "ran_commands": 1041,
-  "returned": 888,
+  "returned": 890,
   "tried_creds": 1072
  },
  "samples": [
@@ -67,11 +67,7 @@
   ],
   [
    "DrayTek router",
-   40
-  ],
-  [
-   "ISP-branded DSL gateway",
-   27
+   41
   ],
   [
    "SMC Networks CPE",
@@ -80,6 +76,10 @@
   [
    "firmware backdoor account",
    27
+  ],
+  [
+   "ISP-branded DSL gateway",
+   26
   ],
   [
    "IoT OEM default account",
@@ -124,6 +124,10 @@
    98
   ],
   [
+   "115.50.202.112",
+   16
+  ],
+  [
    "115.57.215.207",
    16
   ],
@@ -162,10 +166,6 @@
   [
    "95.155.243.196",
    16
-  ],
-  [
-   "115.50.202.112",
-   15
   ],
   [
    "202.166.165.60",
@@ -223,15 +223,15 @@
  "top_credentials": [
   [
    "admin/admin",
-   34858
+   34862
   ],
   [
    "root/kopp",
-   17165
+   17171
   ],
   [
    "root/xc3511",
-   15520
+   15535
   ],
   [
    "root/Zte521",
@@ -239,7 +239,7 @@
   ],
   [
    "admin/pass",
-   14081
+   14133
   ],
   [
    "admin/88888888",
@@ -247,19 +247,19 @@
   ],
   [
    "admin/smcadmin",
-   10081
+   10097
   ],
   [
    "root/admin",
-   9978
+   9980
   ],
   [
    "root/klv1234",
-   7562
+   7563
   ],
   [
    "666666/666666",
-   6936
+   6947
   ],
   [
    "root/hi3518",
@@ -283,15 +283,15 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5520
+   5539
   ],
   [
    "root/root",
-   5429
+   5438
   ],
   [
    "root/1234",
-   5066
+   5084
   ],
   [
    "super/xJ4pCYeW",
@@ -299,11 +299,11 @@
   ],
   [
    "root/password",
-   4966
+   4968
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4893
+   4896
   ],
   [
    "root/bluehorse",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4600
+   4614
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 146,
-  "distinct_credentials": 2667,
+  "distinct_credentials": 2725,
   "distinct_payload_urls": 208,
   "events": 4309548,
   "new_sources": 1685,
