@@ -26,7 +26,7 @@
   "delivered_sample": 101,
   "fetched_payload": 278,
   "ran_commands": 1041,
-  "returned": 890,
+  "returned": 891,
   "tried_creds": 1072
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,11 +63,15 @@
   ],
   [
    "Huawei HG gateway",
-   52
+   53
   ],
   [
    "DrayTek router",
    40
+  ],
+  [
+   "ISP-branded DSL gateway",
+   27
   ],
   [
    "SMC Networks CPE",
@@ -76,10 +80,6 @@
   [
    "firmware backdoor account",
    27
-  ],
-  [
-   "ISP-branded DSL gateway",
-   26
   ],
   [
    "IoT OEM default account",
@@ -176,6 +176,10 @@
    13
   ],
   [
+   "112.198.195.68",
+   12
+  ],
+  [
    "115.48.24.224",
    10
   ],
@@ -200,6 +204,10 @@
    3
   ],
   [
+   "27.215.213.36",
+   3
+  ],
+  [
    "87.68.238.101",
    3
   ],
@@ -210,36 +218,28 @@
   [
    "102.33.29.92",
    2
-  ],
-  [
-   "123.9.80.85",
-   2
-  ],
-  [
-   "151.241.154.172",
-   2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   34863
+   34866
   ],
   [
    "root/kopp",
-   17180
+   17190
   ],
   [
    "root/xc3511",
-   15549
+   15568
   ],
   [
    "root/Zte521",
-   14186
+   14197
   ],
   [
    "admin/pass",
-   14158
+   14185
   ],
   [
    "admin/88888888",
@@ -247,19 +247,19 @@
   ],
   [
    "admin/smcadmin",
-   10113
+   10125
   ],
   [
    "root/admin",
-   9980
+   9981
   ],
   [
    "root/klv1234",
-   7564
+   7565
   ],
   [
    "666666/666666",
-   6964
+   6956
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6238
+   6249
   ],
   [
    "administrator/",
@@ -283,19 +283,19 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5558
+   5577
   ],
   [
    "root/root",
-   5448
+   5457
   ],
   [
    "root/1234",
-   5058
+   5064
   ],
   [
    "super/xJ4pCYeW",
-   4972
+   4973
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4898
+   4904
   ],
   [
    "root/bluehorse",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4599
+   4615
   ],
   [
    "root/12341234",
@@ -323,12 +323,12 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 146,
-  "distinct_credentials": 2733,
-  "distinct_payload_urls": 208,
+  "distinct_c2_hosts": 148,
+  "distinct_credentials": 2749,
+  "distinct_payload_urls": 212,
   "events": 4309546,
   "new_sources": 1684,
-  "shared_c2_hosts": 43,
+  "shared_c2_hosts": 46,
   "sources": 1684
  },
  "window": {
