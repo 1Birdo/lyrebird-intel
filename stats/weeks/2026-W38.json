@@ -51,10 +51,10 @@
  ],
  "funnel": {
   "connected": 3518,
-  "delivered_sample": 157,
+  "delivered_sample": 159,
   "fetched_payload": 205,
-  "ran_commands": 1162,
-  "returned": 1754,
+  "ran_commands": 1163,
+  "returned": 1760,
   "tried_creds": 1431
  },
  "samples": [
@@ -126,11 +126,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   170
+   172
   ],
   [
    "DVR / IP camera (OEM default)",
-   160
+   159
   ],
   [
    "ZTE CPE",
@@ -142,7 +142,7 @@
   ],
   [
    "DrayTek router",
-   86
+   87
   ],
   [
    "ISP-branded DSL gateway",
@@ -150,11 +150,11 @@
   ],
   [
    "firmware backdoor account",
-   67
+   64
   ],
   [
    "IoT OEM default account",
-   61
+   62
   ],
   [
    "SMC Networks CPE",
@@ -185,11 +185,11 @@
    4
   ],
   [
-   "WordPress",
-   3
+   "Apache Tomcat / Struts",
+   2
   ],
   [
-   "Apache Tomcat / Struts",
+   "WordPress",
    2
   ],
   [
@@ -287,26 +287,26 @@
    7
   ],
   [
+   "219.156.62.20",
+   7
+  ],
+  [
    "220.115.58.37",
    7
   ],
   [
    "27.106.150.104",
    7
-  ],
-  [
-   "100.83.55.92",
-   5
   ]
  ],
  "top_credentials": [
   [
    "admin/v2mprt",
-   88576
+   89016
   ],
   [
    "rapport/r@p8p0r+",
-   72674
+   73520
   ],
   [
    "administrator/",
@@ -314,100 +314,100 @@
   ],
   [
    "admin/meinsm",
-   62410
+   62456
   ],
   [
    "root/xc3511",
-   53968
+   54368
   ],
   [
    "root/Zte521",
-   49289
+   50924
   ],
   [
    "telnet/telnet",
-   38907
+   38920
   ],
   [
    "root/root",
-   32159
+   32288
   ],
   [
    "default/default",
-   29604
-  ],
-  [
-   "admin/adminpass",
-   24704
-  ],
-  [
-   "root/ikwb",
-   23606
+   29609
   ],
   [
    "CUAdmin/CUAdmin",
-   23435
+   24998
+  ],
+  [
+   "admin/adminpass",
+   24720
+  ],
+  [
+   "root/ikwb",
+   23614
   ],
   [
    "admin/admin",
-   19044
+   19079
   ],
   [
    "tech/tech",
-   17667
+   17686
   ],
   [
    "root/xmhdipc",
-   16755
-  ],
-  [
-   "root/7ujMko0admin",
-   16255
+   16774
   ],
   [
    "root/1234",
-   16254
+   16296
+  ],
+  [
+   "root/7ujMko0admin",
+   16256
   ],
   [
    "admin/pass",
-   15444
+   15468
   ],
   [
    "root/888888",
-   13824
+   13854
   ],
   [
    "ubnt/ubnt",
-   13722
+   13635
   ],
   [
    "root/kopp",
-   12544
+   12626
   ],
   [
    "support/support",
-   12261
+   12383
   ],
   [
    "telnetadmin/telnetadmin",
-   12159
+   12326
   ],
   [
    "admin/plumeria0077",
-   11682
+   11685
   ],
   [
    "!!Huawei/@HuaweiHgw",
-   10831
+   10886
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 363,
-  "distinct_credentials": 2906,
-  "distinct_payload_urls": 546,
+  "distinct_c2_hosts": 365,
+  "distinct_credentials": 2932,
+  "distinct_payload_urls": 552,
   "events": 14261155,
   "new_sources": 3093,
-  "shared_c2_hosts": 113,
+  "shared_c2_hosts": 114,
   "sources": 3518
  },
  "window": {
