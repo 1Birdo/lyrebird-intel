@@ -25,8 +25,8 @@
   "connected": 1684,
   "delivered_sample": 103,
   "fetched_payload": 278,
-  "ran_commands": 1043,
-  "returned": 897,
+  "ran_commands": 1045,
+  "returned": 899,
   "tried_creds": 1072
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   134
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,15 +63,15 @@
   ],
   [
    "Huawei HG gateway",
-   53
+   52
   ],
   [
    "DrayTek router",
-   40
+   39
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   28
   ],
   [
    "SMC Networks CPE",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   23
+   22
   ],
   [
    "WordPress",
@@ -223,15 +223,15 @@
  "top_credentials": [
   [
    "admin/admin",
-   34893
+   34896
   ],
   [
    "root/kopp",
-   17215
+   17213
   ],
   [
    "root/xc3511",
-   15617
+   15619
   ],
   [
    "admin/pass",
@@ -239,7 +239,7 @@
   ],
   [
    "root/Zte521",
-   14191
+   14199
   ],
   [
    "admin/88888888",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   9988
+   9993
   ],
   [
    "root/klv1234",
@@ -259,15 +259,15 @@
   ],
   [
    "666666/666666",
-   6991
+   6985
   ],
   [
    "root/hi3518",
-   6391
+   6394
   ],
   [
    "root/Pon521",
-   6246
+   6259
   ],
   [
    "administrator/",
@@ -287,11 +287,11 @@
   ],
   [
    "root/root",
-   5494
+   5496
   ],
   [
    "root/1234",
-   5084
+   5076
   ],
   [
    "super/xJ4pCYeW",
@@ -299,32 +299,32 @@
   ],
   [
    "root/password",
-   4974
+   4976
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4946
-  ],
-  [
-   "super/PhrQjGzk",
-   4772
+   4951
   ],
   [
    "root/bluehorse",
    4747
   ],
   [
+   "super/PhrQjGzk",
+   4733
+  ],
+  [
    "admin/v2mprt",
-   4615
+   4613
   ],
   [
    "root/12341234",
-   4384
+   4387
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2806,
+  "distinct_credentials": 2801,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

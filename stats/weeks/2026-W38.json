@@ -54,7 +54,7 @@
   "delivered_sample": 161,
   "fetched_payload": 206,
   "ran_commands": 1171,
-  "returned": 1783,
+  "returned": 1788,
   "tried_creds": 1433
  },
  "samples": [
@@ -135,7 +135,7 @@
   ],
   [
    "ZTE CPE",
-   111
+   112
   ],
   [
    "Huawei HG gateway",
@@ -159,7 +159,7 @@
   ],
   [
    "SMC Networks CPE",
-   50
+   49
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90920
+   90929
   ],
   [
    "rapport/r@p8p0r+",
-   77327
+   77321
   ],
   [
    "administrator/",
@@ -315,67 +315,67 @@
   ],
   [
    "admin/meinsm",
-   62620
+   62645
   ],
   [
    "root/xc3511",
-   55400
+   55541
   ],
   [
    "root/Zte521",
-   54377
+   54578
   ],
   [
    "telnet/telnet",
-   38935
+   38937
   ],
   [
    "root/root",
-   32752
+   32878
   ],
   [
    "default/default",
-   29620
+   29621
   ],
   [
    "CUAdmin/CUAdmin",
-   25803
+   25819
   ],
   [
    "admin/adminpass",
-   24684
+   24686
   ],
   [
    "root/ikwb",
-   23635
+   23642
   ],
   [
    "admin/admin",
-   19216
+   19237
   ],
   [
    "tech/tech",
-   17721
+   17725
   ],
   [
    "root/xmhdipc",
-   16943
+   16952
   ],
   [
    "root/1234",
-   16529
+   16567
   ],
   [
    "root/7ujMko0admin",
-   16286
+   16289
   ],
   [
    "admin/pass",
-   15354
+   15357
   ],
   [
    "root/888888",
-   13906
+   13912
   ],
   [
    "ubnt/ubnt",
@@ -383,29 +383,29 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13171
+   13190
   ],
   [
    "root/kopp",
-   12985
+   13038
   ],
   [
    "support/support",
-   12490
+   12514
   ],
   [
    "admin/plumeria0077",
-   11683
+   11684
   ],
   [
    "root/e2008jl",
-   11524
+   11674
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 379,
-  "distinct_credentials": 3064,
-  "distinct_payload_urls": 575,
+  "distinct_c2_hosts": 382,
+  "distinct_credentials": 3095,
+  "distinct_payload_urls": 577,
   "events": 14261153,
   "new_sources": 3092,
   "shared_c2_hosts": 117,
