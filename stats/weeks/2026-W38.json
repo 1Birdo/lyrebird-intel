@@ -53,8 +53,8 @@
   "connected": 3517,
   "delivered_sample": 161,
   "fetched_payload": 206,
-  "ran_commands": 1169,
-  "returned": 1778,
+  "ran_commands": 1171,
+  "returned": 1783,
   "tried_creds": 1433
  },
  "samples": [
@@ -127,7 +127,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   172
+   173
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -147,11 +147,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   72
+   71
   ],
   [
    "firmware backdoor account",
-   64
+   67
   ],
   [
    "IoT OEM default account",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90675
+   90920
   ],
   [
    "rapport/r@p8p0r+",
-   76888
+   77327
   ],
   [
    "administrator/",
@@ -315,67 +315,67 @@
   ],
   [
    "admin/meinsm",
-   62596
+   62620
   ],
   [
    "root/xc3511",
-   55252
+   55400
   ],
   [
    "root/Zte521",
-   54230
+   54377
   ],
   [
    "telnet/telnet",
-   38928
+   38935
   ],
   [
    "root/root",
-   32653
+   32752
   ],
   [
    "default/default",
-   29619
+   29620
   ],
   [
    "CUAdmin/CUAdmin",
-   25672
+   25803
   ],
   [
    "admin/adminpass",
-   24704
+   24684
   ],
   [
    "root/ikwb",
-   23628
+   23635
   ],
   [
    "admin/admin",
-   19188
+   19216
   ],
   [
    "tech/tech",
-   17716
+   17721
   ],
   [
    "root/xmhdipc",
-   16902
+   16943
   ],
   [
    "root/1234",
-   16496
+   16529
   ],
   [
    "root/7ujMko0admin",
-   16284
+   16286
   ],
   [
    "admin/pass",
-   15364
+   15354
   ],
   [
    "root/888888",
-   13904
+   13906
   ],
   [
    "ubnt/ubnt",
@@ -383,29 +383,29 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13056
+   13171
   ],
   [
    "root/kopp",
-   12924
+   12985
   ],
   [
    "support/support",
-   12461
+   12490
   ],
   [
    "admin/plumeria0077",
-   11682
+   11683
   ],
   [
    "root/e2008jl",
-   11292
+   11524
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 376,
-  "distinct_credentials": 3084,
-  "distinct_payload_urls": 568,
+  "distinct_c2_hosts": 379,
+  "distinct_credentials": 3064,
+  "distinct_payload_urls": 575,
   "events": 14261153,
   "new_sources": 3092,
   "shared_c2_hosts": 117,

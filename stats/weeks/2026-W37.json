@@ -49,8 +49,8 @@
   "connected": 1964,
   "delivered_sample": 98,
   "fetched_payload": 183,
-  "ran_commands": 696,
-  "returned": 1063,
+  "ran_commands": 698,
+  "returned": 1067,
   "tried_creds": 706
  },
  "samples": [
@@ -109,7 +109,7 @@
  "targets": [
   [
    "ZTE CPE",
-   141
+   140
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -121,19 +121,19 @@
   ],
   [
    "Huawei HG gateway",
-   72
+   73
   ],
   [
    "DrayTek router",
-   60
+   59
   ],
   [
    "firmware backdoor account",
-   45
+   47
   ],
   [
    "ISP-branded DSL gateway",
-   39
+   38
   ],
   [
    "IoT OEM default account",
@@ -277,15 +277,15 @@
  "top_credentials": [
   [
    "rapport/r@p8p0r+",
-   76446
+   76906
   ],
   [
    "admin/v2mprt",
-   49136
+   49382
   ],
   [
    "admin/admin",
-   42863
+   42870
   ],
   [
    "administrator/",
@@ -293,31 +293,31 @@
   ],
   [
    "root/root",
-   30554
+   30619
   ],
   [
    "root/Zte521",
-   25697
+   25692
   ],
   [
    "CUAdmin/CUAdmin",
-   18744
+   18746
   ],
   [
    "admin/meinsm",
-   18415
+   18432
   ],
   [
    "root/xc3511",
-   18140
+   18149
   ],
   [
    "root/1234",
-   16199
+   16191
   ],
   [
    "admin/pass",
-   14506
+   14510
   ],
   [
    "root/888888",
@@ -325,7 +325,7 @@
   ],
   [
    "root/xmhdipc",
-   13540
+   13548
   ],
   [
    "root/hi3518",
@@ -333,7 +333,7 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12608
+   12697
   ],
   [
    "root/klv1234",
@@ -341,11 +341,11 @@
   ],
   [
    "super/PhrQjGzk",
-   8611
+   8651
   ],
   [
    "support/support",
-   8327
+   8335
   ],
   [
    "root/klv123",
@@ -357,19 +357,19 @@
   ],
   [
    "root/",
-   7196
+   7238
   ],
   [
    "admin/1111111",
-   7073
+   7137
   ],
   [
    "administrator/1234",
-   7066
+   7068
   ],
   [
    "root/e2008jl",
-   6950
+   7040
   ],
   [
    "Administrator/admin",
@@ -378,7 +378,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 243,
-  "distinct_credentials": 2221,
+  "distinct_credentials": 2224,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,
