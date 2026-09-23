@@ -50,11 +50,11 @@
   }
  ],
  "funnel": {
-  "connected": 3518,
-  "delivered_sample": 159,
+  "connected": 3517,
+  "delivered_sample": 160,
   "fetched_payload": 205,
   "ran_commands": 1167,
-  "returned": 1769,
+  "returned": 1777,
   "tried_creds": 1432
  },
  "samples": [
@@ -138,15 +138,15 @@
   ],
   [
    "Huawei HG gateway",
-   109
+   108
   ],
   [
    "DrayTek router",
-   89
+   88
   ],
   [
    "ISP-branded DSL gateway",
-   72
+   70
   ],
   [
    "firmware backdoor account",
@@ -154,7 +154,7 @@
   ],
   [
    "IoT OEM default account",
-   63
+   64
   ],
   [
    "SMC Networks CPE",
@@ -302,11 +302,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   89847
+   90261
   ],
   [
    "rapport/r@p8p0r+",
-   75089
+   75974
   ],
   [
    "administrator/",
@@ -314,101 +314,101 @@
   ],
   [
    "admin/meinsm",
-   62547
+   62532
   ],
   [
    "root/xc3511",
-   54899
+   55109
   ],
   [
    "root/Zte521",
-   53026
+   53821
   ],
   [
    "telnet/telnet",
-   38921
+   38923
   ],
   [
    "root/root",
-   32476
+   32556
   ],
   [
    "default/default",
-   29618
+   29619
   ],
   [
    "CUAdmin/CUAdmin",
-   25629
+   25652
   ],
   [
    "admin/adminpass",
-   24680
+   24702
   ],
   [
    "root/ikwb",
-   23615
+   23619
   ],
   [
    "admin/admin",
-   19138
+   19159
   ],
   [
    "tech/tech",
-   17698
+   17704
   ],
   [
    "root/xmhdipc",
-   16831
+   16872
   ],
   [
    "root/1234",
-   16423
+   16464
   ],
   [
    "root/7ujMko0admin",
-   16275
+   16281
   ],
   [
    "admin/pass",
-   15366
+   15344
   ],
   [
    "root/888888",
-   13886
+   13896
   ],
   [
    "ubnt/ubnt",
    13636
   ],
   [
-   "root/kopp",
-   12769
+   "telnetadmin/telnetadmin",
+   12898
   ],
   [
-   "telnetadmin/telnetadmin",
-   12700
+   "root/kopp",
+   12847
   ],
   [
    "support/support",
-   12490
+   12533
   ],
   [
    "admin/plumeria0077",
-   11678
+   11681
   ],
   [
    "!!Huawei/@HuaweiHgw",
-   10950
+   10961
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 370,
-  "distinct_credentials": 2969,
-  "distinct_payload_urls": 562,
-  "events": 14261155,
-  "new_sources": 3093,
-  "shared_c2_hosts": 115,
-  "sources": 3518
+  "distinct_c2_hosts": 373,
+  "distinct_credentials": 3050,
+  "distinct_payload_urls": 565,
+  "events": 14261153,
+  "new_sources": 3092,
+  "shared_c2_hosts": 116,
+  "sources": 3517
  },
  "window": {
   "days": 7,

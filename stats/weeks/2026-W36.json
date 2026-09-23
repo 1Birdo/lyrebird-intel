@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   134
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -223,15 +223,15 @@
  "top_credentials": [
   [
    "admin/admin",
-   34883
+   34889
   ],
   [
    "root/kopp",
-   17215
+   17213
   ],
   [
    "root/xc3511",
-   15613
+   15615
   ],
   [
    "admin/pass",
@@ -239,7 +239,7 @@
   ],
   [
    "root/Zte521",
-   14191
+   14199
   ],
   [
    "admin/88888888",
@@ -251,23 +251,23 @@
   ],
   [
    "root/admin",
-   9985
+   9989
   ],
   [
    "root/klv1234",
-   7574
+   7575
   ],
   [
    "666666/666666",
-   6991
+   6983
   ],
   [
    "root/hi3518",
-   6394
+   6391
   ],
   [
    "root/Pon521",
-   6241
+   6254
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5607
+   5611
   ],
   [
    "telnetadmin/telnetadmin",
@@ -287,11 +287,11 @@
   ],
   [
    "root/root",
-   5487
+   5490
   ],
   [
    "root/1234",
-   5061
+   5068
   ],
   [
    "super/xJ4pCYeW",
@@ -299,11 +299,11 @@
   ],
   [
    "root/password",
-   4970
+   4973
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4931
+   4933
   ],
   [
    "root/bluehorse",
@@ -319,12 +319,12 @@
   ],
   [
    "root/12341234",
-   4384
+   4387
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2803,
+  "distinct_credentials": 2795,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
