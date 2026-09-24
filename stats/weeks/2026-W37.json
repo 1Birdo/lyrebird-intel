@@ -49,8 +49,8 @@
   "connected": 1964,
   "delivered_sample": 99,
   "fetched_payload": 183,
-  "ran_commands": 699,
-  "returned": 1071,
+  "ran_commands": 701,
+  "returned": 1074,
   "tried_creds": 706
  },
  "samples": [
@@ -129,11 +129,11 @@
   ],
   [
    "firmware backdoor account",
-   46
+   45
   ],
   [
    "ISP-branded DSL gateway",
-   39
+   38
   ],
   [
    "IoT OEM default account",
@@ -285,7 +285,7 @@
   ],
   [
    "admin/admin",
-   42880
+   42887
   ],
   [
    "administrator/",
@@ -293,27 +293,27 @@
   ],
   [
    "root/root",
-   30727
+   30790
   ],
   [
    "root/Zte521",
-   25711
+   25720
   ],
   [
    "CUAdmin/CUAdmin",
-   18747
+   18748
   ],
   [
    "admin/meinsm",
-   18462
+   18428
   ],
   [
    "root/xc3511",
-   18157
+   18162
   ],
   [
    "root/1234",
-   16199
+   16201
   ],
   [
    "admin/pass",
@@ -325,7 +325,7 @@
   ],
   [
    "root/xmhdipc",
-   13551
+   13544
   ],
   [
    "root/hi3518",
@@ -333,19 +333,19 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12709
+   12717
   ],
   [
    "root/klv1234",
-   9873
+   9874
   ],
   [
    "super/PhrQjGzk",
-   8612
+   8613
   ],
   [
    "support/support",
-   8351
+   8360
   ],
   [
    "root/klv123",
@@ -357,15 +357,15 @@
   ],
   [
    "root/",
-   7322
+   7383
   ],
   [
    "admin/1111111",
-   7267
+   7308
   ],
   [
    "root/e2008jl",
-   7087
+   7115
   ],
   [
    "administrator/1234",
@@ -373,12 +373,12 @@
   ],
   [
    "Administrator/admin",
-   6711
+   6735
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 245,
-  "distinct_credentials": 2224,
+  "distinct_c2_hosts": 246,
+  "distinct_credentials": 2228,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,

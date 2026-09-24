@@ -23,10 +23,10 @@
  ],
  "funnel": {
   "connected": 1684,
-  "delivered_sample": 103,
+  "delivered_sample": 104,
   "fetched_payload": 278,
-  "ran_commands": 1045,
-  "returned": 900,
+  "ran_commands": 1046,
+  "returned": 904,
   "tried_creds": 1072
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   135
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -67,7 +67,7 @@
   ],
   [
    "DrayTek router",
-   40
+   39
   ],
   [
    "ISP-branded DSL gateway",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34896
+   34900
   ],
   [
    "root/kopp",
@@ -231,7 +231,7 @@
   ],
   [
    "root/xc3511",
-   15617
+   15621
   ],
   [
    "admin/pass",
@@ -251,11 +251,11 @@
   ],
   [
    "root/admin",
-   9991
+   9992
   ],
   [
    "root/klv1234",
-   7576
+   7577
   ],
   [
    "666666/666666",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6259
+   6257
   ],
   [
    "administrator/",
@@ -287,23 +287,23 @@
   ],
   [
    "root/root",
-   5494
+   5495
   ],
   [
    "root/1234",
-   5095
+   5080
   ],
   [
    "super/xJ4pCYeW",
-   4979
+   4980
   ],
   [
    "root/password",
-   4976
+   4977
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4957
+   4959
   ],
   [
    "root/bluehorse",
@@ -319,12 +319,12 @@
   ],
   [
    "root/12341234",
-   4384
+   4387
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2832,
+  "distinct_credentials": 2830,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

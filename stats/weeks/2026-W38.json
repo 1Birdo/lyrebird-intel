@@ -51,10 +51,10 @@
  ],
  "funnel": {
   "connected": 3517,
-  "delivered_sample": 162,
+  "delivered_sample": 163,
   "fetched_payload": 206,
-  "ran_commands": 1173,
-  "returned": 1796,
+  "ran_commands": 1175,
+  "returned": 1801,
   "tried_creds": 1433
  },
  "samples": [
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   62
+   64
   ],
   [
    "SMC Networks CPE",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90920
+   90921
   ],
   [
    "rapport/r@p8p0r+",
-   77324
+   77327
   ],
   [
    "administrator/",
@@ -315,31 +315,31 @@
   ],
   [
    "admin/meinsm",
-   62675
+   62696
   ],
   [
    "root/xc3511",
-   55608
+   55658
   ],
   [
    "root/Zte521",
-   54699
+   54797
   ],
   [
    "telnet/telnet",
-   38939
+   38944
   ],
   [
    "root/root",
-   32950
+   33030
   ],
   [
    "default/default",
-   29622
+   29623
   ],
   [
    "CUAdmin/CUAdmin",
-   25702
+   25713
   ],
   [
    "admin/adminpass",
@@ -347,35 +347,35 @@
   ],
   [
    "root/ikwb",
-   23644
+   23646
   ],
   [
    "admin/admin",
-   19286
+   19308
   ],
   [
    "tech/tech",
-   17730
+   17737
   ],
   [
    "root/xmhdipc",
-   16969
+   16972
   ],
   [
    "root/1234",
-   16593
+   16609
   ],
   [
    "root/7ujMko0admin",
-   16291
+   16293
   ],
   [
    "admin/pass",
-   15358
+   15522
   ],
   [
    "root/888888",
-   13920
+   13927
   ],
   [
    "ubnt/ubnt",
@@ -383,19 +383,19 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13197
+   13190
   ],
   [
    "root/kopp",
-   13106
+   13166
   ],
   [
    "support/support",
-   12535
+   12696
   ],
   [
    "root/e2008jl",
-   11804
+   11985
   ],
   [
    "admin/plumeria0077",
@@ -403,9 +403,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 384,
-  "distinct_credentials": 3094,
-  "distinct_payload_urls": 577,
+  "distinct_c2_hosts": 387,
+  "distinct_credentials": 3100,
+  "distinct_payload_urls": 580,
   "events": 14261153,
   "new_sources": 3092,
   "shared_c2_hosts": 117,
