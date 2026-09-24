@@ -50,7 +50,7 @@
   "delivered_sample": 99,
   "fetched_payload": 183,
   "ran_commands": 701,
-  "returned": 1074,
+  "returned": 1075,
   "tried_creds": 706
  },
  "samples": [
@@ -121,7 +121,7 @@
   ],
   [
    "Huawei HG gateway",
-   72
+   73
   ],
   [
    "DrayTek router",
@@ -129,7 +129,7 @@
   ],
   [
    "firmware backdoor account",
-   45
+   46
   ],
   [
    "ISP-branded DSL gateway",
@@ -285,7 +285,7 @@
   ],
   [
    "admin/admin",
-   42887
+   42891
   ],
   [
    "administrator/",
@@ -293,27 +293,27 @@
   ],
   [
    "root/root",
-   30790
+   30855
   ],
   [
    "root/Zte521",
-   25720
+   25726
   ],
   [
    "CUAdmin/CUAdmin",
-   18748
+   18749
   ],
   [
    "admin/meinsm",
-   18428
+   18438
   ],
   [
    "root/xc3511",
-   18162
+   18169
   ],
   [
    "root/1234",
-   16201
+   16202
   ],
   [
    "admin/pass",
@@ -325,27 +325,27 @@
   ],
   [
    "root/xmhdipc",
-   13544
+   13553
   ],
   [
    "root/hi3518",
-   13407
+   13408
   ],
   [
    "telnetadmin/telnetadmin",
-   12717
+   12721
   ],
   [
    "root/klv1234",
-   9874
+   9876
   ],
   [
    "super/PhrQjGzk",
-   8613
+   8614
   ],
   [
    "support/support",
-   8360
+   8367
   ],
   [
    "root/klv123",
@@ -357,15 +357,15 @@
   ],
   [
    "root/",
-   7383
+   7444
   ],
   [
    "admin/1111111",
-   7308
+   7373
   ],
   [
    "root/e2008jl",
-   7115
+   7132
   ],
   [
    "administrator/1234",
@@ -373,12 +373,12 @@
   ],
   [
    "Administrator/admin",
-   6735
+   6736
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 246,
-  "distinct_credentials": 2228,
+  "distinct_c2_hosts": 247,
+  "distinct_credentials": 2213,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,

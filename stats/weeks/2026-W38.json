@@ -53,8 +53,8 @@
   "connected": 3517,
   "delivered_sample": 163,
   "fetched_payload": 206,
-  "ran_commands": 1175,
-  "returned": 1801,
+  "ran_commands": 1177,
+  "returned": 1804,
   "tried_creds": 1433
  },
  "samples": [
@@ -135,7 +135,7 @@
   ],
   [
    "ZTE CPE",
-   112
+   111
   ],
   [
    "Huawei HG gateway",
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   64
+   62
   ],
   [
    "SMC Networks CPE",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90921
+   90920
   ],
   [
    "rapport/r@p8p0r+",
-   77327
+   77331
   ],
   [
    "administrator/",
@@ -315,31 +315,31 @@
   ],
   [
    "admin/meinsm",
-   62696
+   62716
   ],
   [
    "root/xc3511",
-   55658
+   55709
   ],
   [
    "root/Zte521",
-   54797
+   54931
   ],
   [
    "telnet/telnet",
-   38944
+   38949
   ],
   [
    "root/root",
-   33030
+   33116
   ],
   [
    "default/default",
-   29623
+   29624
   ],
   [
    "CUAdmin/CUAdmin",
-   25713
+   25720
   ],
   [
    "admin/adminpass",
@@ -347,55 +347,55 @@
   ],
   [
    "root/ikwb",
-   23646
+   23647
   ],
   [
    "admin/admin",
-   19308
+   19329
   ],
   [
    "tech/tech",
-   17737
+   17740
   ],
   [
    "root/xmhdipc",
-   16972
+   16976
   ],
   [
    "root/1234",
-   16609
+   16619
   ],
   [
    "root/7ujMko0admin",
-   16293
+   16296
   ],
   [
    "admin/pass",
-   15522
+   15538
   ],
   [
    "root/888888",
-   13927
+   13936
   ],
   [
    "ubnt/ubnt",
    13636
   ],
   [
-   "telnetadmin/telnetadmin",
-   13190
+   "root/kopp",
+   13231
   ],
   [
-   "root/kopp",
-   13166
+   "telnetadmin/telnetadmin",
+   13225
   ],
   [
    "support/support",
-   12696
+   12577
   ],
   [
    "root/e2008jl",
-   11985
+   12088
   ],
   [
    "admin/plumeria0077",
@@ -403,9 +403,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 387,
-  "distinct_credentials": 3100,
-  "distinct_payload_urls": 580,
+  "distinct_c2_hosts": 388,
+  "distinct_credentials": 3106,
+  "distinct_payload_urls": 581,
   "events": 14261153,
   "new_sources": 3092,
   "shared_c2_hosts": 117,

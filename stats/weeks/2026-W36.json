@@ -26,8 +26,8 @@
   "delivered_sample": 104,
   "fetched_payload": 278,
   "ran_commands": 1046,
-  "returned": 904,
-  "tried_creds": 1072
+  "returned": 906,
+  "tried_creds": 1073
  },
  "samples": [
   "016375769c3c8028456603a5e78a2305b4617304a001fcbdd2001330d135bef2",
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,7 +63,7 @@
   ],
   [
    "Huawei HG gateway",
-   52
+   53
   ],
   [
    "DrayTek router",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34900
+   34902
   ],
   [
    "root/kopp",
@@ -231,7 +231,7 @@
   ],
   [
    "root/xc3511",
-   15621
+   15616
   ],
   [
    "admin/pass",
@@ -259,7 +259,7 @@
   ],
   [
    "666666/666666",
-   6985
+   6983
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6257
+   6261
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5614
+   5613
   ],
   [
    "telnetadmin/telnetadmin",
@@ -291,7 +291,7 @@
   ],
   [
    "root/1234",
-   5080
+   5074
   ],
   [
    "super/xJ4pCYeW",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4959
+   4960
   ],
   [
    "root/bluehorse",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4613
+   4615
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2830,
+  "distinct_credentials": 2833,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
