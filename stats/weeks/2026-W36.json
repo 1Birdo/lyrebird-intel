@@ -26,7 +26,7 @@
   "delivered_sample": 103,
   "fetched_payload": 278,
   "ran_commands": 1045,
-  "returned": 899,
+  "returned": 900,
   "tried_creds": 1072
  },
  "samples": [
@@ -67,11 +67,11 @@
   ],
   [
    "DrayTek router",
-   39
+   40
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -227,11 +227,11 @@
   ],
   [
    "root/kopp",
-   17213
+   17215
   ],
   [
    "root/xc3511",
-   15619
+   15617
   ],
   [
    "admin/pass",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   9993
+   9991
   ],
   [
    "root/klv1234",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5613
+   5614
   ],
   [
    "telnetadmin/telnetadmin",
@@ -287,15 +287,15 @@
   ],
   [
    "root/root",
-   5496
+   5494
   ],
   [
    "root/1234",
-   5076
+   5095
   ],
   [
    "super/xJ4pCYeW",
-   4978
+   4979
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4951
+   4957
   ],
   [
    "root/bluehorse",
@@ -319,12 +319,12 @@
   ],
   [
    "root/12341234",
-   4387
+   4384
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2801,
+  "distinct_credentials": 2832,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
