@@ -49,8 +49,8 @@
   "connected": 1964,
   "delivered_sample": 99,
   "fetched_payload": 183,
-  "ran_commands": 701,
-  "returned": 1075,
+  "ran_commands": 702,
+  "returned": 1081,
   "tried_creds": 706
  },
  "samples": [
@@ -109,7 +109,7 @@
  "targets": [
   [
    "ZTE CPE",
-   141
+   140
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -129,7 +129,7 @@
   ],
   [
    "firmware backdoor account",
-   46
+   45
   ],
   [
    "ISP-branded DSL gateway",
@@ -285,7 +285,7 @@
   ],
   [
    "admin/admin",
-   42891
+   42898
   ],
   [
    "administrator/",
@@ -293,27 +293,27 @@
   ],
   [
    "root/root",
-   30855
+   30929
   ],
   [
    "root/Zte521",
-   25726
+   25723
   ],
   [
    "CUAdmin/CUAdmin",
-   18749
+   18750
   ],
   [
    "admin/meinsm",
-   18438
+   18492
   ],
   [
    "root/xc3511",
-   18169
+   18175
   ],
   [
    "root/1234",
-   16202
+   16199
   ],
   [
    "admin/pass",
@@ -325,27 +325,27 @@
   ],
   [
    "root/xmhdipc",
-   13553
+   13558
   ],
   [
    "root/hi3518",
-   13408
+   13409
   ],
   [
    "telnetadmin/telnetadmin",
-   12721
+   12726
   ],
   [
    "root/klv1234",
-   9876
+   9877
   ],
   [
    "super/PhrQjGzk",
-   8614
+   8616
   ],
   [
    "support/support",
-   8367
+   8376
   ],
   [
    "root/klv123",
@@ -357,28 +357,28 @@
   ],
   [
    "root/",
-   7444
+   7489
   ],
   [
    "admin/1111111",
-   7373
+   7431
   ],
   [
    "root/e2008jl",
-   7132
+   7148
   ],
   [
    "administrator/1234",
-   7071
+   7072
   ],
   [
    "Administrator/admin",
-   6736
+   6713
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2213,
+  "distinct_credentials": 2233,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,
