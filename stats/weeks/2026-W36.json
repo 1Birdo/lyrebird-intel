@@ -26,7 +26,7 @@
   "delivered_sample": 105,
   "fetched_payload": 278,
   "ran_commands": 1047,
-  "returned": 907,
+  "returned": 908,
   "tried_creds": 1073
  },
  "samples": [
@@ -67,11 +67,11 @@
   ],
   [
    "DrayTek router",
-   39
+   40
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   28
   ],
   [
    "SMC Networks CPE",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34908
+   34910
   ],
   [
    "root/kopp",
@@ -231,7 +231,7 @@
   ],
   [
    "root/xc3511",
-   15620
+   15623
   ],
   [
    "admin/pass",
@@ -239,11 +239,11 @@
   ],
   [
    "root/Zte521",
-   14191
+   14199
   ],
   [
    "admin/88888888",
-   13174
+   13163
   ],
   [
    "admin/smcadmin",
@@ -251,15 +251,15 @@
   ],
   [
    "root/admin",
-   9994
+   9991
   ],
   [
    "root/klv1234",
-   7577
+   7578
   ],
   [
    "666666/666666",
-   6991
+   6985
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6254
+   6261
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5614
+   5616
   ],
   [
    "telnetadmin/telnetadmin",
@@ -287,15 +287,15 @@
   ],
   [
    "root/root",
-   5496
+   5497
   ],
   [
    "root/1234",
-   5068
+   5094
   ],
   [
    "super/xJ4pCYeW",
-   4982
+   4983
   ],
   [
    "root/password",
@@ -303,7 +303,7 @@
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   4966
+   4972
   ],
   [
    "root/bluehorse",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4604
   ],
   [
    "root/12341234",
-   4387
+   4379
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2842,
+  "distinct_credentials": 2841,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
