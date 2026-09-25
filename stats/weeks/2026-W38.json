@@ -53,8 +53,8 @@
   "connected": 3514,
   "delivered_sample": 163,
   "fetched_payload": 206,
-  "ran_commands": 1177,
-  "returned": 1816,
+  "ran_commands": 1179,
+  "returned": 1824,
   "tried_creds": 1433
  },
  "samples": [
@@ -75,6 +75,7 @@
   "32a1c4f2d96cf0532cf1d50afb2066d64aeca4b22ad3062960ac0d05ac5bae18",
   "3797ffd6181a8922f796feca4f9e115eabee479260d94dfad0ad594a9bf224d2",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
+  "4c09956231aef80c4b49ca9cda029843641f0c453820d02ad1bef0f810d1a192",
   "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
   "53d4f2757b1782a2bf1df10d9372daf57cf98b094767f7de153590a1d5562da2",
   "5902086654eba2f50b5253f5b2bf4fa561cd6e3b7ef94be5578918e9645592af",
@@ -127,7 +128,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   173
+   174
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -147,11 +148,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   70
+   71
   ],
   [
    "firmware backdoor account",
-   67
+   66
   ],
   [
    "IoT OEM default account",
@@ -303,11 +304,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90920
+   90921
   ],
   [
    "rapport/r@p8p0r+",
-   77354
+   77356
   ],
   [
    "administrator/",
@@ -315,15 +316,15 @@
   ],
   [
    "admin/meinsm",
-   62757
+   62792
   ],
   [
    "root/xc3511",
-   55841
+   55868
   ],
   [
    "root/Zte521",
-   55218
+   55265
   ],
   [
    "telnet/telnet",
@@ -331,7 +332,7 @@
   ],
   [
    "root/root",
-   33398
+   33459
   ],
   [
    "default/default",
@@ -339,63 +340,63 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   25743
+   25747
   ],
   [
    "admin/adminpass",
-   24672
+   24690
   ],
   [
    "root/ikwb",
-   23667
+   23669
   ],
   [
    "admin/admin",
-   19411
+   19406
   ],
   [
    "tech/tech",
-   17731
+   17741
   ],
   [
    "root/xmhdipc",
-   16968
+   16971
   ],
   [
    "root/1234",
-   16652
+   16658
   ],
   [
    "root/7ujMko0admin",
-   16324
+   16327
   ],
   [
    "admin/pass",
-   15554
+   15508
   ],
   [
    "root/888888",
-   13955
+   13958
   ],
   [
    "ubnt/ubnt",
-   13636
+   13637
   ],
   [
    "root/kopp",
-   13409
+   13473
   ],
   [
    "telnetadmin/telnetadmin",
-   13242
+   13243
   ],
   [
    "support/support",
-   12631
+   12637
   ],
   [
    "root/e2008jl",
-   12472
+   12636
   ],
   [
    "admin/plumeria0077",
@@ -404,7 +405,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 390,
-  "distinct_credentials": 3146,
+  "distinct_credentials": 3191,
   "distinct_payload_urls": 586,
   "events": 14261139,
   "new_sources": 3089,

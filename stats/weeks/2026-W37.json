@@ -49,8 +49,8 @@
   "connected": 1964,
   "delivered_sample": 100,
   "fetched_payload": 183,
-  "ran_commands": 702,
-  "returned": 1086,
+  "ran_commands": 703,
+  "returned": 1088,
   "tried_creds": 706
  },
  "samples": [
@@ -68,6 +68,7 @@
   "3bba83cbf0b630d014c5b23081fac0f27fea8c6b5aeb470acfa36db606313672",
   "41d5d05ebc7d59fd1566c045e855d1e504a309ee83f6c001c53abe2c1aeb3ea1",
   "4267eea5e739cd169090994608e0a97be16847be0a23e53d2282c33550f5a031",
+  "4c09956231aef80c4b49ca9cda029843641f0c453820d02ad1bef0f810d1a192",
   "4eb19048d5442ede28d747f07496d5401462f36938963093b38b949187e4cb98",
   "55a6247650a59791da551c3054caa28bbb8bdbe7ae4a62d11a2142acd7748e8a",
   "62a4b82cadbf1da27c616c27dfa81a668439b36bd691e8f967104b24a7653996",
@@ -109,7 +110,7 @@
  "targets": [
   [
    "ZTE CPE",
-   141
+   142
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -117,11 +118,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   94
+   95
   ],
   [
    "Huawei HG gateway",
-   73
+   72
   ],
   [
    "DrayTek router",
@@ -129,15 +130,15 @@
   ],
   [
    "firmware backdoor account",
-   47
+   45
   ],
   [
    "ISP-branded DSL gateway",
-   38
+   39
   ],
   [
    "IoT OEM default account",
-   36
+   35
   ],
   [
    "SMC Networks CPE",
@@ -285,7 +286,7 @@
   ],
   [
    "admin/admin",
-   42912
+   42920
   ],
   [
    "administrator/",
@@ -293,19 +294,19 @@
   ],
   [
    "root/root",
-   31066
+   31108
   ],
   [
    "root/Zte521",
-   25797
+   25811
   ],
   [
    "CUAdmin/CUAdmin",
-   18755
+   18757
   ],
   [
    "admin/meinsm",
-   18511
+   18529
   ],
   [
    "root/xc3511",
@@ -313,11 +314,11 @@
   ],
   [
    "root/1234",
-   16197
+   16205
   ],
   [
    "admin/pass",
-   14519
+   14446
   ],
   [
    "root/888888",
@@ -325,27 +326,27 @@
   ],
   [
    "root/xmhdipc",
-   13563
+   13566
   ],
   [
    "root/hi3518",
-   13410
+   13411
   ],
   [
    "telnetadmin/telnetadmin",
-   12731
+   12732
   ],
   [
    "root/klv1234",
-   9879
+   9880
   ],
   [
    "super/PhrQjGzk",
-   8617
+   8618
   ],
   [
    "support/support",
-   8392
+   8398
   ],
   [
    "root/klv123",
@@ -357,15 +358,15 @@
   ],
   [
    "root/",
-   7608
+   7655
   ],
   [
    "admin/1111111",
-   7525
+   7572
   ],
   [
    "root/e2008jl",
-   7196
+   7218
   ],
   [
    "administrator/1234",
@@ -378,7 +379,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2251,
+  "distinct_credentials": 2253,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,

@@ -6,24 +6,24 @@
 
 ## Summary
 
-2,392 addresses reached the sensor this week, 1,877 of them for the first time. 28% got as far as running a command. Event volume fell sharply against last week (7,199,331 against 14,261,139). 17 separate addresses fetched payloads from the same host, `175[.]150[.]139[.]66`. Shared delivery infrastructure across unrelated addresses is the difference between a campaign and a coincidence, though one sensor cannot tell whether that is one operator or several using the same loader.
+2,516 addresses reached the sensor this week, 1,972 of them for the first time. 28% got as far as running a command. Event volume fell sharply against last week (7,563,388 against 14,261,139). 17 separate addresses fetched payloads from the same host, `175[.]150[.]139[.]66`. Shared delivery infrastructure across unrelated addresses is the difference between a campaign and a coincidence, though one sensor cannot tell whether that is one operator or several using the same loader.
 
 ## Key figures
 
 | | this week | last week | | |
 |---|---|---|---|---|
-| source addresses | 2,392 | 3,514 | -1,122 | ▼ -32% |
-| first seen this week | 1,877 | 3,089 | -1,212 | ▼ -39% |
-| events | 7,199,331 | 14,261,139 | -7,061,808 | ▼ -50% |
-| distinct credential pairs | 4,074 | 3,146 | +928 | ▲ +29% |
-| payload hosts | 304 | 390 | -86 | ▼ -22% |
+| source addresses | 2,516 | 3,514 | -998 | ▼ -28% |
+| first seen this week | 1,972 | 3,089 | -1,117 | ▼ -36% |
+| events | 7,563,388 | 14,261,139 | -6,697,751 | ▼ -47% |
+| distinct credential pairs | 4,293 | 3,191 | +1,102 | ▲ +35% |
+| payload hosts | 308 | 390 | -82 | ▼ -21% |
 
 > Credential attempts, sessions and payload fetches are **lifetime totals for addresses active this week**, not totals for the week — a per-address rollup covers the whole retention window. They are reported below without a delta, because subtracting two of them would produce a number that is not about this week.
 
-- 1,001,268 credential attempts
-- 1,019,322 sessions
-- 900,912 payload fetch attempts
-- 61 distinct samples captured
+- 1,025,196 credential attempts
+- 1,044,054 sessions
+- 922,839 payload fetch attempts
+- 63 distinct samples captured
 
 ## How far they got
 
@@ -31,11 +31,11 @@ Counting only the addresses that found this sensor for the first time this week,
 
 | stage | addresses | share |
 |---|---|---|
-| connected | 1,877 | 100% |
-| tried credentials | 773 | 41% |
-| ran commands | 520 | 28% |
-| fetched a payload | 72 | 4% |
-| delivered a sample | 39 | 2% |
+| connected | 1,972 | 100% |
+| tried credentials | 804 | 41% |
+| ran commands | 549 | 28% |
+| fetched a payload | 75 | 4% |
+| delivered a sample | 42 | 2% |
 
 A previously unseen address found this machine every 2 minutes on average. It has never been linked, announced or indexed.
 
@@ -43,9 +43,9 @@ A previously unseen address found this machine every 2 minutes on average. It ha
 
 Comparing this week's top 25 of each against last week's. An entry can appear here by being genuinely new, or by rising into the top 25 from below it.
 
-**Payload hosts** — `220[.]152[.]179[.]214`, `109[.]236[.]44[.]237`, `210[.]208[.]110[.]51`, `42[.]229[.]168[.]229`
+**Payload hosts** — `220[.]152[.]179[.]214`, `210[.]208[.]110[.]51`, `109[.]236[.]44[.]237`, `42[.]229[.]168[.]229`
 
-**Credential pairs** — `super/PhrQjGzk`, `admin/chzhdpl`, `guest/12345`, `user/1234`, `root/Pon521`, `root/`, `admin/7ujMko0admin`, `administrator/1234`
+**Credential pairs** — `super/PhrQjGzk`, `admin/chzhdpl`, `guest/12345`, `user/1234`, `admin/7ujMko0admin`, `root/Pon521`, `root/`, `administrator/1234`
 
 **Apparent targets** — none.
 
@@ -59,12 +59,12 @@ Two reasons an entry lands here, and this sensor cannot always tell them apart: 
 
 | cve | | addresses | age | description |
 |---|---|---|---|---|
-| `CVE-2017-0144` |  | 49 | 9y |  |
+| `CVE-2017-0144` |  | 55 | 9y |  |
 | `CVE-2017-9841` |  | 9 | 9y |  |
 | `CVE-2021-41773` | **KEV** | 9 | 5y | Apache HTTP Server path traversal to RCE |
+| `CVE-2022-0543` |  | 8 | 4y |  |
 | `CVE-2012-1823` | **KEV** | 7 | 14y | PHP-CGI argument injection RCE |
 | `CVE-2018-20062` |  | 7 | 8y |  |
-| `CVE-2022-0543` |  | 7 | 4y |  |
 | `CVE-2018-10561` | **KEV** | 5 | 8y | Dasan GPON authentication bypass |
 | `CVE-2018-10562` |  | 5 | 8y |  |
 | `CVE-2015-2051` |  | 4 | 11y |  |
@@ -75,35 +75,35 @@ The median attempted vulnerability, weighted by how many addresses tried it, is 
 
 ## Credentials
 
-4,074 distinct pairs across 875,326 recorded attempts. The ten most common account for 51% of those — a small dictionary applied relentlessly.
+4,293 distinct pairs across 894,856 recorded attempts. The ten most common account for 51% of those — a small dictionary applied relentlessly.
 
 | username | password | attempts |
 |---|---|---|
-| `admin` | `v2mprt` | 90,897 |
-| `rapport` | `r@p8p0r+` | 77,320 |
-| `administrator` | `` | 53,448 |
-| `admin` | `meinsm` | 48,719 |
-| `root` | `Zte521` | 45,653 |
-| `root` | `root` | 34,359 |
-| `telnet` | `telnet` | 26,294 |
-| `CUAdmin` | `CUAdmin` | 25,844 |
-| `super` | `PhrQjGzk` | 22,997 |
-| `admin` | `chzhdpl` | 20,257 |
-| `root` | `xc3511` | 20,220 |
-| `guest` | `12345` | 18,512 |
+| `admin` | `v2mprt` | 90,972 |
+| `rapport` | `r@p8p0r+` | 77,339 |
+| `administrator` | `` | 53,842 |
+| `admin` | `meinsm` | 48,762 |
+| `root` | `Zte521` | 47,405 |
+| `root` | `root` | 35,028 |
+| `telnet` | `telnet` | 27,805 |
+| `CUAdmin` | `CUAdmin` | 26,059 |
+| `super` | `PhrQjGzk` | 24,195 |
+| `root` | `xc3511` | 21,369 |
+| `admin` | `chzhdpl` | 20,249 |
+| `guest` | `12345` | 18,613 |
 
 Only pairs tried at least three times by two or more independent addresses are listed. A pair guessed by several unrelated bots is a botnet dictionary entry; a single sighting might be a real person's password typed at the wrong host.
 
 ## What they thought this was
 
-- GPON/ONT fibre terminal — 133 addresses
-- DVR / IP camera (OEM default) — 112 addresses
+- GPON/ONT fibre terminal — 138 addresses
+- DVR / IP camera (OEM default) — 115 addresses
 - ZTE CPE — 89 addresses
-- Huawei HG gateway — 81 addresses
-- DrayTek router — 80 addresses
-- ISP-branded DSL gateway — 54 addresses
+- Huawei HG gateway — 84 addresses
+- DrayTek router — 83 addresses
+- ISP-branded DSL gateway — 55 addresses
 - firmware backdoor account — 51 addresses
-- IoT OEM default account — 43 addresses
+- IoT OEM default account — 45 addresses
 
 Inferred from the credentials and request paths chosen, which only make sense against those device families. It describes what the attacker was hunting, not anything about this machine.
 
@@ -118,4 +118,4 @@ Inferred from the credentials and request paths chosen, which only make sense ag
 
 Indicators, samples and per-address write-ups: https://github.com/1Birdo/lyrebird-intel
 
-*Generated 2026-09-25 06:14 UTC.*
+*Generated 2026-09-25 12:12 UTC.*
