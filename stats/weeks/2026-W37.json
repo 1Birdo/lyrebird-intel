@@ -49,8 +49,8 @@
   "connected": 1964,
   "delivered_sample": 100,
   "fetched_payload": 183,
-  "ran_commands": 703,
-  "returned": 1088,
+  "ran_commands": 704,
+  "returned": 1091,
   "tried_creds": 706
  },
  "samples": [
@@ -118,11 +118,11 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   95
+   96
   ],
   [
    "Huawei HG gateway",
-   72
+   73
   ],
   [
    "DrayTek router",
@@ -130,7 +130,7 @@
   ],
   [
    "firmware backdoor account",
-   45
+   46
   ],
   [
    "ISP-branded DSL gateway",
@@ -286,7 +286,7 @@
   ],
   [
    "admin/admin",
-   42920
+   42933
   ],
   [
    "administrator/",
@@ -294,27 +294,27 @@
   ],
   [
    "root/root",
-   31108
+   31156
   ],
   [
    "root/Zte521",
-   25811
+   25813
   ],
   [
    "CUAdmin/CUAdmin",
-   18757
+   18762
   ],
   [
    "admin/meinsm",
-   18529
+   18546
   ],
   [
    "root/xc3511",
-   18183
+   18187
   ],
   [
    "root/1234",
-   16205
+   16206
   ],
   [
    "admin/pass",
@@ -334,7 +334,7 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12732
+   12739
   ],
   [
    "root/klv1234",
@@ -346,27 +346,27 @@
   ],
   [
    "support/support",
-   8398
+   8402
   ],
   [
    "root/klv123",
    7826
   ],
   [
+   "root/",
+   7724
+  ],
+  [
    "admin/plumeria0077",
    7701
   ],
   [
-   "root/",
-   7655
-  ],
-  [
    "admin/1111111",
-   7572
+   7612
   ],
   [
    "root/e2008jl",
-   7218
+   7237
   ],
   [
    "administrator/1234",
@@ -379,7 +379,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2253,
+  "distinct_credentials": 2268,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,
