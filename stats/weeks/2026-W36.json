@@ -26,7 +26,7 @@
   "delivered_sample": 106,
   "fetched_payload": 278,
   "ran_commands": 1048,
-  "returned": 910,
+  "returned": 912,
   "tried_creds": 1073
  },
  "samples": [
@@ -59,7 +59,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   62
+   63
   ],
   [
    "Huawei HG gateway",
@@ -67,11 +67,11 @@
   ],
   [
    "DrayTek router",
-   39
+   40
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -79,7 +79,7 @@
   ],
   [
    "firmware backdoor account",
-   27
+   26
   ],
   [
    "IoT OEM default account",
@@ -223,11 +223,11 @@
  "top_credentials": [
   [
    "admin/admin",
-   34931
+   34937
   ],
   [
    "root/kopp",
-   17215
+   17213
   ],
   [
    "root/xc3511",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   9997
+   10001
   ],
   [
    "root/klv1234",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5625
+   5627
   ],
   [
    "telnetadmin/telnetadmin",
@@ -287,19 +287,19 @@
   ],
   [
    "root/root",
-   5499
+   5501
   ],
   [
    "root/1234",
-   5081
-  ],
-  [
-   "super/xJ4pCYeW",
-   4983
+   5098
   ],
   [
    "root/password",
    4982
+  ],
+  [
+   "super/xJ4pCYeW",
+   4980
   ],
   [
    "nmgcuadmin/nmgcuadmin",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4615
+   4601
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2878,
+  "distinct_credentials": 2883,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

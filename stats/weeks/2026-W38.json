@@ -53,8 +53,8 @@
   "connected": 3514,
   "delivered_sample": 165,
   "fetched_payload": 206,
-  "ran_commands": 1184,
-  "returned": 1843,
+  "ran_commands": 1185,
+  "returned": 1844,
   "tried_creds": 1435
  },
  "samples": [
@@ -128,7 +128,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   175
+   176
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -136,7 +136,7 @@
   ],
   [
    "ZTE CPE",
-   111
+   112
   ],
   [
    "Huawei HG gateway",
@@ -148,7 +148,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   70
   ],
   [
    "firmware backdoor account",
@@ -304,11 +304,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90975
+   90994
   ],
   [
    "rapport/r@p8p0r+",
-   77364
+   77367
   ],
   [
    "administrator/",
@@ -316,15 +316,15 @@
   ],
   [
    "admin/meinsm",
-   62912
+   62939
   ],
   [
    "root/xc3511",
-   56452
+   56603
   ],
   [
    "root/Zte521",
-   55395
+   55463
   ],
   [
    "telnet/telnet",
@@ -332,27 +332,27 @@
   ],
   [
    "root/root",
-   33742
+   33794
   ],
   [
    "default/default",
-   29632
+   29633
   ],
   [
    "CUAdmin/CUAdmin",
-   25812
+   25829
   ],
   [
    "admin/adminpass",
-   24673
+   24674
   ],
   [
    "root/ikwb",
-   23688
+   23676
   ],
   [
    "admin/admin",
-   19470
+   19484
   ],
   [
    "tech/tech",
@@ -360,27 +360,27 @@
   ],
   [
    "root/xmhdipc",
-   16974
+   16977
   ],
   [
    "root/1234",
-   16758
+   16770
   ],
   [
    "root/7ujMko0admin",
-   16496
+   16503
   ],
   [
    "admin/pass",
-   15616
+   15621
   ],
   [
    "root/888888",
-   13979
+   13984
   ],
   [
    "root/kopp",
-   13648
+   13712
   ],
   [
    "ubnt/ubnt",
@@ -388,15 +388,15 @@
   ],
   [
    "root/e2008jl",
-   13279
+   13450
   ],
   [
    "telnetadmin/telnetadmin",
-   13269
+   13274
   ],
   [
    "support/support",
-   12679
+   12660
   ],
   [
    "admin/plumeria0077",
@@ -405,7 +405,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 395,
-  "distinct_credentials": 3248,
+  "distinct_credentials": 3317,
   "distinct_payload_urls": 595,
   "events": 14261139,
   "new_sources": 3089,
