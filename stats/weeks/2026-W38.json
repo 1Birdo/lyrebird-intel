@@ -51,11 +51,11 @@
  ],
  "funnel": {
   "connected": 3514,
-  "delivered_sample": 163,
+  "delivered_sample": 165,
   "fetched_payload": 206,
-  "ran_commands": 1181,
-  "returned": 1830,
-  "tried_creds": 1434
+  "ran_commands": 1183,
+  "returned": 1836,
+  "tried_creds": 1435
  },
  "samples": [
   "016375769c3c8028456603a5e78a2305b4617304a001fcbdd2001330d135bef2",
@@ -128,11 +128,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   175
+   174
   ],
   [
    "DVR / IP camera (OEM default)",
-   160
+   159
   ],
   [
    "ZTE CPE",
@@ -144,7 +144,7 @@
   ],
   [
    "DrayTek router",
-   88
+   89
   ],
   [
    "ISP-branded DSL gateway",
@@ -152,11 +152,11 @@
   ],
   [
    "firmware backdoor account",
-   68
+   66
   ],
   [
    "IoT OEM default account",
-   62
+   63
   ],
   [
    "SMC Networks CPE",
@@ -304,11 +304,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   90929
+   90949
   ],
   [
    "rapport/r@p8p0r+",
-   77357
+   77360
   ],
   [
    "administrator/",
@@ -316,15 +316,15 @@
   ],
   [
    "admin/meinsm",
-   62832
+   62863
   ],
   [
    "root/xc3511",
-   56021
+   56168
   ],
   [
    "root/Zte521",
-   55316
+   55348
   ],
   [
    "telnet/telnet",
@@ -332,15 +332,15 @@
   ],
   [
    "root/root",
-   33522
+   33603
   ],
   [
    "default/default",
-   29628
+   29630
   ],
   [
    "CUAdmin/CUAdmin",
-   25759
+   25773
   ],
   [
    "admin/adminpass",
@@ -352,31 +352,31 @@
   ],
   [
    "admin/admin",
-   19427
+   19440
   ],
   [
    "tech/tech",
-   17741
+   17731
   ],
   [
    "root/xmhdipc",
-   16963
+   16972
   ],
   [
    "root/1234",
-   16686
+   16709
   ],
   [
    "root/7ujMko0admin",
-   16324
+   16301
   ],
   [
    "admin/pass",
-   15486
+   15606
   ],
   [
    "root/888888",
-   13965
+   13969
   ],
   [
    "ubnt/ubnt",
@@ -384,19 +384,19 @@
   ],
   [
    "root/kopp",
-   13506
+   13528
   ],
   [
    "telnetadmin/telnetadmin",
-   13250
+   13255
   ],
   [
    "root/e2008jl",
-   12790
+   12944
   ],
   [
    "support/support",
-   12641
+   12645
   ],
   [
    "admin/plumeria0077",
@@ -404,9 +404,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 393,
-  "distinct_credentials": 3182,
-  "distinct_payload_urls": 590,
+  "distinct_c2_hosts": 394,
+  "distinct_credentials": 3197,
+  "distinct_payload_urls": 593,
   "events": 14261139,
   "new_sources": 3089,
   "shared_c2_hosts": 118,

@@ -49,7 +49,7 @@
   "connected": 1964,
   "delivered_sample": 100,
   "fetched_payload": 183,
-  "ran_commands": 704,
+  "ran_commands": 705,
   "returned": 1091,
   "tried_creds": 706
  },
@@ -286,7 +286,7 @@
   ],
   [
    "admin/admin",
-   42933
+   42937
   ],
   [
    "administrator/",
@@ -294,31 +294,31 @@
   ],
   [
    "root/root",
-   31156
+   31212
   ],
   [
    "root/Zte521",
-   25813
+   25820
   ],
   [
    "CUAdmin/CUAdmin",
-   18762
+   18763
   ],
   [
    "admin/meinsm",
-   18546
+   18557
   ],
   [
    "root/xc3511",
-   18187
+   18189
   ],
   [
    "root/1234",
-   16206
+   16209
   ],
   [
    "admin/pass",
-   14446
+   14513
   ],
   [
    "root/888888",
@@ -326,7 +326,7 @@
   ],
   [
    "root/xmhdipc",
-   13566
+   13567
   ],
   [
    "root/hi3518",
@@ -334,11 +334,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12739
+   12744
   ],
   [
    "root/klv1234",
-   9880
+   9881
   ],
   [
    "super/PhrQjGzk",
@@ -346,7 +346,7 @@
   ],
   [
    "support/support",
-   8402
+   8408
   ],
   [
    "root/klv123",
@@ -354,7 +354,7 @@
   ],
   [
    "root/",
-   7724
+   7795
   ],
   [
    "admin/plumeria0077",
@@ -362,11 +362,11 @@
   ],
   [
    "admin/1111111",
-   7612
+   7649
   ],
   [
    "root/e2008jl",
-   7237
+   7247
   ],
   [
    "administrator/1234",
@@ -374,12 +374,12 @@
   ],
   [
    "Administrator/admin",
-   6740
+   6717
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2268,
+  "distinct_credentials": 2270,
   "distinct_payload_urls": 366,
   "events": 5215875,
   "new_sources": 1761,
