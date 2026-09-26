@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   134
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -70,16 +70,16 @@
    39
   ],
   [
+   "ISP-branded DSL gateway",
+   28
+  ],
+  [
    "SMC Networks CPE",
    27
   ],
   [
    "firmware backdoor account",
    27
-  ],
-  [
-   "ISP-branded DSL gateway",
-   26
   ],
   [
    "IoT OEM default account",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34929
+   34931
   ],
   [
    "root/kopp",
@@ -235,11 +235,11 @@
   ],
   [
    "admin/pass",
-   14274
+   14266
   ],
   [
    "root/Zte521",
-   14191
+   14199
   ],
   [
    "admin/88888888",
@@ -259,15 +259,15 @@
   ],
   [
    "666666/666666",
-   6991
+   6983
   ],
   [
    "root/hi3518",
-   6394
+   6391
   ],
   [
    "root/Pon521",
-   6265
+   6271
   ],
   [
    "administrator/",
@@ -291,7 +291,7 @@
   ],
   [
    "root/1234",
-   5073
+   5081
   ],
   [
    "super/xJ4pCYeW",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4615
   ],
   [
    "root/12341234",
-   4387
+   4384
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2846,
+  "distinct_credentials": 2878,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
