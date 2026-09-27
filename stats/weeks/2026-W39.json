@@ -2,27 +2,27 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 65
-  },
-  {
-   "cve": "CVE-2017-9841",
-   "sources": 10
-  },
-  {
-   "cve": "CVE-2021-41773",
-   "sources": 10
+   "sources": 67
   },
   {
    "cve": "CVE-2022-0543",
+   "sources": 10
+  },
+  {
+   "cve": "CVE-2017-9841",
+   "sources": 9
+  },
+  {
+   "cve": "CVE-2021-41773",
    "sources": 9
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 8
+   "sources": 7
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 8
+   "sources": 7
   },
   {
    "cve": "CVE-2018-10561",
@@ -50,12 +50,12 @@
   }
  ],
  "funnel": {
-  "connected": 3567,
-  "delivered_sample": 120,
-  "fetched_payload": 161,
-  "ran_commands": 975,
-  "returned": 1791,
-  "tried_creds": 1725
+  "connected": 3753,
+  "delivered_sample": 123,
+  "fetched_payload": 164,
+  "ran_commands": 1009,
+  "returned": 1897,
+  "tried_creds": 1836
  },
  "samples": [
   "05eb9cf26379759d2d3f21c76f46d19d02f623ff5574ad111aee7823035fbe18",
@@ -70,6 +70,7 @@
   "3797ffd6181a8922f796feca4f9e115eabee479260d94dfad0ad594a9bf224d2",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "3eaed2f19b0fa1763bd994c96b979b586aba3075fcb4a41bdb3348d44a710c2f",
+  "4bb6ea248192af9c463aed73e5668762bd35df13d9f1ba6256a77d32ca8242b5",
   "4c09956231aef80c4b49ca9cda029843641f0c453820d02ad1bef0f810d1a192",
   "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
   "53d4f2757b1782a2bf1df10d9372daf57cf98b094767f7de153590a1d5562da2",
@@ -95,7 +96,6 @@
   "ab376a8b6bbc3a83820e1b83ea3d1ae2e8320672a44980105a0a8722e14d0f9d",
   "ace70da592413512b7e4a7a83b98b3835f6a44f09d338aff56d26f5e80775d13",
   "ae6c8fea59b6be59006819c96187012ccb1f94b9bb9b6ded3c38df50c6f12a43",
-  "af4d5af1f34013ee08ec02271a8fa07aac8e9ba2b569e3b91ab18e0c241f6609",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "c48da982aabb6f9617b9f57dd2f27e671ede64b326594b730b3105fb6bf3ecf2",
@@ -117,7 +117,6 @@
   "e647c8e2400645013893f8ebfe3574b08bb9696454165cffe284c7f6c4d2d2a6",
   "e662dfda94e715930c01800634b637e5f82ad2945f8b1c778ae04e1293989d8f",
   "e830b1fc6649f4a1906edaee9a3a8642e61d59fa5cd7d9da06b955de1b3328ea",
-  "e88f1198b9db53e0b24ca380a160516be03e0ed659f94d28e684507b4c74cab3",
   "ea1e5f7cb8e4f8df2c74775670b69887109485e0d06547772b3b14cbe72e3422",
   "ed5f73281759652045a39d246d5256e32ceebedaa3687b49aa803dc382e18cad",
   "f1bdcdc2cad1e7efdf1dd542e026ab24fa18d623da0f5f2637d08481dc39a531",
@@ -130,23 +129,23 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   169
+   175
   ],
   [
    "DVR / IP camera (OEM default)",
-   137
+   141
   ],
   [
    "ZTE CPE",
-   108
+   113
   ],
   [
    "Huawei HG gateway",
-   102
+   103
   ],
   [
    "DrayTek router",
-   97
+   100
   ],
   [
    "firmware backdoor account",
@@ -158,23 +157,23 @@
   ],
   [
    "IoT OEM default account",
-   52
+   54
   ],
   [
    "SMC Networks CPE",
-   45
+   46
   ],
   [
    "WordPress",
-   12
+   13
   ],
   [
    "Apache HTTP Server (CGI)",
-   10
+   9
   ],
   [
    "PHP-CGI",
-   8
+   7
   ],
   [
    "embedded web server (boa/goform)",
@@ -194,6 +193,10 @@
   ],
   [
    "Hikvision / ONVIF camera",
+   1
+  ],
+  [
+   "MikroTik RouterOS",
    1
   ]
  ],
@@ -302,118 +305,118 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91139
+   91149
   ],
   [
    "rapport/r@p8p0r+",
-   77417
+   77434
   ],
   [
    "administrator/",
-   70320
+   73858
   ],
   [
    "root/Zte521",
-   53233
+   54560
   ],
   [
    "admin/meinsm",
-   49458
+   49580
   ],
   [
    "root/root",
-   38286
+   38936
   ],
   [
    "root/xc3511",
-   35700
+   36297
   ],
   [
    "support/support",
-   28804
+   29045
   ],
   [
    "telnet/telnet",
-   28296
+   28372
   ],
   [
    "CUAdmin/CUAdmin",
-   27572
+   27590
   ],
   [
    "super/PhrQjGzk",
-   24288
+   24297
   ],
   [
    "admin/chzhdpl",
-   20265
+   20262
   ],
   [
    "guest/12345",
-   18936
+   18985
   ],
   [
    "user/1234",
-   16204
-  ],
-  [
-   "admin/pass",
-   15605
+   16426
   ],
   [
    "admin/7ujMko0admin",
-   15388
+   16114
+  ],
+  [
+   "admin/pass",
+   15669
   ],
   [
    "admin/admin",
-   15380
+   15631
   ],
   [
    "root/e2008jl",
-   13145
-  ],
-  [
-   "ubnt/ubnt",
-   12882
+   13422
   ],
   [
    "root/kopp",
-   12879
+   12967
   ],
   [
    "admin/plumeria0077",
-   12875
+   12930
+  ],
+  [
+   "ubnt/ubnt",
+   12897
   ],
   [
    "root/",
-   11562
+   11760
   ],
   [
    "root/Pon521",
-   10917
+   10897
   ],
   [
    "admin/888888",
-   10241
+   10562
   ],
   [
    "administrator/1234",
-   9627
+   9783
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 358,
-  "distinct_credentials": 5760,
-  "distinct_payload_urls": 520,
-  "events": 9975379,
-  "new_sources": 2937,
-  "shared_c2_hosts": 89,
-  "sources": 3567
+  "distinct_c2_hosts": 365,
+  "distinct_credentials": 6004,
+  "distinct_payload_urls": 530,
+  "events": 10247676,
+  "new_sources": 3106,
+  "shared_c2_hosts": 93,
+  "sources": 3753
  },
  "window": {
-  "days": 6,
+  "days": 7,
   "first_day": "2026-09-21",
-  "last_day": "2026-09-26",
+  "last_day": "2026-09-27",
   "week": "2026-W39"
  }
 }

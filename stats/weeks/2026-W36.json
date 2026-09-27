@@ -67,7 +67,7 @@
   ],
   [
    "DrayTek router",
-   40
+   39
   ],
   [
    "ISP-branded DSL gateway",
@@ -79,11 +79,11 @@
   ],
   [
    "firmware backdoor account",
-   26
+   27
   ],
   [
    "IoT OEM default account",
-   22
+   23
   ],
   [
    "WordPress",
@@ -223,11 +223,11 @@
  "top_credentials": [
   [
    "admin/admin",
-   34937
+   34941
   ],
   [
    "root/kopp",
-   17213
+   17215
   ],
   [
    "root/xc3511",
@@ -243,7 +243,7 @@
   ],
   [
    "admin/88888888",
-   13174
+   13163
   ],
   [
    "admin/smcadmin",
@@ -263,7 +263,7 @@
   ],
   [
    "root/hi3518",
-   6391
+   6394
   ],
   [
    "root/Pon521",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5627
+   5625
   ],
   [
    "telnetadmin/telnetadmin",
@@ -291,15 +291,15 @@
   ],
   [
    "root/1234",
-   5098
+   5083
+  ],
+  [
+   "super/xJ4pCYeW",
+   4983
   ],
   [
    "root/password",
    4982
-  ],
-  [
-   "super/xJ4pCYeW",
-   4980
   ],
   [
    "nmgcuadmin/nmgcuadmin",
@@ -319,12 +319,12 @@
   ],
   [
    "root/12341234",
-   4384
+   4387
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2883,
+  "distinct_credentials": 2903,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,
