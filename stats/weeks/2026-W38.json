@@ -53,8 +53,8 @@
   "connected": 3512,
   "delivered_sample": 164,
   "fetched_payload": 206,
-  "ran_commands": 1190,
-  "returned": 1872,
+  "ran_commands": 1191,
+  "returned": 1880,
   "tried_creds": 1434
  },
  "samples": [
@@ -147,7 +147,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   72
+   71
   ],
   [
    "firmware backdoor account",
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   63
+   62
   ],
   [
    "SMC Networks CPE",
@@ -307,7 +307,7 @@
   ],
   [
    "rapport/r@p8p0r+",
-   77371
+   77372
   ],
   [
    "administrator/",
@@ -315,15 +315,15 @@
   ],
   [
    "admin/meinsm",
-   63021
+   63013
   ],
   [
    "root/xc3511",
-   56970
+   56934
   ],
   [
    "root/Zte521",
-   55634
+   55658
   ],
   [
    "telnet/telnet",
@@ -331,19 +331,19 @@
   ],
   [
    "root/root",
-   33951
+   34004
   ],
   [
    "default/default",
-   29634
+   29637
   ],
   [
    "CUAdmin/CUAdmin",
-   25866
+   25867
   ],
   [
    "admin/adminpass",
-   24694
+   24649
   ],
   [
    "root/ikwb",
@@ -351,39 +351,39 @@
   ],
   [
    "admin/admin",
-   19527
+   19567
   ],
   [
    "tech/tech",
-   17711
+   17745
   ],
   [
    "root/xmhdipc",
-   16986
+   17056
   ],
   [
    "root/1234",
-   16826
+   16827
   ],
   [
    "root/7ujMko0admin",
-   16518
+   16299
   ],
   [
    "admin/pass",
-   15573
-  ],
-  [
-   "root/kopp",
-   13881
-  ],
-  [
-   "root/e2008jl",
-   13843
+   15580
   ],
   [
    "root/888888",
-   13785
+   14004
+  ],
+  [
+   "root/e2008jl",
+   13973
+  ],
+  [
+   "root/kopp",
+   13926
   ],
   [
    "ubnt/ubnt",
@@ -391,11 +391,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13310
+   13313
   ],
   [
    "support/support",
-   12717
+   12722
   ],
   [
    "admin/plumeria0077",
@@ -404,7 +404,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 399,
-  "distinct_credentials": 3423,
+  "distinct_credentials": 3485,
   "distinct_payload_urls": 599,
   "events": 14261131,
   "new_sources": 3088,
