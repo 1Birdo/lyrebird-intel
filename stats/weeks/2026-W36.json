@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   135
+   136
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -59,7 +59,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   63
+   64
   ],
   [
    "Huawei HG gateway",
@@ -67,7 +67,7 @@
   ],
   [
    "DrayTek router",
-   39
+   40
   ],
   [
    "ISP-branded DSL gateway",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34944
+   34946
   ],
   [
    "root/kopp",
@@ -231,11 +231,11 @@
   ],
   [
    "root/xc3511",
-   15625
+   15622
   ],
   [
    "admin/pass",
-   14260
+   14266
   ],
   [
    "root/Zte521",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   10002
+   10006
   ],
   [
    "root/klv1234",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6268
+   6276
   ],
   [
    "administrator/",
@@ -291,11 +291,11 @@
   ],
   [
    "root/1234",
-   5090
+   5106
   ],
   [
    "root/password",
-   4983
+   4984
   ],
   [
    "super/xJ4pCYeW",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2903,
+  "distinct_credentials": 2908,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

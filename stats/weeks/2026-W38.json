@@ -53,8 +53,8 @@
   "connected": 3512,
   "delivered_sample": 164,
   "fetched_payload": 206,
-  "ran_commands": 1187,
-  "returned": 1858,
+  "ran_commands": 1190,
+  "returned": 1872,
   "tried_creds": 1434
  },
  "samples": [
@@ -127,7 +127,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   175
+   177
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -135,7 +135,7 @@
   ],
   [
    "ZTE CPE",
-   113
+   112
   ],
   [
    "Huawei HG gateway",
@@ -147,7 +147,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   72
   ],
   [
    "firmware backdoor account",
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   62
+   63
   ],
   [
    "SMC Networks CPE",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91001
+   91012
   ],
   [
    "rapport/r@p8p0r+",
-   77369
+   77371
   ],
   [
    "administrator/",
@@ -315,35 +315,35 @@
   ],
   [
    "admin/meinsm",
-   63006
+   63021
   ],
   [
    "root/xc3511",
-   56876
+   56970
   ],
   [
    "root/Zte521",
-   55603
+   55634
   ],
   [
    "telnet/telnet",
-   38939
+   38942
   ],
   [
    "root/root",
-   33912
+   33951
   ],
   [
    "default/default",
-   29633
+   29634
   ],
   [
    "CUAdmin/CUAdmin",
-   25857
+   25866
   ],
   [
    "admin/adminpass",
-   24675
+   24694
   ],
   [
    "root/ikwb",
@@ -351,7 +351,7 @@
   ],
   [
    "admin/admin",
-   19515
+   19527
   ],
   [
    "tech/tech",
@@ -359,31 +359,31 @@
   ],
   [
    "root/xmhdipc",
-   16979
+   16986
   ],
   [
    "root/1234",
-   16815
+   16826
   ],
   [
    "root/7ujMko0admin",
-   16542
+   16518
   ],
   [
    "admin/pass",
-   15569
-  ],
-  [
-   "root/888888",
-   13998
+   15573
   ],
   [
    "root/kopp",
-   13825
+   13881
   ],
   [
    "root/e2008jl",
-   13712
+   13843
+  ],
+  [
+   "root/888888",
+   13785
   ],
   [
    "ubnt/ubnt",
@@ -391,11 +391,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13302
+   13310
   ],
   [
    "support/support",
-   12709
+   12717
   ],
   [
    "admin/plumeria0077",
@@ -403,9 +403,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 397,
-  "distinct_credentials": 3419,
-  "distinct_payload_urls": 595,
+  "distinct_c2_hosts": 399,
+  "distinct_credentials": 3423,
+  "distinct_payload_urls": 599,
   "events": 14261131,
   "new_sources": 3088,
   "shared_c2_hosts": 118,
