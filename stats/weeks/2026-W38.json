@@ -53,8 +53,8 @@
   "connected": 3512,
   "delivered_sample": 164,
   "fetched_payload": 206,
-  "ran_commands": 1186,
-  "returned": 1851,
+  "ran_commands": 1187,
+  "returned": 1858,
   "tried_creds": 1434
  },
  "samples": [
@@ -127,7 +127,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   176
+   175
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   61
+   62
   ],
   [
    "SMC Networks CPE",
@@ -167,7 +167,7 @@
   ],
   [
    "embedded web server (boa/goform)",
-   8
+   9
   ],
   [
    "PHP-CGI",
@@ -303,7 +303,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91000
+   91001
   ],
   [
    "rapport/r@p8p0r+",
@@ -315,23 +315,23 @@
   ],
   [
    "admin/meinsm",
-   62978
+   63006
   ],
   [
    "root/xc3511",
-   56750
+   56876
   ],
   [
    "root/Zte521",
-   55569
+   55603
   ],
   [
    "telnet/telnet",
-   38936
+   38939
   ],
   [
    "root/root",
-   33853
+   33912
   ],
   [
    "default/default",
@@ -339,11 +339,11 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   25844
+   25857
   ],
   [
    "admin/adminpass",
-   24674
+   24675
   ],
   [
    "root/ikwb",
@@ -351,7 +351,7 @@
   ],
   [
    "admin/admin",
-   19499
+   19515
   ],
   [
    "tech/tech",
@@ -359,43 +359,43 @@
   ],
   [
    "root/xmhdipc",
-   16978
+   16979
   ],
   [
    "root/1234",
-   16800
+   16815
   ],
   [
    "root/7ujMko0admin",
-   16331
+   16542
   ],
   [
    "admin/pass",
-   15630
+   15569
   ],
   [
    "root/888888",
-   13992
+   13998
   ],
   [
    "root/kopp",
-   13771
+   13825
+  ],
+  [
+   "root/e2008jl",
+   13712
   ],
   [
    "ubnt/ubnt",
    13637
   ],
   [
-   "root/e2008jl",
-   13622
-  ],
-  [
    "telnetadmin/telnetadmin",
-   13307
+   13302
   ],
   [
    "support/support",
-   12665
+   12709
   ],
   [
    "admin/plumeria0077",
@@ -403,8 +403,8 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 396,
-  "distinct_credentials": 3358,
+  "distinct_c2_hosts": 397,
+  "distinct_credentials": 3419,
   "distinct_payload_urls": 595,
   "events": 14261131,
   "new_sources": 3088,

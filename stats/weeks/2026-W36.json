@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   135
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -63,7 +63,7 @@
   ],
   [
    "Huawei HG gateway",
-   53
+   52
   ],
   [
    "DrayTek router",
@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   28
   ],
   [
    "SMC Networks CPE",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   23
+   22
   ],
   [
    "WordPress",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34941
+   34944
   ],
   [
    "root/kopp",
@@ -231,11 +231,11 @@
   ],
   [
    "root/xc3511",
-   15623
+   15625
   ],
   [
    "admin/pass",
-   14266
+   14260
   ],
   [
    "root/Zte521",
@@ -243,7 +243,7 @@
   ],
   [
    "admin/88888888",
-   13163
+   13174
   ],
   [
    "admin/smcadmin",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   10001
+   10002
   ],
   [
    "root/klv1234",
@@ -259,7 +259,7 @@
   ],
   [
    "666666/666666",
-   6983
+   6985
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6271
+   6268
   ],
   [
    "administrator/",
@@ -287,19 +287,19 @@
   ],
   [
    "root/root",
-   5501
+   5502
   ],
   [
    "root/1234",
-   5083
+   5090
+  ],
+  [
+   "root/password",
+   4983
   ],
   [
    "super/xJ4pCYeW",
    4983
-  ],
-  [
-   "root/password",
-   4982
   ],
   [
    "nmgcuadmin/nmgcuadmin",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4613
   ],
   [
    "root/12341234",
