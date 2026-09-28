@@ -53,8 +53,8 @@
   "connected": 3512,
   "delivered_sample": 164,
   "fetched_payload": 206,
-  "ran_commands": 1191,
-  "returned": 1880,
+  "ran_commands": 1194,
+  "returned": 1883,
   "tried_creds": 1434
  },
  "samples": [
@@ -127,19 +127,19 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   177
+   179
   ],
   [
    "DVR / IP camera (OEM default)",
-   160
+   161
   ],
   [
    "ZTE CPE",
-   112
+   111
   ],
   [
    "Huawei HG gateway",
-   108
+   109
   ],
   [
    "DrayTek router",
@@ -147,11 +147,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   72
   ],
   [
    "firmware backdoor account",
-   66
+   67
   ],
   [
    "IoT OEM default account",
@@ -159,7 +159,7 @@
   ],
   [
    "SMC Networks CPE",
-   49
+   50
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -303,7 +303,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91012
+   91011
   ],
   [
    "rapport/r@p8p0r+",
@@ -315,15 +315,15 @@
   ],
   [
    "admin/meinsm",
-   63013
+   63041
   ],
   [
    "root/xc3511",
-   56934
+   56974
   ],
   [
    "root/Zte521",
-   55658
+   55622
   ],
   [
    "telnet/telnet",
@@ -331,7 +331,7 @@
   ],
   [
    "root/root",
-   34004
+   34069
   ],
   [
    "default/default",
@@ -351,39 +351,39 @@
   ],
   [
    "admin/admin",
-   19567
+   19595
   ],
   [
    "tech/tech",
-   17745
+   17746
   ],
   [
    "root/xmhdipc",
-   17056
+   17062
   ],
   [
    "root/1234",
-   16827
+   16831
   ],
   [
    "root/7ujMko0admin",
-   16299
+   16305
   ],
   [
    "admin/pass",
-   15580
-  ],
-  [
-   "root/888888",
-   14004
+   15585
   ],
   [
    "root/e2008jl",
-   13973
+   14131
+  ],
+  [
+   "root/888888",
+   14010
   ],
   [
    "root/kopp",
-   13926
+   13960
   ],
   [
    "ubnt/ubnt",
@@ -391,11 +391,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13313
+   13330
   ],
   [
    "support/support",
-   12722
+   12728
   ],
   [
    "admin/plumeria0077",
@@ -404,7 +404,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 399,
-  "distinct_credentials": 3485,
+  "distinct_credentials": 3549,
   "distinct_payload_urls": 599,
   "events": 14261131,
   "new_sources": 3088,

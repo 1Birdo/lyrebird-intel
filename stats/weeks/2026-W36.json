@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   22
+   23
   ],
   [
    "WordPress",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34952
+   34954
   ],
   [
    "root/kopp",
@@ -231,7 +231,7 @@
   ],
   [
    "root/xc3511",
-   15623
+   15625
   ],
   [
    "admin/pass",
@@ -239,11 +239,11 @@
   ],
   [
    "root/Zte521",
-   14199
+   14191
   ],
   [
    "admin/88888888",
-   13174
+   13163
   ],
   [
    "admin/smcadmin",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   10004
+   10006
   ],
   [
    "root/klv1234",
@@ -259,15 +259,15 @@
   ],
   [
    "666666/666666",
-   6983
+   6991
   ],
   [
    "root/hi3518",
-   6394
+   6391
   ],
   [
    "root/Pon521",
-   6268
+   6263
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5625
+   5627
   ],
   [
    "telnetadmin/telnetadmin",
@@ -291,7 +291,7 @@
   ],
   [
    "root/1234",
-   5086
+   5079
   ],
   [
    "root/password",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2912,
+  "distinct_credentials": 2921,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

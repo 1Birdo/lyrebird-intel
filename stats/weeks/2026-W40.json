@@ -1,0 +1,289 @@
+{
+ "cves": [
+  {
+   "cve": "CVE-2015-2051",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-10561",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-10562",
+   "sources": 1
+  }
+ ],
+ "funnel": {
+  "connected": 48,
+  "fetched_payload": 33,
+  "ran_commands": 37,
+  "returned": 46,
+  "tried_creds": 45
+ },
+ "samples": [],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   32
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   31
+  ],
+  [
+   "Huawei HG gateway",
+   24
+  ],
+  [
+   "DrayTek router",
+   22
+  ],
+  [
+   "ZTE CPE",
+   20
+  ],
+  [
+   "ISP-branded DSL gateway",
+   16
+  ],
+  [
+   "firmware backdoor account",
+   14
+  ],
+  [
+   "IoT OEM default account",
+   13
+  ],
+  [
+   "SMC Networks CPE",
+   9
+  ],
+  [
+   "WordPress",
+   1
+  ],
+  [
+   "consumer router admin",
+   1
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "27.96.228.235",
+   2
+  ],
+  [
+   "5.42.33.36",
+   2
+  ],
+  [
+   "100.1.79.29",
+   1
+  ],
+  [
+   "103.160.130.109",
+   1
+  ],
+  [
+   "103.172.186.194",
+   1
+  ],
+  [
+   "103.172.186.195",
+   1
+  ],
+  [
+   "103.249.199.3",
+   1
+  ],
+  [
+   "108.59.215.252",
+   1
+  ],
+  [
+   "109.236.44.237",
+   1
+  ],
+  [
+   "112.198.239.194",
+   1
+  ],
+  [
+   "112.248.143.0",
+   1
+  ],
+  [
+   "112.254.26.64",
+   1
+  ],
+  [
+   "113.230.82.33",
+   1
+  ],
+  [
+   "113.236.157.218",
+   1
+  ],
+  [
+   "113.236.4.237",
+   1
+  ],
+  [
+   "114.228.236.217",
+   1
+  ],
+  [
+   "115.201.178.194",
+   1
+  ],
+  [
+   "115.50.89.9",
+   1
+  ],
+  [
+   "115.52.32.173",
+   1
+  ],
+  [
+   "115.53.218.76",
+   1
+  ],
+  [
+   "115.57.87.53",
+   1
+  ],
+  [
+   "115.63.242.90",
+   1
+  ],
+  [
+   "116.138.35.161",
+   1
+  ],
+  [
+   "119.115.162.197",
+   1
+  ],
+  [
+   "119.116.237.187",
+   1
+  ]
+ ],
+ "top_credentials": [
+  [
+   "root/root",
+   31999
+  ],
+  [
+   "admin/7ujMko0admin",
+   18811
+  ],
+  [
+   "root/Zte521",
+   11006
+  ],
+  [
+   "root/xc3511",
+   10495
+  ],
+  [
+   "root/e2008jl",
+   8664
+  ],
+  [
+   "admin/1111111",
+   6091
+  ],
+  [
+   "root/25802580",
+   4873
+  ],
+  [
+   "888888/888888",
+   4399
+  ],
+  [
+   "admin/admin",
+   3927
+  ],
+  [
+   "e8telnet/e8telnet",
+   3738
+  ],
+  [
+   "admin/epicrouter",
+   3362
+  ],
+  [
+   "user/1234",
+   3265
+  ],
+  [
+   "root/samsung",
+   3162
+  ],
+  [
+   "guest/123456",
+   3148
+  ],
+  [
+   "supervisor/zyad1234",
+   3141
+  ],
+  [
+   "support/support123",
+   2919
+  ],
+  [
+   "root/admin",
+   2909
+  ],
+  [
+   "root/system",
+   2687
+  ],
+  [
+   "root/vizxv",
+   2634
+  ],
+  [
+   "root/",
+   2613
+  ],
+  [
+   "guest/12345",
+   2593
+  ],
+  [
+   "root/kopp",
+   2452
+  ],
+  [
+   "root/12345",
+   2397
+  ],
+  [
+   "root/gpon",
+   2227
+  ],
+  [
+   "admin/adminHW",
+   2167
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 122,
+  "distinct_credentials": 268,
+  "distinct_payload_urls": 171,
+  "events": 5392,
+  "new_sources": 3,
+  "shared_c2_hosts": 2,
+  "sources": 48
+ },
+ "window": {
+  "days": 1,
+  "first_day": "2026-09-28",
+  "last_day": "2026-09-28",
+  "week": "2026-W40"
+ }
+}
