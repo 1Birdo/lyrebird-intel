@@ -53,8 +53,8 @@
   "connected": 3512,
   "delivered_sample": 164,
   "fetched_payload": 206,
-  "ran_commands": 1194,
-  "returned": 1885,
+  "ran_commands": 1196,
+  "returned": 1894,
   "tried_creds": 1434
  },
  "samples": [
@@ -147,19 +147,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   72
   ],
   [
    "firmware backdoor account",
-   67
+   66
   ],
   [
    "IoT OEM default account",
-   62
+   63
   ],
   [
    "SMC Networks CPE",
-   49
+   51
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -303,11 +303,11 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91018
+   91016
   ],
   [
    "rapport/r@p8p0r+",
-   77375
+   77383
   ],
   [
    "administrator/",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/meinsm",
-   63043
+   63064
   ],
   [
    "root/xc3511",
@@ -323,15 +323,15 @@
   ],
   [
    "root/Zte521",
-   55724
+   56200
   ],
   [
    "telnet/telnet",
-   38943
+   38981
   ],
   [
    "root/root",
-   34138
+   35534
   ],
   [
    "default/default",
@@ -339,7 +339,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   25867
+   25868
   ],
   [
    "admin/adminpass",
@@ -347,15 +347,15 @@
   ],
   [
    "root/ikwb",
-   23670
+   23675
   ],
   [
    "admin/admin",
-   19627
+   19645
   ],
   [
    "tech/tech",
-   17746
+   17754
   ],
   [
    "root/xmhdipc",
@@ -363,39 +363,39 @@
   ],
   [
    "root/1234",
-   16831
+   16829
   ],
   [
    "root/7ujMko0admin",
-   16300
+   16308
   ],
   [
    "admin/pass",
-   15594
+   15597
   ],
   [
    "root/e2008jl",
-   14247
+   14344
   ],
   [
    "root/kopp",
-   14026
+   14063
   ],
   [
    "root/888888",
-   13784
+   13792
   ],
   [
    "ubnt/ubnt",
-   13638
+   13644
   ],
   [
    "telnetadmin/telnetadmin",
-   13322
+   13327
   ],
   [
    "support/support",
-   12734
+   12747
   ],
   [
    "admin/plumeria0077",
@@ -403,9 +403,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 399,
-  "distinct_credentials": 3556,
-  "distinct_payload_urls": 601,
+  "distinct_c2_hosts": 401,
+  "distinct_credentials": 3566,
+  "distinct_payload_urls": 603,
   "events": 14261131,
   "new_sources": 3088,
   "shared_c2_hosts": 118,
