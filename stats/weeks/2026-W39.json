@@ -51,11 +51,11 @@
  ],
  "funnel": {
   "connected": 4462,
-  "delivered_sample": 139,
+  "delivered_sample": 140,
   "fetched_payload": 184,
-  "ran_commands": 1192,
-  "returned": 2447,
-  "tried_creds": 2225
+  "ran_commands": 1193,
+  "returned": 2475,
+  "tried_creds": 2226
  },
  "samples": [
   "05eb9cf26379759d2d3f21c76f46d19d02f623ff5574ad111aee7823035fbe18",
@@ -132,11 +132,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   202
+   204
   ],
   [
    "DVR / IP camera (OEM default)",
-   163
+   165
   ],
   [
    "ZTE CPE",
@@ -148,7 +148,7 @@
   ],
   [
    "DrayTek router",
-   115
+   114
   ],
   [
    "ISP-branded DSL gateway",
@@ -160,11 +160,11 @@
   ],
   [
    "IoT OEM default account",
-   63
+   64
   ],
   [
    "SMC Networks CPE",
-   53
+   52
   ],
   [
    "WordPress",
@@ -312,105 +312,105 @@
   ],
   [
    "admin/v2mprt",
-   91254
+   91258
   ],
   [
    "rapport/r@p8p0r+",
-   77474
+   77481
   ],
   [
    "root/Zte521",
-   62268
+   62733
   ],
   [
    "admin/meinsm",
-   50524
+   50537
   ],
   [
    "root/xc3511",
-   43474
+   44476
   ],
   [
    "root/root",
-   41117
+   41303
   ],
   [
    "support/support",
-   29790
+   30494
   ],
   [
    "telnet/telnet",
-   28926
+   28998
   ],
   [
    "CUAdmin/CUAdmin",
-   27769
+   27814
   ],
   [
    "super/PhrQjGzk",
-   24377
-  ],
-  [
-   "user/1234",
-   20547
-  ],
-  [
-   "admin/chzhdpl",
-   20361
+   24395
   ],
   [
    "admin/7ujMko0admin",
-   20347
+   21051
   ],
   [
-   "guest/12345",
-   19212
+   "user/1234",
+   20768
+  ],
+  [
+   "admin/chzhdpl",
+   20350
   ],
   [
    "admin/admin",
-   19097
+   19383
+  ],
+  [
+   "guest/12345",
+   19240
   ],
   [
    "root/00000000",
-   18846
+   18857
   ],
   [
    "admin/pass",
-   15894
+   15932
   ],
   [
    "root/e2008jl",
-   15389
+   15537
   ],
   [
    "root/kopp",
-   13436
+   13505
   ],
   [
    "ubnt/ubnt",
-   13156
+   13185
   ],
   [
    "admin/plumeria0077",
-   13146
+   13180
   ],
   [
    "root/",
-   12965
+   13133
+  ],
+  [
+   "root/25802580",
+   12266
   ],
   [
    "admin/adminpass",
-   12156
-  ],
-  [
-   "root/Pon521",
-   12092
+   12181
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 408,
-  "distinct_credentials": 7621,
-  "distinct_payload_urls": 595,
+  "distinct_c2_hosts": 411,
+  "distinct_credentials": 7716,
+  "distinct_payload_urls": 600,
   "events": 12164541,
   "new_sources": 3717,
   "shared_c2_hosts": 105,

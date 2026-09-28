@@ -25,8 +25,8 @@
   "connected": 1684,
   "delivered_sample": 107,
   "fetched_payload": 278,
-  "ran_commands": 1049,
-  "returned": 915,
+  "ran_commands": 1050,
+  "returned": 916,
   "tried_creds": 1073
  },
  "samples": [
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   136
+   134
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   23
+   22
   ],
   [
    "WordPress",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34961
+   34965
   ],
   [
    "root/kopp",
@@ -231,7 +231,7 @@
   ],
   [
    "root/xc3511",
-   15625
+   15623
   ],
   [
    "admin/pass",
@@ -239,11 +239,11 @@
   ],
   [
    "root/Zte521",
-   14199
+   14191
   ],
   [
    "admin/88888888",
-   13163
+   13174
   ],
   [
    "admin/smcadmin",
@@ -259,7 +259,7 @@
   ],
   [
    "666666/666666",
-   6983
+   6991
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6271
+   6265
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5627
+   5625
   ],
   [
    "telnetadmin/telnetadmin",
@@ -291,7 +291,7 @@
   ],
   [
    "root/1234",
-   5089
+   5080
   ],
   [
    "root/password",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4615
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 2919,
+  "distinct_credentials": 2989,
   "distinct_payload_urls": 214,
   "events": 4309546,
   "new_sources": 1684,

@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 9
+   "sources": 11
   },
   {
    "cve": "CVE-2012-1823",
@@ -38,14 +38,15 @@
   }
  ],
  "funnel": {
-  "connected": 594,
-  "delivered_sample": 20,
-  "fetched_payload": 54,
-  "ran_commands": 179,
-  "returned": 432,
-  "tried_creds": 387
+  "connected": 871,
+  "delivered_sample": 27,
+  "fetched_payload": 61,
+  "ran_commands": 271,
+  "returned": 631,
+  "tried_creds": 553
  },
  "samples": [
+  "15d977b0cd7353fde95f6744ac53dd9c4bf5e37af37f72cd9ad67cb6ceaee049",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
   "5175098e672aa4dd5379918e5e65bb38544b41c11dfe8f72fa424cc04ce8b3fb",
@@ -64,30 +65,30 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   51
+   58
   ],
   [
    "DVR / IP camera (OEM default)",
-   50
+   57
   ],
   [
    "Huawei HG gateway",
-   38
+   40
   ],
   [
    "DrayTek router",
-   34
+   36
   ],
   [
    "ZTE CPE",
-   28
-  ],
-  [
-   "firmware backdoor account",
-   22
+   31
   ],
   [
    "ISP-branded DSL gateway",
+   21
+  ],
+  [
+   "firmware backdoor account",
    21
   ],
   [
@@ -96,7 +97,7 @@
   ],
   [
    "SMC Networks CPE",
-   18
+   17
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -127,6 +128,10 @@
   [
    "123.132.166.255",
    5
+  ],
+  [
+   "115.61.112.26",
+   3
   ],
   [
    "5.42.33.36",
@@ -219,122 +224,118 @@
   [
    "113.236.157.218",
    1
-  ],
-  [
-   "113.236.4.237",
-   1
   ]
  ],
  "top_credentials": [
   [
    "root/root",
-   33945
-  ],
-  [
-   "admin/7ujMko0admin",
-   20170
-  ],
-  [
-   "root/Zte521",
-   14293
-  ],
-  [
-   "root/xc3511",
-   12940
-  ],
-  [
-   "administrator/",
-   10824
+   34276
   ],
   [
    "admin/smcadmin",
-   9333
+   22442
+  ],
+  [
+   "admin/7ujMko0admin",
+   20895
+  ],
+  [
+   "administrator/",
+   17678
+  ],
+  [
+   "root/Zte521",
+   14791
+  ],
+  [
+   "root/xc3511",
+   14121
   ],
   [
    "root/e2008jl",
-   9075
+   9237
   ],
   [
    "admin/1111111",
-   6223
+   6310
   ],
   [
    "root/25802580",
-   5661
-  ],
-  [
-   "admin/admin",
-   4617
-  ],
-  [
-   "888888/888888",
-   4567
-  ],
-  [
-   "e8telnet/e8telnet",
-   4047
-  ],
-  [
-   "user/1234",
-   4018
-  ],
-  [
-   "root/",
-   3869
-  ],
-  [
-   "admin/epicrouter",
-   3545
-  ],
-  [
-   "root/samsung",
-   3457
-  ],
-  [
-   "guest/123456",
-   3310
+   6058
   ],
   [
    "root/admin",
-   3240
-  ],
-  [
-   "supervisor/zyad1234",
-   3228
+   5626
   ],
   [
    "root/hi3518",
-   3194
+   5022
+  ],
+  [
+   "admin/admin",
+   4940
+  ],
+  [
+   "888888/888888",
+   4652
+  ],
+  [
+   "root/",
+   4290
+  ],
+  [
+   "e8telnet/e8telnet",
+   4282
+  ],
+  [
+   "user/1234",
+   4242
+  ],
+  [
+   "Admin/",
+   3789
+  ],
+  [
+   "admin/epicrouter",
+   3604
+  ],
+  [
+   "root/samsung",
+   3481
+  ],
+  [
+   "guest/123456",
+   3393
+  ],
+  [
+   "supervisor/zyad1234",
+   3265
   ],
   [
    "support/support123",
-   3152
+   3261
   ],
   [
    "root/system",
-   2910
+   3041
   ],
   [
    "root/vizxv",
-   2881
+   2984
   ],
   [
    "admin/adminHW",
-   2742
-  ],
-  [
-   "root/12345",
-   2730
+   2931
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 147,
-  "distinct_credentials": 1901,
-  "distinct_payload_urls": 205,
-  "events": 821123,
-  "new_sources": 279,
-  "shared_c2_hosts": 10,
-  "sources": 594
+  "distinct_c2_hosts": 158,
+  "distinct_credentials": 3035,
+  "distinct_payload_urls": 219,
+  "events": 1572992,
+  "new_sources": 426,
+  "shared_c2_hosts": 11,
+  "sources": 871
  },
  "window": {
   "days": 1,
