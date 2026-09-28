@@ -49,7 +49,7 @@
   "connected": 1963,
   "delivered_sample": 99,
   "fetched_payload": 183,
-  "ran_commands": 707,
+  "ran_commands": 708,
   "returned": 1104,
   "tried_creds": 705
  },
@@ -108,7 +108,7 @@
  "targets": [
   [
    "ZTE CPE",
-   140
+   142
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -120,7 +120,7 @@
   ],
   [
    "Huawei HG gateway",
-   73
+   72
   ],
   [
    "DrayTek router",
@@ -128,19 +128,19 @@
   ],
   [
    "firmware backdoor account",
-   46
+   47
   ],
   [
    "ISP-branded DSL gateway",
-   38
+   39
   ],
   [
    "IoT OEM default account",
-   35
+   36
   ],
   [
    "SMC Networks CPE",
-   30
+   29
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -280,11 +280,11 @@
   ],
   [
    "admin/v2mprt",
-   49382
+   49389
   ],
   [
    "admin/admin",
-   42979
+   42989
   ],
   [
    "administrator/",
@@ -292,27 +292,27 @@
   ],
   [
    "root/root",
-   31518
+   31564
   ],
   [
    "root/Zte521",
-   25804
+   25890
   ],
   [
    "CUAdmin/CUAdmin",
-   18765
+   18766
   ],
   [
    "admin/meinsm",
-   18644
+   18657
   ],
   [
    "root/xc3511",
-   18214
+   18220
   ],
   [
    "root/1234",
-   16207
+   16218
   ],
   [
    "admin/pass",
@@ -324,15 +324,15 @@
   ],
   [
    "root/xmhdipc",
-   13657
+   13663
   ],
   [
    "root/hi3518",
-   13414
+   13415
   ],
   [
    "telnetadmin/telnetadmin",
-   12776
+   12784
   ],
   [
    "root/klv1234",
@@ -340,19 +340,19 @@
   ],
   [
    "super/PhrQjGzk",
-   8623
+   8624
   ],
   [
    "support/support",
-   8448
+   8454
   ],
   [
    "root/",
-   8250
+   8299
   ],
   [
    "admin/1111111",
-   7896
+   7918
   ],
   [
    "root/klv123",
@@ -364,7 +364,7 @@
   ],
   [
    "root/e2008jl",
-   7342
+   7345
   ],
   [
    "administrator/1234",
@@ -372,12 +372,12 @@
   ],
   [
    "Administrator/admin",
-   6651
+   6675
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2337,
+  "distinct_credentials": 2362,
   "distinct_payload_urls": 366,
   "events": 5215782,
   "new_sources": 1760,
