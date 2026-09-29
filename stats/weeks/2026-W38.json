@@ -51,10 +51,10 @@
  ],
  "funnel": {
   "connected": 3510,
-  "delivered_sample": 165,
+  "delivered_sample": 166,
   "fetched_payload": 206,
-  "ran_commands": 1201,
-  "returned": 1907,
+  "ran_commands": 1204,
+  "returned": 1915,
   "tried_creds": 1435
  },
  "samples": [
@@ -132,7 +132,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   161
+   162
   ],
   [
    "ZTE CPE",
@@ -148,7 +148,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   70
   ],
   [
    "firmware backdoor account",
@@ -156,7 +156,7 @@
   ],
   [
    "IoT OEM default account",
-   64
+   63
   ],
   [
    "SMC Networks CPE",
@@ -316,27 +316,27 @@
   ],
   [
    "admin/meinsm",
-   63090
+   63082
   ],
   [
    "root/xc3511",
-   56989
+   56990
   ],
   [
    "root/Zte521",
-   56379
+   56402
   ],
   [
    "telnet/telnet",
-   38957
+   38958
   ],
   [
    "root/root",
-   35658
+   35674
   ],
   [
    "default/default",
-   29644
+   29645
   ],
   [
    "CUAdmin/CUAdmin",
@@ -344,23 +344,23 @@
   ],
   [
    "admin/adminpass",
-   24649
+   24694
   ],
   [
    "root/ikwb",
-   23677
+   23698
   ],
   [
    "admin/admin",
-   19693
+   19709
   ],
   [
    "tech/tech",
-   17756
+   17736
   ],
   [
    "root/xmhdipc",
-   17074
+   17075
   ],
   [
    "root/1234",
@@ -368,7 +368,7 @@
   ],
   [
    "root/7ujMko0admin",
-   16309
+   16314
   ],
   [
    "admin/pass",
@@ -376,11 +376,11 @@
   ],
   [
    "root/e2008jl",
-   14626
+   14674
   ],
   [
    "root/kopp",
-   14214
+   14233
   ],
   [
    "root/888888",
@@ -392,11 +392,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13326
+   13353
   ],
   [
    "support/support",
-   12766
+   12770
   ],
   [
    "admin/plumeria0077",
@@ -405,7 +405,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 402,
-  "distinct_credentials": 3756,
+  "distinct_credentials": 3764,
   "distinct_payload_urls": 605,
   "events": 14261125,
   "new_sources": 3088,
