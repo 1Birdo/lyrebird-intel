@@ -50,11 +50,11 @@
   }
  ],
  "funnel": {
-  "connected": 3512,
-  "delivered_sample": 164,
+  "connected": 3510,
+  "delivered_sample": 165,
   "fetched_payload": 206,
-  "ran_commands": 1198,
-  "returned": 1901,
+  "ran_commands": 1200,
+  "returned": 1902,
   "tried_creds": 1435
  },
  "samples": [
@@ -135,11 +135,11 @@
   ],
   [
    "ZTE CPE",
-   113
+   112
   ],
   [
    "Huawei HG gateway",
-   109
+   108
   ],
   [
    "DrayTek router",
@@ -151,7 +151,7 @@
   ],
   [
    "firmware backdoor account",
-   70
+   68
   ],
   [
    "IoT OEM default account",
@@ -303,7 +303,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91025
+   91017
   ],
   [
    "rapport/r@p8p0r+",
@@ -315,27 +315,27 @@
   ],
   [
    "admin/meinsm",
-   63057
+   63076
   ],
   [
    "root/xc3511",
-   56986
+   56996
   ],
   [
    "root/Zte521",
-   56291
+   56246
   ],
   [
    "telnet/telnet",
-   38982
+   38954
   ],
   [
    "root/root",
-   35571
+   35596
   ],
   [
    "default/default",
-   29641
+   29642
   ],
   [
    "CUAdmin/CUAdmin",
@@ -343,7 +343,7 @@
   ],
   [
    "admin/adminpass",
-   24650
+   24649
   ],
   [
    "root/ikwb",
@@ -351,15 +351,15 @@
   ],
   [
    "admin/admin",
-   19660
+   19675
   ],
   [
    "tech/tech",
-   17754
+   17756
   ],
   [
    "root/xmhdipc",
-   17063
+   17073
   ],
   [
    "root/1234",
@@ -371,19 +371,19 @@
   ],
   [
    "admin/pass",
-   15598
+   15668
   ],
   [
    "root/e2008jl",
-   14420
+   14489
   ],
   [
    "root/kopp",
-   14096
+   14142
   ],
   [
    "root/888888",
-   13794
+   13792
   ],
   [
    "ubnt/ubnt",
@@ -391,11 +391,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13335
+   13341
   ],
   [
    "support/support",
-   12750
+   12755
   ],
   [
    "admin/plumeria0077",
@@ -404,12 +404,12 @@
  ],
  "totals": {
   "distinct_c2_hosts": 402,
-  "distinct_credentials": 3663,
+  "distinct_credentials": 3694,
   "distinct_payload_urls": 605,
-  "events": 14261131,
+  "events": 14261125,
   "new_sources": 3088,
   "shared_c2_hosts": 118,
-  "sources": 3512
+  "sources": 3510
  },
  "window": {
   "days": 7,

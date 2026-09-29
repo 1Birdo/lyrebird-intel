@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 11
+   "sources": 13
   },
   {
    "cve": "CVE-2012-1823",
@@ -19,6 +19,10 @@
   {
    "cve": "CVE-2021-41773",
    "sources": 4
+  },
+  {
+   "cve": "CVE-2014-8361",
+   "sources": 1
   },
   {
    "cve": "CVE-2015-2051",
@@ -38,12 +42,12 @@
   }
  ],
  "funnel": {
-  "connected": 871,
-  "delivered_sample": 27,
-  "fetched_payload": 61,
-  "ran_commands": 271,
-  "returned": 631,
-  "tried_creds": 553
+  "connected": 1083,
+  "delivered_sample": 31,
+  "fetched_payload": 67,
+  "ran_commands": 330,
+  "returned": 762,
+  "tried_creds": 694
  },
  "samples": [
   "15d977b0cd7353fde95f6744ac53dd9c4bf5e37af37f72cd9ad67cb6ceaee049",
@@ -65,39 +69,39 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   58
+   64
   ],
   [
    "DVR / IP camera (OEM default)",
-   57
+   60
   ],
   [
    "Huawei HG gateway",
-   40
+   42
   ],
   [
    "DrayTek router",
-   36
+   41
   ],
   [
    "ZTE CPE",
-   31
+   34
+  ],
+  [
+   "firmware backdoor account",
+   24
+  ],
+  [
+   "IoT OEM default account",
+   22
   ],
   [
    "ISP-branded DSL gateway",
    21
   ],
   [
-   "firmware backdoor account",
-   21
-  ],
-  [
-   "IoT OEM default account",
-   19
-  ],
-  [
    "SMC Networks CPE",
-   17
+   20
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -134,6 +138,14 @@
    3
   ],
   [
+   "220.115.58.37",
+   3
+  ],
+  [
+   "220.152.179.214",
+   3
+  ],
+  [
    "5.42.33.36",
    3
   ],
@@ -142,15 +154,15 @@
    2
   ],
   [
+   "113.230.82.33",
+   2
+  ],
+  [
+   "190.109.228.175",
+   2
+  ],
+  [
    "213.232.114.14",
-   2
-  ],
-  [
-   "220.115.58.37",
-   2
-  ],
-  [
-   "220.152.179.214",
    2
   ],
   [
@@ -163,6 +175,10 @@
   ],
   [
    "42.52.232.28",
+   2
+  ],
+  [
+   "60.6.62.96",
    2
   ],
   [
@@ -212,135 +228,123 @@
   [
    "112.254.26.64",
    1
-  ],
-  [
-   "113.229.54.12",
-   1
-  ],
-  [
-   "113.230.82.33",
-   1
-  ],
-  [
-   "113.236.157.218",
-   1
   ]
  ],
  "top_credentials": [
   [
    "root/root",
-   34276
+   34540
   ],
   [
    "admin/smcadmin",
-   22442
+   25419
   ],
   [
    "admin/7ujMko0admin",
-   20895
+   21561
   ],
   [
    "administrator/",
    17678
   ],
   [
-   "root/Zte521",
-   14791
+   "root/xc3511",
+   16458
   ],
   [
-   "root/xc3511",
-   14121
+   "root/Zte521",
+   16316
   ],
   [
    "root/e2008jl",
-   9237
-  ],
-  [
-   "admin/1111111",
-   6310
-  ],
-  [
-   "root/25802580",
-   6058
+   9410
   ],
   [
    "root/admin",
-   5626
+   7519
   ],
   [
-   "root/hi3518",
-   5022
+   "admin/1111111",
+   6393
+  ],
+  [
+   "root/25802580",
+   6368
   ],
   [
    "admin/admin",
-   4940
+   5767
   ],
   [
-   "888888/888888",
-   4652
-  ],
-  [
-   "root/",
-   4290
-  ],
-  [
-   "e8telnet/e8telnet",
-   4282
-  ],
-  [
-   "user/1234",
-   4242
+   "root/hi3518",
+   5236
   ],
   [
    "Admin/",
-   3789
+   4996
+  ],
+  [
+   "888888/888888",
+   4704
+  ],
+  [
+   "root/",
+   4640
+  ],
+  [
+   "user/1234",
+   4448
+  ],
+  [
+   "e8telnet/e8telnet",
+   4432
+  ],
+  [
+   "telnetadmin/telnetadmin",
+   4397
+  ],
+  [
+   "support/1234",
+   3889
   ],
   [
    "admin/epicrouter",
-   3604
+   3713
   ],
   [
    "root/samsung",
-   3481
+   3560
   ],
   [
    "guest/123456",
-   3393
+   3485
   ],
   [
-   "supervisor/zyad1234",
-   3265
+   "guest/guest",
+   3441
   ],
   [
    "support/support123",
-   3261
+   3354
   ],
   [
-   "root/system",
-   3041
-  ],
-  [
-   "root/vizxv",
-   2984
-  ],
-  [
-   "admin/adminHW",
-   2931
+   "supervisor/zyad1234",
+   3291
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 158,
-  "distinct_credentials": 3035,
-  "distinct_payload_urls": 219,
-  "events": 1572992,
-  "new_sources": 426,
-  "shared_c2_hosts": 11,
-  "sources": 871
+  "distinct_c2_hosts": 172,
+  "distinct_credentials": 3615,
+  "distinct_payload_urls": 241,
+  "events": 2185731,
+  "new_sources": 552,
+  "shared_c2_hosts": 14,
+  "sources": 1083
  },
  "window": {
-  "days": 1,
+  "days": 2,
   "first_day": "2026-09-28",
-  "last_day": "2026-09-28",
+  "last_day": "2026-09-29",
   "week": "2026-W40"
  }
 }
