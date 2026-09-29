@@ -54,7 +54,7 @@
   "delivered_sample": 165,
   "fetched_payload": 206,
   "ran_commands": 1201,
-  "returned": 1904,
+  "returned": 1907,
   "tried_creds": 1435
  },
  "samples": [
@@ -94,6 +94,7 @@
   "95a01865b666c186764c8d7b2dfcf6d64220ed7e046826a52faf76f1f855925b",
   "9ec39f330c99f78395b144093d51489fed6e0ed36bc1fe71786b9a1f92b0bef5",
   "a2172f40e99b78fde9980848b5eaa7d223f31c58eecbf6acca85939c9a3465ff",
+  "a573af0b81dcaca9953ebb137633828c82d6eb9e5884ea2e8c9398638368f172",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "aacc662ba8c7754fca55f783ec530ecc5cb0d39045627727913cff9ce9666255",
   "ab376a8b6bbc3a83820e1b83ea3d1ae2e8320672a44980105a0a8722e14d0f9d",
@@ -127,7 +128,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   178
+   179
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -135,7 +136,7 @@
   ],
   [
    "ZTE CPE",
-   112
+   113
   ],
   [
    "Huawei HG gateway",
@@ -155,7 +156,7 @@
   ],
   [
    "IoT OEM default account",
-   62
+   64
   ],
   [
    "SMC Networks CPE",
@@ -167,7 +168,7 @@
   ],
   [
    "embedded web server (boa/goform)",
-   9
+   10
   ],
   [
    "PHP-CGI",
@@ -303,7 +304,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91023
+   91016
   ],
   [
    "rapport/r@p8p0r+",
@@ -315,31 +316,31 @@
   ],
   [
    "admin/meinsm",
-   63086
+   63090
   ],
   [
    "root/xc3511",
-   56988
+   56989
   ],
   [
    "root/Zte521",
-   56276
+   56379
   ],
   [
    "telnet/telnet",
-   38956
+   38957
   ],
   [
    "root/root",
-   35634
+   35658
   ],
   [
    "default/default",
-   29642
+   29644
   ],
   [
    "CUAdmin/CUAdmin",
-   25870
+   25871
   ],
   [
    "admin/adminpass",
@@ -347,11 +348,11 @@
   ],
   [
    "root/ikwb",
-   23670
+   23677
   ],
   [
    "admin/admin",
-   19682
+   19693
   ],
   [
    "tech/tech",
@@ -359,11 +360,11 @@
   ],
   [
    "root/xmhdipc",
-   17073
+   17074
   ],
   [
    "root/1234",
-   16831
+   16832
   ],
   [
    "root/7ujMko0admin",
@@ -371,15 +372,15 @@
   ],
   [
    "admin/pass",
-   15669
+   15597
   ],
   [
    "root/e2008jl",
-   14559
+   14626
   ],
   [
    "root/kopp",
-   14176
+   14214
   ],
   [
    "root/888888",
@@ -391,11 +392,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13362
+   13326
   ],
   [
    "support/support",
-   12760
+   12766
   ],
   [
    "admin/plumeria0077",
@@ -404,7 +405,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 402,
-  "distinct_credentials": 3727,
+  "distinct_credentials": 3756,
   "distinct_payload_urls": 605,
   "events": 14261125,
   "new_sources": 3088,

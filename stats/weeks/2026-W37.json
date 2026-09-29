@@ -47,10 +47,10 @@
  ],
  "funnel": {
   "connected": 1962,
-  "delivered_sample": 99,
+  "delivered_sample": 100,
   "fetched_payload": 183,
   "ran_commands": 712,
-  "returned": 1112,
+  "returned": 1113,
   "tried_creds": 705
  },
  "samples": [
@@ -84,6 +84,7 @@
   "87fcc79d8550401d9e5e3ac728cef495444e064e19035aafd809bab12097d821",
   "94fba137352296f09ce746c7a2ce040f3f4d300d49b8cfddf3b00360a2f3b09b",
   "9da378872ca49fa300d2fd9573072bc7d81bb3dd3a0893a1c758a1b109a5e870",
+  "a573af0b81dcaca9953ebb137633828c82d6eb9e5884ea2e8c9398638368f172",
   "a7aaea314591d7774926bf15ba1028b52710dd55567db3f64ea710b546cc8db3",
   "a84517ac01ee61f1f980508f4a66b0c8bc12c05d7c8190fef2033c23232628c3",
   "a92c33568de0e5cd0d1fc8e9a11cd263a844a041a7c6af0e74702090c6f63287",
@@ -108,7 +109,7 @@
  "targets": [
   [
    "ZTE CPE",
-   141
+   142
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -128,7 +129,7 @@
   ],
   [
    "firmware backdoor account",
-   47
+   46
   ],
   [
    "ISP-branded DSL gateway",
@@ -280,11 +281,11 @@
   ],
   [
    "admin/v2mprt",
-   49389
+   49382
   ],
   [
    "admin/admin",
-   43010
+   43017
   ],
   [
    "administrator/",
@@ -292,31 +293,31 @@
   ],
   [
    "root/root",
-   31699
+   31720
   ],
   [
    "root/Zte521",
-   25849
+   25930
   ],
   [
    "CUAdmin/CUAdmin",
-   18768
+   18769
   ],
   [
    "admin/meinsm",
-   18689
+   18693
   ],
   [
    "root/xc3511",
-   18228
+   18229
   ],
   [
    "root/1234",
-   16219
+   16220
   ],
   [
    "admin/pass",
-   14518
+   14446
   ],
   [
    "root/888888",
@@ -324,35 +325,35 @@
   ],
   [
    "root/xmhdipc",
-   13665
+   13666
   ],
   [
    "root/hi3518",
-   13417
+   13418
   ],
   [
    "telnetadmin/telnetadmin",
-   12808
+   12810
   ],
   [
    "root/klv1234",
-   9888
+   9891
   ],
   [
    "super/PhrQjGzk",
    8628
   ],
   [
-   "support/support",
-   8473
+   "root/",
+   8528
   ],
   [
-   "root/",
-   8471
+   "support/support",
+   8479
   ],
   [
    "admin/1111111",
-   8012
+   8033
   ],
   [
    "root/klv123",
@@ -364,11 +365,11 @@
   ],
   [
    "root/e2008jl",
-   7371
+   7375
   ],
   [
    "administrator/1234",
-   7080
+   7083
   ],
   [
    "Administrator/admin",
@@ -377,7 +378,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2385,
+  "distinct_credentials": 2383,
   "distinct_payload_urls": 366,
   "events": 5215779,
   "new_sources": 1759,

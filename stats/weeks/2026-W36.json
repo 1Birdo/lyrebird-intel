@@ -63,7 +63,7 @@
   ],
   [
    "Huawei HG gateway",
-   53
+   54
   ],
   [
    "DrayTek router",
@@ -83,7 +83,7 @@
   ],
   [
    "IoT OEM default account",
-   23
+   21
   ],
   [
    "WordPress",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34972
+   34973
   ],
   [
    "root/kopp",
@@ -235,7 +235,7 @@
   ],
   [
    "admin/pass",
-   14260
+   14266
   ],
   [
    "root/Zte521",
@@ -243,7 +243,7 @@
   ],
   [
    "admin/88888888",
-   13163
+   13174
   ],
   [
    "admin/smcadmin",
@@ -255,7 +255,7 @@
   ],
   [
    "root/klv1234",
-   7580
+   7581
   ],
   [
    "666666/666666",
@@ -291,7 +291,7 @@
   ],
   [
    "root/1234",
-   5092
+   5093
   ],
   [
    "root/password",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4620
   ],
   [
    "root/12341234",
-   4387
+   4379
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 3012,
+  "distinct_credentials": 3009,
   "distinct_payload_urls": 214,
   "events": 4309544,
   "new_sources": 1683,

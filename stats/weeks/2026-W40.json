@@ -2,11 +2,15 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 19
+   "sources": 22
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 4
+   "sources": 5
+  },
+  {
+   "cve": "CVE-2021-41773",
+   "sources": 5
   },
   {
    "cve": "CVE-2017-9841",
@@ -14,10 +18,6 @@
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 4
-  },
-  {
-   "cve": "CVE-2021-41773",
    "sources": 4
   },
   {
@@ -42,12 +42,12 @@
   }
  ],
  "funnel": {
-  "connected": 1264,
-  "delivered_sample": 38,
-  "fetched_payload": 73,
-  "ran_commands": 395,
-  "returned": 903,
-  "tried_creds": 803
+  "connected": 1481,
+  "delivered_sample": 49,
+  "fetched_payload": 75,
+  "ran_commands": 440,
+  "returned": 1046,
+  "tried_creds": 912
  },
  "samples": [
   "15d977b0cd7353fde95f6744ac53dd9c4bf5e37af37f72cd9ad67cb6ceaee049",
@@ -55,10 +55,13 @@
   "4fdda7372d489c109f2a3b2951446eee03bf32d9be95234fb87cab124ae0e2b0",
   "5175098e672aa4dd5379918e5e65bb38544b41c11dfe8f72fa424cc04ce8b3fb",
   "62a4b82cadbf1da27c616c27dfa81a668439b36bd691e8f967104b24a7653996",
+  "67d2bce68f95955606349755fc89dc0693335f5feb34753c60ebd71258c63022",
   "80a0d3f3a3e897794ebbd7e2db37f1084431e61003116a442a3319243d3414de",
+  "a573af0b81dcaca9953ebb137633828c82d6eb9e5884ea2e8c9398638368f172",
   "a727cf20993e8e6bc0864cd708e81340090a654d00d3f675bdf625c081502653",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bb0ca78c08dad49bbac623995add1fb61c25f41a30f020fb8e4e8764af5c9327",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "c48da982aabb6f9617b9f57dd2f27e671ede64b326594b730b3105fb6bf3ecf2",
   "ce7a2d6d2207e5fd6a0211d05e87bb5c841b76478812dd028ee1102a43c41c94",
@@ -69,39 +72,47 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   68
+   71
   ],
   [
    "DVR / IP camera (OEM default)",
-   66
+   70
   ],
   [
    "Huawei HG gateway",
-   47
+   49
   ],
   [
    "DrayTek router",
-   43
+   47
   ],
   [
    "ZTE CPE",
-   38
-  ],
-  [
-   "IoT OEM default account",
-   25
+   39
   ],
   [
    "ISP-branded DSL gateway",
-   24
+   26
   ],
   [
    "firmware backdoor account",
+   26
+  ],
+  [
+   "IoT OEM default account",
    23
   ],
   [
    "SMC Networks CPE",
-   20
+   19
+  ],
+  [
+   "WordPress",
+   5
+  ],
+  [
+   "embedded web server (boa/goform)",
+   5
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -110,14 +121,6 @@
   [
    "PHP-CGI",
    4
-  ],
-  [
-   "WordPress",
-   3
-  ],
-  [
-   "embedded web server (boa/goform)",
-   2
   ],
   [
    "Hikvision / ONVIF camera",
@@ -163,6 +166,10 @@
   ],
   [
    "113.236.157.218",
+   2
+  ],
+  [
+   "175.167.167.51",
    2
   ],
   [
@@ -224,122 +231,118 @@
   [
    "103.172.186.195",
    1
-  ],
-  [
-   "103.249.199.3",
-   1
   ]
  ],
  "top_credentials": [
   [
    "root/root",
-   34798
+   35021
   ],
   [
    "admin/smcadmin",
-   26878
+   27930
   ],
   [
    "admin/7ujMko0admin",
-   22249
+   22920
   ],
   [
    "administrator/",
    20142
   ],
   [
-   "root/Zte521",
-   18107
-  ],
-  [
    "root/xc3511",
-   18072
+   19465
   ],
   [
-   "root/e2008jl",
-   9557
+   "root/Zte521",
+   19195
   ],
   [
    "root/admin",
-   8988
+   10407
+  ],
+  [
+   "root/e2008jl",
+   9701
   ],
   [
    "telnetadmin/telnetadmin",
-   7125
-  ],
-  [
-   "root/25802580",
-   6580
+   7679
   ],
   [
    "admin/1111111",
-   6535
+   6846
+  ],
+  [
+   "root/25802580",
+   6840
   ],
   [
    "admin/admin",
-   6319
+   6697
   ],
   [
    "Admin/",
-   6259
-  ],
-  [
-   "root/hi3518",
-   5401
-  ],
-  [
-   "root/",
-   4948
+   6568
   ],
   [
    "support/1234",
-   4845
+   5755
   ],
   [
-   "888888/888888",
-   4765
-  ],
-  [
-   "user/1234",
-   4641
-  ],
-  [
-   "e8telnet/e8telnet",
-   4496
+   "root/hi3518",
+   5545
   ],
   [
    "cunmgadmin/cunmgadmin",
-   4357
+   5459
+  ],
+  [
+   "root/",
+   5207
   ],
   [
    "guest/guest",
-   4263
+   4883
   ],
   [
-   "admin/epicrouter",
-   3850
+   "user/1234",
+   4830
   ],
   [
-   "root/samsung",
-   3635
+   "888888/888888",
+   4818
   ],
   [
-   "guest/123456",
-   3521
+   "e8telnet/e8telnet",
+   4615
   ],
   [
    "support/support",
-   3465
+   4003
+  ],
+  [
+   "admin/epicrouter",
+   3962
+  ],
+  [
+   "root/samsung",
+   3677
+  ],
+  [
+   "root/kopp",
+   3632
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 181,
-  "distinct_credentials": 4217,
-  "distinct_payload_urls": 255,
-  "events": 2711371,
-  "new_sources": 655,
-  "shared_c2_hosts": 17,
-  "sources": 1264
+  "distinct_c2_hosts": 189,
+  "distinct_credentials": 4663,
+  "distinct_payload_urls": 266,
+  "events": 3105152,
+  "new_sources": 783,
+  "shared_c2_hosts": 18,
+  "sources": 1481
  },
  "window": {
   "days": 2,
