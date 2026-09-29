@@ -53,8 +53,8 @@
   "connected": 3510,
   "delivered_sample": 165,
   "fetched_payload": 206,
-  "ran_commands": 1200,
-  "returned": 1902,
+  "ran_commands": 1201,
+  "returned": 1904,
   "tried_creds": 1435
  },
  "samples": [
@@ -127,7 +127,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   179
+   178
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -155,7 +155,7 @@
   ],
   [
    "IoT OEM default account",
-   63
+   62
   ],
   [
    "SMC Networks CPE",
@@ -303,7 +303,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91017
+   91023
   ],
   [
    "rapport/r@p8p0r+",
@@ -315,23 +315,23 @@
   ],
   [
    "admin/meinsm",
-   63076
+   63086
   ],
   [
    "root/xc3511",
-   56996
+   56988
   ],
   [
    "root/Zte521",
-   56246
+   56276
   ],
   [
    "telnet/telnet",
-   38954
+   38956
   ],
   [
    "root/root",
-   35596
+   35634
   ],
   [
    "default/default",
@@ -339,7 +339,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   25869
+   25870
   ],
   [
    "admin/adminpass",
@@ -347,11 +347,11 @@
   ],
   [
    "root/ikwb",
-   23676
+   23670
   ],
   [
    "admin/admin",
-   19675
+   19682
   ],
   [
    "tech/tech",
@@ -363,7 +363,7 @@
   ],
   [
    "root/1234",
-   16829
+   16831
   ],
   [
    "root/7ujMko0admin",
@@ -371,15 +371,15 @@
   ],
   [
    "admin/pass",
-   15668
+   15669
   ],
   [
    "root/e2008jl",
-   14489
+   14559
   ],
   [
    "root/kopp",
-   14142
+   14176
   ],
   [
    "root/888888",
@@ -391,11 +391,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13341
+   13362
   ],
   [
    "support/support",
-   12755
+   12760
   ],
   [
    "admin/plumeria0077",
@@ -404,7 +404,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 402,
-  "distinct_credentials": 3694,
+  "distinct_credentials": 3727,
   "distinct_payload_urls": 605,
   "events": 14261125,
   "new_sources": 3088,

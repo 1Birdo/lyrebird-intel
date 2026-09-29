@@ -63,11 +63,15 @@
   ],
   [
    "Huawei HG gateway",
-   52
+   53
   ],
   [
    "DrayTek router",
-   40
+   39
+  ],
+  [
+   "ISP-branded DSL gateway",
+   28
   ],
   [
    "SMC Networks CPE",
@@ -76,10 +80,6 @@
   [
    "firmware backdoor account",
    27
-  ],
-  [
-   "ISP-branded DSL gateway",
-   26
   ],
   [
    "IoT OEM default account",
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34970
+   34972
   ],
   [
    "root/kopp",
@@ -231,19 +231,19 @@
   ],
   [
    "root/xc3511",
-   15625
+   15623
   ],
   [
    "admin/pass",
-   14266
+   14260
   ],
   [
    "root/Zte521",
-   14191
+   14199
   ],
   [
    "admin/88888888",
-   13174
+   13163
   ],
   [
    "admin/smcadmin",
@@ -259,15 +259,15 @@
   ],
   [
    "666666/666666",
-   6993
+   6983
   ],
   [
    "root/hi3518",
-   6391
+   6394
   ],
   [
    "root/Pon521",
-   6263
+   6268
   ],
   [
    "administrator/",
@@ -291,11 +291,11 @@
   ],
   [
    "root/1234",
-   5103
+   5092
   ],
   [
    "root/password",
-   4988
+   4990
   ],
   [
    "super/xJ4pCYeW",
@@ -306,16 +306,16 @@
    4977
   ],
   [
-   "super/PhrQjGzk",
-   4772
-  ],
-  [
    "root/bluehorse",
    4747
   ],
   [
+   "super/PhrQjGzk",
+   4733
+  ],
+  [
    "admin/v2mprt",
-   4613
+   4601
   ],
   [
    "root/12341234",
@@ -324,7 +324,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 3009,
+  "distinct_credentials": 3012,
   "distinct_payload_urls": 214,
   "events": 4309544,
   "new_sources": 1683,

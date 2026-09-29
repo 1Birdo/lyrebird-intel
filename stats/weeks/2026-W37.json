@@ -50,7 +50,7 @@
   "delivered_sample": 99,
   "fetched_payload": 183,
   "ran_commands": 712,
-  "returned": 1111,
+  "returned": 1112,
   "tried_creds": 705
  },
  "samples": [
@@ -108,7 +108,7 @@
  "targets": [
   [
    "ZTE CPE",
-   140
+   141
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -120,7 +120,7 @@
   ],
   [
    "Huawei HG gateway",
-   71
+   72
   ],
   [
    "DrayTek router",
@@ -128,11 +128,11 @@
   ],
   [
    "firmware backdoor account",
-   46
+   47
   ],
   [
    "ISP-branded DSL gateway",
-   37
+   39
   ],
   [
    "IoT OEM default account",
@@ -280,11 +280,11 @@
   ],
   [
    "admin/v2mprt",
-   49382
+   49389
   ],
   [
    "admin/admin",
-   43008
+   43010
   ],
   [
    "administrator/",
@@ -292,31 +292,31 @@
   ],
   [
    "root/root",
-   31661
+   31699
   ],
   [
    "root/Zte521",
-   25833
+   25849
   ],
   [
    "CUAdmin/CUAdmin",
-   18767
+   18768
   ],
   [
    "admin/meinsm",
-   18640
+   18689
   ],
   [
    "root/xc3511",
-   18226
+   18228
   ],
   [
    "root/1234",
-   16209
+   16219
   ],
   [
    "admin/pass",
-   14517
+   14518
   ],
   [
    "root/888888",
@@ -328,31 +328,31 @@
   ],
   [
    "root/hi3518",
-   13416
+   13417
   ],
   [
    "telnetadmin/telnetadmin",
-   12803
+   12808
   ],
   [
    "root/klv1234",
-   9887
+   9888
   ],
   [
    "super/PhrQjGzk",
-   8666
+   8628
   ],
   [
    "support/support",
-   8468
+   8473
   ],
   [
    "root/",
-   8423
+   8471
   ],
   [
    "admin/1111111",
-   7989
+   8012
   ],
   [
    "root/klv123",
@@ -364,7 +364,7 @@
   ],
   [
    "root/e2008jl",
-   7362
+   7371
   ],
   [
    "administrator/1234",
@@ -377,7 +377,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2382,
+  "distinct_credentials": 2385,
   "distinct_payload_urls": 366,
   "events": 5215779,
   "new_sources": 1759,
