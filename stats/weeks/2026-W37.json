@@ -49,9 +49,9 @@
   "connected": 1962,
   "delivered_sample": 100,
   "fetched_payload": 183,
-  "ran_commands": 712,
+  "ran_commands": 713,
   "returned": 1115,
-  "tried_creds": 705
+  "tried_creds": 706
  },
  "samples": [
   "00191bd7f825efdad8517fc426ad9fb3a7db18bc305a08285f516ebe6d811ae9",
@@ -121,11 +121,11 @@
   ],
   [
    "Huawei HG gateway",
-   72
+   71
   ],
   [
    "DrayTek router",
-   59
+   60
   ],
   [
    "firmware backdoor account",
@@ -137,11 +137,11 @@
   ],
   [
    "IoT OEM default account",
-   37
+   36
   ],
   [
    "SMC Networks CPE",
-   31
+   30
   ],
   [
    "Apache HTTP Server (CGI)",
@@ -285,7 +285,7 @@
   ],
   [
    "admin/admin",
-   43021
+   43032
   ],
   [
    "administrator/",
@@ -297,11 +297,11 @@
   ],
   [
    "root/Zte521",
-   25929
+   25935
   ],
   [
    "CUAdmin/CUAdmin",
-   18769
+   18771
   ],
   [
    "admin/meinsm",
@@ -309,15 +309,15 @@
   ],
   [
    "root/xc3511",
-   18230
+   18231
   ],
   [
    "root/1234",
-   16212
+   16213
   ],
   [
    "admin/pass",
-   14454
+   14452
   ],
   [
    "root/888888",
@@ -325,7 +325,7 @@
   ],
   [
    "root/xmhdipc",
-   13659
+   13663
   ],
   [
    "root/hi3518",
@@ -333,7 +333,7 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12817
+   12819
   ],
   [
    "root/klv1234",
@@ -345,11 +345,11 @@
   ],
   [
    "root/",
-   8555
+   8564
   ],
   [
    "support/support",
-   8484
+   8488
   ],
   [
    "admin/1111111",
@@ -357,7 +357,7 @@
   ],
   [
    "root/klv123",
-   7825
+   7826
   ],
   [
    "admin/plumeria0077",
@@ -369,16 +369,16 @@
   ],
   [
    "administrator/1234",
-   7084
+   7083
   ],
   [
    "Administrator/admin",
-   6651
+   6675
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2407,
+  "distinct_credentials": 2399,
   "distinct_payload_urls": 366,
   "events": 5215779,
   "new_sources": 1759,

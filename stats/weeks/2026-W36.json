@@ -22,12 +22,12 @@
   }
  ],
  "funnel": {
-  "connected": 1683,
+  "connected": 1682,
   "delivered_sample": 107,
   "fetched_payload": 278,
   "ran_commands": 1051,
-  "returned": 916,
-  "tried_creds": 1073
+  "returned": 915,
+  "tried_creds": 1072
  },
  "samples": [
   "016375769c3c8028456603a5e78a2305b4617304a001fcbdd2001330d135bef2",
@@ -51,7 +51,7 @@
  "targets": [
   [
    "ZTE CPE",
-   134
+   135
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -59,19 +59,15 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   63
+   64
   ],
   [
    "Huawei HG gateway",
-   53
+   52
   ],
   [
    "DrayTek router",
    40
-  ],
-  [
-   "firmware backdoor account",
-   28
   ],
   [
    "ISP-branded DSL gateway",
@@ -79,6 +75,10 @@
   ],
   [
    "SMC Networks CPE",
+   27
+  ],
+  [
+   "firmware backdoor account",
    27
   ],
   [
@@ -223,7 +223,7 @@
  "top_credentials": [
   [
    "admin/admin",
-   34972
+   34977
   ],
   [
    "root/kopp",
@@ -259,7 +259,7 @@
   ],
   [
    "666666/666666",
-   6991
+   6993
   ],
   [
    "root/hi3518",
@@ -267,7 +267,7 @@
   ],
   [
    "root/Pon521",
-   6265
+   6268
   ],
   [
    "administrator/",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5627
+   5625
   ],
   [
    "telnetadmin/telnetadmin",
@@ -287,11 +287,11 @@
   ],
   [
    "root/root",
-   5510
+   5509
   ],
   [
    "root/1234",
-   5102
+   5104
   ],
   [
    "root/password",
@@ -299,7 +299,7 @@
   ],
   [
    "super/xJ4pCYeW",
-   4984
+   4983
   ],
   [
    "nmgcuadmin/nmgcuadmin",
@@ -315,7 +315,7 @@
   ],
   [
    "admin/v2mprt",
-   4601
+   4613
   ],
   [
    "root/12341234",
@@ -324,12 +324,12 @@
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 3041,
+  "distinct_credentials": 3047,
   "distinct_payload_urls": 214,
-  "events": 4309544,
-  "new_sources": 1683,
+  "events": 4309540,
+  "new_sources": 1682,
   "shared_c2_hosts": 47,
-  "sources": 1683
+  "sources": 1682
  },
  "window": {
   "days": 4,
