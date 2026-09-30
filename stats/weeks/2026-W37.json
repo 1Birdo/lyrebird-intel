@@ -49,8 +49,8 @@
   "connected": 1962,
   "delivered_sample": 100,
   "fetched_payload": 183,
-  "ran_commands": 713,
-  "returned": 1115,
+  "ran_commands": 714,
+  "returned": 1116,
   "tried_creds": 706
  },
  "samples": [
@@ -129,7 +129,7 @@
   ],
   [
    "firmware backdoor account",
-   47
+   46
   ],
   [
    "ISP-branded DSL gateway",
@@ -281,11 +281,11 @@
   ],
   [
    "admin/v2mprt",
-   49382
+   49380
   ],
   [
    "admin/admin",
-   43036
+   43040
   ],
   [
    "administrator/",
@@ -293,11 +293,11 @@
   ],
   [
    "root/root",
-   31738
+   31735
   ],
   [
    "root/Zte521",
-   25955
+   25964
   ],
   [
    "CUAdmin/CUAdmin",
@@ -305,11 +305,11 @@
   ],
   [
    "admin/meinsm",
-   18696
+   18659
   ],
   [
    "root/xc3511",
-   18234
+   18235
   ],
   [
    "root/1234",
@@ -317,7 +317,7 @@
   ],
   [
    "admin/pass",
-   14446
+   14444
   ],
   [
    "root/888888",
@@ -333,7 +333,7 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12822
+   12823
   ],
   [
    "root/klv1234",
@@ -341,7 +341,7 @@
   ],
   [
    "super/PhrQjGzk",
-   8632
+   8633
   ],
   [
    "root/",
@@ -349,7 +349,7 @@
   ],
   [
    "support/support",
-   8494
+   8499
   ],
   [
    "admin/1111111",
@@ -369,7 +369,7 @@
   ],
   [
    "administrator/1234",
-   7083
+   7085
   ],
   [
    "Administrator/admin",
@@ -378,7 +378,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2419,
+  "distinct_credentials": 2454,
   "distinct_payload_urls": 366,
   "events": 5215779,
   "new_sources": 1759,

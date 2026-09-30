@@ -63,7 +63,7 @@
   ],
   [
    "Huawei HG gateway",
-   52
+   53
   ],
   [
    "DrayTek router",
@@ -71,7 +71,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   27
   ],
   [
    "SMC Networks CPE",
@@ -223,15 +223,15 @@
  "top_credentials": [
   [
    "admin/admin",
-   34983
+   34985
   ],
   [
    "root/kopp",
-   17213
+   17215
   ],
   [
    "root/xc3511",
-   15627
+   15622
   ],
   [
    "admin/pass",
@@ -243,7 +243,7 @@
   ],
   [
    "admin/88888888",
-   13174
+   13163
   ],
   [
    "admin/smcadmin",
@@ -251,7 +251,7 @@
   ],
   [
    "root/admin",
-   10014
+   10013
   ],
   [
    "root/klv1234",
@@ -279,7 +279,7 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   5627
+   5625
   ],
   [
    "telnetadmin/telnetadmin",
@@ -295,7 +295,7 @@
   ],
   [
    "root/password",
-   4990
+   4991
   ],
   [
    "super/xJ4pCYeW",
@@ -315,16 +315,16 @@
   ],
   [
    "admin/v2mprt",
-   4599
+   4618
   ],
   [
    "root/12341234",
-   4385
+   4382
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 149,
-  "distinct_credentials": 3072,
+  "distinct_credentials": 3075,
   "distinct_payload_urls": 214,
   "events": 4309540,
   "new_sources": 1682,

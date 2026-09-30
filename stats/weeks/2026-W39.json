@@ -53,8 +53,8 @@
   "connected": 4458,
   "delivered_sample": 141,
   "fetched_payload": 184,
-  "ran_commands": 1203,
-  "returned": 2604,
+  "ran_commands": 1206,
+  "returned": 2616,
   "tried_creds": 2227
  },
  "samples": [
@@ -134,7 +134,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   205
+   203
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -146,27 +146,27 @@
   ],
   [
    "Huawei HG gateway",
-   124
+   123
   ],
   [
    "DrayTek router",
-   112
+   113
   ],
   [
    "ISP-branded DSL gateway",
-   75
+   76
   ],
   [
    "firmware backdoor account",
-   72
+   69
   ],
   [
    "IoT OEM default account",
-   64
+   63
   ],
   [
    "SMC Networks CPE",
-   51
+   49
   ],
   [
    "WordPress",
@@ -314,104 +314,104 @@
   ],
   [
    "admin/v2mprt",
-   91310
+   91326
   ],
   [
    "rapport/r@p8p0r+",
-   77515
+   77532
   ],
   [
    "root/Zte521",
-   73337
+   75710
   ],
   [
    "admin/meinsm",
-   50616
+   50633
   ],
   [
    "root/xc3511",
-   49369
+   49726
   ],
   [
    "root/root",
-   42162
+   42260
   ],
   [
    "support/support",
-   33109
+   33313
   ],
   [
    "telnet/telnet",
-   29293
+   29323
   ],
   [
    "CUAdmin/CUAdmin",
-   27905
+   27922
   ],
   [
    "admin/7ujMko0admin",
-   24966
+   25574
   ],
   [
    "super/PhrQjGzk",
-   24559
+   24518
   ],
   [
    "user/1234",
-   21556
+   21636
   ],
   [
    "admin/admin",
-   20772
+   20922
   ],
   [
    "admin/chzhdpl",
-   20383
+   20361
   ],
   [
    "guest/12345",
-   19345
+   19356
   ],
   [
    "root/00000000",
-   18931
+   18905
   ],
   [
    "root/e2008jl",
-   16292
+   16424
   ],
   [
    "admin/pass",
-   16117
+   16148
   ],
   [
    "root/",
-   13927
+   14015
   ],
   [
    "root/kopp",
-   13801
+   13839
   ],
   [
    "root/25802580",
-   13601
+   13608
   ],
   [
    "ubnt/ubnt",
-   13312
+   13328
   ],
   [
    "admin/plumeria0077",
-   13277
+   13298
   ],
   [
    "root/Pon521",
-   12680
+   12720
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 429,
-  "distinct_credentials": 8034,
+  "distinct_credentials": 8091,
   "distinct_payload_urls": 634,
   "events": 12164527,
   "new_sources": 3715,
