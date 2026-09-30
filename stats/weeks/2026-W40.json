@@ -2,23 +2,27 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 49
+   "sources": 66
   },
   {
    "cve": "CVE-2021-41773",
-   "sources": 6
+   "sources": 7
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 5
+   "sources": 6
   },
   {
    "cve": "CVE-2017-9841",
-   "sources": 4
+   "sources": 5
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 4
+   "sources": 5
+  },
+  {
+   "cve": "CVE-2014-8361",
+   "sources": 2
   },
   {
    "cve": "CVE-2015-2051",
@@ -27,10 +31,6 @@
   {
    "cve": "CVE-2022-0543",
    "sources": 2
-  },
-  {
-   "cve": "CVE-2014-8361",
-   "sources": 1
   },
   {
    "cve": "CVE-2018-10561",
@@ -42,12 +42,12 @@
   }
  ],
  "funnel": {
-  "connected": 1898,
-  "delivered_sample": 59,
-  "fetched_payload": 80,
-  "ran_commands": 554,
-  "returned": 1330,
-  "tried_creds": 1128
+  "connected": 2089,
+  "delivered_sample": 66,
+  "fetched_payload": 85,
+  "ran_commands": 614,
+  "returned": 1468,
+  "tried_creds": 1226
  },
  "samples": [
   "09767b4cca709c2fc68183a2dedbd193ed8f7a9e787f939f607e99110ac9e559",
@@ -76,55 +76,55 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   78
+   82
   ],
   [
    "DVR / IP camera (OEM default)",
-   76
+   81
   ],
   [
    "Huawei HG gateway",
-   54
+   57
   ],
   [
    "DrayTek router",
-   49
+   52
   ],
   [
    "ZTE CPE",
-   43
+   44
   ],
   [
    "firmware backdoor account",
-   29
-  ],
-  [
-   "IoT OEM default account",
-   28
+   33
   ],
   [
    "ISP-branded DSL gateway",
-   27
+   32
+  ],
+  [
+   "IoT OEM default account",
+   32
   ],
   [
    "SMC Networks CPE",
-   21
+   19
   ],
   [
    "WordPress",
-   7
+   10
   ],
   [
    "Apache HTTP Server (CGI)",
+   6
+  ],
+  [
+   "PHP-CGI",
    5
   ],
   [
    "embedded web server (boa/goform)",
    5
-  ],
-  [
-   "PHP-CGI",
-   4
   ],
   [
    "Hikvision / ONVIF camera",
@@ -141,6 +141,14 @@
    6
   ],
   [
+   "220.152.179.214",
+   4
+  ],
+  [
+   "5.42.33.36",
+   4
+  ],
+  [
    "113.236.157.218",
    3
   ],
@@ -153,19 +161,19 @@
    3
   ],
   [
+   "182.127.127.125",
+   3
+  ],
+  [
+   "190.109.228.175",
+   3
+  ],
+  [
    "220.115.58.37",
    3
   ],
   [
-   "220.152.179.214",
-   3
-  ],
-  [
    "27.96.228.235",
-   3
-  ],
-  [
-   "5.42.33.36",
    3
   ],
   [
@@ -182,14 +190,6 @@
   ],
   [
    "175.167.167.51",
-   2
-  ],
-  [
-   "182.127.127.125",
-   2
-  ],
-  [
-   "190.109.228.175",
    2
   ],
   [
@@ -217,6 +217,10 @@
    2
   ],
   [
+   "1.70.76.87",
+   1
+  ],
+  [
    "100.1.79.29",
    1
   ],
@@ -231,10 +235,6 @@
   [
    "100.82.170.37",
    1
-  ],
-  [
-   "103.160.130.109",
-   1
   ]
  ],
  "top_credentials": [
@@ -244,109 +244,109 @@
   ],
   [
    "root/root",
-   35393
+   35553
   ],
   [
    "root/xc3511",
-   31435
+   32383
   ],
   [
    "admin/smcadmin",
-   29447
-  ],
-  [
-   "admin/7ujMko0admin",
-   24213
+   30518
   ],
   [
    "root/Zte521",
-   23008
+   28041
+  ],
+  [
+   "admin/7ujMko0admin",
+   24876
   ],
   [
    "root/admin",
-   13037
+   14130
   ],
   [
    "root/1234",
-   11846
+   13132
   ],
   [
    "root/e2008jl",
-   9963
+   10110
   ],
   [
    "telnetadmin/telnetadmin",
-   7941
-  ],
-  [
-   "root/25802580",
-   7357
+   8059
   ],
   [
    "admin/admin",
-   7308
+   7537
+  ],
+  [
+   "root/25802580",
+   7506
   ],
   [
    "admin/1111111",
-   7290
-  ],
-  [
-   "Admin/",
-   6571
+   7479
   ],
   [
    "cunmgadmin/cunmgadmin",
-   6478
+   6747
+  ],
+  [
+   "Admin/",
+   6672
   ],
   [
    "support/1234",
-   6186
+   6219
   ],
   [
    "root/hi3518",
-   5863
+   5997
   ],
   [
    "root/",
-   5675
+   5886
   ],
   [
    "guest/guest",
-   5556
-  ],
-  [
-   "user/1234",
-   5087
+   5708
   ],
   [
    "root/Pon521",
+   5639
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   5423
+  ],
+  [
+   "user/1234",
+   5209
+  ],
+  [
+   "e8telnet/e8telnet",
    5010
   ],
   [
    "888888/888888",
-   4913
+   4927
   ],
   [
-   "e8telnet/e8telnet",
-   4892
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   4568
-  ],
-  [
-   "support/support",
-   4515
+   "root/kopp",
+   4775
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 206,
-  "distinct_credentials": 5465,
-  "distinct_payload_urls": 294,
-  "events": 4111952,
-  "new_sources": 1048,
+  "distinct_c2_hosts": 216,
+  "distinct_credentials": 5882,
+  "distinct_payload_urls": 312,
+  "events": 4506401,
+  "new_sources": 1169,
   "shared_c2_hosts": 20,
-  "sources": 1898
+  "sources": 2089
  },
  "window": {
   "days": 3,

@@ -25,12 +25,12 @@
    "sources": 6
   },
   {
-   "cve": "CVE-2022-0543",
+   "cve": "CVE-2014-8361",
    "sources": 4
   },
   {
-   "cve": "CVE-2014-8361",
-   "sources": 3
+   "cve": "CVE-2022-0543",
+   "sources": 4
   },
   {
    "cve": "CVE-2016-6277",
@@ -54,7 +54,7 @@
   "delivered_sample": 166,
   "fetched_payload": 206,
   "ran_commands": 1206,
-  "returned": 1920,
+  "returned": 1923,
   "tried_creds": 1434
  },
  "samples": [
@@ -128,7 +128,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   179
+   180
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -136,7 +136,7 @@
   ],
   [
    "ZTE CPE",
-   114
+   113
   ],
   [
    "Huawei HG gateway",
@@ -148,15 +148,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   70
   ],
   [
    "firmware backdoor account",
-   68
+   69
   ],
   [
    "IoT OEM default account",
-   63
+   64
   ],
   [
    "SMC Networks CPE",
@@ -304,7 +304,7 @@
  "top_credentials": [
   [
    "admin/v2mprt",
-   91016
+   91025
   ],
   [
    "rapport/r@p8p0r+",
@@ -316,19 +316,19 @@
   ],
   [
    "admin/meinsm",
-   63093
+   63075
   ],
   [
    "root/xc3511",
-   56992
+   56995
   ],
   [
    "root/Zte521",
-   56428
+   56448
   ],
   [
    "telnet/telnet",
-   38959
+   38960
   ],
   [
    "root/root",
@@ -340,11 +340,11 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   25870
+   25872
   ],
   [
    "admin/adminpass",
-   24649
+   24650
   ],
   [
    "root/ikwb",
@@ -352,35 +352,35 @@
   ],
   [
    "admin/admin",
-   19719
+   19729
   ],
   [
    "tech/tech",
-   17757
+   17758
   ],
   [
    "root/xmhdipc",
-   17080
+   17068
   ],
   [
    "root/1234",
-   16833
+   16835
   ],
   [
    "root/7ujMko0admin",
-   16308
+   16310
   ],
   [
    "admin/pass",
-   15597
+   15598
   ],
   [
    "root/e2008jl",
-   14753
+   14832
   ],
   [
    "root/kopp",
-   14258
+   14280
   ],
   [
    "root/888888",
@@ -392,11 +392,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   13357
+   13376
   ],
   [
    "support/support",
-   12775
+   12779
   ],
   [
    "admin/plumeria0077",
@@ -404,9 +404,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 403,
-  "distinct_credentials": 3812,
-  "distinct_payload_urls": 607,
+  "distinct_c2_hosts": 404,
+  "distinct_credentials": 3867,
+  "distinct_payload_urls": 609,
   "events": 14261121,
   "new_sources": 3088,
   "shared_c2_hosts": 118,

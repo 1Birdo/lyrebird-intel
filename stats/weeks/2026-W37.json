@@ -21,12 +21,12 @@
    "sources": 3
   },
   {
-   "cve": "CVE-2017-17215",
+   "cve": "CVE-2014-8361",
    "sources": 2
   },
   {
-   "cve": "CVE-2014-8361",
-   "sources": 1
+   "cve": "CVE-2017-17215",
+   "sources": 2
   },
   {
    "cve": "CVE-2016-6277",
@@ -109,7 +109,7 @@
  "targets": [
   [
    "ZTE CPE",
-   141
+   142
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -117,7 +117,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   98
+   99
   ],
   [
    "Huawei HG gateway",
@@ -133,7 +133,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   38
+   39
   ],
   [
    "IoT OEM default account",
@@ -285,7 +285,7 @@
   ],
   [
    "admin/admin",
-   43032
+   43036
   ],
   [
    "administrator/",
@@ -293,15 +293,15 @@
   ],
   [
    "root/root",
-   31737
+   31738
   ],
   [
    "root/Zte521",
-   25935
+   25955
   ],
   [
    "CUAdmin/CUAdmin",
-   18771
+   18769
   ],
   [
    "admin/meinsm",
@@ -309,15 +309,15 @@
   ],
   [
    "root/xc3511",
-   18231
+   18234
   ],
   [
    "root/1234",
-   16213
+   16222
   ],
   [
    "admin/pass",
-   14452
+   14446
   ],
   [
    "root/888888",
@@ -325,7 +325,7 @@
   ],
   [
    "root/xmhdipc",
-   13663
+   13668
   ],
   [
    "root/hi3518",
@@ -333,11 +333,11 @@
   ],
   [
    "telnetadmin/telnetadmin",
-   12819
+   12822
   ],
   [
    "root/klv1234",
-   9890
+   9891
   ],
   [
    "super/PhrQjGzk",
@@ -345,11 +345,11 @@
   ],
   [
    "root/",
-   8564
+   8575
   ],
   [
    "support/support",
-   8488
+   8494
   ],
   [
    "admin/1111111",
@@ -365,7 +365,7 @@
   ],
   [
    "root/e2008jl",
-   7379
+   7378
   ],
   [
    "administrator/1234",
@@ -373,12 +373,12 @@
   ],
   [
    "Administrator/admin",
-   6675
+   6651
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 247,
-  "distinct_credentials": 2399,
+  "distinct_credentials": 2419,
   "distinct_payload_urls": 366,
   "events": 5215779,
   "new_sources": 1759,
