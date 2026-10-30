@@ -1,0 +1,391 @@
+{
+ "cves": [
+  {
+   "cve": "CVE-2017-0144",
+   "sources": 146
+  },
+  {
+   "cve": "CVE-2017-9841",
+   "sources": 8
+  },
+  {
+   "cve": "CVE-2012-1823",
+   "sources": 7
+  },
+  {
+   "cve": "CVE-2021-41773",
+   "sources": 7
+  },
+  {
+   "cve": "CVE-2018-20062",
+   "sources": 6
+  },
+  {
+   "cve": "CVE-2016-20016",
+   "sources": 4
+  },
+  {
+   "cve": "CVE-2017-17215",
+   "sources": 3
+  },
+  {
+   "cve": "CVE-2022-0543",
+   "sources": 3
+  },
+  {
+   "cve": "CVE-2016-6277",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2014-8361",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2015-2051",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2015-3306",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-10561",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-10562",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2021-35394",
+   "sources": 1
+  }
+ ],
+ "funnel": {
+  "connected": 2609,
+  "delivered_sample": 80,
+  "fetched_payload": 95,
+  "ran_commands": 778,
+  "returned": 1797,
+  "tried_creds": 1456
+ },
+ "samples": [
+  "1545199b6a69a3c0e1302144dd76f9c11fb205dc0f9bd2b8661e11d38a4b5e78",
+  "228c4f90fce2acb84aaaafe56e5cdb179a45912e39618807813e3d113503da88",
+  "33569064584aa8bfac2324a4a8b0e1913c80aabcb98b4b72431f1fe4b4b2faba",
+  "38e8ef0a00ae7d13e328cb7234b37984d873a9a3dda908f1f9cc13d789d7cb29",
+  "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
+  "46a6c0f032d8bd07cd6b3508f6fe7dfc62413b834b95727dd8a980fc0fd45e2c",
+  "4a9eee849c261c3b05acfb70e66d922bd45a0328cdb7279aa057baadc13833bc",
+  "5bcbfc168870eed4d10f645160d8e14a143e05e2ffb6c5a503fc6047a0dde4c2",
+  "62a4b82cadbf1da27c616c27dfa81a668439b36bd691e8f967104b24a7653996",
+  "6dd56dc25015526b683c237c7b576bcb261aba5c8d6e143f51087c74a4e47fc3",
+  "7ee28a26483a7a4170caa862708e63739be152c5f9c4c7d63404718d2faa0e30",
+  "7f738faae31d6194abe8e61145a3f020106e5c9a9f037043e903f1845435c9b0",
+  "84dad579566922eb95fde7754ecf69c37b01f7b3b93a52f1a6ab7a847d2f742c",
+  "8e49d3bde4521d2101fa9e3b65c55c0de61c4a2a0bfd04c62e03e90a4c875333",
+  "9a34dcda4485375a0e3e8e156af83edcd4a9a59ba29b46912f4180eefe13b2ea",
+  "9b7215fd7907a07b7b6601370623a5bcda2ae6f5f896cbfc1ddf5e3e3096dc49",
+  "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
+  "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
+  "c1ebfe7fc717cdbe5877030303dd5029d951bec86e865c319507f6b9138e828e",
+  "d13c844e8ec4393d0165e399f1a2237fefd93e7f1f8c9fe4289715fc008fa9d0",
+  "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
+  "dc1e289ae3aa4aca1424286ec41c4685fbb7ac2d8b1c0d3bfd7838510082c8fb",
+  "e2ac6eeff0f03c508e9bec144bb3792c91f8bd6f93d7c2f8d0e50757f3033933",
+  "e5abbe262b0e1c50063497f01cb169b89560ef6f5b9e7fefa890ec1823b6a8ca",
+  "e6d30f36d4fe5f094545674c053db29b1758312428787e61ab98fc7b53d80710",
+  "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002",
+  "f89d7c58a0836bd54e3bce1dba66627c33dc2f99c593f51bfe3e45d0531ed85b"
+ ],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   86
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   71
+  ],
+  [
+   "DrayTek router",
+   55
+  ],
+  [
+   "Huawei HG gateway",
+   50
+  ],
+  [
+   "ZTE CPE",
+   45
+  ],
+  [
+   "ISP-branded DSL gateway",
+   34
+  ],
+  [
+   "firmware backdoor account",
+   30
+  ],
+  [
+   "IoT OEM default account",
+   28
+  ],
+  [
+   "SMC Networks CPE",
+   9
+  ],
+  [
+   "WordPress",
+   9
+  ],
+  [
+   "Apache HTTP Server (CGI)",
+   7
+  ],
+  [
+   "PHP-CGI",
+   7
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   2
+  ],
+  [
+   "consumer router admin",
+   2
+  ],
+  [
+   "embedded web server (boa/goform)",
+   2
+  ],
+  [
+   "Apache Tomcat / Struts",
+   1
+  ],
+  [
+   "Java middleware",
+   1
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "115.62.186.251",
+   14
+  ],
+  [
+   "125.46.215.233",
+   14
+  ],
+  [
+   "123.190.16.227",
+   6
+  ],
+  [
+   "90.224.208.190",
+   5
+  ],
+  [
+   "160.250.114.94",
+   3
+  ],
+  [
+   "174.105.154.212",
+   3
+  ],
+  [
+   "180.191.40.108",
+   3
+  ],
+  [
+   "27.219.186.191",
+   3
+  ],
+  [
+   "27.96.228.235",
+   3
+  ],
+  [
+   "101.23.121.201",
+   2
+  ],
+  [
+   "112.248.103.215",
+   2
+  ],
+  [
+   "114.227.61.86",
+   2
+  ],
+  [
+   "115.53.200.62",
+   2
+  ],
+  [
+   "116.139.221.175",
+   2
+  ],
+  [
+   "117.63.189.130",
+   2
+  ],
+  [
+   "118.250.1.203",
+   2
+  ],
+  [
+   "120.28.195.161",
+   2
+  ],
+  [
+   "123.129.32.65",
+   2
+  ],
+  [
+   "175.146.242.218",
+   2
+  ],
+  [
+   "178.206.171.51",
+   2
+  ],
+  [
+   "193.187.101.209",
+   2
+  ],
+  [
+   "221.3.87.188",
+   2
+  ],
+  [
+   "31.129.2.46",
+   2
+  ],
+  [
+   "31.56.209.73",
+   2
+  ],
+  [
+   "42.180.59.73",
+   2
+  ]
+ ],
+ "top_credentials": [
+  [
+   "root/ikwb",
+   137009
+  ],
+  [
+   "root/Zte521",
+   44174
+  ],
+  [
+   "admin/54321",
+   42597
+  ],
+  [
+   "administrator/",
+   34754
+  ],
+  [
+   "root/xc3511",
+   27701
+  ],
+  [
+   "tech/tech",
+   16473
+  ],
+  [
+   "root/7ujMko0admin",
+   15684
+  ],
+  [
+   "user/user",
+   12351
+  ],
+  [
+   "admin/password",
+   12073
+  ],
+  [
+   "root/070admin",
+   10331
+  ],
+  [
+   "admin/cat1029",
+   9642
+  ],
+  [
+   "localadmin/localadmin",
+   9269
+  ],
+  [
+   "root/666666",
+   6779
+  ],
+  [
+   "admin/1234",
+   6119
+  ],
+  [
+   "admin/admin",
+   5187
+  ],
+  [
+   "root/admin",
+   4459
+  ],
+  [
+   "root/Pon521",
+   4365
+  ],
+  [
+   "root/hi3518",
+   4082
+  ],
+  [
+   "administrator/1234",
+   3577
+  ],
+  [
+   "root/",
+   3562
+  ],
+  [
+   "admin/adminpass",
+   3047
+  ],
+  [
+   "ruijie/ruijie",
+   3024
+  ],
+  [
+   "root/root",
+   2992
+  ],
+  [
+   "root/54321",
+   2905
+  ],
+  [
+   "support/support",
+   2900
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 218,
+  "distinct_credentials": 7414,
+  "distinct_payload_urls": 328,
+  "events": 4887196,
+  "new_sources": 1517,
+  "shared_c2_hosts": 36,
+  "sources": 2609
+ },
+ "window": {
+  "days": 3,
+  "first_day": "2026-10-12",
+  "last_day": "2026-10-14",
+  "week": "2026-W42"
+ }
+}

@@ -1,0 +1,300 @@
+{
+ "cves": [
+  {
+   "cve": "CVE-2017-0144",
+   "sources": 20
+  },
+  {
+   "cve": "CVE-2015-2051",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2022-0543",
+   "sources": 1
+  }
+ ],
+ "funnel": {
+  "connected": 304,
+  "delivered_sample": 7,
+  "fetched_payload": 61,
+  "ran_commands": 157,
+  "returned": 219,
+  "tried_creds": 134
+ },
+ "samples": [
+  "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
+  "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
+  "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
+  "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
+  "f3abe9aa18137a8002706fd584b24b4c0d95cbc4f6ad25915bdd7a5ec184e002"
+ ],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   48
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   44
+  ],
+  [
+   "ZTE CPE",
+   41
+  ],
+  [
+   "IoT OEM default account",
+   26
+  ],
+  [
+   "ISP-branded DSL gateway",
+   24
+  ],
+  [
+   "firmware backdoor account",
+   23
+  ],
+  [
+   "DrayTek router",
+   22
+  ],
+  [
+   "Huawei HG gateway",
+   19
+  ],
+  [
+   "SMC Networks CPE",
+   16
+  ],
+  [
+   "Apache Tomcat / Struts",
+   1
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   1
+  ],
+  [
+   "consumer router admin",
+   1
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "211.158.227.134",
+   8
+  ],
+  [
+   "115.58.172.67",
+   6
+  ],
+  [
+   "190.109.241.25",
+   6
+  ],
+  [
+   "210.208.116.107",
+   5
+  ],
+  [
+   "100.10.5.77",
+   3
+  ],
+  [
+   "100.20.3.121",
+   2
+  ],
+  [
+   "113.254.36.153",
+   2
+  ],
+  [
+   "120.28.153.108",
+   2
+  ],
+  [
+   "174.105.154.212",
+   2
+  ],
+  [
+   "182.113.1.59",
+   2
+  ],
+  [
+   "31.56.209.73",
+   2
+  ],
+  [
+   "83.68.248.254",
+   2
+  ],
+  [
+   "100.20.3.110",
+   1
+  ],
+  [
+   "101.53.255.165",
+   1
+  ],
+  [
+   "103.162.41.201",
+   1
+  ],
+  [
+   "110.38.12.218",
+   1
+  ],
+  [
+   "110.38.12.87",
+   1
+  ],
+  [
+   "112.109.210.146",
+   1
+  ],
+  [
+   "113.225.33.198",
+   1
+  ],
+  [
+   "113.53.69.164",
+   1
+  ],
+  [
+   "114.235.248.195",
+   1
+  ],
+  [
+   "115.48.149.73",
+   1
+  ],
+  [
+   "119.179.236.192",
+   1
+  ],
+  [
+   "120.28.74.67",
+   1
+  ],
+  [
+   "123.11.127.174",
+   1
+  ]
+ ],
+ "top_credentials": [
+  [
+   "admin/password",
+   8833
+  ],
+  [
+   "admin/v2mprt",
+   5254
+  ],
+  [
+   "root/Zte521",
+   4327
+  ],
+  [
+   "guest/12345",
+   2082
+  ],
+  [
+   "root/1234",
+   1433
+  ],
+  [
+   "guest/guest",
+   1115
+  ],
+  [
+   "admin/CenturyL1nk",
+   934
+  ],
+  [
+   "admin/admin",
+   923
+  ],
+  [
+   "ruijie/ruijie",
+   869
+  ],
+  [
+   "root/hme12345",
+   848
+  ],
+  [
+   "root/xc3511",
+   729
+  ],
+  [
+   "cht/chtngpon",
+   612
+  ],
+  [
+   "cht/chtsgpon",
+   594
+  ],
+  [
+   "support/support",
+   520
+  ],
+  [
+   "root/Pon521",
+   515
+  ],
+  [
+   "root/admin",
+   455
+  ],
+  [
+   "draytek/1234",
+   431
+  ],
+  [
+   "admin/qwerty",
+   427
+  ],
+  [
+   "admin/1234",
+   419
+  ],
+  [
+   "root/hi3518",
+   405
+  ],
+  [
+   "root/password",
+   395
+  ],
+  [
+   "mother/fucker",
+   385
+  ],
+  [
+   "root/Fireitup",
+   356
+  ],
+  [
+   "admin/1111",
+   319
+  ],
+  [
+   "root/",
+   315
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 71,
+  "distinct_credentials": 735,
+  "distinct_payload_urls": 84,
+  "events": 658846,
+  "new_sources": 238,
+  "shared_c2_hosts": 12,
+  "sources": 304
+ },
+ "window": {
+  "days": 2,
+  "first_day": "2026-10-29",
+  "last_day": "2026-10-30",
+  "week": "2026-W44"
+ }
+}
