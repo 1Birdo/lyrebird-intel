@@ -65,9 +65,9 @@
   "connected": 2609,
   "delivered_sample": 80,
   "fetched_payload": 95,
-  "ran_commands": 780,
+  "ran_commands": 781,
   "returned": 1798,
-  "tried_creds": 1456
+  "tried_creds": 1457
  },
  "samples": [
   "1545199b6a69a3c0e1302144dd76f9c11fb205dc0f9bd2b8661e11d38a4b5e78",
@@ -122,7 +122,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   34
+   35
   ],
   [
    "firmware backdoor account",
@@ -306,11 +306,11 @@
   ],
   [
    "admin/password",
-   12083
+   12105
   ],
   [
    "root/070admin",
-   10333
+   10336
   ],
   [
    "admin/cat1029",
@@ -330,11 +330,11 @@
   ],
   [
    "admin/admin",
-   5188
+   5229
   ],
   [
    "root/admin",
-   4460
+   4462
   ],
   [
    "root/Pon521",
@@ -358,24 +358,24 @@
   ],
   [
    "ruijie/ruijie",
-   3025
+   3026
   ],
   [
    "root/root",
-   2994
-  ],
-  [
-   "root/54321",
-   2905
+   2993
   ],
   [
    "support/support",
-   2905
+   2912
+  ],
+  [
+   "root/54321",
+   2889
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 218,
-  "distinct_credentials": 7443,
+  "distinct_credentials": 7480,
   "distinct_payload_urls": 328,
   "events": 4887196,
   "new_sources": 1517,

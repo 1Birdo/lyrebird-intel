@@ -7,4 +7,4 @@ Generated from the captured corpus, one per ISO week.
 - [2026-W41](2026/2026-W41.md) — 2026-10-05 to 2026-10-11
 - [2026-W40](2026/2026-W40.md) — 2026-09-28 to 2026-10-04
 
-*Generated 2026-10-30 12:05 UTC.*
+*Generated 2026-10-30 18:06 UTC.*
