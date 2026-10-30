@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 20
+   "sources": 40
   },
   {
    "cve": "CVE-2015-2051",
@@ -14,14 +14,16 @@
   }
  ],
  "funnel": {
-  "connected": 304,
-  "delivered_sample": 7,
-  "fetched_payload": 61,
-  "ran_commands": 157,
-  "returned": 219,
-  "tried_creds": 134
+  "connected": 517,
+  "delivered_sample": 12,
+  "fetched_payload": 71,
+  "ran_commands": 274,
+  "returned": 374,
+  "tried_creds": 226
  },
  "samples": [
+  "0f5899e10c6c9aa6f2d1a51f5f5bbdf7e4cee18541ee08941332553264718d45",
+  "102695a1b12955cb607ab79f7928c43befde828766d8c5a02c0ed11094dd4f36",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "af77b643964afd794460d28ab8a11b0ec8790cd5463abfde126613a4f3bccd32",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
@@ -31,39 +33,39 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   48
+   58
   ],
   [
    "GPON/ONT fibre terminal",
-   44
+   52
   ],
   [
    "ZTE CPE",
-   41
+   52
   ],
   [
    "IoT OEM default account",
+   31
+  ],
+  [
+   "DrayTek router",
    26
   ],
   [
    "ISP-branded DSL gateway",
-   24
+   26
   ],
   [
    "firmware backdoor account",
-   23
-  ],
-  [
-   "DrayTek router",
-   22
+   26
   ],
   [
    "Huawei HG gateway",
-   19
+   21
   ],
   [
    "SMC Networks CPE",
-   16
+   17
   ],
   [
    "Apache Tomcat / Struts",
@@ -97,6 +99,10 @@
   ],
   [
    "100.10.5.77",
+   4
+  ],
+  [
+   "91.240.165.44",
    3
   ],
   [
@@ -116,11 +122,23 @@
    2
   ],
   [
+   "175.174.75.114",
+   2
+  ],
+  [
    "182.113.1.59",
    2
   ],
   [
+   "27.96.228.235",
+   2
+  ],
+  [
    "31.56.209.73",
+   2
+  ],
+  [
+   "79.106.74.163",
    2
   ],
   [
@@ -140,6 +158,14 @@
    1
   ],
   [
+   "103.186.77.76",
+   1
+  ],
+  [
+   "105.184.88.93",
+   1
+  ],
+  [
    "110.38.12.218",
    1
   ],
@@ -154,142 +180,118 @@
   [
    "113.225.33.198",
    1
-  ],
-  [
-   "113.53.69.164",
-   1
-  ],
-  [
-   "114.235.248.195",
-   1
-  ],
-  [
-   "115.48.149.73",
-   1
-  ],
-  [
-   "119.179.236.192",
-   1
-  ],
-  [
-   "120.28.74.67",
-   1
-  ],
-  [
-   "123.11.127.174",
-   1
   ]
  ],
  "top_credentials": [
   [
    "admin/password",
-   8833
+   8868
+  ],
+  [
+   "administrator/",
+   6207
   ],
   [
    "admin/v2mprt",
-   5254
+   5949
   ],
   [
    "root/Zte521",
-   4327
-  ],
-  [
-   "guest/12345",
-   2082
-  ],
-  [
-   "root/1234",
-   1433
+   5387
   ],
   [
    "guest/guest",
-   1115
+   3059
   ],
   [
-   "admin/CenturyL1nk",
-   934
+   "guest/12345",
+   2189
+  ],
+  [
+   "user/user",
+   1824
   ],
   [
    "admin/admin",
-   923
+   1621
   ],
   [
-   "ruijie/ruijie",
-   869
-  ],
-  [
-   "root/hme12345",
-   848
-  ],
-  [
-   "root/xc3511",
-   729
+   "root/1234",
+   1517
   ],
   [
    "cht/chtngpon",
-   612
-  ],
-  [
-   "cht/chtsgpon",
-   594
-  ],
-  [
-   "support/support",
-   520
+   1241
   ],
   [
    "root/Pon521",
-   515
+   1239
   ],
   [
-   "root/admin",
-   455
+   "admin/CenturyL1nk",
+   1191
+  ],
+  [
+   "root/xc3511",
+   1034
+  ],
+  [
+   "ruijie/ruijie",
+   983
+  ],
+  [
+   "root/juantech",
+   950
   ],
   [
    "draytek/1234",
-   431
+   867
   ],
   [
-   "admin/qwerty",
-   427
-  ],
-  [
-   "admin/1234",
-   419
-  ],
-  [
-   "root/hi3518",
-   405
-  ],
-  [
-   "root/password",
-   395
+   "root/hme12345",
+   863
   ],
   [
    "mother/fucker",
-   385
+   802
   ],
   [
-   "root/Fireitup",
-   356
+   "root/123456",
+   724
   ],
   [
-   "admin/1111",
-   319
+   "admin/BrAhMoS@15",
+   688
   ],
   [
-   "root/",
-   315
+   "345gs5662d34/345gs5662d34",
+   645
+  ],
+  [
+   "cht/chtsgpon",
+   628
+  ],
+  [
+   "root/admin",
+   588
+  ],
+  [
+   "support/support",
+   585
+  ],
+  [
+   "admin/1234",
+   560
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 71,
-  "distinct_credentials": 735,
-  "distinct_payload_urls": 84,
-  "events": 658846,
-  "new_sources": 238,
-  "shared_c2_hosts": 12,
-  "sources": 304
+  "distinct_c2_hosts": 84,
+  "distinct_credentials": 1405,
+  "distinct_payload_urls": 102,
+  "events": 1010502,
+  "new_sources": 395,
+  "shared_c2_hosts": 16,
+  "sources": 517
  },
  "window": {
   "days": 2,

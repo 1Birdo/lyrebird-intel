@@ -61,8 +61,8 @@
   "connected": 5065,
   "delivered_sample": 176,
   "fetched_payload": 183,
-  "ran_commands": 1710,
-  "returned": 3414,
+  "ran_commands": 1713,
+  "returned": 3420,
   "tried_creds": 2661
  },
  "samples": [
@@ -124,7 +124,7 @@
   ],
   [
    "Huawei HG gateway",
-   93
+   94
   ],
   [
    "ZTE CPE",
@@ -136,7 +136,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   60
+   59
   ],
   [
    "IoT OEM default account",
@@ -288,7 +288,7 @@
   ],
   [
    "admin/54321",
-   51282
+   51292
   ],
   [
    "administrator/",
@@ -296,7 +296,7 @@
   ],
   [
    "root/xc3511",
-   35792
+   35795
   ],
   [
    "tech/tech",
@@ -308,11 +308,11 @@
   ],
   [
    "root/xmhdipc",
-   19272
+   19263
   ],
   [
    "root/admin",
-   19084
+   19086
   ],
   [
    "Administrator/",
@@ -324,7 +324,7 @@
   ],
   [
    "root/hi3518",
-   16481
+   16472
   ],
   [
    "root/25802580",
@@ -344,7 +344,7 @@
   ],
   [
    "root/klv123",
-   12053
+   12054
   ],
   [
    "CMCCAdmin/CMCCAdmin",
@@ -356,15 +356,15 @@
   ],
   [
    "root/root",
-   9790
+   9791
   ],
   [
    "admin/qwerty",
-   9505
+   9509
   ],
   [
    "root/",
-   8353
+   8354
   ],
   [
    "guest/guest",
@@ -372,16 +372,16 @@
   ],
   [
    "support/support",
-   7973
+   7978
   ],
   [
    "root/888888",
-   7503
+   7512
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 405,
-  "distinct_credentials": 12390,
+  "distinct_credentials": 12481,
   "distinct_payload_urls": 626,
   "events": 11403662,
   "new_sources": 3770,
