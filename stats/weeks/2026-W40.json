@@ -57,8 +57,8 @@
   "connected": 3880,
   "delivered_sample": 135,
   "fetched_payload": 147,
-  "ran_commands": 1294,
-  "returned": 2633,
+  "ran_commands": 1296,
+  "returned": 2640,
   "tried_creds": 2122
  },
  "samples": [
@@ -139,7 +139,7 @@
   ],
   [
    "SMC Networks CPE",
-   19
+   17
   ],
   [
    "WordPress",
@@ -283,15 +283,15 @@
   ],
   [
    "root/Zte521",
-   37492
+   37483
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   21742
+   21744
   ],
   [
    "root/xc3511",
-   17434
+   17439
   ],
   [
    "root/12345",
@@ -299,11 +299,11 @@
   ],
   [
    "admin/admin",
-   15073
+   15098
   ],
   [
    "admin/smcadmin",
-   13858
+   13852
   ],
   [
    "default/default",
@@ -311,7 +311,7 @@
   ],
   [
    "root/admin",
-   13375
+   13376
   ],
   [
    "admin/888888",
@@ -331,11 +331,11 @@
   ],
   [
    "admin/7ujMko0admin",
-   11138
+   11145
   ],
   [
    "telnetadmin/telnetadmin",
-   10367
+   10366
   ],
   [
    "ximo/",
@@ -347,27 +347,27 @@
   ],
   [
    "root/",
-   6457
+   6458
   ],
   [
    "admin/password",
-   5610
+   5633
   ],
   [
    "admin/1234",
-   5589
+   5593
   ],
   [
    "root/hi3518",
-   5583
+   5584
   ],
   [
    "root/00000000",
-   5501
+   5499
   ],
   [
    "support/support",
-   5269
+   5429
   ],
   [
    "root/root",
@@ -375,12 +375,12 @@
   ],
   [
    "guest/guest",
-   4973
+   4974
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 278,
-  "distinct_credentials": 9432,
+  "distinct_credentials": 9482,
   "distinct_payload_urls": 415,
   "events": 7837494,
   "new_sources": 3880,

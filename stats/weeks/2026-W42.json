@@ -65,8 +65,8 @@
   "connected": 2609,
   "delivered_sample": 80,
   "fetched_payload": 95,
-  "ran_commands": 781,
-  "returned": 1798,
+  "ran_commands": 782,
+  "returned": 1801,
   "tried_creds": 1457
  },
  "samples": [
@@ -134,7 +134,7 @@
   ],
   [
    "SMC Networks CPE",
-   9
+   10
   ],
   [
    "WordPress",
@@ -302,15 +302,15 @@
   ],
   [
    "user/user",
-   12351
+   12354
   ],
   [
    "admin/password",
-   12105
+   12130
   ],
   [
    "root/070admin",
-   10336
+   10339
   ],
   [
    "admin/cat1029",
@@ -326,11 +326,11 @@
   ],
   [
    "admin/1234",
-   6118
+   6121
   ],
   [
    "admin/admin",
-   5229
+   5231
   ],
   [
    "root/admin",
@@ -342,11 +342,11 @@
   ],
   [
    "root/hi3518",
-   4083
+   4084
   ],
   [
    "administrator/1234",
-   3578
+   3577
   ],
   [
    "root/",
@@ -362,20 +362,20 @@
   ],
   [
    "root/root",
-   2993
+   2995
   ],
   [
    "support/support",
-   2912
+   2928
   ],
   [
    "root/54321",
-   2889
+   2891
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 218,
-  "distinct_credentials": 7480,
+  "distinct_credentials": 7469,
   "distinct_payload_urls": 328,
   "events": 4887196,
   "new_sources": 1517,

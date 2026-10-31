@@ -6,19 +6,19 @@
   },
   {
    "cve": "CVE-2017-9841",
-   "sources": 13
+   "sources": 14
   },
   {
    "cve": "CVE-2021-41773",
-   "sources": 12
+   "sources": 13
   },
   {
    "cve": "CVE-2012-1823",
-   "sources": 11
+   "sources": 12
   },
   {
    "cve": "CVE-2018-20062",
-   "sources": 11
+   "sources": 12
   },
   {
    "cve": "CVE-2022-0543",
@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 5065,
-  "delivered_sample": 176,
+  "delivered_sample": 177,
   "fetched_payload": 183,
-  "ran_commands": 1714,
-  "returned": 3425,
+  "ran_commands": 1715,
+  "returned": 3428,
   "tried_creds": 2661
  },
  "samples": [
@@ -88,6 +88,7 @@
   "69d8bc8d6a50548e4846ee04b5a96ea84890f4e4e150664d4b77e4dac73c9d06",
   "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
   "6dd56dc25015526b683c237c7b576bcb261aba5c8d6e143f51087c74a4e47fc3",
+  "76ac14ec459aa4237f67fe23f8e970ee37569412fa624ab9094aee3a006cb83a",
   "7b29735b40edeafac4ce0feaa9b92d8e03b3dc71d8196f49f0cdd4595a15045e",
   "7f738faae31d6194abe8e61145a3f020106e5c9a9f037043e903f1845435c9b0",
   "8a1794a7b03b61c2526cb7fd5372cc301bd9908a9e8682d0c77f7c50ef1033dc",
@@ -101,6 +102,7 @@
   "b0a317ee139d061e6a2f9ac9a48a914f6224c31c11854cb2755b50d06c943915",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "cd7fe879d645e5759bf2d204e39fbbd9ef885cd1b1bbbdb70ec63fff69d6d2b8",
+  "d02dc4dc5822664aba5178112681ddd2e6e0c94e32473bf92753ec7811045960",
   "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
   "df17aa95c79aacbcd51ce5fdc9700f0f3d05a5b0f39443a76ef475dd7c5c49a1",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
@@ -144,7 +146,7 @@
   ],
   [
    "SMC Networks CPE",
-   17
+   18
   ],
   [
    "WordPress",
@@ -152,11 +154,11 @@
   ],
   [
    "Apache HTTP Server (CGI)",
-   11
+   12
   ],
   [
    "PHP-CGI",
-   10
+   11
   ],
   [
    "embedded web server (boa/goform)",
@@ -308,7 +310,7 @@
   ],
   [
    "root/xmhdipc",
-   19263
+   19273
   ],
   [
    "root/admin",
@@ -324,7 +326,7 @@
   ],
   [
    "root/hi3518",
-   16482
+   16483
   ],
   [
    "root/25802580",
@@ -332,19 +334,19 @@
   ],
   [
    "admin/smcadmin",
-   13796
+   13806
   ],
   [
    "user/user",
-   13638
+   13641
   ],
   [
    "admin/1234",
-   12365
+   12366
   ],
   [
    "root/klv123",
-   12068
+   12069
   ],
   [
    "CMCCAdmin/CMCCAdmin",
@@ -360,28 +362,28 @@
   ],
   [
    "admin/qwerty",
-   9510
+   9528
   ],
   [
    "root/",
    8355
   ],
   [
+   "support/support",
+   8145
+  ],
+  [
    "guest/guest",
    8018
   ],
   [
-   "support/support",
-   7985
-  ],
-  [
    "root/888888",
-   7526
+   7512
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 405,
-  "distinct_credentials": 12513,
+  "distinct_credentials": 12524,
   "distinct_payload_urls": 626,
   "events": 11403662,
   "new_sources": 3770,
