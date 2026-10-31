@@ -62,11 +62,11 @@
   }
  ],
  "funnel": {
-  "connected": 2609,
-  "delivered_sample": 80,
+  "connected": 2610,
+  "delivered_sample": 78,
   "fetched_payload": 95,
-  "ran_commands": 782,
-  "returned": 1801,
+  "ran_commands": 780,
+  "returned": 1794,
   "tried_creds": 1457
  },
  "samples": [
@@ -126,7 +126,7 @@
   ],
   [
    "firmware backdoor account",
-   30
+   31
   ],
   [
    "IoT OEM default account",
@@ -134,7 +134,7 @@
   ],
   [
    "SMC Networks CPE",
-   10
+   9
   ],
   [
    "WordPress",
@@ -274,11 +274,11 @@
  "top_credentials": [
   [
    "root/ikwb",
-   137009
+   137008
   ],
   [
    "root/Zte521",
-   44174
+   43951
   ],
   [
    "admin/54321",
@@ -290,7 +290,7 @@
   ],
   [
    "root/xc3511",
-   27701
+   27553
   ],
   [
    "tech/tech",
@@ -302,15 +302,15 @@
   ],
   [
    "user/user",
-   12354
+   12345
   ],
   [
    "admin/password",
-   12130
+   11888
   ],
   [
    "root/070admin",
-   10339
+   10338
   ],
   [
    "admin/cat1029",
@@ -326,15 +326,15 @@
   ],
   [
    "admin/1234",
-   6121
+   6083
   ],
   [
    "admin/admin",
-   5231
+   4965
   ],
   [
    "root/admin",
-   4462
+   4430
   ],
   [
    "root/Pon521",
@@ -342,15 +342,15 @@
   ],
   [
    "root/hi3518",
-   4084
+   3972
   ],
   [
    "administrator/1234",
-   3577
+   3578
   ],
   [
    "root/",
-   3564
+   3551
   ],
   [
    "admin/adminpass",
@@ -358,29 +358,29 @@
   ],
   [
    "ruijie/ruijie",
-   3026
+   3012
   ],
   [
    "root/root",
-   2995
-  ],
-  [
-   "support/support",
-   2928
+   2955
   ],
   [
    "root/54321",
-   2891
+   2906
+  ],
+  [
+   "support/support",
+   2905
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 218,
-  "distinct_credentials": 7469,
-  "distinct_payload_urls": 328,
-  "events": 4887196,
-  "new_sources": 1517,
+  "distinct_c2_hosts": 217,
+  "distinct_credentials": 7215,
+  "distinct_payload_urls": 326,
+  "events": 4887199,
+  "new_sources": 1541,
   "shared_c2_hosts": 36,
-  "sources": 2609
+  "sources": 2610
  },
  "window": {
   "days": 3,

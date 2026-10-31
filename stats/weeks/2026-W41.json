@@ -58,12 +58,12 @@
   }
  ],
  "funnel": {
-  "connected": 5065,
-  "delivered_sample": 177,
+  "connected": 5067,
+  "delivered_sample": 174,
   "fetched_payload": 183,
-  "ran_commands": 1715,
-  "returned": 3428,
-  "tried_creds": 2661
+  "ran_commands": 1711,
+  "returned": 3408,
+  "tried_creds": 2662
  },
  "samples": [
   "065cb23f8cf324f19f62e0b83f08e7aa5eb61deb59568ef1ced81542935a9e7e",
@@ -122,11 +122,11 @@
   ],
   [
    "DrayTek router",
-   95
+   93
   ],
   [
    "Huawei HG gateway",
-   93
+   92
   ],
   [
    "ZTE CPE",
@@ -134,11 +134,11 @@
   ],
   [
    "firmware backdoor account",
-   64
+   65
   ],
   [
    "ISP-branded DSL gateway",
-   61
+   64
   ],
   [
    "IoT OEM default account",
@@ -146,7 +146,7 @@
   ],
   [
    "SMC Networks CPE",
-   18
+   17
   ],
   [
    "WordPress",
@@ -211,10 +211,6 @@
    4
   ],
   [
-   "39.76.18.12",
-   4
-  ],
-  [
    "5.165.228.242",
    4
   ],
@@ -251,6 +247,10 @@
    3
   ],
   [
+   "39.76.18.12",
+   3
+  ],
+  [
    "42.180.59.73",
    3
   ],
@@ -282,15 +282,15 @@
  "top_credentials": [
   [
    "root/ikwb",
-   156684
+   156675
   ],
   [
    "root/Zte521",
-   87618
+   85938
   ],
   [
    "admin/54321",
-   51282
+   51272
   ],
   [
    "administrator/",
@@ -298,97 +298,97 @@
   ],
   [
    "root/xc3511",
-   35793
+   33909
   ],
   [
    "tech/tech",
-   22997
+   22945
   ],
   [
    "root/7ujMko0admin",
-   22316
+   22314
   ],
   [
    "root/xmhdipc",
-   19273
-  ],
-  [
-   "root/admin",
-   19088
+   19204
   ],
   [
    "Administrator/",
    18179
   ],
   [
-   "admin/admin",
-   16924
+   "root/hi3518",
+   16215
   ],
   [
-   "root/hi3518",
-   16483
+   "admin/admin",
+   16018
+  ],
+  [
+   "root/admin",
+   15860
   ],
   [
    "root/25802580",
-   15533
-  ],
-  [
-   "admin/smcadmin",
-   13806
+   15539
   ],
   [
    "user/user",
-   13641
+   13538
   ],
   [
    "admin/1234",
-   12366
+   12199
   ],
   [
    "root/klv123",
-   12069
+   12149
+  ],
+  [
+   "admin/smcadmin",
+   11594
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   11942
+   10088
   ],
   [
    "admin/cat1029",
-   9815
-  ],
-  [
-   "root/root",
-   9791
+   9805
   ],
   [
    "admin/qwerty",
-   9528
+   9453
+  ],
+  [
+   "root/root",
+   9407
   ],
   [
    "root/",
-   8355
-  ],
-  [
-   "support/support",
-   8145
-  ],
-  [
-   "guest/guest",
-   8018
+   7909
   ],
   [
    "root/888888",
-   7512
+   7495
+  ],
+  [
+   "guest/guest",
+   7409
+  ],
+  [
+   "support/support",
+   7023
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 405,
-  "distinct_credentials": 12524,
-  "distinct_payload_urls": 626,
-  "events": 11403662,
-  "new_sources": 3770,
-  "shared_c2_hosts": 79,
-  "sources": 5065
+  "distinct_c2_hosts": 392,
+  "distinct_credentials": 12246,
+  "distinct_payload_urls": 613,
+  "events": 11403677,
+  "new_sources": 3878,
+  "shared_c2_hosts": 80,
+  "sources": 5067
  },
  "window": {
   "days": 7,
