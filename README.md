@@ -16,18 +16,24 @@ where it runs.
 
 | path | what |
 |---|---|
-| `iocs/source-ips.csv` | 3,167 attacking addresses with evidence summary |
-| `iocs/payload-urls.csv` | 584 URLs attackers tried to fetch malware from |
-| `iocs/sample-hashes.csv` | 384 delivered samples, hashed |
-| `credentials/attempted-credentials.csv` | 4,451 distinct username/password pairs |
-| `samples/` | the captured binaries, zip-encrypted |
-| `incidents/` | 1,440 per-address write-ups of reported attacks |
+| `iocs/source-ips.csv` | 3,266 attacking addresses with evidence summary |
+| `iocs/payload-urls.csv` | 600 URLs attackers tried to fetch malware from |
+| `iocs/sample-hashes.csv` | 388 delivered samples, hashed and grouped into variant families |
+| `credentials/attempted-credentials.csv` | 4,522 distinct username/password pairs |
+| `samples/` | the captured binaries, zip-encrypted, one archive per variant family |
+| `incidents/` | 1,488 per-address write-ups of reported attacks |
 
 ## Samples
 
 Archives in `samples/` are zip-encrypted with the password `infected`, the
 convention for distributing malware. This is not secrecy — it prevents accidental
 execution and stops antivirus quarantining the whole checkout on clone.
+
+One archive per family. A botnet that stages the same script under 366 random
+filenames produces 366 hashes and one specimen; every hash is listed in
+`iocs/sample-hashes.csv` and `samples/INDEX.csv`, and the `variant_of` column
+names the hash whose archive holds the family's bytes. The variants differ
+only in the parts the key normalises (filenames, addresses, ports, tokens).
 
 **Everything here is hostile.** Analyse only in an isolated environment.
 
@@ -56,4 +62,4 @@ Data is published for research and defensive use.
 
 ---
 
-*Generated 2026-11-04 00:09 UTC.*
+*Generated 2026-11-04 06:04 UTC.*

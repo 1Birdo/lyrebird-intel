@@ -56,7 +56,11 @@ system was compromised to produce this data.**
   passwords that worked anywhere.
 - **`iocs/payload-urls.csv`** and **`iocs/sample-hashes.csv`** — where attackers
   tried to pull a second stage from, and the hashes of what was captured. Look
-  these up in the usual reputation sources; correlate, don't conclude.
+  these up in the usual reputation sources; correlate, don't conclude. Rows
+  that share a `variant_key` are near-identical samples (the same dropper
+  staged under random filenames, or the same binary with another address
+  compiled in); `variant_of` names the one hash whose archive carries the
+  family's bytes.
 - **`incidents/`** — a readable account of one source's activity. These describe
   technique and sequence. They deliberately stop short of attribution.
 
@@ -98,4 +102,4 @@ you control, not as a set of conclusions to *import*.
 
 ---
 
-*Generated 2026-11-04 00:09 UTC.*
+*Generated 2026-11-04 06:04 UTC.*
