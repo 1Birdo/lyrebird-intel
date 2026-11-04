@@ -50,7 +50,7 @@
   "delivered_sample": 41,
   "fetched_payload": 138,
   "ran_commands": 1022,
-  "returned": 1303,
+  "returned": 1304,
   "tried_creds": 893
  },
  "samples": [
@@ -84,11 +84,11 @@
   ],
   [
    "ZTE CPE",
-   80
+   79
   ],
   [
    "Huawei HG gateway",
-   68
+   67
   ],
   [
    "DrayTek router",
@@ -96,15 +96,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   51
+   53
   ],
   [
    "IoT OEM default account",
-   50
+   52
   ],
   [
    "firmware backdoor account",
-   49
+   48
   ],
   [
    "SMC Networks CPE",
@@ -244,7 +244,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   52576
+   52580
   ],
   [
    "administrator/",
@@ -252,35 +252,35 @@
   ],
   [
    "guest/123456",
-   20314
+   20317
   ],
   [
    "root/Zte521",
-   14419
+   14442
   ],
   [
    "guest/guest",
-   14201
+   14216
   ],
   [
    "root/xc3511",
-   13863
+   13897
   ],
   [
    "root/admin",
-   12312
-  ],
-  [
-   "root/54321",
-   11002
+   12328
   ],
   [
    "admin/1234",
-   10988
+   11013
+  ],
+  [
+   "root/54321",
+   11005
   ],
   [
    "user/user",
-   10497
+   10553
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
@@ -288,64 +288,64 @@
   ],
   [
    "admin/password",
-   9193
+   9205
   ],
   [
    "root/jvbzd",
-   8604
+   8609
   ],
   [
    "draytek/1234",
-   8375
+   8395
   ],
   [
    "admin/v2mprt",
-   7550
+   7546
   ],
   [
    "root/juantech",
-   6996
+   6998
   ],
   [
    "root/e2008jl",
-   6776
+   6778
   ],
   [
    "admin/admin",
-   6317
+   6321
   ],
   [
    "admin/epicrouter",
-   6162
+   6215
   ],
   [
    "1234/1234",
-   5357
+   5356
   ],
   [
    "root/Pon521",
-   4962
+   5011
   ],
   [
    "root/123456",
-   4613
+   4631
   ],
   [
    "root/",
-   4420
+   4431
   ],
   [
    "root/12345",
-   4116
+   4182
   ],
   [
    "root/hi3518",
-   4026
+   4042
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 233,
-  "distinct_credentials": 3579,
+  "distinct_credentials": 3589,
   "distinct_payload_urls": 356,
   "events": 5930783,
   "new_sources": 2136,
