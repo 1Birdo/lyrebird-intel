@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 190
+   "sources": 205
   },
   {
    "cve": "CVE-2022-0543",
@@ -17,12 +17,12 @@
    "sources": 3
   },
   {
-   "cve": "CVE-2017-17215",
+   "cve": "CVE-2015-2051",
    "sources": 3
   },
   {
-   "cve": "CVE-2015-2051",
-   "sources": 2
+   "cve": "CVE-2017-17215",
+   "sources": 3
   },
   {
    "cve": "CVE-2018-10561",
@@ -58,12 +58,12 @@
   }
  ],
  "funnel": {
-  "connected": 2287,
-  "delivered_sample": 57,
-  "fetched_payload": 141,
-  "ran_commands": 1058,
-  "returned": 1363,
-  "tried_creds": 828
+  "connected": 2417,
+  "delivered_sample": 62,
+  "fetched_payload": 147,
+  "ran_commands": 1109,
+  "returned": 1437,
+  "tried_creds": 873
  },
  "samples": [
   "0138498ebecb722fa55981d3424285e7d109cc814d3922b25e1e4f9c463f6831",
@@ -268,6 +268,7 @@
   "a29bc05087fa224d1acfbd2e5636f87425389230953b79b7adcb092adf35930c",
   "a2a3c1b896f26f4c3503f763649952aa404829258f4712e91a1c04a70a199aec",
   "a2e9fb53498e14019e7051a6e10e69de1681979ee906d2bf356a15fe1def4fbe",
+  "a33e33d807da01db9b5194523f8ccacf010c146cd7e393e8351da34f92ad4aac",
   "a468c60c5dd0ec7aee5edbd27cd79eb460ad7d284dc3a5776e997f72032a2696",
   "a6ac35a2cd43c04e5e54d778bc2c9cc9bfe78b824ff82f515cc8945bcfaa041b",
   "a7245cb973ca680584619a592299a703ce8a615531f5588b94f5a1a39b556f53",
@@ -402,39 +403,39 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   126
+   131
   ],
   [
    "DVR / IP camera (OEM default)",
-   119
+   127
   ],
   [
    "DrayTek router",
-   78
+   83
   ],
   [
    "ZTE CPE",
-   78
+   82
   ],
   [
    "Huawei HG gateway",
-   73
+   74
   ],
   [
    "ISP-branded DSL gateway",
-   65
+   66
   ],
   [
    "IoT OEM default account",
-   50
+   54
   ],
   [
    "firmware backdoor account",
-   43
+   49
   ],
   [
    "SMC Networks CPE",
-   27
+   28
   ],
   [
    "WordPress",
@@ -446,7 +447,7 @@
   ],
   [
    "consumer router admin",
-   3
+   4
   ],
   [
    "Apache Tomcat / Struts",
@@ -523,6 +524,10 @@
    3
   ],
   [
+   "83.233.104.113",
+   3
+  ],
+  [
    "1.20.91.144",
    2
   ],
@@ -547,6 +552,10 @@
    2
   ],
   [
+   "159.255.13.19",
+   2
+  ],
+  [
    "176.106.241.72",
    2
   ],
@@ -557,126 +566,118 @@
   [
    "182.116.14.23",
    2
-  ],
-  [
-   "182.116.20.186",
-   2
-  ],
-  [
-   "182.121.170.124",
-   2
   ]
  ],
  "top_credentials": [
   [
    "guest/12345",
-   52718
+   52768
   ],
   [
    "administrator/",
-   40460
+   49983
   ],
   [
    "root/xc3511",
-   36213
+   37671
   ],
   [
    "root/Zte521",
-   32648
+   34993
   ],
   [
    "admin/1234",
-   22245
+   22374
   ],
   [
    "guest/123456",
-   20914
+   21053
   ],
   [
    "root/25802580",
-   19869
+   19916
   ],
   [
    "admin/admin",
-   16044
+   16860
   ],
   [
    "root/admin",
-   14101
-  ],
-  [
-   "user/user",
-   12258
+   14265
   ],
   [
    "root/",
-   11814
+   12421
+  ],
+  [
+   "user/user",
+   12416
   ],
   [
    "guest/guest",
-   10186
+   10298
   ],
   [
    "root/jvbzd",
-   9604
+   9767
   ],
   [
    "draytek/1234",
-   9292
+   9459
   ],
   [
    "rapport/r@p8p0r+",
-   9285
+   9197
   ],
   [
    "admin/password",
-   9072
+   9112
   ],
   [
    "root/e2008jl",
-   8419
-  ],
-  [
-   "root/666666",
-   6988
+   8600
   ],
   [
    "root/Pon521",
-   6970
+   7037
+  ],
+  [
+   "root/666666",
+   7001
   ],
   [
    "root/123456",
-   6736
+   6827
   ],
   [
    "root/12345",
-   6198
-  ],
-  [
-   "admin/epicrouter",
-   6140
-  ],
-  [
-   "root/root",
-   5872
+   6478
   ],
   [
    "root/hi3518",
-   5434
+   6141
+  ],
+  [
+   "root/root",
+   6119
+  ],
+  [
+   "admin/epicrouter",
+   6044
   ],
   [
    "root/juantech",
-   5209
+   5303
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 256,
-  "distinct_credentials": 3952,
-  "distinct_payload_urls": 405,
-  "events": 7226044,
-  "new_sources": 1935,
-  "shared_c2_hosts": 44,
-  "sources": 2287
+  "distinct_c2_hosts": 267,
+  "distinct_credentials": 4060,
+  "distinct_payload_urls": 420,
+  "events": 7673126,
+  "new_sources": 2051,
+  "shared_c2_hosts": 48,
+  "sources": 2417
  },
  "window": {
   "days": 5,
