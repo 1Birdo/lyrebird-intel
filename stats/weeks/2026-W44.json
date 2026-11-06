@@ -58,7 +58,7 @@
   "delivered_sample": 43,
   "fetched_payload": 138,
   "ran_commands": 1031,
-  "returned": 1339,
+  "returned": 1341,
   "tried_creds": 895
  },
  "samples": [
@@ -88,15 +88,15 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   107
+   106
   ],
   [
    "ZTE CPE",
-   81
+   80
   ],
   [
    "Huawei HG gateway",
-   69
+   71
   ],
   [
    "DrayTek router",
@@ -112,11 +112,11 @@
   ],
   [
    "firmware backdoor account",
-   48
+   47
   ],
   [
    "SMC Networks CPE",
-   25
+   22
   ],
   [
    "consumer router admin",
@@ -252,7 +252,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   52793
+   52809
   ],
   [
    "administrator/",
@@ -260,71 +260,71 @@
   ],
   [
    "guest/123456",
-   20398
+   20403
   ],
   [
    "root/Zte521",
-   15486
+   15582
   ],
   [
    "root/xc3511",
-   14751
+   14879
   ],
   [
    "guest/guest",
-   14434
+   14462
   ],
   [
    "root/admin",
-   12971
+   13046
   ],
   [
    "user/user",
-   11607
+   11723
   ],
   [
    "admin/1234",
-   11298
+   11340
   ],
   [
    "root/54321",
-   11267
+   11277
   ],
   [
    "admin/password",
-   9357
+   9382
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9319
+   9321
   ],
   [
    "draytek/1234",
-   9033
+   9114
   ],
   [
    "root/jvbzd",
-   8737
+   8754
   ],
   [
    "admin/v2mprt",
-   7769
+   7794
   ],
   [
    "root/juantech",
-   7262
+   7288
   ],
   [
    "root/e2008jl",
-   6872
+   6888
   ],
   [
    "admin/admin",
-   6655
+   6701
   ],
   [
    "admin/epicrouter",
-   6321
+   6336
   ],
   [
    "root/Pon521",
@@ -332,29 +332,29 @@
   ],
   [
    "1234/1234",
-   5401
+   5408
   ],
   [
    "root/123456",
-   5065
+   5124
   ],
   [
    "root/",
-   4662
+   4791
   ],
   [
    "root/12345",
-   4617
+   4730
   ],
   [
    "root/hi3518",
-   4332
+   4365
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 246,
-  "distinct_credentials": 3851,
-  "distinct_payload_urls": 382,
+  "distinct_c2_hosts": 247,
+  "distinct_credentials": 3956,
+  "distinct_payload_urls": 383,
   "events": 5930783,
   "new_sources": 2136,
   "shared_c2_hosts": 55,
