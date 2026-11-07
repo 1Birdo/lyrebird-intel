@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 145
+   "sources": 146
   },
   {
    "cve": "CVE-2022-0543",
@@ -58,7 +58,7 @@
   "delivered_sample": 45,
   "fetched_payload": 138,
   "ran_commands": 1040,
-  "returned": 1366,
+  "returned": 1371,
   "tried_creds": 898
  },
  "samples": [
@@ -100,7 +100,7 @@
   ],
   [
    "DrayTek router",
-   62
+   63
   ],
   [
    "ISP-branded DSL gateway",
@@ -108,15 +108,15 @@
   ],
   [
    "IoT OEM default account",
-   52
+   51
   ],
   [
    "firmware backdoor account",
-   48
+   49
   ],
   [
    "SMC Networks CPE",
-   24
+   25
   ],
   [
    "consumer router admin",
@@ -252,7 +252,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   52944
+   52963
   ],
   [
    "administrator/",
@@ -260,100 +260,100 @@
   ],
   [
    "guest/123456",
-   20456
+   20459
   ],
   [
    "root/Zte521",
-   16144
+   16390
   ],
   [
    "root/xc3511",
-   15486
+   15589
   ],
   [
    "guest/guest",
-   14582
+   14590
   ],
   [
    "root/admin",
-   13325
+   13394
   ],
   [
    "user/user",
-   12346
+   12418
   ],
   [
    "admin/1234",
-   11599
+   11620
   ],
   [
    "root/54321",
-   11357
+   11365
   ],
   [
    "draytek/1234",
-   9531
+   9600
   ],
   [
    "admin/password",
-   9390
+   9386
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9320
+   9321
   ],
   [
    "root/jvbzd",
-   8828
+   8835
   ],
   [
    "admin/v2mprt",
-   7888
+   7762
   ],
   [
    "root/juantech",
-   7421
+   7433
   ],
   [
    "root/e2008jl",
-   6966
+   6979
   ],
   [
    "admin/admin",
-   6933
+   6966
   ],
   [
    "admin/epicrouter",
-   6248
+   6252
   ],
   [
    "cht/chtngpon",
-   6073
+   6081
   ],
   [
    "root/Pon521",
-   5648
+   5719
+  ],
+  [
+   "root/123456",
+   5479
   ],
   [
    "1234/1234",
    5435
   ],
   [
-   "root/123456",
-   5433
-  ],
-  [
    "root/12345",
-   5066
+   5101
   ],
   [
    "root/",
-   4852
+   4859
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 251,
-  "distinct_credentials": 4179,
+  "distinct_credentials": 4183,
   "distinct_payload_urls": 390,
   "events": 5930783,
   "new_sources": 2136,

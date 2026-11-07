@@ -2,11 +2,11 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 257
+   "sources": 268
   },
   {
    "cve": "CVE-2022-0543",
-   "sources": 6
+   "sources": 9
   },
   {
    "cve": "CVE-2014-8361",
@@ -25,6 +25,10 @@
    "sources": 3
   },
   {
+   "cve": "CVE-2021-36260",
+   "sources": 3
+  },
+  {
    "cve": "CVE-2016-20016",
    "sources": 2
   },
@@ -34,10 +38,6 @@
   },
   {
    "cve": "CVE-2018-10562",
-   "sources": 2
-  },
-  {
-   "cve": "CVE-2021-36260",
    "sources": 2
   },
   {
@@ -58,12 +58,12 @@
   }
  ],
  "funnel": {
-  "connected": 3010,
-  "delivered_sample": 75,
-  "fetched_payload": 183,
-  "ran_commands": 1382,
-  "returned": 1779,
-  "tried_creds": 1063
+  "connected": 3118,
+  "delivered_sample": 81,
+  "fetched_payload": 184,
+  "ran_commands": 1427,
+  "returned": 1842,
+  "tried_creds": 1088
  },
  "samples": [
   "0138498ebecb722fa55981d3424285e7d109cc814d3922b25e1e4f9c463f6831",
@@ -178,6 +178,8 @@
   "61c543a2d7fe60829f0c1d9db341de95890caec531179f8f580ffbd95a966c20",
   "61dcc04688030880e3951692c95b8e7c47a837a78bb8000d7bcf512124ac9064",
   "625bcdf2a4987857e173ce0181c2c88d840d719aafedff4d14fa4103c975a94f",
+  "6277d6dacf1032f5c7c545e7e0f96a2aedc87afa1e99b187912cdd795d9f471c",
+  "632ce5081e03a97227276018cf71e9095ce4ac9119dca1707eb71d67a7f19280",
   "642ae6f82438f30c7c845df85a80d40ea4d85d0f1783930f981c7ec1ad8849a6",
   "646198e9e979fb9744ec60fc08a3b83c954f25efa2176571a79a0edc1e2f79f9",
   "65ff86132f3225d98431bc32fac6c28ae94583b28e3294c7a45b1d08cff274b2",
@@ -230,6 +232,7 @@
   "876892b252d24bf7982e6108ef8f68402e3c95bf90e72bdb89d026d6607ed4c9",
   "879f75024726d48912ef90d3c89b64e997beecab5b94e55c98c78762b0f9beb5",
   "886dddc99ea0c9773bb02fd0e7dff616243fa215b035c60b27ae6b243fd097a8",
+  "88979c92d61f9d1ebaef7f148f6a4ac62b894072f02c4dfe76f316c2636718c7",
   "8934716a4c267a4cbd964e4783f72a98f19bd42af8f323b5e120712cc051ccbd",
   "89c9607b155526a8658a57e2f9d2dead695e2580158c907a3759666c8d9295c1",
   "89ce6790040cf2e490dc558c7dc293c94e0ce152d1947788c08a690d1ca0d1aa",
@@ -263,6 +266,7 @@
   "9e09f7c75e52e8e1601261b8d560231fb903809b6361787d35c6590e3db01071",
   "9ec6ead5da195b69e811358ba4756996c098f6c640618d6741a6ec352076df89",
   "9efef48caec85b237ebd08124cc20849590f4f58027f6463e5682b64529148cc",
+  "9f1438ada11473d68def4e94a8a95ec649b4071fb67452b9c0099321acd850c1",
   "a1172de4d0cd3bcd88f608fe4a8ed0f88438f6997a3df759aafb3562b8fd6f56",
   "a150d883c24afd07d429cd2eb2c72e7ab9782fbdee86a7533395611c09ab543d",
   "a1aa7fb19d5d25076a1256348795ff8f114244ce21a4fbdb89cdd593288a7bd9",
@@ -389,6 +393,7 @@
   "ee72e053ffa1dda730c39147ad17ee3b12bcc0f99b5b48ed99291b62c0bfd5b3",
   "eeb4969a5080cc75320c5541566683b2b133000f53362221ae62e0d6af800b65",
   "ef3043cc27b1d1be87fd786c44aac546b335d5a7cb7c8ad525f6507bb9dfd34f",
+  "f0c557122a7b07a548ee502b20645c989994ce742a2484ee2ac0fa3a252a8b8e",
   "f4ef0f3c6c00f631c9f82e44338172a96ec7f21e0502278b40940388edee2729",
   "f5005a87df0802f10523171f66c5d6fdd2193c0c877db9f8e5cc0ebb5db36b71",
   "f616279df4728145caa297412a63fc8e1ed58ab6ccc5e0b6b46cd0fc7cf849ed",
@@ -401,24 +406,25 @@
   "fb3bf162c3acd0f90f04c51f2841c2fc7d9c23d6b6d8ea7d0f84976a22043321",
   "fc901581458ab626f0d6921de099d2a5443be03a5d11ad9707c76559a2260f3c",
   "fddb18c581078ed9ba0375a599ca6637f5e058cab93f901dea2d0743b5a149fe",
-  "ff34514f9baedfda80a8cfc84c76d2eb375674db37c385849f43bd574d064f26"
+  "ff34514f9baedfda80a8cfc84c76d2eb375674db37c385849f43bd574d064f26",
+  "ff7d36397297e6bd1b705ad8c503fa53b72646045006ec31820a548728a86488"
  ],
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   155
+   154
   ],
   [
    "DVR / IP camera (OEM default)",
-   152
+   153
   ],
   [
    "DrayTek router",
-   98
+   100
   ],
   [
    "ZTE CPE",
-   98
+   99
   ],
   [
    "Huawei HG gateway",
@@ -426,7 +432,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   80
+   78
   ],
   [
    "IoT OEM default account",
@@ -438,7 +444,11 @@
   ],
   [
    "SMC Networks CPE",
-   35
+   34
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   5
   ],
   [
    "WordPress",
@@ -447,10 +457,6 @@
   [
    "consumer router admin",
    5
-  ],
-  [
-   "Hikvision / ONVIF camera",
-   4
   ],
   [
    "Apache Tomcat / Struts",
@@ -476,7 +482,7 @@
   ],
   [
    "113.254.36.153",
-   15
+   16
   ],
   [
    "105.186.158.12",
@@ -578,109 +584,109 @@
   ],
   [
    "guest/12345",
-   53047
+   53084
   ],
   [
    "root/xc3511",
-   47324
+   49646
   ],
   [
    "root/Zte521",
-   43850
+   45202
   ],
   [
    "admin/1234",
-   22883
+   22970
   ],
   [
    "admin/admin",
-   21848
+   22872
   ],
   [
    "guest/123456",
-   21596
+   21711
   ],
   [
    "root/25802580",
-   20244
+   20283
   ],
   [
    "root/root",
-   16211
-  ],
-  [
-   "root/admin",
-   15501
+   16441
   ],
   [
    "root/",
-   15238
+   15718
+  ],
+  [
+   "root/admin",
+   15628
   ],
   [
    "user/user",
-   12988
+   13070
   ],
   [
    "guest/guest",
-   10756
-  ],
-  [
-   "root/jvbzd",
-   10413
-  ],
-  [
-   "draytek/1234",
-   10288
-  ],
-  [
-   "root/hi3518",
-   9877
-  ],
-  [
-   "root/e2008jl",
-   9284
-  ],
-  [
-   "rapport/r@p8p0r+",
-   9255
-  ],
-  [
-   "admin/password",
-   9201
-  ],
-  [
-   "admin/123456789",
-   8113
-  ],
-  [
-   "root/12345",
-   7712
-  ],
-  [
-   "root/Pon521",
-   7310
+   10817
   ],
   [
    "admin/epicrouter",
-   7287
+   10703
+  ],
+  [
+   "draytek/1234",
+   10446
+  ],
+  [
+   "root/jvbzd",
+   10424
+  ],
+  [
+   "root/hi3518",
+   9984
+  ],
+  [
+   "root/e2008jl",
+   9408
+  ],
+  [
+   "rapport/r@p8p0r+",
+   9273
+  ],
+  [
+   "admin/password",
+   9208
+  ],
+  [
+   "admin/123456789",
+   8897
+  ],
+  [
+   "root/12345",
+   7902
+  ],
+  [
+   "root/Pon521",
+   7351
   ],
   [
    "root/666666",
-   7202
+   7262
   ],
   [
    "root/123456",
-   7135
+   7184
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 309,
-  "distinct_credentials": 4860,
-  "distinct_payload_urls": 485,
-  "events": 9606868,
-  "new_sources": 2593,
+  "distinct_c2_hosts": 314,
+  "distinct_credentials": 4952,
+  "distinct_payload_urls": 491,
+  "events": 9905762,
+  "new_sources": 2691,
   "shared_c2_hosts": 59,
-  "sources": 3010
+  "sources": 3118
  },
  "window": {
   "days": 6,
