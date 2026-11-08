@@ -55,10 +55,10 @@
  ],
  "funnel": {
   "connected": 2136,
-  "delivered_sample": 47,
+  "delivered_sample": 48,
   "fetched_payload": 138,
   "ran_commands": 1044,
-  "returned": 1379,
+  "returned": 1380,
   "tried_creds": 899
  },
  "samples": [
@@ -73,6 +73,7 @@
   "76085355cee332d6594b3cf26535ae16bd27aad6d24d50f941b675d2fe5f7b71",
   "76ac14ec459aa4237f67fe23f8e970ee37569412fa624ab9094aee3a006cb83a",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
+  "aea441e434e8b68d816ef62948d69d5f62c247e7d3bb6daa345d65f40abde99e",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "c383ed3cb520e0f3a676efea5d1e03f8cd8f84a0bcdb312b516ee6984325b784",
   "c9dd4f69c514491f0d4213b66ce05be4283553408fc84d6b919e9b6378d14795",
@@ -88,15 +89,15 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   109
+   107
   ],
   [
    "ZTE CPE",
-   78
+   79
   ],
   [
    "Huawei HG gateway",
-   71
+   72
   ],
   [
    "DrayTek router",
@@ -104,7 +105,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   52
+   53
   ],
   [
    "IoT OEM default account",
@@ -112,11 +113,11 @@
   ],
   [
    "firmware backdoor account",
-   50
+   49
   ],
   [
    "SMC Networks CPE",
-   24
+   25
   ],
   [
    "consumer router admin",
@@ -131,6 +132,10 @@
    3
   ],
   [
+   "embedded web server (boa/goform)",
+   2
+  ],
+  [
    "Apache HTTP Server (CGI)",
    1
   ],
@@ -140,10 +145,6 @@
   ],
   [
    "PHP-CGI",
-   1
-  ],
-  [
-   "embedded web server (boa/goform)",
    1
   ]
  ],
@@ -252,7 +253,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   53008
+   53027
   ],
   [
    "administrator/",
@@ -260,100 +261,100 @@
   ],
   [
    "guest/123456",
-   20464
+   20463
   ],
   [
    "root/Zte521",
-   16565
+   16618
   ],
   [
    "root/xc3511",
-   15784
+   15849
   ],
   [
    "guest/guest",
-   14600
+   14601
   ],
   [
    "root/admin",
-   13520
+   13564
   ],
   [
    "user/user",
-   12576
+   12663
   ],
   [
    "admin/1234",
-   11668
+   11696
   ],
   [
    "root/54321",
-   11361
+   11363
   ],
   [
    "draytek/1234",
-   9726
+   9786
   ],
   [
    "admin/password",
-   9406
+   9427
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9321
+   9322
   ],
   [
    "root/jvbzd",
-   8854
+   8865
   ],
   [
    "admin/v2mprt",
-   7938
+   7797
   ],
   [
    "root/juantech",
-   7469
+   7484
   ],
   [
    "admin/admin",
-   7016
+   7032
   ],
   [
    "root/e2008jl",
-   7004
+   7021
   ],
   [
    "admin/epicrouter",
-   6252
+   6261
   ],
   [
    "cht/chtngpon",
-   6086
+   6093
   ],
   [
    "root/Pon521",
-   5719
+   5788
   ],
   [
    "root/123456",
-   5566
+   5596
   ],
   [
    "1234/1234",
-   5449
+   5443
   ],
   [
    "root/12345",
-   5199
+   5246
   ],
   [
    "root/",
-   4964
+   4882
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 251,
-  "distinct_credentials": 4240,
+  "distinct_credentials": 4238,
   "distinct_payload_urls": 390,
   "events": 5930783,
   "new_sources": 2136,
