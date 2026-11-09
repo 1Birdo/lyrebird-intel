@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 108,
+  "delivered_sample": 109,
   "fetched_payload": 206,
-  "ran_commands": 1655,
-  "returned": 2133,
+  "ran_commands": 1658,
+  "returned": 2141,
   "tried_creds": 1241
  },
  "samples": [
@@ -270,6 +270,7 @@
   "9842b01bac9a1d8949defba65a6231036bf428654a78e66d62bf78f0ce81e743",
   "9910e6daf2306876f50ce8ee96d6cbd7abe53a551a4e2be105203b3779073f58",
   "992738749f28d8e617818692ae58b48420a6bc6a3068caeb6a48e1e62ce5ef00",
+  "9956bdd91a493e93241b6980b35fb0fe6aa03d8f46cab371cc760d782c8be076",
   "99d1d7762bd6d0888067cc1e25d67dd4504271d1f7e45f847c5adedc9590eaab",
   "9bdf6a086da5fb8202612f6b95f909d35a4342c5b6cc593448e11b3eeba84027",
   "9e09f7c75e52e8e1601261b8d560231fb903809b6361787d35c6590e3db01071",
@@ -313,6 +314,7 @@
   "b2ee42cb62631c933b0480a052df96bf37d8085eeee8e1f439ee808e44b6e057",
   "b335b6e83dda6ed11cfd10e34a407c5dcfcfc869e8b843788481701801d82380",
   "b3a32ae5614f800e828c71a942e1c05b24fa2a09434f5d2bae0d07803ff7b991",
+  "b4ed742a428f7ce4cfb7a15b9b3a709ebc57a5103422d3eda5bf160937ff6cc0",
   "b5a29d933cf7d1cf790a6ad6a8c0439bfba1bae70c80162690c4f2c492a6a84d",
   "b5b43c5edd3847ec44e6fb929daf175e4a186c09afdf7e2b142dffff26486fae",
   "b62708289aa7c2aca767f13de51cdc985710438c12371cd4ccd25216c830f2e2",
@@ -426,19 +428,19 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   175
+   180
   ],
   [
    "DVR / IP camera (OEM default)",
-   173
+   177
   ],
   [
    "DrayTek router",
-   113
+   117
   ],
   [
    "ZTE CPE",
-   113
+   115
   ],
   [
    "Huawei HG gateway",
@@ -446,19 +448,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   85
+   84
   ],
   [
    "IoT OEM default account",
-   69
+   74
   ],
   [
    "firmware backdoor account",
-   63
+   67
   ],
   [
    "SMC Networks CPE",
-   41
+   39
   ],
   [
    "WordPress",
@@ -515,16 +517,16 @@
    8
   ],
   [
+   "182.117.4.249",
+   8
+  ],
+  [
    "123.5.130.150",
    7
   ],
   [
    "174.105.154.212",
    7
-  ],
-  [
-   "182.117.4.249",
-   6
   ],
   [
    "109.236.46.199",
@@ -575,6 +577,10 @@
    3
   ],
   [
+   "210.208.110.130",
+   3
+  ],
+  [
    "210.208.111.100",
    3
   ],
@@ -593,121 +599,117 @@
   [
    "42.176.37.244",
    3
-  ],
-  [
-   "42.87.221.2",
-   3
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   65054
+   65885
   ],
   [
    "administrator/",
    64203
   ],
   [
-   "guest/12345",
-   53357
+   "root/xc3511",
+   53795
   ],
   [
-   "root/xc3511",
-   53108
+   "guest/12345",
+   53385
   ],
   [
    "admin/admin",
-   26974
+   27935
   ],
   [
    "admin/1234",
-   23650
+   23732
   ],
   [
    "guest/123456",
-   22127
+   22152
   ],
   [
    "root/25802580",
-   20444
+   20490
   ],
   [
    "root/root",
-   17706
+   17942
   ],
   [
    "root/",
-   17546
+   17903
   ],
   [
    "root/admin",
-   16689
-  ],
-  [
-   "default/default",
-   16365
+   16801
   ],
   [
    "admin/123456789",
-   16086
+   16455
+  ],
+  [
+   "default/default",
+   16388
   ],
   [
    "guest/guest",
-   14637
+   14714
   ],
   [
    "user/user",
-   13581
-  ],
-  [
-   "draytek/1234",
-   11081
-  ],
-  [
-   "admin/epicrouter",
-   10838
-  ],
-  [
-   "root/jvbzd",
-   10534
-  ],
-  [
-   "root/hi3518",
-   10498
+   13665
   ],
   [
    "root/ikwb",
-   10256
+   12413
+  ],
+  [
+   "draytek/1234",
+   11197
+  ],
+  [
+   "admin/epicrouter",
+   10863
+  ],
+  [
+   "root/juantech",
+   10743
+  ],
+  [
+   "root/hi3518",
+   10622
+  ],
+  [
+   "root/jvbzd",
+   10555
   ],
   [
    "rapport/r@p8p0r+",
-   9937
+   10065
   ],
   [
    "root/e2008jl",
-   9901
+   9933
   ],
   [
    "admin/password",
-   9335
+   9351
   ],
   [
    "root/12345",
-   8866
-  ],
-  [
-   "admin/adminHW",
-   8169
+   9049
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 365,
-  "distinct_credentials": 5553,
-  "distinct_payload_urls": 570,
+  "distinct_c2_hosts": 373,
+  "distinct_credentials": 5583,
+  "distinct_payload_urls": 587,
   "events": 11581221,
   "new_sources": 3242,
-  "shared_c2_hosts": 72,
+  "shared_c2_hosts": 76,
   "sources": 3708
  },
  "window": {
