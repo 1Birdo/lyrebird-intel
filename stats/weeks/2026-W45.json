@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 109,
+  "delivered_sample": 110,
   "fetched_payload": 206,
-  "ran_commands": 1670,
-  "returned": 2192,
+  "ran_commands": 1671,
+  "returned": 2194,
   "tried_creds": 1245
  },
  "samples": [
@@ -399,6 +399,7 @@
   "e7070e3a5503518ca26fa1008f05cdbf9ba58ebe43eb0951ed1aea6a45b2b8f9",
   "e811c6ef06a88fdfc402beeb6733e3719342e0efe09dbe1ba2dc7c489ba81188",
   "e829dbdfe694085436b0295a35f000d968ef9b2e95cb94cbd99cba2af2a6b2d9",
+  "e8aa0d849d75570fdaef18c725062397a95051b79d75379434f8ab9b96553b9c",
   "e9b9536e45baab34ff5dc96287010b9f4da363708db990010c1239c33d005464",
   "ea46beb9df337e3a9c73585605aed068886ec3f5f34914ffea7876b764f798ba",
   "eb23cf90697f9f05686859e31271bbe953122f47714f955b9a8de56dca3d9a5c",
@@ -428,7 +429,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   182
+   181
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -448,15 +449,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   87
+   86
   ],
   [
    "IoT OEM default account",
-   72
+   71
   ],
   [
    "firmware backdoor account",
-   64
+   65
   ],
   [
    "SMC Networks CPE",
@@ -537,6 +538,10 @@
    7
   ],
   [
+   "42.176.97.42",
+   6
+  ],
+  [
    "109.236.46.199",
    5
   ],
@@ -595,16 +600,12 @@
   [
    "210.208.110.130",
    3
-  ],
-  [
-   "210.208.111.100",
-   3
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   70991
+   71565
   ],
   [
    "administrator/",
@@ -612,101 +613,101 @@
   ],
   [
    "root/xc3511",
-   56743
+   56803
   ],
   [
    "guest/12345",
-   53698
+   53755
   ],
   [
    "admin/admin",
-   30194
+   30410
   ],
   [
    "admin/1234",
-   24172
+   24229
   ],
   [
    "guest/123456",
-   22118
+   22116
   ],
   [
    "root/25802580",
-   20675
+   20702
   ],
   [
    "root/root",
-   18768
+   18888
   ],
   [
    "root/",
-   18344
+   18385
   ],
   [
    "root/admin",
-   17521
+   17641
   ],
   [
    "admin/123456789",
-   16821
+   16827
   ],
   [
    "default/default",
-   16537
+   16558
   ],
   [
    "guest/guest",
-   14992
+   14987
   ],
   [
    "user/user",
-   14196
+   14235
   ],
   [
    "root/ikwb",
-   12625
+   12644
   ],
   [
    "draytek/1234",
-   11887
+   11945
   ],
   [
    "root/juantech",
-   11601
+   11623
   ],
   [
    "root/hi3518",
-   11149
+   11196
   ],
   [
    "admin/epicrouter",
-   10987
+   10974
   ],
   [
    "administrator/1234",
-   10784
+   10849
   ],
   [
    "root/jvbzd",
-   10634
+   10638
   ],
   [
    "root/e2008jl",
-   10186
+   10226
   ],
   [
    "rapport/r@p8p0r+",
-   10040
+   10056
   ],
   [
    "root/12345",
-   9884
+   10023
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 400,
-  "distinct_credentials": 5699,
-  "distinct_payload_urls": 639,
+  "distinct_c2_hosts": 402,
+  "distinct_credentials": 5744,
+  "distinct_payload_urls": 642,
   "events": 11581221,
   "new_sources": 3242,
   "shared_c2_hosts": 85,
