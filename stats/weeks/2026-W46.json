@@ -2,11 +2,11 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 129
+   "sources": 139
   },
   {
    "cve": "CVE-2022-0543",
-   "sources": 4
+   "sources": 5
   },
   {
    "cve": "CVE-2015-2051",
@@ -25,15 +25,15 @@
    "sources": 2
   },
   {
+   "cve": "CVE-2017-17215",
+   "sources": 2
+  },
+  {
    "cve": "CVE-2017-9841",
    "sources": 2
   },
   {
    "cve": "CVE-2016-6277",
-   "sources": 1
-  },
-  {
-   "cve": "CVE-2017-17215",
    "sources": 1
   },
   {
@@ -50,12 +50,12 @@
   }
  ],
  "funnel": {
-  "connected": 1510,
-  "delivered_sample": 43,
-  "fetched_payload": 107,
-  "ran_commands": 686,
-  "returned": 954,
-  "tried_creds": 513
+  "connected": 1619,
+  "delivered_sample": 49,
+  "fetched_payload": 110,
+  "ran_commands": 729,
+  "returned": 1023,
+  "tried_creds": 540
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -75,6 +75,7 @@
   "6e05bb89e1097e96644b1038e715119aaeb550eafbea3cf8aef6e12ce0324d5a",
   "6efa22918c6f6dbf7e70ee228f166028bfcbe8bc468664e79999e6898ffa1109",
   "79068ebf78962e2c800f0f1bb428c4d9122e146f1577471c2db09d9f62244004",
+  "7dbe907a85cd2891c21aaa2099ba29ff6be8763120804817f02ee5f94fc2a0c3",
   "82adbd10efd853f362239a852ab66dcc33916bc5421c95e9265beed922677c3d",
   "8373f7e086bb27784827ef8f2f4ae118e05d58b67f513f82c2316dc57b0d896c",
   "8bcf27f59d20641c264068d6d9dc00f4e2fb87b7b339150635fe8f76ef31130d",
@@ -82,6 +83,7 @@
   "94d0c57695b79a32faff07185107aadc351ae48cb299343374aa1348543c340c",
   "9956bdd91a493e93241b6980b35fb0fe6aa03d8f46cab371cc760d782c8be076",
   "a62d081691fed9e5934173651197db53362d3d2323d7236ed275a522f15b69a8",
+  "a8076d3d28d21e02012b20eaf7dbf75409a6277134439025f282e368e3305abf",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "b4ed742a428f7ce4cfb7a15b9b3a709ebc57a5103422d3eda5bf160937ff6cc0",
   "b651564f25dabf20b43635888b7f8041e31897f80b776c9866a8ab810043f2dc",
@@ -103,31 +105,31 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   95
+   96
   ],
   [
    "GPON/ONT fibre terminal",
-   91
+   96
   ],
   [
    "ZTE CPE",
-   78
+   80
   ],
   [
    "DrayTek router",
-   68
+   71
   ],
   [
    "Huawei HG gateway",
-   52
+   57
   ],
   [
    "ISP-branded DSL gateway",
-   51
+   54
   ],
   [
    "firmware backdoor account",
-   38
+   37
   ],
   [
    "IoT OEM default account",
@@ -165,7 +167,7 @@
  "top_c2_hosts": [
   [
    "113.254.36.153",
-   10
+   11
   ],
   [
    "42.176.97.42",
@@ -267,113 +269,113 @@
  "top_credentials": [
   [
    "root/Zte521",
-   39492
-  ],
-  [
-   "root/xmhdipc",
-   25470
+   40353
   ],
   [
    "administrator/",
-   24874
+   34192
+  ],
+  [
+   "root/xmhdipc",
+   26000
   ],
   [
    "root/xc3511",
-   19223
+   19369
   ],
   [
    "admin/admin",
-   16793
+   17035
   ],
   [
    "user/user",
-   13572
+   13747
   ],
   [
    "root/juantech",
-   12703
+   12727
   ],
   [
    "admin/123456789",
-   12261
+   12277
   ],
   [
    "root/svgodie",
-   11292
+   11308
   ],
   [
    "root/",
-   8980
+   9077
+  ],
+  [
+   "admin/1234",
+   8539
   ],
   [
    "root/ikwb",
-   8455
-  ],
-  [
-   "administrator/1234",
-   8317
+   8481
   ],
   [
    "draytek/1234",
-   8271
+   8384
+  ],
+  [
+   "administrator/1234",
+   8353
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8235
+   8267
   ],
   [
    "root/12345",
-   7265
+   7371
   ],
   [
    "admin/adminHW",
-   6741
-  ],
-  [
-   "admin/qwerty",
-   6640
+   6820
   ],
   [
    "root/admin",
-   6567
+   6707
+  ],
+  [
+   "admin/qwerty",
+   6690
   ],
   [
    "root/root",
-   6026
+   6126
   ],
   [
    "admin/epicrouter",
-   5867
+   5888
   ],
   [
    "root/123456",
-   5436
+   5547
   ],
   [
    "root/hi3518",
-   5072
+   5145
   ],
   [
    "root/klv1234",
-   5064
+   5107
   ],
   [
    "root/e2008jl",
-   4922
-  ],
-  [
-   "root/pass",
-   4116
+   4943
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 259,
-  "distinct_credentials": 2844,
-  "distinct_payload_urls": 397,
-  "events": 4189285,
-  "new_sources": 1081,
-  "shared_c2_hosts": 49,
-  "sources": 1510
+  "distinct_c2_hosts": 270,
+  "distinct_credentials": 2972,
+  "distinct_payload_urls": 417,
+  "events": 4442608,
+  "new_sources": 1163,
+  "shared_c2_hosts": 51,
+  "sources": 1619
  },
  "window": {
   "days": 3,
