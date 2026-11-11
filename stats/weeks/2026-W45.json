@@ -61,9 +61,9 @@
   "connected": 3708,
   "delivered_sample": 110,
   "fetched_payload": 206,
-  "ran_commands": 1671,
-  "returned": 2194,
-  "tried_creds": 1245
+  "ran_commands": 1672,
+  "returned": 2199,
+  "tried_creds": 1246
  },
  "samples": [
   "0138498ebecb722fa55981d3424285e7d109cc814d3922b25e1e4f9c463f6831",
@@ -436,32 +436,32 @@
    175
   ],
   [
+   "ZTE CPE",
+   121
+  ],
+  [
    "DrayTek router",
    120
   ],
   [
-   "ZTE CPE",
-   120
-  ],
-  [
    "Huawei HG gateway",
-   104
+   105
   ],
   [
    "ISP-branded DSL gateway",
-   86
+   88
   ],
   [
    "IoT OEM default account",
-   71
+   72
   ],
   [
    "firmware backdoor account",
-   65
+   64
   ],
   [
    "SMC Networks CPE",
-   39
+   38
   ],
   [
    "WordPress",
@@ -539,7 +539,7 @@
   ],
   [
    "42.176.97.42",
-   6
+   7
   ],
   [
    "109.236.46.199",
@@ -605,7 +605,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   71565
+   71940
   ],
   [
    "administrator/",
@@ -613,100 +613,100 @@
   ],
   [
    "root/xc3511",
-   56803
+   56874
   ],
   [
    "guest/12345",
-   53755
+   53580
   ],
   [
    "admin/admin",
-   30410
+   30620
   ],
   [
    "admin/1234",
-   24229
+   24265
   ],
   [
    "guest/123456",
-   22116
+   22117
   ],
   [
    "root/25802580",
-   20702
+   20709
   ],
   [
    "root/root",
-   18888
+   19014
   ],
   [
    "root/",
-   18385
+   18422
   ],
   [
    "root/admin",
-   17641
+   17757
   ],
   [
    "admin/123456789",
-   16827
+   16842
   ],
   [
    "default/default",
-   16558
+   16604
   ],
   [
    "guest/guest",
-   14987
+   14996
   ],
   [
    "user/user",
-   14235
+   14311
   ],
   [
    "root/ikwb",
-   12644
+   12654
   ],
   [
    "draytek/1234",
-   11945
+   12024
   ],
   [
    "root/juantech",
-   11623
+   11645
   ],
   [
    "root/hi3518",
-   11196
+   11225
+  ],
+  [
+   "administrator/1234",
+   11083
   ],
   [
    "admin/epicrouter",
    10974
   ],
   [
-   "administrator/1234",
-   10849
-  ],
-  [
    "root/jvbzd",
-   10638
+   10664
   ],
   [
    "root/e2008jl",
-   10226
-  ],
-  [
-   "rapport/r@p8p0r+",
-   10056
+   10256
   ],
   [
    "root/12345",
-   10023
+   10153
+  ],
+  [
+   "rapport/r@p8p0r+",
+   10067
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 402,
-  "distinct_credentials": 5744,
+  "distinct_credentials": 5785,
   "distinct_payload_urls": 642,
   "events": 11581221,
   "new_sources": 3242,
