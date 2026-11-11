@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 120
+   "sources": 129
   },
   {
    "cve": "CVE-2022-0543",
@@ -50,12 +50,12 @@
   }
  ],
  "funnel": {
-  "connected": 1385,
-  "delivered_sample": 38,
-  "fetched_payload": 103,
-  "ran_commands": 643,
-  "returned": 882,
-  "tried_creds": 471
+  "connected": 1510,
+  "delivered_sample": 43,
+  "fetched_payload": 107,
+  "ran_commands": 686,
+  "returned": 954,
+  "tried_creds": 513
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -70,7 +70,9 @@
   "53859185fdfa13acc7f91409563c4b6676d72efbc247e7ff23d8c7ee1eff965c",
   "5988731fefa6718fb27ab5520682f9a9b462817ed36edacfc993208ade18c90b",
   "5a4c413b590cd598939f03d490a5ed7c0c966c633ac5627cb68613371be2c184",
+  "5d8b4f39e80de83a563d9c8f61e40c528f7a97e478c46971cca20374a443f4ca",
   "6de2fe8350c087545a782af0ef9b0158cfe59020565d895d54d8f43d93b0738a",
+  "6e05bb89e1097e96644b1038e715119aaeb550eafbea3cf8aef6e12ce0324d5a",
   "6efa22918c6f6dbf7e70ee228f166028bfcbe8bc468664e79999e6898ffa1109",
   "79068ebf78962e2c800f0f1bb428c4d9122e146f1577471c2db09d9f62244004",
   "82adbd10efd853f362239a852ab66dcc33916bc5421c95e9265beed922677c3d",
@@ -84,8 +86,10 @@
   "b4ed742a428f7ce4cfb7a15b9b3a709ebc57a5103422d3eda5bf160937ff6cc0",
   "b651564f25dabf20b43635888b7f8041e31897f80b776c9866a8ab810043f2dc",
   "be8825c7921bbc6c69fcacf164f030870a015fce69bbacaed226d970062bfa7c",
+  "c4e53f1712084a1f4eb3f13cb487171df1d5adb5762df51212f0538faeb5f790",
   "c608864ef9e374f2e86c91bc09ada0419631b6315c8000e62bd6f8305bde75d8",
   "ce021032eb47b4af82ef90f52c37c0ccd0f8e882915890f1bc8979d2e2496abf",
+  "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
   "e2ac6eeff0f03c508e9bec144bb3792c91f8bd6f93d7c2f8d0e50757f3033933",
   "e34396228024a94990d5a41ed7ab0f8e60972b7186fecf594eede40b7b4ff1f5",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
@@ -99,31 +103,31 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   88
+   95
   ],
   [
    "GPON/ONT fibre terminal",
-   86
+   91
   ],
   [
    "ZTE CPE",
-   73
+   78
   ],
   [
    "DrayTek router",
-   66
+   68
   ],
   [
    "Huawei HG gateway",
-   49
+   52
   ],
   [
    "ISP-branded DSL gateway",
-   49
+   51
   ],
   [
    "firmware backdoor account",
-   35
+   38
   ],
   [
    "IoT OEM default account",
@@ -150,11 +154,23 @@
    2
   ],
   [
+   "Apache Tomcat / Struts",
+   1
+  ],
+  [
    "Java middleware",
    1
   ]
  ],
  "top_c2_hosts": [
+  [
+   "113.254.36.153",
+   10
+  ],
+  [
+   "42.176.97.42",
+   9
+  ],
   [
    "105.186.158.12",
    8
@@ -170,14 +186,6 @@
   [
    "196.89.162.211",
    8
-  ],
-  [
-   "42.176.97.42",
-   8
-  ],
-  [
-   "113.254.36.153",
-   7
   ],
   [
    "196.190.229.115",
@@ -240,6 +248,10 @@
    2
   ],
   [
+   "112.82.137.139",
+   2
+  ],
+  [
    "113.229.53.111",
    2
   ],
@@ -250,122 +262,118 @@
   [
    "116.139.137.187",
    2
-  ],
-  [
-   "119.178.1.107",
-   2
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   39008
+   39492
   ],
   [
    "root/xmhdipc",
-   24913
-  ],
-  [
-   "root/xc3511",
-   18987
-  ],
-  [
-   "admin/admin",
-   16466
+   25470
   ],
   [
    "administrator/",
-   15565
+   24874
+  ],
+  [
+   "root/xc3511",
+   19223
+  ],
+  [
+   "admin/admin",
+   16793
   ],
   [
    "user/user",
-   13380
+   13572
   ],
   [
    "root/juantech",
-   12597
+   12703
   ],
   [
    "admin/123456789",
-   12242
+   12261
   ],
   [
    "root/svgodie",
-   11289
+   11292
   ],
   [
    "root/",
-   8864
-  ],
-  [
-   "administrator/1234",
-   8517
+   8980
   ],
   [
    "root/ikwb",
-   8419
+   8455
+  ],
+  [
+   "administrator/1234",
+   8317
   ],
   [
    "draytek/1234",
-   8208
+   8271
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8184
+   8235
   ],
   [
    "root/12345",
-   7144
+   7265
   ],
   [
    "admin/adminHW",
-   6607
+   6741
   ],
   [
    "admin/qwerty",
-   6600
+   6640
   ],
   [
    "root/admin",
-   6445
+   6567
   ],
   [
    "root/root",
-   5884
+   6026
   ],
   [
    "admin/epicrouter",
-   5844
+   5867
   ],
   [
    "root/123456",
-   5334
-  ],
-  [
-   "root/klv1234",
-   5019
+   5436
   ],
   [
    "root/hi3518",
-   5009
+   5072
+  ],
+  [
+   "root/klv1234",
+   5064
   ],
   [
    "root/e2008jl",
-   4889
+   4922
   ],
   [
    "root/pass",
-   4093
+   4116
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 248,
-  "distinct_credentials": 2654,
-  "distinct_payload_urls": 380,
-  "events": 3961149,
-  "new_sources": 980,
-  "shared_c2_hosts": 47,
-  "sources": 1385
+  "distinct_c2_hosts": 259,
+  "distinct_credentials": 2844,
+  "distinct_payload_urls": 397,
+  "events": 4189285,
+  "new_sources": 1081,
+  "shared_c2_hosts": 49,
+  "sources": 1510
  },
  "window": {
   "days": 3,
