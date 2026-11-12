@@ -58,7 +58,7 @@
   "delivered_sample": 51,
   "fetched_payload": 138,
   "ran_commands": 1058,
-  "returned": 1418,
+  "returned": 1424,
   "tried_creds": 902
  },
  "samples": [
@@ -90,7 +90,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   109
+   106
   ],
   [
    "ZTE CPE",
@@ -98,19 +98,19 @@
   ],
   [
    "Huawei HG gateway",
-   74
+   73
   ],
   [
    "DrayTek router",
    63
   ],
   [
-   "ISP-branded DSL gateway",
-   53
+   "IoT OEM default account",
+   54
   ],
   [
-   "IoT OEM default account",
-   52
+   "ISP-branded DSL gateway",
+   53
   ],
   [
    "firmware backdoor account",
@@ -118,7 +118,7 @@
   ],
   [
    "SMC Networks CPE",
-   24
+   23
   ],
   [
    "consumer router admin",
@@ -254,7 +254,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   53038
+   53048
   ],
   [
    "administrator/",
@@ -262,15 +262,15 @@
   ],
   [
    "guest/123456",
-   20492
+   20494
   ],
   [
    "root/Zte521",
-   17380
+   17447
   ],
   [
    "root/xc3511",
-   16945
+   16998
   ],
   [
    "guest/guest",
@@ -278,85 +278,85 @@
   ],
   [
    "root/admin",
-   14261
+   14290
   ],
   [
    "user/user",
-   13814
+   13875
   ],
   [
    "admin/1234",
-   12019
+   12033
+  ],
+  [
+   "root/vizxv",
+   11733
   ],
   [
    "root/54321",
    11416
   ],
   [
-   "root/vizxv",
-   10755
-  ],
-  [
    "draytek/1234",
-   10532
+   10575
   ],
   [
    "admin/password",
-   9607
+   9619
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9325
+   9312
   ],
   [
    "root/jvbzd",
-   9039
+   9042
   ],
   [
    "admin/v2mprt",
-   7950
+   7960
   ],
   [
    "root/juantech",
-   7694
+   7709
   ],
   [
    "admin/admin",
-   7336
+   7352
   ],
   [
    "root/e2008jl",
-   7242
-  ],
-  [
-   "admin/epicrouter",
-   6277
-  ],
-  [
-   "cht/chtngpon",
-   6235
+   7253
   ],
   [
    "root/hi3518",
-   6101
+   6528
+  ],
+  [
+   "admin/epicrouter",
+   6278
+  ],
+  [
+   "cht/chtngpon",
+   6243
   ],
   [
    "root/123456",
-   6099
+   6139
   ],
   [
    "root/Pon521",
-   6029
+   6081
   ],
   [
    "root/12345",
-   5812
+   5856
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 255,
-  "distinct_credentials": 4702,
-  "distinct_payload_urls": 400,
+  "distinct_c2_hosts": 256,
+  "distinct_credentials": 4728,
+  "distinct_payload_urls": 401,
   "events": 5930783,
   "new_sources": 2136,
   "shared_c2_hosts": 58,
