@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 139
+   "sources": 147
   },
   {
    "cve": "CVE-2022-0543",
@@ -50,12 +50,12 @@
   }
  ],
  "funnel": {
-  "connected": 1619,
-  "delivered_sample": 49,
-  "fetched_payload": 110,
-  "ran_commands": 729,
-  "returned": 1023,
-  "tried_creds": 540
+  "connected": 1716,
+  "delivered_sample": 51,
+  "fetched_payload": 121,
+  "ran_commands": 771,
+  "returned": 1083,
+  "tried_creds": 565
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -105,39 +105,39 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   96
+   104
   ],
   [
    "GPON/ONT fibre terminal",
-   96
+   104
   ],
   [
    "ZTE CPE",
-   80
+   84
   ],
   [
    "DrayTek router",
-   71
+   76
   ],
   [
    "Huawei HG gateway",
-   57
+   60
   ],
   [
    "ISP-branded DSL gateway",
-   54
+   60
   ],
   [
    "firmware backdoor account",
-   37
+   43
   ],
   [
    "IoT OEM default account",
-   32
+   37
   ],
   [
    "SMC Networks CPE",
-   13
+   17
   ],
   [
    "Hikvision / ONVIF camera",
@@ -198,12 +198,24 @@
    4
   ],
   [
+   "174.105.154.212",
+   4
+  ],
+  [
    "27.213.98.226",
    4
   ],
   [
    "60.208.154.67",
    4
+  ],
+  [
+   "110.72.21.169",
+   3
+  ],
+  [
+   "112.82.137.139",
+   3
   ],
   [
    "118.79.230.232",
@@ -219,10 +231,6 @@
   ],
   [
    "124.95.103.199",
-   3
-  ],
-  [
-   "174.105.154.212",
    3
   ],
   [
@@ -242,15 +250,11 @@
    2
   ],
   [
-   "110.72.21.169",
+   "106.41.138.72",
    2
   ],
   [
    "112.248.100.37",
-   2
-  ],
-  [
-   "112.82.137.139",
    2
   ],
   [
@@ -260,16 +264,12 @@
   [
    "115.52.239.96",
    2
-  ],
-  [
-   "116.139.137.187",
-   2
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   40353
+   40777
   ],
   [
    "administrator/",
@@ -277,110 +277,110 @@
   ],
   [
    "root/xmhdipc",
-   26000
+   26501
   ],
   [
    "root/xc3511",
-   19369
+   19548
   ],
   [
    "admin/admin",
-   17035
-  ],
-  [
-   "user/user",
-   13747
-  ],
-  [
-   "root/juantech",
-   12727
-  ],
-  [
-   "admin/123456789",
-   12277
-  ],
-  [
-   "root/svgodie",
-   11308
-  ],
-  [
-   "root/",
-   9077
+   17255
   ],
   [
    "admin/1234",
-   8539
+   16464
   ],
   [
-   "root/ikwb",
-   8481
+   "user/user",
+   13899
   ],
   [
-   "draytek/1234",
-   8384
+   "root/juantech",
+   12762
+  ],
+  [
+   "admin/123456789",
+   12310
+  ],
+  [
+   "root/svgodie",
+   11317
+  ],
+  [
+   "root/",
+   9259
   ],
   [
    "administrator/1234",
-   8353
+   8652
+  ],
+  [
+   "root/ikwb",
+   8606
+  ],
+  [
+   "draytek/1234",
+   8448
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8267
+   8315
   ],
   [
    "root/12345",
-   7371
+   7493
   ],
   [
    "admin/adminHW",
-   6820
+   6891
   ],
   [
    "root/admin",
-   6707
+   6809
   ],
   [
    "admin/qwerty",
-   6690
+   6729
   ],
   [
    "root/root",
-   6126
+   6572
   ],
   [
    "admin/epicrouter",
-   5888
-  ],
-  [
-   "root/123456",
-   5547
+   5982
   ],
   [
    "root/hi3518",
-   5145
+   5943
+  ],
+  [
+   "root/123456",
+   5663
   ],
   [
    "root/klv1234",
-   5107
+   5210
   ],
   [
    "root/e2008jl",
-   4943
+   4975
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 270,
-  "distinct_credentials": 2972,
-  "distinct_payload_urls": 417,
-  "events": 4442608,
-  "new_sources": 1163,
-  "shared_c2_hosts": 51,
-  "sources": 1619
+  "distinct_c2_hosts": 286,
+  "distinct_credentials": 3030,
+  "distinct_payload_urls": 443,
+  "events": 4854699,
+  "new_sources": 1243,
+  "shared_c2_hosts": 58,
+  "sources": 1716
  },
  "window": {
-  "days": 3,
+  "days": 4,
   "first_day": "2026-11-09",
-  "last_day": "2026-11-11",
+  "last_day": "2026-11-12",
   "week": "2026-W46"
  }
 }
