@@ -59,9 +59,9 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 114,
+  "delivered_sample": 116,
   "fetched_payload": 206,
-  "ran_commands": 1690,
+  "ran_commands": 1691,
   "returned": 2261,
   "tried_creds": 1252
  },
@@ -162,6 +162,7 @@
   "4bb600b7d7187fdffb12b2ec0b11585f1e6b03395ce21841ad3183056e2d1828",
   "4c6bdd9b4e967cb0076cc51751300f4079938396a4a0c0026d4b1786612297cf",
   "4e4c9f276006674c580313a31fc9ceb80f4eeed48bdb24f866f7cff5a2d93aa1",
+  "50babf3a91989967dfba12407e3bf539d62020edbc653eaf837bd6b6330461cd",
   "51ce011744a57f322ccf2991ebef92387d99c4f4af4bed3655217fcb2e62ccf4",
   "51f10d48d4e21a963a6960625cf74e0f44790c49104d0df97a336de1e456b065",
   "532e875ae6b001979d81d90f5e7300181b1b3859dd998a6918f6a062f4a64f72",
@@ -448,19 +449,19 @@
   ],
   [
    "Huawei HG gateway",
-   103
+   102
   ],
   [
    "ISP-branded DSL gateway",
-   89
+   90
   ],
   [
    "IoT OEM default account",
-   71
+   72
   ],
   [
    "firmware backdoor account",
-   62
+   63
   ],
   [
    "SMC Networks CPE",
@@ -608,7 +609,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   74310
+   74434
   ],
   [
    "administrator/",
@@ -616,101 +617,101 @@
   ],
   [
    "root/xc3511",
-   57320
+   57379
   ],
   [
    "guest/12345",
-   52051
+   52086
   ],
   [
    "admin/admin",
-   31626
+   31740
   ],
   [
    "admin/1234",
-   24547
+   24568
   ],
   [
    "guest/123456",
-   22117
+   22119
   ],
   [
    "root/25802580",
-   20782
+   20787
   ],
   [
    "root/root",
-   19832
+   19921
   ],
   [
    "root/",
-   18752
+   18778
   ],
   [
    "root/admin",
-   18443
+   18491
   ],
   [
    "default/default",
-   16998
+   17008
   ],
   [
    "admin/123456789",
-   16900
+   16902
   ],
   [
    "guest/guest",
-   15210
+   15221
   ],
   [
    "user/user",
-   14956
+   15013
   ],
   [
    "root/hi3518",
-   13058
+   13091
   ],
   [
    "root/ikwb",
-   12829
+   12847
   ],
   [
    "draytek/1234",
-   12565
+   12605
   ],
   [
    "root/vizxv",
-   12054
+   12060
   ],
   [
    "root/juantech",
-   11818
+   11833
   ],
   [
    "admin/epicrouter",
-   11382
+   11396
   ],
   [
    "administrator/1234",
-   11153
+   11167
   ],
   [
    "root/12345",
-   11025
+   11123
   ],
   [
    "root/jvbzd",
-   10727
+   10734
   ],
   [
    "root/e2008jl",
-   10409
+   10429
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 420,
+  "distinct_c2_hosts": 423,
   "distinct_credentials": 5881,
-  "distinct_payload_urls": 670,
+  "distinct_payload_urls": 674,
   "events": 11581221,
   "new_sources": 3244,
   "shared_c2_hosts": 90,

@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 221
+   "sources": 230
   },
   {
    "cve": "CVE-2022-0543",
@@ -70,12 +70,12 @@
   }
  ],
  "funnel": {
-  "connected": 2600,
-  "delivered_sample": 76,
-  "fetched_payload": 145,
-  "ran_commands": 1055,
-  "returned": 1509,
-  "tried_creds": 947
+  "connected": 2748,
+  "delivered_sample": 80,
+  "fetched_payload": 150,
+  "ran_commands": 1097,
+  "returned": 1590,
+  "tried_creds": 1011
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -93,6 +93,7 @@
   "486d9affb60dbb0063b03d8e23a6ccf6364ce203dc3a9f56f20e750eb41ecade",
   "4bb600b7d7187fdffb12b2ec0b11585f1e6b03395ce21841ad3183056e2d1828",
   "4e4c9f276006674c580313a31fc9ceb80f4eeed48bdb24f866f7cff5a2d93aa1",
+  "50babf3a91989967dfba12407e3bf539d62020edbc653eaf837bd6b6330461cd",
   "53859185fdfa13acc7f91409563c4b6676d72efbc247e7ff23d8c7ee1eff965c",
   "5988731fefa6718fb27ab5520682f9a9b462817ed36edacfc993208ade18c90b",
   "5a4c413b590cd598939f03d490a5ed7c0c966c633ac5627cb68613371be2c184",
@@ -135,24 +136,25 @@
   "f0c557122a7b07a548ee502b20645c989994ce742a2484ee2ac0fa3a252a8b8e",
   "f3692020bbfeb72a49c75162c21b2fb6be1c61bbdf287d4f2d79570ae5397e13",
   "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d",
-  "f7f96d8a6fd80b0717a21b5ba2807112fdb63e00000791fe41cda59d87a048f6"
+  "f7f96d8a6fd80b0717a21b5ba2807112fdb63e00000791fe41cda59d87a048f6",
+  "fd391cd6d13b1fff4efda3f65de3b2e8eff001e02b0f202c4d804b3eeac915f4"
  ],
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   130
+   134
   ],
   [
    "GPON/ONT fibre terminal",
-   130
+   132
   ],
   [
    "ZTE CPE",
-   102
+   105
   ],
   [
    "DrayTek router",
-   94
+   96
   ],
   [
    "Huawei HG gateway",
@@ -160,19 +162,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   70
+   72
   ],
   [
    "firmware backdoor account",
-   47
+   50
   ],
   [
    "IoT OEM default account",
-   42
+   39
   ],
   [
    "SMC Networks CPE",
-   28
+   27
   ],
   [
    "WordPress",
@@ -217,6 +219,10 @@
    9
   ],
   [
+   "58.98.230.152",
+   9
+  ],
+  [
    "105.186.158.12",
    8
   ],
@@ -245,12 +251,8 @@
    7
   ],
   [
-   "58.98.230.152",
-   7
-  ],
-  [
    "174.105.154.212",
-   5
+   6
   ],
   [
    "115.56.3.84",
@@ -312,113 +314,113 @@
  "top_credentials": [
   [
    "root/Zte521",
-   51479
+   53943
   ],
   [
    "administrator/",
-   43503
+   45493
   ],
   [
    "root/xmhdipc",
-   28979
+   29041
   ],
   [
    "root/xc3511",
-   21696
+   21816
   ],
   [
    "admin/admin",
-   19472
+   21309
   ],
   [
    "admin/1234",
-   19249
+   19345
   ],
   [
    "user/user",
-   16749
+   16828
   ],
   [
    "root/juantech",
-   12946
+   12972
   ],
   [
    "admin/123456789",
-   12525
+   12553
   ],
   [
    "root/vizxv",
-   11511
+   11519
   ],
   [
    "root/svgodie",
-   11353
+   11374
   ],
   [
    "root/",
-   10074
-  ],
-  [
-   "root/ikwb",
-   10054
+   10173
   ],
   [
    "root/root",
-   9921
+   10153
   ],
   [
-   "TMAR#DLKT20060205/DLKT20060205",
-   9576
+   "root/ikwb",
+   10082
   ],
   [
    "admin/smcadmin",
-   9553
+   10011
+  ],
+  [
+   "TMAR#DLKT20060205/DLKT20060205",
+   9581
   ],
   [
    "root/hi3518",
-   9075
-  ],
-  [
-   "draytek/1234",
-   8902
+   9160
   ],
   [
    "administrator/1234",
-   8894
+   8956
+  ],
+  [
+   "draytek/1234",
+   8948
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8566
+   8587
   ],
   [
    "root/12345",
-   8358
+   8518
   ],
   [
    "root/admin",
-   7676
+   7765
   ],
   [
    "root/123456",
-   7611
+   7700
   ],
   [
    "admin/qwerty",
-   7524
+   7571
   ],
   [
    "admin/adminHW",
-   7280
+   7332
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 362,
-  "distinct_credentials": 3948,
-  "distinct_payload_urls": 567,
-  "events": 6941475,
-  "new_sources": 1994,
-  "shared_c2_hosts": 72,
-  "sources": 2600
+  "distinct_c2_hosts": 366,
+  "distinct_credentials": 4140,
+  "distinct_payload_urls": 572,
+  "events": 7205500,
+  "new_sources": 2117,
+  "shared_c2_hosts": 74,
+  "sources": 2748
  },
  "window": {
   "days": 5,

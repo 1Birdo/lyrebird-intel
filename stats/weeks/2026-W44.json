@@ -57,8 +57,8 @@
   "connected": 2074,
   "delivered_sample": 49,
   "fetched_payload": 136,
-  "ran_commands": 1039,
-  "returned": 1400,
+  "ran_commands": 1040,
+  "returned": 1406,
   "tried_creds": 885
  },
  "samples": [
@@ -90,15 +90,15 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   102
+   103
   ],
   [
    "ZTE CPE",
-   73
+   74
   ],
   [
    "Huawei HG gateway",
-   71
+   70
   ],
   [
    "DrayTek router",
@@ -110,15 +110,15 @@
   ],
   [
    "IoT OEM default account",
-   51
+   53
   ],
   [
    "firmware backdoor account",
-   44
+   45
   ],
   [
    "SMC Networks CPE",
-   21
+   20
   ],
   [
    "consumer router admin",
@@ -254,7 +254,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   51132
+   51141
   ],
   [
    "administrator/",
@@ -262,100 +262,100 @@
   ],
   [
    "guest/123456",
-   20450
+   20452
   ],
   [
    "root/xc3511",
-   16879
+   16934
   ],
   [
    "root/Zte521",
-   16062
+   16111
   ],
   [
    "guest/guest",
-   14498
+   14495
   ],
   [
    "user/user",
-   14170
+   14227
   ],
   [
    "root/admin",
-   14152
+   14184
   ],
   [
    "admin/1234",
-   11837
+   11855
   ],
   [
    "root/vizxv",
-   11730
+   11740
   ],
   [
    "root/54321",
-   11395
+   11396
   ],
   [
    "draytek/1234",
-   10497
+   10527
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9295
+   9296
   ],
   [
    "root/jvbzd",
-   9062
+   9069
   ],
   [
    "admin/v2mprt",
-   7946
+   7952
   ],
   [
    "root/juantech",
-   7511
+   7520
   ],
   [
    "root/e2008jl",
-   7277
+   7281
   ],
   [
    "admin/admin",
-   7215
+   7263
   ],
   [
    "admin/epicrouter",
-   6551
+   6560
   ],
   [
    "root/hi3518",
-   6527
+   6546
   ],
   [
    "cht/chtngpon",
-   6258
+   6257
   ],
   [
    "root/123456",
-   6202
+   6228
   ],
   [
    "root/Pon521",
-   6024
+   6041
   ],
   [
    "root/12345",
-   5983
+   6015
   ],
   [
    "1234/1234",
-   5435
+   5441
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 248,
-  "distinct_credentials": 4764,
+  "distinct_credentials": 4779,
   "distinct_payload_urls": 389,
   "events": 5599666,
   "new_sources": 2074,
