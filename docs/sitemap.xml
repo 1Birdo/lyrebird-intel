@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://1birdo.github.io/lyrebird-intel/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/sources/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/credentials/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/payloads/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/vulnerabilities/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/reports/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/sources/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/credentials/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/payloads/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/vulnerabilities/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/reports/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W36/</loc><lastmod>2026-09-06</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W37/</loc><lastmod>2026-09-13</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W38/</loc><lastmod>2026-09-20</lastmod></url>
@@ -15,10 +15,10 @@
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W42/</loc><lastmod>2026-10-18</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W44/</loc><lastmod>2026-11-01</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W45/</loc><lastmod>2026-11-08</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W46/</loc><lastmod>2026-11-12</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/incidents/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/reports/2026-W46/</loc><lastmod>2026-11-13</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/incidents/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/incidents/2026-09/</loc><lastmod>2026-09-30</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/incidents/2026-10/</loc><lastmod>2026-10-31</lastmod></url>
-<url><loc>https://1birdo.github.io/lyrebird-intel/incidents/2026-11/</loc><lastmod>2026-11-12</lastmod></url>
+<url><loc>https://1birdo.github.io/lyrebird-intel/incidents/2026-11/</loc><lastmod>2026-11-13</lastmod></url>
 <url><loc>https://1birdo.github.io/lyrebird-intel/method/</loc></url>
 </urlset>
