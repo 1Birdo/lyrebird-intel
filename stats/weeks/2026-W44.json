@@ -33,8 +33,8 @@
   "connected": 1440,
   "delivered_sample": 34,
   "fetched_payload": 112,
-  "ran_commands": 745,
-  "returned": 1002,
+  "ran_commands": 747,
+  "returned": 1003,
   "tried_creds": 664
  },
  "samples": [
@@ -54,19 +54,19 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   96
+   94
   ],
   [
    "GPON/ONT fibre terminal",
    82
   ],
   [
-   "Huawei HG gateway",
+   "ZTE CPE",
    56
   ],
   [
-   "ZTE CPE",
-   56
+   "Huawei HG gateway",
+   55
   ],
   [
    "DrayTek router",
@@ -74,15 +74,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   46
+   48
   ],
   [
    "IoT OEM default account",
-   41
+   39
   ],
   [
    "firmware backdoor account",
-   35
+   36
   ],
   [
    "SMC Networks CPE",
@@ -210,7 +210,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   50725
+   50741
   ],
   [
    "administrator/",
@@ -218,100 +218,100 @@
   ],
   [
    "guest/123456",
-   18396
+   18394
   ],
   [
    "root/xc3511",
-   14050
+   14038
   ],
   [
    "root/admin",
-   12562
+   12580
   ],
   [
    "root/Zte521",
-   11978
+   12014
   ],
   [
    "root/vizxv",
-   11561
+   11568
   ],
   [
    "admin/1234",
-   10317
+   10335
   ],
   [
    "user/user",
-   9756
+   9804
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9277
+   9279
   ],
   [
    "draytek/1234",
-   8571
+   8597
   ],
   [
    "root/jvbzd",
-   8273
+   8248
   ],
   [
    "guest/guest",
-   8242
+   8239
   ],
   [
    "root/e2008jl",
-   6804
+   6815
   ],
   [
    "admin/epicrouter",
-   6067
+   6355
   ],
   [
    "root/hi3518",
-   5931
+   5936
   ],
   [
    "root/12345",
-   5775
+   5814
   ],
   [
    "root/juantech",
-   5430
+   5432
   ],
   [
    "1234/1234",
-   5327
+   5326
   ],
   [
    "root/123456",
-   5083
+   5102
   ],
   [
    "cht/chtngpon",
-   5034
+   5038
   ],
   [
    "root/",
-   4458
+   4462
   ],
   [
    "admin/admin",
-   4214
-  ],
-  [
-   "root/1234",
-   3863
+   4232
   ],
   [
    "root/root",
-   3791
+   3852
+  ],
+  [
+   "root/1234",
+   3838
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 200,
-  "distinct_credentials": 3770,
+  "distinct_credentials": 3756,
   "distinct_payload_urls": 313,
   "events": 3952348,
   "new_sources": 1440,
