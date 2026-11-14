@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 116,
+  "delivered_sample": 115,
   "fetched_payload": 206,
-  "ran_commands": 1692,
-  "returned": 2261,
+  "ran_commands": 1686,
+  "returned": 2245,
   "tried_creds": 1252
  },
  "samples": [
@@ -433,7 +433,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   182
+   180
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -449,7 +449,7 @@
   ],
   [
    "Huawei HG gateway",
-   101
+   103
   ],
   [
    "ISP-branded DSL gateway",
@@ -457,7 +457,7 @@
   ],
   [
    "IoT OEM default account",
-   73
+   68
   ],
   [
    "firmware backdoor account",
@@ -609,7 +609,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   74570
+   74225
   ],
   [
    "administrator/",
@@ -617,103 +617,103 @@
   ],
   [
    "root/xc3511",
-   57436
+   55900
   ],
   [
    "guest/12345",
-   52105
+   51948
   ],
   [
    "admin/admin",
-   31815
+   31675
   ],
   [
    "admin/1234",
-   24590
-  ],
-  [
-   "guest/123456",
-   22123
+   24192
   ],
   [
    "root/25802580",
-   20793
+   20671
+  ],
+  [
+   "guest/123456",
+   20132
   ],
   [
    "root/root",
-   19995
+   19779
   ],
   [
    "root/",
-   18803
+   18603
   ],
   [
    "root/admin",
-   18554
+   17175
   ],
   [
    "default/default",
-   17026
+   17006
   ],
   [
    "admin/123456789",
-   16886
-  ],
-  [
-   "guest/guest",
-   15270
-  ],
-  [
-   "user/user",
-   15065
+   16909
   ],
   [
    "root/hi3518",
-   13126
+   12823
   ],
   [
    "root/ikwb",
-   12865
-  ],
-  [
-   "draytek/1234",
-   12656
+   12160
   ],
   [
    "root/vizxv",
-   12082
+   12010
   ],
   [
    "root/juantech",
-   11855
+   11432
   ],
   [
    "root/12345",
-   11215
+   11264
   ],
   [
    "administrator/1234",
-   11177
+   11115
   ],
   [
    "admin/epicrouter",
-   11134
+   11035
   ],
   [
    "root/jvbzd",
-   10741
+   10717
+  ],
+  [
+   "draytek/1234",
+   10694
+  ],
+  [
+   "user/user",
+   10645
+  ],
+  [
+   "guest/guest",
+   10589
   ],
   [
    "root/e2008jl",
-   10453
+   10053
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 426,
-  "distinct_credentials": 5918,
-  "distinct_payload_urls": 680,
+  "distinct_c2_hosts": 419,
+  "distinct_credentials": 5756,
+  "distinct_payload_urls": 668,
   "events": 11581221,
-  "new_sources": 3244,
+  "new_sources": 3344,
   "shared_c2_hosts": 90,
   "sources": 3708
  },
