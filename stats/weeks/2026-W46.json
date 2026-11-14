@@ -2,11 +2,11 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 230
+   "sources": 237
   },
   {
    "cve": "CVE-2022-0543",
-   "sources": 8
+   "sources": 9
   },
   {
    "cve": "CVE-2014-8361",
@@ -29,19 +29,19 @@
    "sources": 3
   },
   {
+   "cve": "CVE-2018-10561",
+   "sources": 3
+  },
+  {
+   "cve": "CVE-2018-10562",
+   "sources": 3
+  },
+  {
    "cve": "CVE-2021-36260",
    "sources": 3
   },
   {
    "cve": "CVE-2017-17215",
-   "sources": 2
-  },
-  {
-   "cve": "CVE-2018-10561",
-   "sources": 2
-  },
-  {
-   "cve": "CVE-2018-10562",
    "sources": 2
   },
   {
@@ -70,18 +70,19 @@
   }
  ],
  "funnel": {
-  "connected": 2748,
-  "delivered_sample": 80,
-  "fetched_payload": 150,
-  "ran_commands": 1097,
-  "returned": 1590,
-  "tried_creds": 1011
+  "connected": 2892,
+  "delivered_sample": 83,
+  "fetched_payload": 152,
+  "ran_commands": 1125,
+  "returned": 1641,
+  "tried_creds": 1089
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
   "0114399fa06c6f6e78594d74d21afbf4a2d66216c62a1c53045fe0efab034cc0",
   "082bf0bd0eddd6f9f51924de0ac7ced0a5b334ab3e1441fc8dad56bb8f66939b",
   "0c1f464bb20794eccf02f954505c02a9048f37d143579516ed0920d5827b5488",
+  "0c93e0df6a3002cc81667849831e0fc76d024a85918b56de6113451faf3286df",
   "0eb2e7d17b5523ebb3970e6118fa49d822a886a82b13c74ce9a45c3e9e41eb97",
   "11ac3938b54dc02b2b1504372ac47dce3ff569b7d7cbabbc4ddf93f8e80ab7b8",
   "132f6d7213fd06d7fc473fb523b8a6536ba0792b5632abe26db64c99f089af65",
@@ -127,6 +128,7 @@
   "c608864ef9e374f2e86c91bc09ada0419631b6315c8000e62bd6f8305bde75d8",
   "ce021032eb47b4af82ef90f52c37c0ccd0f8e882915890f1bc8979d2e2496abf",
   "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
+  "db16d89fefdf54f513d65324457be671b0046cbfc980d714e3eb0e4d8454414b",
   "e2ac6eeff0f03c508e9bec144bb3792c91f8bd6f93d7c2f8d0e50757f3033933",
   "e34396228024a94990d5a41ed7ab0f8e60972b7186fecf594eede40b7b4ff1f5",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
@@ -142,35 +144,35 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   134
+   136
   ],
   [
    "GPON/ONT fibre terminal",
-   132
+   136
   ],
   [
    "ZTE CPE",
-   105
+   108
   ],
   [
    "DrayTek router",
-   96
+   98
   ],
   [
    "Huawei HG gateway",
-   75
+   76
   ],
   [
    "ISP-branded DSL gateway",
-   72
+   75
   ],
   [
    "firmware backdoor account",
-   50
+   52
   ],
   [
    "IoT OEM default account",
-   39
+   44
   ],
   [
    "SMC Networks CPE",
@@ -313,119 +315,119 @@
  ],
  "top_credentials": [
   [
-   "root/Zte521",
-   53943
+   "administrator/",
+   56521
   ],
   [
-   "administrator/",
-   45493
+   "root/Zte521",
+   55612
   ],
   [
    "root/xmhdipc",
-   29041
-  ],
-  [
-   "root/xc3511",
-   21816
+   29340
   ],
   [
    "admin/admin",
-   21309
+   22686
+  ],
+  [
+   "root/xc3511",
+   21964
   ],
   [
    "admin/1234",
-   19345
+   19472
   ],
   [
    "user/user",
-   16828
+   16915
   ],
   [
    "root/juantech",
-   12972
+   13008
   ],
   [
    "admin/123456789",
-   12553
+   12545
   ],
   [
    "root/vizxv",
-   11519
+   11555
   ],
   [
    "root/svgodie",
-   11374
-  ],
-  [
-   "root/",
-   10173
+   11381
   ],
   [
    "root/root",
-   10153
-  ],
-  [
-   "root/ikwb",
-   10082
+   10385
   ],
   [
    "admin/smcadmin",
-   10011
+   10348
+  ],
+  [
+   "root/",
+   10326
+  ],
+  [
+   "root/ikwb",
+   10116
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9581
+   9583
   ],
   [
    "root/hi3518",
-   9160
+   9235
   ],
   [
    "administrator/1234",
-   8956
+   9016
   ],
   [
    "draytek/1234",
-   8948
-  ],
-  [
-   "yhtcAdmin/Cm1@YHfw",
-   8587
+   8991
   ],
   [
    "root/12345",
-   8518
+   8660
+  ],
+  [
+   "yhtcAdmin/Cm1@YHfw",
+   8622
   ],
   [
    "root/admin",
-   7765
+   7902
   ],
   [
    "root/123456",
-   7700
+   7764
   ],
   [
    "admin/qwerty",
-   7571
+   7621
   ],
   [
    "admin/adminHW",
-   7332
+   7416
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 366,
-  "distinct_credentials": 4140,
-  "distinct_payload_urls": 572,
-  "events": 7205500,
-  "new_sources": 2117,
+  "distinct_c2_hosts": 381,
+  "distinct_credentials": 4217,
+  "distinct_payload_urls": 597,
+  "events": 7511717,
+  "new_sources": 2257,
   "shared_c2_hosts": 74,
-  "sources": 2748
+  "sources": 2892
  },
  "window": {
-  "days": 5,
+  "days": 6,
   "first_day": "2026-11-09",
-  "last_day": "2026-11-13",
+  "last_day": "2026-11-14",
   "week": "2026-W46"
  }
 }
