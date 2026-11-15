@@ -41,12 +41,12 @@
  ],
  "targets": [
   [
-   "GPON/ONT fibre terminal",
+   "DVR / IP camera (OEM default)",
    54
   ],
   [
-   "DVR / IP camera (OEM default)",
-   53
+   "GPON/ONT fibre terminal",
+   54
   ],
   [
    "ZTE CPE",
@@ -62,19 +62,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   28
+   30
   ],
   [
    "firmware backdoor account",
-   25
+   26
   ],
   [
    "IoT OEM default account",
-   24
+   23
   ],
   [
    "SMC Networks CPE",
-   9
+   10
   ],
   [
    "Hikvision / ONVIF camera",
@@ -190,7 +190,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   34529
+   34514
   ],
   [
    "administrator/",
@@ -198,39 +198,39 @@
   ],
   [
    "root/xc3511",
-   10787
+   10790
   ],
   [
    "root/vizxv",
-   9980
+   9983
   ],
   [
    "root/Zte521",
-   9211
+   9237
   ],
   [
    "root/admin",
-   8589
+   8608
   ],
   [
    "admin/1234",
-   8290
+   8293
   ],
   [
    "user/user",
-   7579
+   7625
   ],
   [
    "guest/123456",
-   7306
+   7310
   ],
   [
    "admin/epicrouter",
-   6246
+   6232
   ],
   [
    "draytek/1234",
-   6092
+   6130
   ],
   [
    "guest/guest",
@@ -238,43 +238,43 @@
   ],
   [
    "root/jvbzd",
-   4524
+   4530
   ],
   [
    "root/12345",
-   4506
+   4520
   ],
   [
    "root/123456",
-   4498
+   4506
   ],
   [
    "root/e2008jl",
-   3741
+   3766
   ],
   [
    "default/default",
-   3525
+   3527
   ],
   [
    "support/support",
-   3269
+   3279
   ],
   [
    "root/1234",
-   3253
-  ],
-  [
-   "root/root",
-   3182
+   3264
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   3175
+   3193
+  ],
+  [
+   "root/root",
+   3192
   ],
   [
    "admin/admin",
-   3102
+   3056
   ],
   [
    "admin/GeNeXiS@19",
@@ -282,17 +282,17 @@
   ],
   [
    "admin/CenturyL1nk",
-   2910
+   2923
   ],
   [
    "root/",
-   2901
+   2904
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 163,
-  "distinct_credentials": 2452,
-  "distinct_payload_urls": 250,
+  "distinct_c2_hosts": 164,
+  "distinct_credentials": 2446,
+  "distinct_payload_urls": 252,
   "events": 1632137,
   "new_sources": 783,
   "shared_c2_hosts": 23,

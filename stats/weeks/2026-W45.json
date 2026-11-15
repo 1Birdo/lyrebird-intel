@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 115,
+  "delivered_sample": 116,
   "fetched_payload": 203,
-  "ran_commands": 1691,
-  "returned": 2244,
+  "ran_commands": 1692,
+  "returned": 2247,
   "tried_creds": 1248
  },
  "samples": [
@@ -437,31 +437,31 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   170
+   171
   ],
   [
    "ZTE CPE",
-   122
+   120
   ],
   [
    "DrayTek router",
-   117
+   116
   ],
   [
    "Huawei HG gateway",
-   102
+   104
   ],
   [
    "ISP-branded DSL gateway",
-   90
+   91
   ],
   [
    "IoT OEM default account",
-   71
+   72
   ],
   [
    "firmware backdoor account",
-   62
+   61
   ],
   [
    "SMC Networks CPE",
@@ -609,7 +609,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   73880
+   73958
   ],
   [
    "administrator/",
@@ -617,100 +617,100 @@
   ],
   [
    "root/xc3511",
-   52959
+   52964
   ],
   [
    "guest/12345",
-   35904
+   35908
   ],
   [
    "admin/admin",
-   31748
+   31758
   ],
   [
    "admin/1234",
-   23669
+   23675
   ],
   [
    "root/25802580",
-   20463
+   20484
   ],
   [
    "root/root",
-   19588
+   19613
   ],
   [
    "root/",
-   17731
+   17749
   ],
   [
    "default/default",
-   16955
+   16957
   ],
   [
    "admin/123456789",
-   16679
+   16687
   ],
   [
    "root/admin",
-   13574
+   13610
   ],
   [
    "root/vizxv",
-   11896
+   11910
   ],
   [
    "root/ikwb",
-   11495
+   11499
   ],
   [
    "admin/epicrouter",
-   11378
+   11366
   ],
   [
    "root/hi3518",
-   11320
+   11324
   ],
   [
    "administrator/1234",
-   11100
+   11103
   ],
   [
    "root/12345",
-   11041
+   11076
   ],
   [
    "rapport/r@p8p0r+",
-   9601
+   9637
   ],
   [
    "root/jvbzd",
-   9532
+   9540
   ],
   [
    "root/juantech",
-   9430
+   9439
   ],
   [
    "guest/123456",
-   9129
+   9133
   ],
   [
    "draytek/1234",
-   9068
+   9111
   ],
   [
    "admin/adminHW",
-   8658
+   8663
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8527
+   8546
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 409,
-  "distinct_credentials": 5611,
+  "distinct_credentials": 5609,
   "distinct_payload_urls": 645,
   "events": 11581221,
   "new_sources": 3456,

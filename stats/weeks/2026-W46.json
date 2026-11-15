@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 304
+   "sources": 311
   },
   {
    "cve": "CVE-2022-0543",
@@ -70,12 +70,12 @@
   }
  ],
  "funnel": {
-  "connected": 3786,
-  "delivered_sample": 100,
-  "fetched_payload": 174,
-  "ran_commands": 1384,
-  "returned": 2049,
-  "tried_creds": 1512
+  "connected": 3944,
+  "delivered_sample": 101,
+  "fetched_payload": 178,
+  "ran_commands": 1426,
+  "returned": 2124,
+  "tried_creds": 1590
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -150,19 +150,19 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   158
+   162
   ],
   [
    "DVR / IP camera (OEM default)",
-   154
+   156
   ],
   [
    "ZTE CPE",
-   124
+   125
   ],
   [
    "DrayTek router",
-   109
+   112
   ],
   [
    "Huawei HG gateway",
@@ -170,11 +170,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   85
+   83
   ],
   [
    "firmware backdoor account",
-   57
+   59
   ],
   [
    "IoT OEM default account",
@@ -182,11 +182,11 @@
   ],
   [
    "SMC Networks CPE",
-   30
+   31
   ],
   [
    "WordPress",
-   9
+   10
   ],
   [
    "consumer router admin",
@@ -330,109 +330,109 @@
   ],
   [
    "root/Zte521",
-   63300
-  ],
-  [
-   "root/xmhdipc",
-   29625
-  ],
-  [
-   "admin/admin",
-   28262
+   63921
   ],
   [
    "root/xc3511",
-   27453
+   30364
+  ],
+  [
+   "admin/admin",
+   30226
+  ],
+  [
+   "root/xmhdipc",
+   30032
   ],
   [
    "admin/1234",
-   19766
+   19803
   ],
   [
    "root/juantech",
-   13150
+   13171
   ],
   [
    "admin/123456789",
-   12632
+   12641
   ],
   [
    "root/",
-   11990
-  ],
-  [
-   "root/vizxv",
-   11591
+   12111
   ],
   [
    "guest/12345",
-   11526
+   11648
+  ],
+  [
+   "root/vizxv",
+   11624
   ],
   [
    "root/svgodie",
-   11406
+   11463
   ],
   [
    "root/root",
-   11099
+   11190
   ],
   [
    "user/user",
-   10747
+   10815
   ],
   [
    "admin/smcadmin",
-   10708
+   10732
   ],
   [
    "root/ikwb",
-   10225
+   10236
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9604
+   9609
   ],
   [
    "root/hi3518",
-   9349
+   9411
   ],
   [
    "administrator/1234",
-   9202
+   9257
   ],
   [
    "root/12345",
-   8987
+   9041
   ],
   [
    "root/admin",
-   8604
+   8826
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8326
+   8361
   ],
   [
    "admin/qwerty",
-   7734
+   7742
   ],
   [
    "admin/adminHW",
-   7637
+   7664
   ],
   [
    "root/12341234",
-   7279
+   7616
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 426,
-  "distinct_credentials": 4687,
-  "distinct_payload_urls": 672,
-  "events": 8767622,
-  "new_sources": 3150,
-  "shared_c2_hosts": 89,
-  "sources": 3786
+  "distinct_c2_hosts": 430,
+  "distinct_credentials": 4811,
+  "distinct_payload_urls": 681,
+  "events": 9056309,
+  "new_sources": 3298,
+  "shared_c2_hosts": 95,
+  "sources": 3944
  },
  "window": {
   "days": 7,
