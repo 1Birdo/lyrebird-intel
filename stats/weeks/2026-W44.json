@@ -31,7 +31,7 @@
  ],
  "funnel": {
   "connected": 1440,
-  "delivered_sample": 34,
+  "delivered_sample": 35,
   "fetched_payload": 112,
   "ran_commands": 749,
   "returned": 1005,
@@ -58,15 +58,15 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   83
+   80
   ],
   [
    "ZTE CPE",
-   59
+   57
   ],
   [
    "Huawei HG gateway",
-   55
+   56
   ],
   [
    "DrayTek router",
@@ -74,7 +74,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   46
+   47
   ],
   [
    "IoT OEM default account",
@@ -82,7 +82,7 @@
   ],
   [
    "firmware backdoor account",
-   34
+   36
   ],
   [
    "SMC Networks CPE",
@@ -210,7 +210,7 @@
  "top_credentials": [
   [
    "guest/12345",
-   50753
+   50762
   ],
   [
    "administrator/",
@@ -222,97 +222,97 @@
   ],
   [
    "root/xc3511",
-   14094
+   14059
   ],
   [
    "root/admin",
-   12613
+   12618
   ],
   [
    "root/Zte521",
-   12057
+   12075
   ],
   [
    "root/vizxv",
-   11583
+   11590
   ],
   [
    "admin/1234",
-   10345
+   10356
   ],
   [
    "user/user",
-   9899
+   9952
   ],
   [
    "yhtcAdmin/Cuc@YHfw",
-   9277
+   9278
   ],
   [
    "draytek/1234",
-   8615
+   8642
   ],
   [
    "root/jvbzd",
-   8289
+   8258
   ],
   [
    "guest/guest",
-   8242
+   8245
   ],
   [
    "root/e2008jl",
-   6857
+   6864
   ],
   [
    "admin/epicrouter",
-   6364
+   6363
   ],
   [
    "root/hi3518",
-   5947
+   5953
   ],
   [
    "root/12345",
-   5845
+   5880
   ],
   [
    "root/juantech",
-   5441
+   5464
   ],
   [
    "1234/1234",
-   5333
+   5332
   ],
   [
    "root/123456",
-   5112
+   5125
   ],
   [
    "cht/chtngpon",
-   5045
+   5049
   ],
   [
    "root/",
-   4464
+   4469
   ],
   [
    "admin/admin",
-   4246
-  ],
-  [
-   "root/root",
-   3849
+   4260
   ],
   [
    "root/1234",
-   3812
+   3853
+  ],
+  [
+   "root/root",
+   3845
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 200,
-  "distinct_credentials": 3761,
-  "distinct_payload_urls": 313,
+  "distinct_c2_hosts": 201,
+  "distinct_credentials": 3763,
+  "distinct_payload_urls": 315,
   "events": 3952348,
   "new_sources": 1440,
   "shared_c2_hosts": 38,

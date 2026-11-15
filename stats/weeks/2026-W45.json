@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3708,
-  "delivered_sample": 115,
+  "delivered_sample": 116,
   "fetched_payload": 206,
-  "ran_commands": 1693,
-  "returned": 2257,
+  "ran_commands": 1695,
+  "returned": 2261,
   "tried_creds": 1252
  },
  "samples": [
@@ -433,11 +433,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   180
+   179
   ],
   [
    "DVR / IP camera (OEM default)",
-   175
+   174
   ],
   [
    "ZTE CPE",
@@ -445,11 +445,11 @@
   ],
   [
    "DrayTek router",
-   118
+   117
   ],
   [
    "Huawei HG gateway",
-   102
+   103
   ],
   [
    "ISP-branded DSL gateway",
@@ -457,15 +457,15 @@
   ],
   [
    "IoT OEM default account",
-   71
+   69
   ],
   [
    "firmware backdoor account",
-   64
+   66
   ],
   [
    "SMC Networks CPE",
-   46
+   45
   ],
   [
    "WordPress",
@@ -609,7 +609,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   74423
+   74501
   ],
   [
    "administrator/",
@@ -617,23 +617,23 @@
   ],
   [
    "root/xc3511",
-   55934
+   55915
   ],
   [
    "guest/12345",
-   52015
+   52039
   ],
   [
    "admin/admin",
-   31827
+   31909
   ],
   [
    "admin/1234",
-   24239
+   24249
   ],
   [
    "root/25802580",
-   20681
+   20686
   ],
   [
    "guest/123456",
@@ -641,77 +641,77 @@
   ],
   [
    "root/root",
-   19890
+   19885
   ],
   [
    "root/",
-   18654
+   18679
   ],
   [
    "root/admin",
-   17280
+   17321
   ],
   [
    "default/default",
-   17018
+   17021
   ],
   [
    "admin/123456789",
-   16896
+   16898
   ],
   [
    "root/hi3518",
-   12848
+   12860
   ],
   [
    "root/ikwb",
-   12191
+   12201
   ],
   [
    "root/vizxv",
-   12032
+   12039
   ],
   [
    "root/juantech",
-   11464
+   11461
   ],
   [
    "root/12345",
-   11388
+   11438
   ],
   [
    "admin/epicrouter",
-   11342
+   11349
   ],
   [
    "administrator/1234",
-   11128
+   11139
   ],
   [
    "user/user",
-   10788
+   10843
   ],
   [
    "draytek/1234",
-   10754
+   10749
   ],
   [
    "root/jvbzd",
-   10727
+   10695
   ],
   [
    "guest/guest",
-   10600
+   10599
   ],
   [
    "root/e2008jl",
-   10115
+   10131
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 419,
-  "distinct_credentials": 5776,
-  "distinct_payload_urls": 670,
+  "distinct_c2_hosts": 421,
+  "distinct_credentials": 5800,
+  "distinct_payload_urls": 674,
   "events": 11581221,
   "new_sources": 3344,
   "shared_c2_hosts": 92,
