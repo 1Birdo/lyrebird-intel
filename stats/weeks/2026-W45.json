@@ -62,7 +62,7 @@
   "delivered_sample": 115,
   "fetched_payload": 203,
   "ran_commands": 1691,
-  "returned": 2241,
+  "returned": 2244,
   "tried_creds": 1248
  },
  "samples": [
@@ -457,7 +457,7 @@
   ],
   [
    "IoT OEM default account",
-   70
+   71
   ],
   [
    "firmware backdoor account",
@@ -609,7 +609,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   73798
+   73880
   ],
   [
    "administrator/",
@@ -617,101 +617,101 @@
   ],
   [
    "root/xc3511",
-   52950
+   52959
   ],
   [
    "guest/12345",
-   35878
+   35904
   ],
   [
    "admin/admin",
-   31670
+   31748
   ],
   [
    "admin/1234",
-   23661
+   23669
   ],
   [
    "root/25802580",
-   20484
+   20463
   ],
   [
    "root/root",
-   19558
+   19588
   ],
   [
    "root/",
-   17707
+   17731
   ],
   [
    "default/default",
-   16954
+   16955
   ],
   [
    "admin/123456789",
-   16694
+   16679
   ],
   [
    "root/admin",
-   13528
+   13574
   ],
   [
    "root/vizxv",
-   11876
+   11896
   ],
   [
    "root/ikwb",
-   11486
+   11495
   ],
   [
    "admin/epicrouter",
-   11356
+   11378
   ],
   [
    "root/hi3518",
-   11313
+   11320
   ],
   [
    "administrator/1234",
-   11096
+   11100
   ],
   [
    "root/12345",
-   10993
+   11041
   ],
   [
    "rapport/r@p8p0r+",
-   9628
+   9601
   ],
   [
    "root/jvbzd",
-   9518
+   9532
   ],
   [
    "root/juantech",
-   9416
+   9430
   ],
   [
    "guest/123456",
-   9133
+   9129
   ],
   [
    "draytek/1234",
-   9012
+   9068
   ],
   [
    "admin/adminHW",
-   8669
+   8658
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8514
+   8527
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 409,
-  "distinct_credentials": 5582,
-  "distinct_payload_urls": 644,
+  "distinct_credentials": 5611,
+  "distinct_payload_urls": 645,
   "events": 11581221,
   "new_sources": 3456,
   "shared_c2_hosts": 89,
