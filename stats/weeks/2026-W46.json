@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 106,
+  "delivered_sample": 107,
   "fetched_payload": 182,
-  "ran_commands": 1469,
-  "returned": 2194,
+  "ran_commands": 1464,
+  "returned": 2204,
   "tried_creds": 1642
  },
  "samples": [
@@ -152,7 +152,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   166
+   167
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -160,23 +160,23 @@
   ],
   [
    "ZTE CPE",
-   127
+   128
   ],
   [
    "DrayTek router",
-   115
+   116
   ],
   [
    "Huawei HG gateway",
-   93
+   91
   ],
   [
    "ISP-branded DSL gateway",
-   87
+   86
   ],
   [
    "firmware backdoor account",
-   61
+   62
   ],
   [
    "IoT OEM default account",
@@ -184,7 +184,7 @@
   ],
   [
    "SMC Networks CPE",
-   33
+   32
   ],
   [
    "WordPress",
@@ -277,6 +277,10 @@
    4
   ],
   [
+   "201.159.91.2",
+   4
+  ],
+  [
    "222.127.154.2",
    4
   ],
@@ -319,10 +323,6 @@
   [
    "124.134.246.68",
    3
-  ],
-  [
-   "124.95.103.199",
-   3
   ]
  ],
  "top_credentials": [
@@ -332,108 +332,108 @@
   ],
   [
    "root/Zte521",
-   64414
-  ],
-  [
-   "root/xc3511",
-   33025
+   64285
   ],
   [
    "admin/admin",
-   32277
+   34248
+  ],
+  [
+   "root/xc3511",
+   34039
   ],
   [
    "root/xmhdipc",
-   30446
+   30613
   ],
   [
    "admin/1234",
-   19870
+   19862
   ],
   [
    "admin/123456789",
-   13899
+   17059
   ],
   [
    "root/juantech",
-   13195
+   13179
   ],
   [
    "root/",
-   12202
+   12232
   ],
   [
    "root/vizxv",
-   11738
-  ],
-  [
-   "guest/12345",
-   11671
-  ],
-  [
-   "root/svgodie",
-   11448
+   11728
   ],
   [
    "root/root",
-   11309
+   11511
   ],
   [
-   "user/user",
-   10910
+   "guest/12345",
+   11381
+  ],
+  [
+   "root/svgodie",
+   11303
   ],
   [
    "admin/smcadmin",
-   10756
+   10755
   ],
   [
    "root/ikwb",
-   10248
+   10226
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9612
+   9614
+  ],
+  [
+   "user/user",
+   9521
   ],
   [
    "root/hi3518",
-   9447
+   9415
   ],
   [
    "administrator/1234",
-   9319
+   9357
   ],
   [
    "root/12345",
-   9118
+   8748
   ],
   [
    "root/admin",
-   9017
+   8449
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   8355
+   7808
   ],
   [
    "admin/qwerty",
-   7776
+   7765
   ],
   [
    "admin/adminHW",
-   7725
+   7694
   ],
   [
    "root/12341234",
-   7656
+   7680
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 437,
-  "distinct_credentials": 4846,
-  "distinct_payload_urls": 692,
+  "distinct_c2_hosts": 435,
+  "distinct_credentials": 4649,
+  "distinct_payload_urls": 688,
   "events": 9330196,
-  "new_sources": 3428,
-  "shared_c2_hosts": 94,
+  "new_sources": 3476,
+  "shared_c2_hosts": 91,
   "sources": 4088
  },
  "window": {
