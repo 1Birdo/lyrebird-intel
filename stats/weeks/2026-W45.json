@@ -61,8 +61,8 @@
   "connected": 3160,
   "delivered_sample": 106,
   "fetched_payload": 182,
-  "ran_commands": 1399,
-  "returned": 1891,
+  "ran_commands": 1401,
+  "returned": 1896,
   "tried_creds": 1022
  },
  "samples": [
@@ -80,7 +80,9 @@
   "1ccb068d698246e5f486d34e6432f527cb473a1d868d9c8d23d0d189d0887c2f",
   "1da981be3daf6e0368bf0207ed41663429d8a2330c610c2c24db840881245aa4",
   "1fb8cce4498373f014baa94dde638fd63abbc6853322928490038f2d63511f34",
+  "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
   "246f70a595d20aa1324ea1f910621705a48a50e8ebfb126e37c9b1128f714d18",
+  "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
   "2a92c5802249f963e4b6c49b57baae56e5c944c2cdb335739cc303d97b2b3f40",
   "2c536dbb01e3ba84759d78c9fa4ccb07713c67f27984ddae9d37bf85783ae522",
   "3328110a4344f0e0d02a6b1550c3a4e2451f92e7df88653248dc53571c45a775",
@@ -121,6 +123,7 @@
   "94173b6529b18dd5712f103b8fe3177002f7b405e234a3504f23ab10071e15c5",
   "94d0c57695b79a32faff07185107aadc351ae48cb299343374aa1348543c340c",
   "96c531d8eab6a61966ed0f4fe8173c40b21ba1b06a2113ce83f75cc7db19fc67",
+  "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
   "9842b01bac9a1d8949defba65a6231036bf428654a78e66d62bf78f0ce81e743",
   "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9910e6daf2306876f50ce8ee96d6cbd7abe53a551a4e2be105203b3779073f58",
@@ -153,11 +156,14 @@
   "c3b460cd778b8b5625853d13dd850849b898815be36130a25188bf61f85e5378",
   "c49c5fce9907c3cd4639769252e2910d5b154165bc8f85f8bfa38d341f4223b5",
   "c6ae43db47e85582115fe4589498beeaa9fb7d721fa27fc4ca67a18ab3f8896e",
+  "c72a8a6ba6a772226b10cd95ac34a4bf0eb39db1742eff66a9c273ced8fd4754",
   "c732464c7ed0bb0342dfd0d0dab23f0352c763aa97cf0c7a35aedfffa09bf6cb",
+  "c7ec2097970b5198fdcfaea3f81e7736e1136d95f0281c36c5055bf560493d25",
   "c886b77ddffa4356b0322e285bfdf838586439ff49f4a36b1594deb84047f96f",
   "ca3dbbc834031545881b3bbb8ff311115b2b68dd6b14149745d52c8d9ed67642",
   "caae5ef607b7a6fe812c88c32f8f8c7f19a95e549bb38754ffca3fa4c300917a",
   "cced8465af40a07d04bc91ab8368e3764bfa8413db4ea698b6ee654c228f1ef5",
+  "d44a31fd775f06f1de1fdb3e384df4e31cc3d69ccf45134411d428b5c1cb48e7",
   "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
   "d521f7587e9c81cb55fb6cf1bb2fe4a1a5d2b3cb0f98134faa4f53c8c7927657",
   "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
@@ -186,11 +192,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   161
+   162
   ],
   [
    "DVR / IP camera (OEM default)",
-   150
+   151
   ],
   [
    "ZTE CPE",
@@ -210,11 +216,11 @@
   ],
   [
    "IoT OEM default account",
-   60
+   61
   ],
   [
    "firmware backdoor account",
-   56
+   57
   ],
   [
    "SMC Networks CPE",
@@ -362,7 +368,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   70014
+   70098
   ],
   [
    "administrator/",
@@ -370,91 +376,91 @@
   ],
   [
    "root/xc3511",
-   36650
+   36614
   ],
   [
    "admin/admin",
-   27690
+   27753
   ],
   [
    "root/25802580",
-   20179
+   20200
   ],
   [
    "root/root",
-   17982
+   18003
   ],
   [
    "admin/123456789",
-   16283
+   16285
   ],
   [
    "admin/1234",
-   15739
+   15738
   ],
   [
    "root/",
-   14594
+   14615
   ],
   [
    "default/default",
-   13998
+   13999
   ],
   [
    "guest/12345",
-   11609
+   11630
   ],
   [
    "root/vizxv",
-   11520
+   11517
   ],
   [
    "administrator/1234",
-   10511
+   10515
   ],
   [
    "root/ikwb",
-   10144
+   10055
   ],
   [
    "root/hi3518",
-   9973
+   9975
   ],
   [
    "rapport/r@p8p0r+",
-   9548
+   9553
   ],
   [
    "root/12345",
-   8830
+   8842
   ],
   [
    "admin/adminHW",
-   8339
+   8379
   ],
   [
    "root/admin",
-   8220
+   8274
   ],
   [
    "root/juantech",
-   7619
+   7632
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   7368
+   7358
   ],
   [
    "root/666666",
-   6921
+   7063
   ],
   [
    "admin/qwerty",
-   6755
+   6779
   ],
   [
    "admin/epicrouter",
-   6543
+   6546
   ],
   [
    "draytek/1234",
@@ -463,7 +469,7 @@
  ],
  "totals": {
   "distinct_c2_hosts": 339,
-  "distinct_credentials": 4494,
+  "distinct_credentials": 4503,
   "distinct_payload_urls": 518,
   "events": 9282663,
   "new_sources": 3160,

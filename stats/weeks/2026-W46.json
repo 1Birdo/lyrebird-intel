@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 107,
+  "delivered_sample": 109,
   "fetched_payload": 182,
-  "ran_commands": 1465,
-  "returned": 2244,
+  "ran_commands": 1467,
+  "returned": 2267,
   "tried_creds": 1643
  },
  "samples": [
@@ -87,6 +87,8 @@
   "11ac3938b54dc02b2b1504372ac47dce3ff569b7d7cbabbc4ddf93f8e80ab7b8",
   "132f6d7213fd06d7fc473fb523b8a6536ba0792b5632abe26db64c99f089af65",
   "1b94e5f8a0c5b3780db2aa67d34835cae10db4582c724feb2bbf346d25461809",
+  "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
+  "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
   "32d0bb07a8d04b97e05843d9fd739d697bb14d296fc02f67975e09d996ab4a18",
   "381b0255fab72feb258eec5b0efb22554e739d1018a2ee8f01039a81793e0532",
   "383b93b4a69633729d484ff0f575f7b981fb5afb2f41d7b990b09551801b6285",
@@ -118,12 +120,14 @@
   "9280c8611257e73f6f18a71c29c591c5bdbfbf450a4cb6756d405c3eea8095ac",
   "93acf08d6bc5ba90c756f493f59aeb7e981ebc9d88330b130db5924c927704b8",
   "94d0c57695b79a32faff07185107aadc351ae48cb299343374aa1348543c340c",
+  "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
   "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9956bdd91a493e93241b6980b35fb0fe6aa03d8f46cab371cc760d782c8be076",
   "a62d081691fed9e5934173651197db53362d3d2323d7236ed275a522f15b69a8",
   "a8076d3d28d21e02012b20eaf7dbf75409a6277134439025f282e368e3305abf",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "aad2732e2c97874ad6d47fb1709b7b20dbd0e72f8f3373badf8570ea5c5de3f6",
+  "b493b91f25b3c19459826bf2e9dbbea10bdb0821c0202681c9802b6fd82ac375",
   "b4ed742a428f7ce4cfb7a15b9b3a709ebc57a5103422d3eda5bf160937ff6cc0",
   "b651564f25dabf20b43635888b7f8041e31897f80b776c9866a8ab810043f2dc",
   "b7845841965ddecbccf4f692e1d77669704e2af108f7df3ac31ea8a025736b5b",
@@ -131,7 +135,10 @@
   "bec6915028b87a6a0a8f39deb1394b349a3977653da3bb209bee9570cce98321",
   "c4e53f1712084a1f4eb3f13cb487171df1d5adb5762df51212f0538faeb5f790",
   "c608864ef9e374f2e86c91bc09ada0419631b6315c8000e62bd6f8305bde75d8",
+  "c72a8a6ba6a772226b10cd95ac34a4bf0eb39db1742eff66a9c273ced8fd4754",
+  "c7ec2097970b5198fdcfaea3f81e7736e1136d95f0281c36c5055bf560493d25",
   "ce021032eb47b4af82ef90f52c37c0ccd0f8e882915890f1bc8979d2e2496abf",
+  "d44a31fd775f06f1de1fdb3e384df4e31cc3d69ccf45134411d428b5c1cb48e7",
   "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
   "db16d89fefdf54f513d65324457be671b0046cbfc980d714e3eb0e4d8454414b",
   "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
@@ -152,7 +159,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   168
+   169
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -172,15 +179,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   82
+   83
   ],
   [
    "firmware backdoor account",
-   64
+   63
   ],
   [
    "IoT OEM default account",
-   52
+   53
   ],
   [
    "SMC Networks CPE",
@@ -332,47 +339,47 @@
   ],
   [
    "root/Zte521",
-   65122
+   65287
   ],
   [
    "root/xc3511",
-   37550
+   37547
   ],
   [
    "admin/admin",
-   36556
+   36803
   ],
   [
    "root/xmhdipc",
-   31011
+   31040
   ],
   [
    "admin/1234",
-   19865
+   19882
   ],
   [
    "admin/123456789",
-   17113
+   17118
   ],
   [
    "root/juantech",
-   12889
+   12885
   ],
   [
    "root/",
-   12652
+   12701
   ],
   [
    "root/root",
-   12529
+   12606
   ],
   [
    "root/vizxv",
-   11659
+   11669
   ],
   [
    "guest/12345",
-   11240
+   11263
   ],
   [
    "root/svgodie",
@@ -380,56 +387,56 @@
   ],
   [
    "admin/smcadmin",
-   10810
-  ],
-  [
-   "TMAR#DLKT20060205/DLKT20060205",
-   9914
+   10821
   ],
   [
    "root/ikwb",
-   9911
+   9929
+  ],
+  [
+   "TMAR#DLKT20060205/DLKT20060205",
+   9915
   ],
   [
    "administrator/1234",
-   9456
+   9488
   ],
   [
    "root/hi3518",
-   9424
+   9445
   ],
   [
    "user/user",
-   8658
+   8677
   ],
   [
    "root/12345",
-   8638
+   8666
   ],
   [
    "root/admin",
-   8079
+   8114
   ],
   [
    "admin/qwerty",
-   7838
+   7854
   ],
   [
    "admin/adminHW",
-   7733
+   7795
   ],
   [
    "root/12341234",
-   7723
+   7724
   ],
   [
    "admin/bayandsl",
-   7387
+   7397
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 438,
-  "distinct_credentials": 4589,
+  "distinct_credentials": 4612,
   "distinct_payload_urls": 691,
   "events": 9330196,
   "new_sources": 3538,
