@@ -6,24 +6,24 @@
 
 ## Summary
 
-650 addresses reached the sensor this week, 391 of them for the first time. 27% got as far as running a command. Event volume collapsed against last week (751,074 against 9,330,196). 1 vulnerability appeared that this sensor had not previously recorded: `CVE-2018-13379`. 4 separate addresses fetched payloads from the same host, `119[.]179[.]42[.]216`. Shared delivery infrastructure across unrelated addresses is the difference between a campaign and a coincidence, though one sensor cannot tell whether that is one operator or several using the same loader.
+796 addresses reached the sensor this week, 494 of them for the first time. 27% got as far as running a command. Event volume collapsed against last week (914,540 against 9,330,196). 1 vulnerability appeared that this sensor had not previously recorded: `CVE-2018-13379`. 4 separate addresses fetched payloads from the same host, `119[.]179[.]42[.]216`. Shared delivery infrastructure across unrelated addresses is the difference between a campaign and a coincidence, though one sensor cannot tell whether that is one operator or several using the same loader.
 
 ## Key figures
 
 | | this week | last week | | |
 |---|---|---|---|---|
-| source addresses | 650 | 4,088 | -3,438 | ▼ -84% |
-| first seen this week | 391 | 3,476 | -3,085 | ▼ -89% |
-| events | 751,074 | 9,330,196 | -8,579,122 | ▼ -92% |
-| distinct credential pairs | 1,267 | 4,697 | -3,430 | ▼ -73% |
-| payload hosts | 177 | 439 | -262 | ▼ -60% |
+| source addresses | 796 | 4,088 | -3,292 | ▼ -81% |
+| first seen this week | 494 | 3,476 | -2,982 | ▼ -86% |
+| events | 914,540 | 9,330,196 | -8,415,656 | ▼ -90% |
+| distinct credential pairs | 1,380 | 4,712 | -3,332 | ▼ -71% |
+| payload hosts | 181 | 442 | -261 | ▼ -59% |
 
 > Credential attempts, sessions and payload fetches are **lifetime totals for addresses active this week**, not totals for the week — a per-address rollup covers the whole retention window. They are reported below without a delta, because subtracting two of them would produce a number that is not about this week.
 
-- 243,700 credential attempts
-- 248,755 sessions
-- 223,736 payload fetch attempts
-- 10 distinct samples captured
+- 258,883 credential attempts
+- 264,339 sessions
+- 231,739 payload fetch attempts
+- 15 distinct samples captured
 
 ## How far they got
 
@@ -31,11 +31,11 @@ Counting only the addresses that found this sensor for the first time this week,
 
 | stage | addresses | share |
 |---|---|---|
-| connected | 391 | 100% |
-| tried credentials | 205 | 52% |
-| ran commands | 106 | 27% |
-| fetched a payload | 14 | 4% |
-| delivered a sample | 2 | 1% |
+| connected | 494 | 100% |
+| tried credentials | 254 | 51% |
+| ran commands | 135 | 27% |
+| fetched a payload | 18 | 4% |
+| delivered a sample | 5 | 1% |
 
 A previously unseen address found this machine every 1 minute on average. It has never been linked, announced or indexed.
 
@@ -43,15 +43,15 @@ A previously unseen address found this machine every 1 minute on average. It has
 
 Comparing this week's top 25 of each against last week's. An entry can appear here by being genuinely new, or by rising into the top 25 from below it.
 
-**Payload hosts** — `119[.]179[.]42[.]216`, `219[.]156[.]190[.]219`, `115[.]51[.]213[.]31`, `115[.]56[.]59[.]82`, `175[.]149[.]111[.]75`, `193[.]163[.]187[.]230`, `42[.]242[.]128[.]107`, `61[.]69[.]196[.]36`
+**Payload hosts** — `119[.]179[.]42[.]216`, `219[.]156[.]190[.]219`, `115[.]51[.]213[.]31`, `115[.]56[.]59[.]82`, `116[.]138[.]96[.]88`, `120[.]5[.]112[.]251`, `175[.]149[.]111[.]75`, `193[.]163[.]187[.]230`
 
-**Credential pairs** — `root/1234horses`, `root/vertex25ektks123`, `draytek/1234`, `admin/bayandsl`, `admin/54321`, `root/anko`, `admin/chzhdpl`, `gdcuadmin/gdcuadmin`
+**Credential pairs** — `root/1234horses`, `root/vertex25ektks123`, `draytek/1234`, `admin/bayandsl`, `gdcuadmin/gdcuadmin`, `admin/54321`, `root/anko`, `admin/chzhdpl`
 
 **Apparent targets** — none.
 
 ## Gone quiet
 
-In last week's top 25 payload hosts, and not in this week's: `105[.]186[.]158[.]12`, `109[.]236[.]46[.]199`, `110[.]72[.]21[.]169`, `112[.]82[.]137[.]139`, `113[.]254[.]36[.]153`, `115[.]56[.]3[.]84`, `115[.]63[.]243[.]226`, `118[.]79[.]230[.]232`.
+In last week's top 25 payload hosts, and not in this week's: `105[.]186[.]158[.]12`, `110[.]72[.]21[.]169`, `112[.]82[.]137[.]139`, `113[.]254[.]36[.]153`, `115[.]56[.]3[.]84`, `115[.]63[.]243[.]226`, `118[.]79[.]230[.]232`, `119[.]185[.]142[.]54`.
 
 Two reasons an entry lands here, and this sensor cannot always tell them apart: the host stopped, or it fell below the top 25. Absence is weak evidence either way — this is one sensor, and a host that stopped delivering here may simply have stopped delivering *here*.
 
@@ -59,53 +59,55 @@ Two reasons an entry lands here, and this sensor cannot always tell them apart: 
 
 | cve | | addresses | age | description |
 |---|---|---|---|---|
-| `CVE-2017-0144` |  | 30 | 9y |  |
+| `CVE-2017-0144` |  | 40 | 9y |  |
 | `CVE-2021-36260` |  | 3 | 5y |  |
+| `CVE-2016-6277` |  | 2 | 10y |  |
+| `CVE-2017-9841` |  | 2 | 9y |  |
+| `CVE-2018-20062` |  | 2 | 8y |  |
+| `CVE-2012-1823` | **KEV** | 1 | 14y | PHP-CGI argument injection RCE |
 | `CVE-2014-8361` |  | 1 | 12y |  |
 | `CVE-2015-2051` |  | 1 | 11y |  |
 | `CVE-2016-20016` |  | 1 | 10y |  |
-| `CVE-2016-6277` |  | 1 | 10y |  |
 | `CVE-2017-17215` |  | 1 | 9y |  |
-| `CVE-2017-9841` |  | 1 | 9y |  |
 | `CVE-2018-10561` | **KEV** | 1 | 8y | Dasan GPON authentication bypass |
 | `CVE-2018-10562` |  | 1 | 8y |  |
 | `CVE-2018-13379` |  | 1 | 8y |  |
-| `CVE-2018-20062` |  | 1 | 8y |  |
+| `CVE-2021-41773` | **KEV** | 1 | 5y | Apache HTTP Server path traversal to RCE |
 | `CVE-2022-0543` |  | 1 | 4y |  |
 
 The median attempted vulnerability, weighted by how many addresses tried it, is 9 years old.
 
 ## Credentials
 
-1,267 distinct pairs across 212,496 recorded attempts. The ten most common account for 43% of those — a small dictionary applied relentlessly.
+1,380 distinct pairs across 226,193 recorded attempts. The ten most common account for 44% of those — a small dictionary applied relentlessly.
 
 | username | password | attempts |
 |---|---|---|
-| `root` | `xc3511` | 18,298 |
-| `admin` | `admin` | 18,248 |
-| `root` | `Zte521` | 12,344 |
-| `administrator` | `` | 8,396 |
-| `root` | `admin` | 6,769 |
-| `user` | `user` | 6,156 |
-| `root` | `12345` | 6,030 |
-| `root` | `1234horses` | 5,669 |
-| `admin` | `123456789` | 4,682 |
-| `root` | `vertex25ektks123` | 4,513 |
-| `draytek` | `1234` | 4,260 |
-| `root` | `xmhdipc` | 4,039 |
+| `root` | `xc3511` | 19,634 |
+| `admin` | `admin` | 18,730 |
+| `administrator` | `` | 13,422 |
+| `root` | `Zte521` | 12,631 |
+| `root` | `admin` | 6,832 |
+| `user` | `user` | 6,180 |
+| `root` | `12345` | 6,098 |
+| `root` | `1234horses` | 5,827 |
+| `root` | `vertex25ektks123` | 4,968 |
+| `admin` | `123456789` | 4,689 |
+| `root` | `xmhdipc` | 4,409 |
+| `draytek` | `1234` | 4,272 |
 
 Only pairs tried at least three times by two or more independent addresses are listed. A pair guessed by several unrelated bots is a botnet dictionary entry; a single sighting might be a real person's password typed at the wrong host.
 
 ## What they thought this was
 
-- GPON/ONT fibre terminal — 51 addresses
-- DVR / IP camera (OEM default) — 47 addresses
-- ZTE CPE — 37 addresses
-- DrayTek router — 33 addresses
+- GPON/ONT fibre terminal — 53 addresses
+- DVR / IP camera (OEM default) — 51 addresses
+- ZTE CPE — 38 addresses
+- DrayTek router — 36 addresses
 - Huawei HG gateway — 32 addresses
-- ISP-branded DSL gateway — 24 addresses
-- firmware backdoor account — 19 addresses
-- IoT OEM default account — 15 addresses
+- ISP-branded DSL gateway — 26 addresses
+- firmware backdoor account — 23 addresses
+- IoT OEM default account — 17 addresses
 
 Inferred from the credentials and request paths chosen, which only make sense against those device families. It describes what the attacker was hunting, not anything about this machine.
 
@@ -120,4 +122,4 @@ Inferred from the credentials and request paths chosen, which only make sense ag
 
 Indicators, samples and per-address write-ups: https://github.com/1Birdo/lyrebird-intel
 
-*Generated 2026-11-16 18:11 UTC.*
+*Generated 2026-11-17 00:11 UTC.*

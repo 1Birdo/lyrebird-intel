@@ -62,7 +62,7 @@
   "delivered_sample": 118,
   "fetched_payload": 203,
   "ran_commands": 1694,
-  "returned": 2244,
+  "returned": 2246,
   "tried_creds": 1249
  },
  "samples": [
@@ -440,11 +440,11 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   168
+   169
   ],
   [
    "ZTE CPE",
-   121
+   123
   ],
   [
    "DrayTek router",
@@ -456,19 +456,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   88
+   86
   ],
   [
    "IoT OEM default account",
-   66
+   68
   ],
   [
    "firmware backdoor account",
-   62
+   63
   ],
   [
    "SMC Networks CPE",
-   38
+   39
   ],
   [
    "WordPress",
@@ -612,7 +612,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   72832
+   72930
   ],
   [
    "administrator/",
@@ -620,100 +620,100 @@
   ],
   [
    "root/xc3511",
-   50122
+   50090
   ],
   [
    "admin/admin",
-   31426
+   31487
   ],
   [
    "guest/12345",
-   23415
+   23477
   ],
   [
    "admin/1234",
-   21191
+   21200
   ],
   [
    "root/25802580",
-   20417
+   20418
   ],
   [
    "root/root",
-   19225
+   19247
   ],
   [
    "root/",
-   16938
+   16947
   ],
   [
    "admin/123456789",
-   16438
+   16439
   ],
   [
    "default/default",
-   15747
+   15748
   ],
   [
    "root/vizxv",
-   11726
+   11731
   ],
   [
    "administrator/1234",
-   10997
+   11001
   ],
   [
    "root/hi3518",
-   10901
+   10910
   ],
   [
    "root/admin",
-   10771
+   10816
   ],
   [
    "root/ikwb",
-   10705
+   10724
   ],
   [
    "root/12345",
-   9583
+   9612
   ],
   [
    "rapport/r@p8p0r+",
-   9573
+   9569
   ],
   [
    "admin/epicrouter",
-   9440
+   9444
   ],
   [
    "admin/adminHW",
-   8563
+   8577
   ],
   [
    "root/juantech",
-   8406
+   8428
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   7976
+   7984
   ],
   [
    "draytek/1234",
-   7383
+   7395
   ],
   [
    "root/666666",
-   7325
+   7326
   ],
   [
    "admin/qwerty",
-   7226
+   7239
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 381,
-  "distinct_credentials": 5476,
+  "distinct_credentials": 5487,
   "distinct_payload_urls": 596,
   "events": 11581221,
   "new_sources": 3708,
