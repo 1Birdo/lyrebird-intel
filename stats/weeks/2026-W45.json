@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 3160,
-  "delivered_sample": 106,
+  "delivered_sample": 107,
   "fetched_payload": 182,
-  "ran_commands": 1401,
-  "returned": 1896,
+  "ran_commands": 1404,
+  "returned": 1898,
   "tried_creds": 1022
  },
  "samples": [
@@ -180,6 +180,7 @@
   "e8aa0d849d75570fdaef18c725062397a95051b79d75379434f8ab9b96553b9c",
   "e9b9536e45baab34ff5dc96287010b9f4da363708db990010c1239c33d005464",
   "ec6bb95db3b9b6754f6a617e6ab2e60da841b23899522f4446f08fe9a68d357e",
+  "edfb4d25c64327c8aa76434c8cee65a3fd6ef2da8b455402d4ae4aa2c3099a59",
   "ef3043cc27b1d1be87fd786c44aac546b335d5a7cb7c8ad525f6507bb9dfd34f",
   "f0c557122a7b07a548ee502b20645c989994ce742a2484ee2ac0fa3a252a8b8e",
   "f5005a87df0802f10523171f66c5d6fdd2193c0c877db9f8e5cc0ebb5db36b71",
@@ -196,11 +197,11 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   151
+   149
   ],
   [
    "ZTE CPE",
-   112
+   111
   ],
   [
    "DrayTek router",
@@ -212,19 +213,19 @@
   ],
   [
    "ISP-branded DSL gateway",
-   76
+   75
   ],
   [
    "IoT OEM default account",
-   61
+   60
   ],
   [
    "firmware backdoor account",
-   57
+   56
   ],
   [
    "SMC Networks CPE",
-   40
+   41
   ],
   [
    "WordPress",
@@ -368,7 +369,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   70098
+   70172
   ],
   [
    "administrator/",
@@ -376,31 +377,31 @@
   ],
   [
    "root/xc3511",
-   36614
+   36617
   ],
   [
    "admin/admin",
-   27753
+   27807
   ],
   [
    "root/25802580",
-   20200
+   20181
   ],
   [
    "root/root",
-   18003
+   18021
   ],
   [
    "admin/123456789",
-   16285
+   16283
   ],
   [
    "admin/1234",
-   15738
+   15748
   ],
   [
    "root/",
-   14615
+   14623
   ],
   [
    "default/default",
@@ -412,35 +413,35 @@
   ],
   [
    "root/vizxv",
-   11517
+   11518
   ],
   [
    "administrator/1234",
-   10515
+   10518
   ],
   [
    "root/ikwb",
-   10055
+   10156
   ],
   [
    "root/hi3518",
-   9975
+   9977
   ],
   [
    "rapport/r@p8p0r+",
-   9553
+   9537
   ],
   [
    "root/12345",
-   8842
+   8870
   ],
   [
    "admin/adminHW",
-   8379
+   8382
   ],
   [
    "root/admin",
-   8274
+   8280
   ],
   [
    "root/juantech",
@@ -448,28 +449,28 @@
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   7358
+   7359
   ],
   [
    "root/666666",
-   7063
+   6922
   ],
   [
    "admin/qwerty",
-   6779
+   6774
   ],
   [
    "admin/epicrouter",
-   6546
+   6555
   ],
   [
    "draytek/1234",
-   6249
+   6253
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 339,
-  "distinct_credentials": 4503,
+  "distinct_credentials": 4515,
   "distinct_payload_urls": 518,
   "events": 9282663,
   "new_sources": 3160,
