@@ -62,7 +62,7 @@
   "delivered_sample": 107,
   "fetched_payload": 182,
   "ran_commands": 1404,
-  "returned": 1898,
+  "returned": 1904,
   "tried_creds": 1022
  },
  "samples": [
@@ -193,7 +193,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   162
+   161
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -201,7 +201,7 @@
   ],
   [
    "ZTE CPE",
-   111
+   113
   ],
   [
    "DrayTek router",
@@ -213,11 +213,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   75
+   76
   ],
   [
    "IoT OEM default account",
-   60
+   62
   ],
   [
    "firmware backdoor account",
@@ -225,7 +225,7 @@
   ],
   [
    "SMC Networks CPE",
-   41
+   40
   ],
   [
    "WordPress",
@@ -307,7 +307,7 @@
   ],
   [
    "174.105.154.212",
-   6
+   7
   ],
   [
    "109.236.46.199",
@@ -369,7 +369,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   70172
+   70245
   ],
   [
    "administrator/",
@@ -377,51 +377,51 @@
   ],
   [
    "root/xc3511",
-   36617
+   36627
   ],
   [
    "admin/admin",
-   27807
+   27860
   ],
   [
    "root/25802580",
-   20181
+   20199
   ],
   [
    "root/root",
-   18021
+   18037
   ],
   [
    "admin/123456789",
-   16283
+   16282
   ],
   [
    "admin/1234",
-   15748
+   15750
   ],
   [
    "root/",
-   14623
+   14635
   ],
   [
    "default/default",
-   13999
+   14000
   ],
   [
    "guest/12345",
-   11630
+   11653
   ],
   [
    "root/vizxv",
-   11518
+   11529
   ],
   [
    "administrator/1234",
-   10518
+   10521
   ],
   [
    "root/ikwb",
-   10156
+   10064
   ],
   [
    "root/hi3518",
@@ -429,11 +429,11 @@
   ],
   [
    "rapport/r@p8p0r+",
-   9537
+   9523
   ],
   [
    "root/12345",
-   8870
+   8866
   ],
   [
    "admin/adminHW",
@@ -441,37 +441,37 @@
   ],
   [
    "root/admin",
-   8280
+   8324
   ],
   [
    "root/juantech",
-   7632
+   7623
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   7359
+   7360
   ],
   [
    "root/666666",
-   6922
+   7053
   ],
   [
    "admin/qwerty",
-   6774
+   6785
   ],
   [
    "admin/epicrouter",
-   6555
+   6558
   ],
   [
    "draytek/1234",
-   6253
+   6254
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 339,
-  "distinct_credentials": 4515,
-  "distinct_payload_urls": 518,
+  "distinct_c2_hosts": 340,
+  "distinct_credentials": 4538,
+  "distinct_payload_urls": 520,
   "events": 9282663,
   "new_sources": 3160,
   "shared_c2_hosts": 71,

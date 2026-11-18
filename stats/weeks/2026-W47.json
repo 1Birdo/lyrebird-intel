@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 82
+   "sources": 94
   },
   {
    "cve": "CVE-2015-2051",
@@ -62,12 +62,12 @@
   }
  ],
  "funnel": {
-  "connected": 1313,
-  "delivered_sample": 33,
-  "fetched_payload": 86,
-  "ran_commands": 427,
-  "returned": 756,
-  "tried_creds": 646
+  "connected": 1469,
+  "delivered_sample": 35,
+  "fetched_payload": 92,
+  "ran_commands": 463,
+  "returned": 845,
+  "tried_creds": 723
  },
  "samples": [
   "0138498ebecb722fa55981d3424285e7d109cc814d3922b25e1e4f9c463f6831",
@@ -153,39 +153,39 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   71
+   77
   ],
   [
    "GPON/ONT fibre terminal",
-   68
+   73
   ],
   [
    "ZTE CPE",
-   47
+   51
   ],
   [
    "DrayTek router",
-   44
+   46
   ],
   [
    "Huawei HG gateway",
-   36
+   43
   ],
   [
    "ISP-branded DSL gateway",
-   32
-  ],
-  [
-   "IoT OEM default account",
-   25
+   40
   ],
   [
    "firmware backdoor account",
+   27
+  ],
+  [
+   "IoT OEM default account",
    24
   ],
   [
    "SMC Networks CPE",
-   15
+   13
   ],
   [
    "WordPress",
@@ -222,20 +222,24 @@
  ],
  "top_c2_hosts": [
   [
+   "100.10.0.255",
+   8
+  ],
+  [
+   "114.228.186.172",
+   8
+  ],
+  [
    "182.126.127.178",
    8
   ],
   [
-   "100.10.0.255",
-   5
-  ],
-  [
    "119.179.42.216",
-   5
+   6
   ],
   [
    "174.105.154.212",
-   4
+   5
   ],
   [
    "219.156.190.219",
@@ -255,6 +259,10 @@
   ],
   [
    "201.159.91.2",
+   3
+  ],
+  [
+   "222.127.50.108",
    3
   ],
   [
@@ -298,6 +306,10 @@
    2
   ],
   [
+   "216.247.213.147",
+   2
+  ],
+  [
    "217.60.102.5",
    2
   ],
@@ -306,30 +318,18 @@
    2
   ],
   [
-   "222.127.50.108",
-   2
-  ],
-  [
-   "31.56.209.73",
-   2
-  ],
-  [
-   "42.242.128.107",
-   2
-  ],
-  [
-   "42.57.36.98",
+   "27.19.83.71",
    2
   ]
  ],
  "top_credentials": [
   [
    "admin/admin",
-   22038
+   22952
   ],
   [
    "root/xc3511",
-   20923
+   21024
   ],
   [
    "administrator/",
@@ -337,106 +337,106 @@
   ],
   [
    "root/Zte521",
-   13076
-  ],
-  [
-   "root/xmhdipc",
-   6868
-  ],
-  [
-   "root/admin",
-   6409
-  ],
-  [
-   "root/1234horses",
-   6121
-  ],
-  [
-   "root/12345",
-   5978
-  ],
-  [
-   "root/vertex25ektks123",
-   5354
-  ],
-  [
-   "user/user",
-   5274
-  ],
-  [
-   "admin/meinsm",
-   5022
-  ],
-  [
-   "admin/123456789",
-   4726
-  ],
-  [
-   "root/root",
-   4101
-  ],
-  [
-   "admin/bayandsl",
-   3887
-  ],
-  [
-   "draytek/1234",
-   3745
-  ],
-  [
-   "root/123456",
-   3660
-  ],
-  [
-   "root/",
-   3642
-  ],
-  [
-   "gdcuadmin/gdcuadmin",
-   3637
-  ],
-  [
-   "root/hi3518",
-   3197
-  ],
-  [
-   "admin/qwerty",
-   3073
-  ],
-  [
-   "root/Fireitup",
-   3008
-  ],
-  [
-   "root/12341234",
-   2736
+   13357
   ],
   [
    "admin/54321",
-   2589
+   11891
   ],
   [
-   "root/bluehorse",
-   2546
+   "admin/meinsm",
+   8692
+  ],
+  [
+   "root/xmhdipc",
+   8212
+  ],
+  [
+   "root/admin",
+   6482
+  ],
+  [
+   "root/12345",
+   6195
+  ],
+  [
+   "root/1234horses",
+   6133
+  ],
+  [
+   "root/vertex25ektks123",
+   5385
+  ],
+  [
+   "user/user",
+   5325
+  ],
+  [
+   "admin/123456789",
+   4740
   ],
   [
    "admin/v2mprt",
-   2432
+   4479
+  ],
+  [
+   "root/root",
+   4260
+  ],
+  [
+   "root/Pon521",
+   4158
+  ],
+  [
+   "root/Fireitup",
+   4083
+  ],
+  [
+   "gdcuadmin/gdcuadmin",
+   3999
+  ],
+  [
+   "admin/bayandsl",
+   3906
+  ],
+  [
+   "root/",
+   3772
+  ],
+  [
+   "draytek/1234",
+   3760
+  ],
+  [
+   "root/123456",
+   3677
+  ],
+  [
+   "admin/qwerty",
+   3617
+  ],
+  [
+   "root/12341234",
+   3398
+  ],
+  [
+   "root/hi3518",
+   3286
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 199,
-  "distinct_credentials": 1679,
-  "distinct_payload_urls": 299,
-  "events": 1510361,
-  "new_sources": 876,
-  "shared_c2_hosts": 30,
-  "sources": 1313
+  "distinct_c2_hosts": 209,
+  "distinct_credentials": 1770,
+  "distinct_payload_urls": 319,
+  "events": 2047765,
+  "new_sources": 1003,
+  "shared_c2_hosts": 35,
+  "sources": 1469
  },
  "window": {
-  "days": 2,
+  "days": 3,
   "first_day": "2026-11-16",
-  "last_day": "2026-11-17",
+  "last_day": "2026-11-18",
   "week": "2026-W47"
  }
 }

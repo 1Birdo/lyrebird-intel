@@ -74,7 +74,7 @@
   "delivered_sample": 109,
   "fetched_payload": 182,
   "ran_commands": 1470,
-  "returned": 2277,
+  "returned": 2290,
   "tried_creds": 1643
  },
  "samples": [
@@ -163,7 +163,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   158
+   157
   ],
   [
    "ZTE CPE",
@@ -175,23 +175,23 @@
   ],
   [
    "Huawei HG gateway",
-   93
+   94
   ],
   [
    "ISP-branded DSL gateway",
-   83
+   84
   ],
   [
    "firmware backdoor account",
-   63
+   64
   ],
   [
    "IoT OEM default account",
-   53
+   54
   ],
   [
    "SMC Networks CPE",
-   32
+   31
   ],
   [
    "WordPress",
@@ -260,16 +260,16 @@
    8
   ],
   [
+   "174.105.154.212",
+   8
+  ],
+  [
    "182.117.4.249",
    8
   ],
   [
    "196.89.162.211",
    8
-  ],
-  [
-   "174.105.154.212",
-   7
   ],
   [
    "196.190.229.115",
@@ -339,59 +339,59 @@
   ],
   [
    "root/Zte521",
-   65444
+   65585
   ],
   [
    "root/xc3511",
-   37575
+   37592
   ],
   [
    "admin/admin",
-   37010
+   37239
   ],
   [
    "root/xmhdipc",
-   31081
+   31103
   ],
   [
    "admin/1234",
-   19903
+   19928
   ],
   [
    "admin/123456789",
-   17122
+   17126
   ],
   [
    "root/juantech",
-   12887
+   12894
   ],
   [
    "root/",
-   12735
+   12771
   ],
   [
    "root/root",
-   12678
+   12747
   ],
   [
    "root/vizxv",
-   11682
+   11695
   ],
   [
    "guest/12345",
-   11287
+   11314
   ],
   [
    "root/svgodie",
-   11238
+   11237
   ],
   [
    "admin/smcadmin",
-   10833
+   10843
   ],
   [
    "root/ikwb",
-   9937
+   9942
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -399,48 +399,48 @@
   ],
   [
    "administrator/1234",
-   9519
+   9534
   ],
   [
    "root/hi3518",
-   9463
-  ],
-  [
-   "user/user",
-   8701
+   9483
   ],
   [
    "root/12345",
-   8700
+   8731
+  ],
+  [
+   "user/user",
+   8726
   ],
   [
    "root/admin",
-   8151
+   8182
   ],
   [
    "admin/qwerty",
-   7872
+   7890
   ],
   [
    "admin/adminHW",
-   7807
+   7827
   ],
   [
    "root/12341234",
-   7745
+   7751
   ],
   [
    "admin/bayandsl",
-   7402
+   7414
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 441,
-  "distinct_credentials": 4636,
-  "distinct_payload_urls": 695,
+  "distinct_c2_hosts": 442,
+  "distinct_credentials": 4676,
+  "distinct_payload_urls": 697,
   "events": 9330196,
   "new_sources": 3538,
-  "shared_c2_hosts": 93,
+  "shared_c2_hosts": 94,
   "sources": 4088
  },
  "window": {
