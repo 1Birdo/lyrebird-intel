@@ -71,11 +71,11 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 109,
+  "delivered_sample": 107,
   "fetched_payload": 182,
-  "ran_commands": 1470,
-  "returned": 2290,
-  "tried_creds": 1643
+  "ran_commands": 1466,
+  "returned": 2292,
+  "tried_creds": 1642
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -119,7 +119,6 @@
   "8d4ec30d530a35109fd06667f3cf5e5102661392bc98361eff8eb8ab16104ce3",
   "9280c8611257e73f6f18a71c29c591c5bdbfbf450a4cb6756d405c3eea8095ac",
   "93acf08d6bc5ba90c756f493f59aeb7e981ebc9d88330b130db5924c927704b8",
-  "94d0c57695b79a32faff07185107aadc351ae48cb299343374aa1348543c340c",
   "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
   "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9956bdd91a493e93241b6980b35fb0fe6aa03d8f46cab371cc760d782c8be076",
@@ -159,11 +158,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   169
+   167
   ],
   [
    "DVR / IP camera (OEM default)",
-   157
+   160
   ],
   [
    "ZTE CPE",
@@ -179,11 +178,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   84
+   85
   ],
   [
    "firmware backdoor account",
-   64
+   60
   ],
   [
    "IoT OEM default account",
@@ -191,7 +190,7 @@
   ],
   [
    "SMC Networks CPE",
-   31
+   30
   ],
   [
    "WordPress",
@@ -335,99 +334,99 @@
  "top_credentials": [
   [
    "administrator/",
-   85050
+   81945
   ],
   [
    "root/Zte521",
-   65585
+   64960
   ],
   [
    "root/xc3511",
-   37592
+   36979
   ],
   [
    "admin/admin",
-   37239
+   36915
   ],
   [
    "root/xmhdipc",
-   31103
+   30995
   ],
   [
    "admin/1234",
-   19928
+   19836
   ],
   [
    "admin/123456789",
-   17126
+   17089
   ],
   [
    "root/juantech",
-   12894
-  ],
-  [
-   "root/",
-   12771
+   12898
   ],
   [
    "root/root",
-   12747
+   12574
+  ],
+  [
+   "root/",
+   12561
   ],
   [
    "root/vizxv",
-   11695
+   11577
   ],
   [
    "guest/12345",
-   11314
+   11208
   ],
   [
    "root/svgodie",
-   11237
+   11183
   ],
   [
    "admin/smcadmin",
-   10843
+   10774
   ],
   [
    "root/ikwb",
-   9942
+   10098
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9916
+   9909
   ],
   [
    "administrator/1234",
-   9534
+   9444
   ],
   [
    "root/hi3518",
-   9483
+   9309
   ],
   [
    "root/12345",
-   8731
+   8233
   ],
   [
    "user/user",
-   8726
-  ],
-  [
-   "root/admin",
-   8182
+   7947
   ],
   [
    "admin/qwerty",
-   7890
+   7852
+  ],
+  [
+   "root/admin",
+   7728
   ],
   [
    "admin/adminHW",
-   7827
+   7650
   ],
   [
    "root/12341234",
-   7751
+   7572
   ],
   [
    "admin/bayandsl",
@@ -435,12 +434,12 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 442,
-  "distinct_credentials": 4676,
-  "distinct_payload_urls": 697,
+  "distinct_c2_hosts": 443,
+  "distinct_credentials": 4622,
+  "distinct_payload_urls": 700,
   "events": 9330196,
-  "new_sources": 3538,
-  "shared_c2_hosts": 94,
+  "new_sources": 3597,
+  "shared_c2_hosts": 95,
   "sources": 4088
  },
  "window": {
