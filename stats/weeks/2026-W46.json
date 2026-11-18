@@ -73,8 +73,8 @@
   "connected": 4088,
   "delivered_sample": 107,
   "fetched_payload": 182,
-  "ran_commands": 1467,
-  "returned": 2303,
+  "ran_commands": 1468,
+  "returned": 2309,
   "tried_creds": 1642
  },
  "samples": [
@@ -178,7 +178,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   85
+   84
   ],
   [
    "firmware backdoor account",
@@ -186,11 +186,11 @@
   ],
   [
    "IoT OEM default account",
-   54
+   55
   ],
   [
    "SMC Networks CPE",
-   30
+   31
   ],
   [
    "WordPress",
@@ -338,47 +338,47 @@
   ],
   [
    "root/Zte521",
-   65115
+   65303
   ],
   [
    "admin/admin",
-   37106
+   37313
   ],
   [
    "root/xc3511",
-   37009
+   37014
   ],
   [
    "root/xmhdipc",
-   31026
+   31059
   ],
   [
    "admin/1234",
-   19841
+   19852
   ],
   [
    "admin/123456789",
-   17093
+   17096
   ],
   [
    "root/juantech",
-   12903
+   12907
   ],
   [
    "root/root",
-   12612
+   12669
   ],
   [
    "root/",
-   12579
+   12615
   ],
   [
    "root/vizxv",
-   11591
+   11605
   ],
   [
    "guest/12345",
-   11226
+   11242
   ],
   [
    "root/svgodie",
@@ -386,11 +386,11 @@
   ],
   [
    "admin/smcadmin",
-   10781
+   10809
   ],
   [
    "root/ikwb",
-   10106
+   10098
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -398,48 +398,48 @@
   ],
   [
    "administrator/1234",
-   9463
+   9487
   ],
   [
    "root/hi3518",
-   9324
+   9334
   ],
   [
    "root/12345",
-   8270
+   8308
   ],
   [
    "user/user",
-   7956
+   7969
   ],
   [
    "admin/qwerty",
-   7867
+   7881
   ],
   [
    "root/admin",
-   7764
+   7789
   ],
   [
    "admin/adminHW",
-   7665
+   7677
   ],
   [
    "root/12341234",
-   7577
+   7586
   ],
   [
    "admin/bayandsl",
-   7423
+   7434
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 447,
-  "distinct_credentials": 4625,
-  "distinct_payload_urls": 707,
+  "distinct_c2_hosts": 449,
+  "distinct_credentials": 4626,
+  "distinct_payload_urls": 710,
   "events": 9330196,
   "new_sources": 3597,
-  "shared_c2_hosts": 96,
+  "shared_c2_hosts": 97,
   "sources": 4088
  },
  "window": {

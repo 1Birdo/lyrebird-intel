@@ -59,10 +59,10 @@
  ],
  "funnel": {
   "connected": 2683,
-  "delivered_sample": 91,
+  "delivered_sample": 92,
   "fetched_payload": 150,
-  "ran_commands": 1194,
-  "returned": 1634,
+  "ran_commands": 1195,
+  "returned": 1637,
   "tried_creds": 869
  },
  "samples": [
@@ -123,6 +123,7 @@
   "d521f7587e9c81cb55fb6cf1bb2fe4a1a5d2b3cb0f98134faa4f53c8c7927657",
   "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
   "d7a88451dc3509e34dc6c055d82911ca960ef51566c2cf47b835ec1cac02b755",
+  "dd8b4df006e565173ca73101658a90795e300128ee6b2beb40484f8e6e0359f2",
   "e34396228024a94990d5a41ed7ab0f8e60972b7186fecf594eede40b7b4ff1f5",
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "e4de97d55fcc289194599141d6149f4b4ed70a08ec0cb6380ea3d4d482b673dd",
@@ -148,7 +149,7 @@
   ],
   [
    "DrayTek router",
-   89
+   88
   ],
   [
    "Huawei HG gateway",
@@ -156,11 +157,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   63
+   61
   ],
   [
    "IoT OEM default account",
-   50
+   51
   ],
   [
    "firmware backdoor account",
@@ -168,7 +169,7 @@
   ],
   [
    "SMC Networks CPE",
-   34
+   33
   ],
   [
    "consumer router admin",
@@ -312,7 +313,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   63984
+   64067
   ],
   [
    "administrator/",
@@ -320,91 +321,91 @@
   ],
   [
    "root/xc3511",
-   27442
+   27444
   ],
   [
    "admin/admin",
-   22940
+   22982
   ],
   [
    "root/root",
-   16485
+   16502
   ],
   [
    "admin/123456789",
-   16158
+   16161
   ],
   [
    "default/default",
-   13444
+   13430
   ],
   [
    "root/",
-   13300
+   13314
   ],
   [
    "administrator/1234",
-   10158
+   10159
   ],
   [
    "root/ikwb",
-   9988
+   9993
   ],
   [
    "root/hi3518",
-   9095
+   9099
   ],
   [
    "root/12345",
-   8136
+   8148
   ],
   [
    "admin/adminHW",
-   8059
+   8060
   ],
   [
    "rapport/r@p8p0r+",
-   7217
+   7212
   ],
   [
    "root/juantech",
-   7196
+   7198
   ],
   [
    "root/admin",
-   6890
+   6913
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6684
+   6685
   ],
   [
    "admin/qwerty",
-   6383
+   6389
   ],
   [
    "admin/epicrouter",
-   5769
+   5777
   ],
   [
    "root/samsung",
-   5716
+   5721
   ],
   [
    "root/pass",
-   5240
+   5246
   ],
   [
    "draytek/1234",
-   5214
+   5217
   ],
   [
    "root/klv1234",
-   5170
+   5174
   ],
   [
    "cht/chtngpon",
-   4805
+   4807
   ],
   [
    "user/user",
@@ -412,9 +413,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 310,
-  "distinct_credentials": 4266,
-  "distinct_payload_urls": 470,
+  "distinct_c2_hosts": 311,
+  "distinct_credentials": 4261,
+  "distinct_payload_urls": 471,
   "events": 6844266,
   "new_sources": 2683,
   "shared_c2_hosts": 65,
