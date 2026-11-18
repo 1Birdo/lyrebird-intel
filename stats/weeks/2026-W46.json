@@ -73,8 +73,8 @@
   "connected": 4088,
   "delivered_sample": 107,
   "fetched_payload": 182,
-  "ran_commands": 1466,
-  "returned": 2292,
+  "ran_commands": 1467,
+  "returned": 2303,
   "tried_creds": 1642
  },
  "samples": [
@@ -174,7 +174,7 @@
   ],
   [
    "Huawei HG gateway",
-   94
+   95
   ],
   [
    "ISP-branded DSL gateway",
@@ -338,59 +338,59 @@
   ],
   [
    "root/Zte521",
-   64960
-  ],
-  [
-   "root/xc3511",
-   36979
+   65115
   ],
   [
    "admin/admin",
-   36915
+   37106
+  ],
+  [
+   "root/xc3511",
+   37009
   ],
   [
    "root/xmhdipc",
-   30995
+   31026
   ],
   [
    "admin/1234",
-   19836
+   19841
   ],
   [
    "admin/123456789",
-   17089
+   17093
   ],
   [
    "root/juantech",
-   12898
+   12903
   ],
   [
    "root/root",
-   12574
+   12612
   ],
   [
    "root/",
-   12561
+   12579
   ],
   [
    "root/vizxv",
-   11577
+   11591
   ],
   [
    "guest/12345",
-   11208
+   11226
   ],
   [
    "root/svgodie",
-   11183
+   11186
   ],
   [
    "admin/smcadmin",
-   10774
+   10781
   ],
   [
    "root/ikwb",
-   10098
+   10106
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -398,48 +398,48 @@
   ],
   [
    "administrator/1234",
-   9444
+   9463
   ],
   [
    "root/hi3518",
-   9309
+   9324
   ],
   [
    "root/12345",
-   8233
+   8270
   ],
   [
    "user/user",
-   7947
+   7956
   ],
   [
    "admin/qwerty",
-   7852
+   7867
   ],
   [
    "root/admin",
-   7728
+   7764
   ],
   [
    "admin/adminHW",
-   7650
+   7665
   ],
   [
    "root/12341234",
-   7572
+   7577
   ],
   [
    "admin/bayandsl",
-   7414
+   7423
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 443,
-  "distinct_credentials": 4622,
-  "distinct_payload_urls": 700,
+  "distinct_c2_hosts": 447,
+  "distinct_credentials": 4625,
+  "distinct_payload_urls": 707,
   "events": 9330196,
   "new_sources": 3597,
-  "shared_c2_hosts": 95,
+  "shared_c2_hosts": 96,
   "sources": 4088
  },
  "window": {
