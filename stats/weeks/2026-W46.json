@@ -74,7 +74,7 @@
   "delivered_sample": 107,
   "fetched_payload": 182,
   "ran_commands": 1468,
-  "returned": 2309,
+  "returned": 2313,
   "tried_creds": 1642
  },
  "samples": [
@@ -158,7 +158,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   167
+   169
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -178,7 +178,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   84
+   86
   ],
   [
    "firmware backdoor account",
@@ -186,7 +186,7 @@
   ],
   [
    "IoT OEM default account",
-   55
+   53
   ],
   [
    "SMC Networks CPE",
@@ -338,59 +338,59 @@
   ],
   [
    "root/Zte521",
-   65303
+   65434
   ],
   [
    "admin/admin",
-   37313
+   37465
   ],
   [
    "root/xc3511",
-   37014
+   37035
   ],
   [
    "root/xmhdipc",
-   31059
+   31069
   ],
   [
    "admin/1234",
-   19852
+   19857
   ],
   [
    "admin/123456789",
-   17096
+   17098
   ],
   [
    "root/juantech",
-   12907
+   12911
   ],
   [
    "root/root",
-   12669
+   12723
   ],
   [
    "root/",
-   12615
+   12629
   ],
   [
    "root/vizxv",
-   11605
+   11608
   ],
   [
    "guest/12345",
-   11242
+   11253
   ],
   [
    "root/svgodie",
-   11186
+   11193
   ],
   [
    "admin/smcadmin",
-   10809
+   10823
   ],
   [
    "root/ikwb",
-   10098
+   10105
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -398,48 +398,48 @@
   ],
   [
    "administrator/1234",
-   9487
+   9511
   ],
   [
    "root/hi3518",
-   9334
+   9343
   ],
   [
    "root/12345",
-   8308
+   8356
   ],
   [
    "user/user",
-   7969
+   7975
   ],
   [
    "admin/qwerty",
-   7881
+   7900
   ],
   [
    "root/admin",
-   7789
+   7820
   ],
   [
    "admin/adminHW",
-   7677
+   7701
   ],
   [
    "root/12341234",
-   7586
+   7587
   ],
   [
    "admin/bayandsl",
-   7434
+   7443
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 449,
-  "distinct_credentials": 4626,
-  "distinct_payload_urls": 710,
+  "distinct_c2_hosts": 450,
+  "distinct_credentials": 4640,
+  "distinct_payload_urls": 712,
   "events": 9330196,
   "new_sources": 3597,
-  "shared_c2_hosts": 97,
+  "shared_c2_hosts": 99,
   "sources": 4088
  },
  "window": {

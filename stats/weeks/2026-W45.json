@@ -61,7 +61,7 @@
   "connected": 2683,
   "delivered_sample": 92,
   "fetched_payload": 150,
-  "ran_commands": 1195,
+  "ran_commands": 1196,
   "returned": 1637,
   "tried_creds": 869
  },
@@ -137,7 +137,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   132
+   134
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -161,7 +161,7 @@
   ],
   [
    "IoT OEM default account",
-   51
+   50
   ],
   [
    "firmware backdoor account",
@@ -169,7 +169,7 @@
   ],
   [
    "SMC Networks CPE",
-   33
+   32
   ],
   [
    "consumer router admin",
@@ -313,7 +313,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   64067
+   64107
   ],
   [
    "administrator/",
@@ -321,27 +321,27 @@
   ],
   [
    "root/xc3511",
-   27444
+   27455
   ],
   [
    "admin/admin",
-   22982
+   23017
   ],
   [
    "root/root",
-   16502
+   16515
   ],
   [
    "admin/123456789",
-   16161
+   16160
   ],
   [
    "default/default",
-   13430
+   13445
   ],
   [
    "root/",
-   13314
+   13322
   ],
   [
    "administrator/1234",
@@ -349,31 +349,31 @@
   ],
   [
    "root/ikwb",
-   9993
+   10001
   ],
   [
    "root/hi3518",
-   9099
+   9098
   ],
   [
    "root/12345",
-   8148
+   8160
   ],
   [
    "admin/adminHW",
-   8060
+   8063
   ],
   [
    "rapport/r@p8p0r+",
-   7212
+   7217
   ],
   [
    "root/juantech",
-   7198
+   7197
   ],
   [
    "root/admin",
-   6913
+   6927
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
@@ -381,15 +381,15 @@
   ],
   [
    "admin/qwerty",
-   6389
+   6411
   ],
   [
    "admin/epicrouter",
-   5777
+   5781
   ],
   [
    "root/samsung",
-   5721
+   5724
   ],
   [
    "root/pass",
@@ -397,25 +397,25 @@
   ],
   [
    "draytek/1234",
-   5217
+   5216
   ],
   [
    "root/klv1234",
-   5174
+   5185
   ],
   [
    "cht/chtngpon",
-   4807
+   4820
   ],
   [
    "user/user",
-   4796
+   4800
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 311,
-  "distinct_credentials": 4261,
-  "distinct_payload_urls": 471,
+  "distinct_c2_hosts": 312,
+  "distinct_credentials": 4267,
+  "distinct_payload_urls": 472,
   "events": 6844266,
   "new_sources": 2683,
   "shared_c2_hosts": 65,
