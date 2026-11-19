@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 109,
+  "delivered_sample": 110,
   "fetched_payload": 182,
   "ran_commands": 1466,
-  "returned": 2311,
+  "returned": 2313,
   "tried_creds": 1641
  },
  "samples": [
@@ -159,15 +159,15 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   170
+   171
   ],
   [
    "DVR / IP camera (OEM default)",
-   160
+   159
   ],
   [
    "ZTE CPE",
-   128
+   126
   ],
   [
    "DrayTek router",
@@ -339,105 +339,105 @@
   ],
   [
    "root/Zte521",
-   66118
-  ],
-  [
-   "root/xc3511",
-   36375
+   66708
   ],
   [
    "admin/admin",
-   36213
+   36419
+  ],
+  [
+   "root/xc3511",
+   36382
   ],
   [
    "root/xmhdipc",
-   30904
+   30930
   ],
   [
    "admin/1234",
-   19685
+   19700
   ],
   [
    "admin/123456789",
-   17065
-  ],
-  [
-   "root/juantech",
-   12813
+   17075
   ],
   [
    "root/root",
-   12707
+   13050
+  ],
+  [
+   "root/juantech",
+   12814
   ],
   [
    "root/",
-   12297
+   12377
   ],
   [
    "root/vizxv",
-   11515
+   11529
   ],
   [
    "guest/12345",
-   11155
+   11169
   ],
   [
    "root/svgodie",
-   11116
+   11118
   ],
   [
    "admin/smcadmin",
-   10770
+   10780
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9905
+   9907
   ],
   [
    "root/ikwb",
-   9775
+   9778
   ],
   [
    "root/hi3518",
-   9034
+   9044
   ],
   [
    "administrator/1234",
-   9018
+   9033
   ],
   [
    "admin/qwerty",
-   7813
+   7826
   ],
   [
    "admin/adminHW",
-   7585
+   7606
   ],
   [
    "root/12345",
-   7564
+   7592
   ],
   [
    "root/admin",
-   7441
+   7494
   ],
   [
    "user/user",
-   7376
+   7382
   ],
   [
    "admin/bayandsl",
-   7325
+   7333
   ],
   [
    "root/12341234",
-   7276
+   7278
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 445,
-  "distinct_credentials": 4587,
-  "distinct_payload_urls": 702,
+  "distinct_c2_hosts": 447,
+  "distinct_credentials": 4585,
+  "distinct_payload_urls": 705,
   "events": 9330196,
   "new_sources": 3647,
   "shared_c2_hosts": 97,

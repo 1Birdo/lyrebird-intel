@@ -138,7 +138,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   109
+   107
   ],
   [
    "DrayTek router",
@@ -146,7 +146,7 @@
   ],
   [
    "ZTE CPE",
-   75
+   74
   ],
   [
    "Huawei HG gateway",
@@ -154,11 +154,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   52
+   53
   ],
   [
    "IoT OEM default account",
-   42
+   44
   ],
   [
    "firmware backdoor account",
@@ -166,7 +166,7 @@
   ],
   [
    "SMC Networks CPE",
-   30
+   32
   ],
   [
    "consumer router admin",
@@ -310,7 +310,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   55529
+   55817
   ],
   [
    "administrator/",
@@ -318,11 +318,11 @@
   ],
   [
    "root/xc3511",
-   26522
+   26525
   ],
   [
    "admin/admin",
-   20713
+   20773
   ],
   [
    "admin/123456789",
@@ -330,63 +330,63 @@
   ],
   [
    "root/root",
-   15572
+   15584
   ],
   [
    "default/default",
-   13387
+   13388
   ],
   [
    "root/",
-   12678
+   12685
   ],
   [
    "root/ikwb",
-   9375
+   9381
   ],
   [
    "administrator/1234",
-   8840
+   8841
   ],
   [
    "root/hi3518",
-   8518
+   8517
   ],
   [
    "admin/adminHW",
-   7913
+   7916
   ],
   [
    "root/12345",
-   7181
+   7191
   ],
   [
    "root/juantech",
-   6996
+   6998
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6420
+   6421
   ],
   [
    "root/admin",
-   6365
+   6398
   ],
   [
    "admin/qwerty",
-   6180
-  ],
-  [
-   "admin/epicrouter",
-   5664
+   6171
   ],
   [
    "root/samsung",
-   5654
+   5657
+  ],
+  [
+   "admin/epicrouter",
+   5650
   ],
   [
    "root/klv1234",
-   5139
+   5145
   ],
   [
    "root/pass",
@@ -394,24 +394,24 @@
   ],
   [
    "cht/chtngpon",
-   4706
+   4707
   ],
   [
    "admin/CenturyL1nk",
-   4511
+   4537
   ],
   [
    "draytek/1234",
-   4388
+   4389
   ],
   [
    "user/user",
-   4036
+   4039
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 290,
-  "distinct_credentials": 3575,
+  "distinct_credentials": 3589,
   "distinct_payload_urls": 440,
   "events": 5693852,
   "new_sources": 2217,
