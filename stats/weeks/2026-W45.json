@@ -61,8 +61,8 @@
   "connected": 1711,
   "delivered_sample": 63,
   "fetched_payload": 111,
-  "ran_commands": 761,
-  "returned": 1043,
+  "ran_commands": 763,
+  "returned": 1045,
   "tried_creds": 549
  },
  "samples": [
@@ -115,11 +115,11 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   96
+   97
   ],
   [
    "DVR / IP camera (OEM default)",
-   93
+   92
   ],
   [
    "ZTE CPE",
@@ -131,11 +131,11 @@
   ],
   [
    "Huawei HG gateway",
-   56
+   55
   ],
   [
    "ISP-branded DSL gateway",
-   45
+   49
   ],
   [
    "IoT OEM default account",
@@ -143,11 +143,11 @@
   ],
   [
    "firmware backdoor account",
-   32
+   33
   ],
   [
    "SMC Networks CPE",
-   23
+   25
   ],
   [
    "consumer router admin",
@@ -287,7 +287,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   44121
+   44177
   ],
   [
    "administrator/",
@@ -295,31 +295,31 @@
   ],
   [
    "root/xc3511",
-   21521
+   21518
   ],
   [
    "admin/admin",
-   17304
+   17354
   ],
   [
    "admin/123456789",
-   16077
+   16079
   ],
   [
    "root/root",
-   14658
+   14673
   ],
   [
    "default/default",
-   13327
+   13326
   ],
   [
    "root/ikwb",
-   9378
+   9380
   ],
   [
    "administrator/1234",
-   8437
+   8440
   ],
   [
    "root/hi3518",
@@ -327,31 +327,31 @@
   ],
   [
    "root/",
-   7557
+   7566
   ],
   [
    "root/juantech",
-   6586
+   6604
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6169
+   6170
   ],
   [
    "admin/qwerty",
-   5848
+   5832
   ],
   [
    "root/12345",
-   5731
+   5738
   ],
   [
    "root/samsung",
-   5616
+   5611
   ],
   [
    "root/admin",
-   5505
+   5519
   ],
   [
    "admin/epicrouter",
@@ -359,40 +359,40 @@
   ],
   [
    "admin/adminHW",
-   5177
+   5174
   ],
   [
    "root/klv1234",
-   5131
+   5130
   ],
   [
    "root/pass",
-   5014
+   5017
   ],
   [
    "admin/CenturyL1nk",
-   3849
-  ],
-  [
-   "draytek/1234",
-   3743
+   3868
   ],
   [
    "666666/666666",
-   3732
+   3778
+  ],
+  [
+   "draytek/1234",
+   3746
   ],
   [
    "user/user",
-   3319
+   3322
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 253,
-  "distinct_credentials": 2831,
-  "distinct_payload_urls": 381,
+  "distinct_c2_hosts": 254,
+  "distinct_credentials": 2822,
+  "distinct_payload_urls": 383,
   "events": 4363688,
   "new_sources": 1711,
-  "shared_c2_hosts": 52,
+  "shared_c2_hosts": 53,
   "sources": 1711
  },
  "window": {
