@@ -2,19 +2,15 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 181
+   "sources": 128
   },
   {
    "cve": "CVE-2022-0543",
-   "sources": 6
+   "sources": 5
   },
   {
    "cve": "CVE-2015-2051",
-   "sources": 5
-  },
-  {
-   "cve": "CVE-2016-6277",
-   "sources": 5
+   "sources": 4
   },
   {
    "cve": "CVE-2017-9841",
@@ -25,10 +21,6 @@
    "sources": 4
   },
   {
-   "cve": "CVE-2017-17215",
-   "sources": 3
-  },
-  {
    "cve": "CVE-2014-8361",
    "sources": 2
   },
@@ -37,11 +29,19 @@
    "sources": 2
   },
   {
+   "cve": "CVE-2016-6277",
+   "sources": 2
+  },
+  {
    "cve": "CVE-2018-20062",
    "sources": 2
   },
   {
    "cve": "CVE-2012-1823",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2017-17215",
    "sources": 1
   },
   {
@@ -58,12 +58,12 @@
   }
  ],
  "funnel": {
-  "connected": 2217,
-  "delivered_sample": 78,
-  "fetched_payload": 127,
-  "ran_commands": 989,
-  "returned": 1367,
-  "tried_creds": 716
+  "connected": 1711,
+  "delivered_sample": 63,
+  "fetched_payload": 111,
+  "ran_commands": 760,
+  "returned": 1039,
+  "tried_creds": 549
  },
  "samples": [
   "075368f947e7b5399efee4f002b99c8cdc704276e63b46adae9a46256ddf1eb8",
@@ -71,36 +71,23 @@
   "0bcf12f06cb54585133b1869c2754331a6be583437b3cf01138c60dc28cf806d",
   "0c1f464bb20794eccf02f954505c02a9048f37d143579516ed0920d5827b5488",
   "144ef4073b2bf5915f3c70eea8d73dbb8426de315a3fb148c83ea180c05d8e12",
-  "1ccb068d698246e5f486d34e6432f527cb473a1d868d9c8d23d0d189d0887c2f",
-  "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
-  "246f70a595d20aa1324ea1f910621705a48a50e8ebfb126e37c9b1128f714d18",
-  "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
   "2a92c5802249f963e4b6c49b57baae56e5c944c2cdb335739cc303d97b2b3f40",
   "2c536dbb01e3ba84759d78c9fa4ccb07713c67f27984ddae9d37bf85783ae522",
-  "3328110a4344f0e0d02a6b1550c3a4e2451f92e7df88653248dc53571c45a775",
   "381b0255fab72feb258eec5b0efb22554e739d1018a2ee8f01039a81793e0532",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "486d9affb60dbb0063b03d8e23a6ccf6364ce203dc3a9f56f20e750eb41ecade",
   "4bb600b7d7187fdffb12b2ec0b11585f1e6b03395ce21841ad3183056e2d1828",
-  "4e4c9f276006674c580313a31fc9ceb80f4eeed48bdb24f866f7cff5a2d93aa1",
   "50babf3a91989967dfba12407e3bf539d62020edbc653eaf837bd6b6330461cd",
   "6277d6dacf1032f5c7c545e7e0f96a2aedc87afa1e99b187912cdd795d9f471c",
   "632ce5081e03a97227276018cf71e9095ce4ac9119dca1707eb71d67a7f19280",
   "6546e4487f18776089b05190a28d839a5674f6e8cfbd52f6bd0aeb14136fca22",
   "69fecb36ac6f0c06b6ad6c98687cc6032cb8cc74ff10918fea6218da8fa9fb4e",
   "6de2fe8350c087545a782af0ef9b0158cfe59020565d895d54d8f43d93b0738a",
-  "6e45c3671d67f9407e2de9de642771d0e27205ca435863436aebfea1ceb00b55",
-  "72e2c5ac082fe501730437824ee4374c4e5e34492a26df0331064e5c27764773",
   "734c72f6b133ce0461e5c5b4d8341e9a5c4e90e1041db057a025ba6f0d6605ef",
   "76ac14ec459aa4237f67fe23f8e970ee37569412fa624ab9094aee3a006cb83a",
-  "80b4303802b410e55b8c80b90b4b7988b5347f3645fe0a0fdfa5b71ec35916d0",
   "8373f7e086bb27784827ef8f2f4ae118e05d58b67f513f82c2316dc57b0d896c",
   "88979c92d61f9d1ebaef7f148f6a4ac62b894072f02c4dfe76f316c2636718c7",
-  "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
-  "9842b01bac9a1d8949defba65a6231036bf428654a78e66d62bf78f0ce81e743",
-  "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9956bdd91a493e93241b6980b35fb0fe6aa03d8f46cab371cc760d782c8be076",
-  "9efef48caec85b237ebd08124cc20849590f4f58027f6463e5682b64529148cc",
   "9f1438ada11473d68def4e94a8a95ec649b4071fb67452b9c0099321acd850c1",
   "a33e33d807da01db9b5194523f8ccacf010c146cd7e393e8351da34f92ad4aac",
   "a3c06a093e61fb51b2057b1bb04362b28488b6fa126cfcab8b3cce27b58ce2d4",
@@ -109,14 +96,9 @@
   "aea441e434e8b68d816ef62948d69d5f62c247e7d3bb6daa345d65f40abde99e",
   "b4ed742a428f7ce4cfb7a15b9b3a709ebc57a5103422d3eda5bf160937ff6cc0",
   "b651564f25dabf20b43635888b7f8041e31897f80b776c9866a8ab810043f2dc",
-  "bc23ee7926d48e32b366c2168a339c7748fc893db2fd355c93afa6fce12d4e32",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "be8825c7921bbc6c69fcacf164f030870a015fce69bbacaed226d970062bfa7c",
   "c6ae43db47e85582115fe4589498beeaa9fb7d721fa27fc4ca67a18ab3f8896e",
-  "c72a8a6ba6a772226b10cd95ac34a4bf0eb39db1742eff66a9c273ced8fd4754",
-  "c7ec2097970b5198fdcfaea3f81e7736e1136d95f0281c36c5055bf560493d25",
-  "cced8465af40a07d04bc91ab8368e3764bfa8413db4ea698b6ee654c228f1ef5",
-  "d44a31fd775f06f1de1fdb3e384df4e31cc3d69ccf45134411d428b5c1cb48e7",
   "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
   "d65ec143fc63be35e2ec2d1aa9a61d311cbe3fe00a98733d067087b545a32069",
   "d7a88451dc3509e34dc6c055d82911ca960ef51566c2cf47b835ec1cac02b755",
@@ -125,7 +107,6 @@
   "e374a7ad447d2cf791ecae122894a51ba723901ea132e7fa16cd47c44e4a1769",
   "e9e42488b7fccd89ff1599a33c1c4eff3b0889a900dd4cbd9384330418b7faf8",
   "edfb4d25c64327c8aa76434c8cee65a3fd6ef2da8b455402d4ae4aa2c3099a59",
-  "ef3043cc27b1d1be87fd786c44aac546b335d5a7cb7c8ad525f6507bb9dfd34f",
   "f0c557122a7b07a548ee502b20645c989994ce742a2484ee2ac0fa3a252a8b8e",
   "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d",
   "fc906c8967296a9bfe81d3a2bb1e9e354ec74c34756df647b632f76532caad9b",
@@ -134,46 +115,42 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   113
+   95
   ],
   [
    "DVR / IP camera (OEM default)",
-   107
-  ],
-  [
-   "DrayTek router",
-   79
+   92
   ],
   [
    "ZTE CPE",
-   75
+   69
+  ],
+  [
+   "DrayTek router",
+   68
   ],
   [
    "Huawei HG gateway",
-   63
+   56
   ],
   [
    "ISP-branded DSL gateway",
-   53
+   48
   ],
   [
    "IoT OEM default account",
-   43
-  ],
-  [
-   "firmware backdoor account",
    38
   ],
   [
-   "SMC Networks CPE",
+   "firmware backdoor account",
    32
   ],
   [
-   "consumer router admin",
-   7
+   "SMC Networks CPE",
+   26
   ],
   [
-   "WordPress",
+   "consumer router admin",
    5
   ],
   [
@@ -181,19 +158,19 @@
    4
   ],
   [
+   "WordPress",
+   4
+  ],
+  [
    "embedded web server (boa/goform)",
    4
   ],
   [
-   "Apache Tomcat / Struts",
-   2
+   "Apache HTTP Server (CGI)",
+   1
   ],
   [
    "Java middleware",
-   2
-  ],
-  [
-   "Apache HTTP Server (CGI)",
    1
   ],
   [
@@ -235,16 +212,16 @@
    8
   ],
   [
-   "174.105.154.212",
-   7
-  ],
-  [
    "196.190.229.115",
    7
   ],
   [
-   "113.254.36.153",
+   "174.105.154.212",
    6
+  ],
+  [
+   "113.254.36.153",
+   5
   ],
   [
    "115.56.3.84",
@@ -259,10 +236,6 @@
    3
   ],
   [
-   "116.139.137.187",
-   3
-  ],
-  [
    "118.79.230.232",
    3
   ],
@@ -271,15 +244,7 @@
    3
   ],
   [
-   "175.42.52.16",
-   3
-  ],
-  [
    "201.159.91.2",
-   3
-  ],
-  [
-   "210.208.110.130",
    3
   ],
   [
@@ -305,122 +270,134 @@
   [
    "90.224.208.190",
    3
+  ],
+  [
+   "91.240.165.44",
+   3
+  ],
+  [
+   "100.10.0.69",
+   2
+  ],
+  [
+   "100.10.4.93",
+   2
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   55878
+   44073
   ],
   [
    "administrator/",
-   28335
+   24069
   ],
   [
    "root/xc3511",
-   26527
+   21510
   ],
   [
    "admin/admin",
-   20826
+   17252
   ],
   [
    "admin/123456789",
-   16112
+   16078
   ],
   [
    "root/root",
-   15601
+   14649
   ],
   [
    "default/default",
-   13386
-  ],
-  [
-   "root/",
-   12689
+   13324
   ],
   [
    "root/ikwb",
-   9387
+   9375
   ],
   [
    "administrator/1234",
-   8857
+   8436
   ],
   [
    "root/hi3518",
-   8520
+   7841
   ],
   [
-   "admin/adminHW",
-   7920
-  ],
-  [
-   "root/12345",
-   7204
+   "root/",
+   7553
   ],
   [
    "root/juantech",
-   6995
-  ],
-  [
-   "root/admin",
-   6424
+   6593
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6421
+   6169
   ],
   [
    "admin/qwerty",
-   6194
+   5840
+  ],
+  [
+   "root/12345",
+   5721
   ],
   [
    "root/samsung",
-   5660
+   5616
+  ],
+  [
+   "root/admin",
+   5482
   ],
   [
    "admin/epicrouter",
-   5654
+   5253
+  ],
+  [
+   "admin/adminHW",
+   5174
   ],
   [
    "root/klv1234",
-   5151
+   5117
   ],
   [
    "root/pass",
-   5122
-  ],
-  [
-   "cht/chtngpon",
-   4709
+   5014
   ],
   [
    "admin/CenturyL1nk",
-   4524
+   3842
   ],
   [
    "draytek/1234",
-   4391
+   3738
+  ],
+  [
+   "666666/666666",
+   3731
   ],
   [
    "user/user",
-   4042
+   3318
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 290,
-  "distinct_credentials": 3576,
-  "distinct_payload_urls": 440,
-  "events": 5693852,
-  "new_sources": 2217,
-  "shared_c2_hosts": 58,
-  "sources": 2217
+  "distinct_c2_hosts": 253,
+  "distinct_credentials": 2799,
+  "distinct_payload_urls": 381,
+  "events": 4363688,
+  "new_sources": 1711,
+  "shared_c2_hosts": 52,
+  "sources": 1711
  },
  "window": {
-  "days": 4,
-  "first_day": "2026-11-05",
+  "days": 3,
+  "first_day": "2026-11-06",
   "last_day": "2026-11-08",
   "week": "2026-W45"
  }
