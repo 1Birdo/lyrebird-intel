@@ -61,8 +61,8 @@
   "connected": 2217,
   "delivered_sample": 78,
   "fetched_payload": 127,
-  "ran_commands": 988,
-  "returned": 1366,
+  "ran_commands": 989,
+  "returned": 1367,
   "tried_creds": 716
  },
  "samples": [
@@ -146,7 +146,7 @@
   ],
   [
    "ZTE CPE",
-   74
+   75
   ],
   [
    "Huawei HG gateway",
@@ -158,11 +158,11 @@
   ],
   [
    "IoT OEM default account",
-   44
+   43
   ],
   [
    "firmware backdoor account",
-   37
+   38
   ],
   [
    "SMC Networks CPE",
@@ -310,7 +310,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   55817
+   55878
   ],
   [
    "administrator/",
@@ -318,100 +318,100 @@
   ],
   [
    "root/xc3511",
-   26525
+   26527
   ],
   [
    "admin/admin",
-   20773
+   20826
   ],
   [
    "admin/123456789",
-   16109
+   16112
   ],
   [
    "root/root",
-   15584
+   15601
   ],
   [
    "default/default",
-   13388
+   13386
   ],
   [
    "root/",
-   12685
+   12689
   ],
   [
    "root/ikwb",
-   9381
+   9387
   ],
   [
    "administrator/1234",
-   8841
+   8857
   ],
   [
    "root/hi3518",
-   8517
+   8520
   ],
   [
    "admin/adminHW",
-   7916
+   7920
   ],
   [
    "root/12345",
-   7191
+   7204
   ],
   [
    "root/juantech",
-   6998
+   6995
+  ],
+  [
+   "root/admin",
+   6424
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
    6421
   ],
   [
-   "root/admin",
-   6398
-  ],
-  [
    "admin/qwerty",
-   6171
+   6194
   ],
   [
    "root/samsung",
-   5657
+   5660
   ],
   [
    "admin/epicrouter",
-   5650
+   5654
   ],
   [
    "root/klv1234",
-   5145
+   5151
   ],
   [
    "root/pass",
-   5121
+   5122
   ],
   [
    "cht/chtngpon",
-   4707
+   4709
   ],
   [
    "admin/CenturyL1nk",
-   4537
+   4524
   ],
   [
    "draytek/1234",
-   4389
+   4391
   ],
   [
    "user/user",
-   4039
+   4042
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 290,
-  "distinct_credentials": 3589,
+  "distinct_credentials": 3576,
   "distinct_payload_urls": 440,
   "events": 5693852,
   "new_sources": 2217,
