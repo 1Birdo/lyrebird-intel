@@ -2,11 +2,11 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 313
+   "sources": 335
   },
   {
    "cve": "CVE-2021-35394",
-   "sources": 10
+   "sources": 11
   },
   {
    "cve": "CVE-2015-2051",
@@ -15,6 +15,10 @@
   {
    "cve": "CVE-2021-36260",
    "sources": 4
+  },
+  {
+   "cve": "CVE-2014-8361",
+   "sources": 3
   },
   {
    "cve": "CVE-2016-6277",
@@ -45,10 +49,6 @@
    "sources": 2
   },
   {
-   "cve": "CVE-2014-8361",
-   "sources": 2
-  },
-  {
    "cve": "CVE-2016-20016",
    "sources": 2
   },
@@ -66,12 +66,12 @@
   }
  ],
  "funnel": {
-  "connected": 3126,
-  "delivered_sample": 89,
-  "fetched_payload": 139,
-  "ran_commands": 1054,
-  "returned": 1834,
-  "tried_creds": 1122
+  "connected": 3251,
+  "delivered_sample": 95,
+  "fetched_payload": 140,
+  "ran_commands": 1098,
+  "returned": 1903,
+  "tried_creds": 1139
  },
  "samples": [
   "082bf0bd0eddd6f9f51924de0ac7ced0a5b334ab3e1441fc8dad56bb8f66939b",
@@ -92,6 +92,7 @@
   "72bbc7b461218dced7ee99b1f6613e9afa5ce598aee251bee6f2b5da5ce49ff2",
   "7407b0f0072c89eff4e2d86ee4e4f16c312c5066463ed8a7b09c880579753a73",
   "76ac14ec459aa4237f67fe23f8e970ee37569412fa624ab9094aee3a006cb83a",
+  "79c8493c62ed5eecb6ce0bcf439eb89c7da1527bd864ab84900fecfb4b13906d",
   "7c4f57ae96d4690b0df9b50a17aa853b2bb0c20ce9ef31873551eeb71bf87bab",
   "8373f7e086bb27784827ef8f2f4ae118e05d58b67f513f82c2316dc57b0d896c",
   "8cb3e7ca7d29207906f3868ad099a1a2d74b67be4072e666d1e566cb126f92cf",
@@ -125,23 +126,23 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   121
+   124
   ],
   [
    "GPON/ONT fibre terminal",
-   119
+   121
   ],
   [
    "ZTE CPE",
-   90
+   94
   ],
   [
    "DrayTek router",
-   78
+   79
   ],
   [
    "Huawei HG gateway",
-   74
+   75
   ],
   [
    "ISP-branded DSL gateway",
@@ -153,19 +154,19 @@
   ],
   [
    "IoT OEM default account",
-   34
+   36
   ],
   [
    "SMC Networks CPE",
-   24
+   23
   ],
   [
    "embedded web server (boa/goform)",
-   13
+   14
   ],
   [
    "WordPress",
-   7
+   8
   ],
   [
    "Hikvision / ONVIF camera",
@@ -262,6 +263,10 @@
    4
   ],
   [
+   "65.99.181.12",
+   4
+  ],
+  [
    "85.95.186.4",
    4
   ],
@@ -292,122 +297,118 @@
   [
    "123.190.105.252",
    3
-  ],
-  [
-   "130.12.209.153",
-   3
   ]
  ],
  "top_credentials": [
   [
    "administrator/",
-   43711
+   44836
   ],
   [
    "root/Zte521",
-   40153
+   41221
   ],
   [
    "admin/admin",
-   37014
+   38125
   ],
   [
    "root/xc3511",
-   29128
+   29945
   ],
   [
    "root/",
-   25417
+   26107
   ],
   [
    "admin/12345678",
-   17213
+   17403
   ],
   [
    "admin/54321",
-   15463
+   15484
   ],
   [
    "root/xmhdipc",
-   14694
+   14718
   ],
   [
    "admin/meinsm",
-   13374
+   13375
   ],
   [
    "admin/qwerty",
-   10807
-  ],
-  [
-   "root/vertex25ektks123",
-   8448
-  ],
-  [
-   "gdcuadmin/gdcuadmin",
-   6944
+   10982
   ],
   [
    "support/support",
-   6852
+   10385
+  ],
+  [
+   "root/vertex25ektks123",
+   8599
+  ],
+  [
+   "gdcuadmin/gdcuadmin",
+   7063
   ],
   [
    "root/root",
-   6787
+   6970
   ],
   [
    "root/admin",
-   6731
+   6837
   ],
   [
    "root/Pon521",
-   6692
+   6780
   ],
   [
    "root/12345",
-   6409
+   6504
   ],
   [
    "root/1234horses",
-   6008
+   6016
   ],
   [
    "admin/v2mprt",
-   5823
+   5847
   ],
   [
    "root/Fireitup",
-   5348
+   5387
   ],
   [
    "admin/123456789",
-   5327
-  ],
-  [
-   "root/54321",
-   5030
-  ],
-  [
-   "root/e2008jl",
-   4952
-  ],
-  [
-   "admin/bayandsl",
-   4909
+   5355
   ],
   [
    "root/12341234",
-   4863
+   5099
+  ],
+  [
+   "root/54321",
+   5064
+  ],
+  [
+   "root/e2008jl",
+   4988
+  ],
+  [
+   "root/hi3518",
+   4937
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 300,
-  "distinct_credentials": 2660,
-  "distinct_payload_urls": 461,
-  "events": 6417570,
-  "new_sources": 2416,
+  "distinct_c2_hosts": 310,
+  "distinct_credentials": 2677,
+  "distinct_payload_urls": 476,
+  "events": 6659927,
+  "new_sources": 2521,
   "shared_c2_hosts": 57,
-  "sources": 3126
+  "sources": 3251
  },
  "window": {
   "days": 6,
