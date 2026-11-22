@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 105,
+  "delivered_sample": 106,
   "fetched_payload": 182,
-  "ran_commands": 1465,
-  "returned": 2317,
+  "ran_commands": 1466,
+  "returned": 2321,
   "tried_creds": 1642
  },
  "samples": [
@@ -87,6 +87,7 @@
   "11ac3938b54dc02b2b1504372ac47dce3ff569b7d7cbabbc4ddf93f8e80ab7b8",
   "132f6d7213fd06d7fc473fb523b8a6536ba0792b5632abe26db64c99f089af65",
   "1b94e5f8a0c5b3780db2aa67d34835cae10db4582c724feb2bbf346d25461809",
+  "2123c57b1e8efccf3fe986cc47e400cbd875cfe64ab6c8891d499328bea53916",
   "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
   "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
   "32d0bb07a8d04b97e05843d9fd739d697bb14d296fc02f67975e09d996ab4a18",
@@ -156,7 +157,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   167
+   168
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -172,11 +173,11 @@
   ],
   [
    "Huawei HG gateway",
-   92
+   91
   ],
   [
    "ISP-branded DSL gateway",
-   84
+   83
   ],
   [
    "firmware backdoor account",
@@ -184,7 +185,7 @@
   ],
   [
    "IoT OEM default account",
-   56
+   54
   ],
   [
    "SMC Networks CPE",
@@ -336,35 +337,35 @@
   ],
   [
    "root/Zte521",
-   60688
+   60778
   ],
   [
    "admin/admin",
-   33556
+   33724
   ],
   [
    "root/xmhdipc",
-   30572
+   30589
   ],
   [
    "root/xc3511",
-   28849
+   28869
   ],
   [
    "admin/1234",
-   19193
+   19198
   ],
   [
    "root/root",
-   12564
+   12584
   ],
   [
    "root/juantech",
-   12320
+   12322
   ],
   [
    "root/vizxv",
-   11235
+   11246
   ],
   [
    "root/svgodie",
@@ -372,15 +373,15 @@
   ],
   [
    "root/",
-   10832
+   10847
   ],
   [
    "guest/12345",
-   10821
+   10829
   ],
   [
    "admin/smcadmin",
-   10635
+   10641
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -388,7 +389,7 @@
   ],
   [
    "root/ikwb",
-   9783
+   9791
   ],
   [
    "administrator/1234",
@@ -396,44 +397,44 @@
   ],
   [
    "admin/123456789",
-   8519
+   8549
   ],
   [
    "root/hi3518",
-   8043
+   8050
   ],
   [
    "admin/bayandsl",
-   6966
+   6971
   ],
   [
    "admin/qwerty",
-   6859
+   6865
   ],
   [
    "root/12341234",
-   6668
+   6664
   ],
   [
    "root/admin",
-   6369
+   6401
   ],
   [
    "user/user",
-   6135
+   6151
   ],
   [
    "root/samsung",
-   6113
+   6110
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6065
+   6057
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 428,
-  "distinct_credentials": 4304,
+  "distinct_credentials": 4305,
   "distinct_payload_urls": 668,
   "events": 9330196,
   "new_sources": 3900,

@@ -62,7 +62,7 @@
   "delivered_sample": 28,
   "fetched_payload": 67,
   "ran_commands": 298,
-  "returned": 408,
+  "returned": 409,
   "tried_creds": 209
  },
  "samples": [
@@ -100,7 +100,7 @@
   ],
   [
    "ZTE CPE",
-   47
+   46
   ],
   [
    "DrayTek router",
@@ -108,11 +108,11 @@
   ],
   [
    "Huawei HG gateway",
-   32
+   33
   ],
   [
    "ISP-branded DSL gateway",
-   29
+   30
   ],
   [
    "IoT OEM default account",
@@ -264,7 +264,7 @@
  "top_credentials": [
   [
    "root/Zte521",
-   24866
+   24905
   ],
   [
    "default/default",
@@ -272,11 +272,11 @@
   ],
   [
    "admin/admin",
-   9219
+   9255
   ],
   [
    "root/ikwb",
-   7675
+   7681
   ],
   [
    "administrator/1234",
@@ -284,39 +284,39 @@
   ],
   [
    "admin/123456789",
-   7421
+   7442
   ],
   [
    "root/xc3511",
-   7408
+   7412
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   5759
+   5760
   ],
   [
    "root/juantech",
-   5735
+   5732
   ],
   [
    "root/klv1234",
-   5025
+   5031
   ],
   [
    "admin/qwerty",
-   4903
+   4906
   ],
   [
    "root/12345",
-   3860
+   3863
   ],
   [
    "root/admin",
-   3836
+   3849
   ],
   [
    "root/root",
-   3795
+   3802
   ],
   [
    "root/pass",
@@ -324,15 +324,15 @@
   ],
   [
    "root/",
-   3090
-  ],
-  [
-   "draytek/1234",
-   2473
+   3094
   ],
   [
    "user/user",
-   2469
+   2480
+  ],
+  [
+   "draytek/1234",
+   2476
   ],
   [
    "admin/CenturyL1nk",
@@ -340,15 +340,15 @@
   ],
   [
    "admin/adminHW",
-   1947
+   1949
   ],
   [
    "root/Fireitup",
-   1864
+   1854
   ],
   [
    "ubnt/ubnt",
-   1646
+   1648
   ],
   [
    "root/hi3518",
@@ -356,16 +356,16 @@
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   1515
+   1517
   ],
   [
    "admin/bayandsl",
-   1508
+   1517
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 179,
-  "distinct_credentials": 1217,
+  "distinct_credentials": 1210,
   "distinct_payload_urls": 272,
   "events": 1403307,
   "new_sources": 644,
