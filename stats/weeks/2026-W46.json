@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 326
+   "sources": 327
   },
   {
    "cve": "CVE-2022-0543",
@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 106,
+  "delivered_sample": 107,
   "fetched_payload": 182,
   "ran_commands": 1466,
-  "returned": 2321,
+  "returned": 2325,
   "tried_creds": 1642
  },
  "samples": [
@@ -173,23 +173,23 @@
   ],
   [
    "Huawei HG gateway",
-   91
+   90
   ],
   [
    "ISP-branded DSL gateway",
-   83
+   82
   ],
   [
    "firmware backdoor account",
-   59
+   60
   ],
   [
    "IoT OEM default account",
-   54
+   55
   ],
   [
    "SMC Networks CPE",
-   28
+   29
   ],
   [
    "WordPress",
@@ -337,79 +337,79 @@
   ],
   [
    "root/Zte521",
-   60778
+   60873
   ],
   [
    "admin/admin",
-   33724
+   33894
   ],
   [
    "root/xmhdipc",
-   30589
+   30602
   ],
   [
    "root/xc3511",
-   28869
+   28879
   ],
   [
    "admin/1234",
-   19198
+   19221
   ],
   [
    "root/root",
-   12584
+   12621
   ],
   [
    "root/juantech",
-   12322
+   12329
   ],
   [
    "root/vizxv",
-   11246
+   11253
   ],
   [
    "root/svgodie",
-   10985
+   10989
   ],
   [
    "root/",
-   10847
+   10861
   ],
   [
    "guest/12345",
-   10829
+   10853
   ],
   [
    "admin/smcadmin",
-   10641
+   10656
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9860
+   9859
   ],
   [
    "root/ikwb",
-   9791
+   9796
   ],
   [
    "administrator/1234",
-   8600
+   8602
   ],
   [
    "admin/123456789",
-   8549
+   8536
   ],
   [
    "root/hi3518",
-   8050
+   8060
   ],
   [
    "admin/bayandsl",
-   6971
+   6964
   ],
   [
    "admin/qwerty",
-   6865
+   6877
   ],
   [
    "root/12341234",
@@ -417,11 +417,11 @@
   ],
   [
    "root/admin",
-   6401
+   6427
   ],
   [
    "user/user",
-   6151
+   6144
   ],
   [
    "root/samsung",
@@ -429,16 +429,16 @@
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6057
+   6059
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 428,
-  "distinct_credentials": 4305,
-  "distinct_payload_urls": 668,
+  "distinct_c2_hosts": 430,
+  "distinct_credentials": 4327,
+  "distinct_payload_urls": 671,
   "events": 9330196,
   "new_sources": 3900,
-  "shared_c2_hosts": 89,
+  "shared_c2_hosts": 90,
   "sources": 4088
  },
  "window": {

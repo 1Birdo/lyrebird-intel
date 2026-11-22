@@ -62,7 +62,7 @@
   "delivered_sample": 28,
   "fetched_payload": 67,
   "ran_commands": 298,
-  "returned": 409,
+  "returned": 410,
   "tried_creds": 209
  },
  "samples": [
@@ -96,7 +96,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   54
+   55
   ],
   [
    "ZTE CPE",
@@ -104,7 +104,7 @@
   ],
   [
    "DrayTek router",
-   44
+   43
   ],
   [
    "Huawei HG gateway",
@@ -112,7 +112,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   30
+   28
   ],
   [
    "IoT OEM default account",
@@ -120,7 +120,7 @@
   ],
   [
    "firmware backdoor account",
-   19
+   20
   ],
   [
    "SMC Networks CPE",
@@ -249,127 +249,127 @@
    2
   ],
   [
+   "151.244.234.24",
+   2
+  ],
+  [
    "219.155.82.33",
    2
   ],
   [
    "27.213.98.226",
    2
-  ],
-  [
-   "31.56.209.73",
-   2
   ]
  ],
  "top_credentials": [
   [
    "root/Zte521",
-   24905
+   24953
   ],
   [
    "default/default",
-   13209
+   13208
   ],
   [
    "admin/admin",
-   9255
+   9292
   ],
   [
    "root/ikwb",
-   7681
+   7684
   ],
   [
    "administrator/1234",
-   7553
+   7554
   ],
   [
    "admin/123456789",
-   7442
+   7422
   ],
   [
    "root/xc3511",
-   7412
+   7417
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   5760
+   5762
   ],
   [
    "root/juantech",
-   5732
+   5736
   ],
   [
    "root/klv1234",
-   5031
+   5037
   ],
   [
    "admin/qwerty",
-   4906
+   4927
   ],
   [
    "root/12345",
-   3863
+   3868
   ],
   [
    "root/admin",
-   3849
+   3862
   ],
   [
    "root/root",
-   3802
+   3817
   ],
   [
    "root/pass",
-   3630
+   3631
   ],
   [
    "root/",
-   3094
-  ],
-  [
-   "user/user",
-   2480
+   3099
   ],
   [
    "draytek/1234",
-   2476
+   2481
+  ],
+  [
+   "user/user",
+   2470
   ],
   [
    "admin/CenturyL1nk",
-   2389
+   2373
   ],
   [
    "admin/adminHW",
-   1949
+   1938
   ],
   [
    "root/Fireitup",
-   1854
+   1866
   ],
   [
    "ubnt/ubnt",
-   1648
+   1649
   ],
   [
    "root/hi3518",
-   1549
+   1548
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   1517
+   1518
   ],
   [
    "admin/bayandsl",
-   1517
+   1512
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 179,
-  "distinct_credentials": 1210,
-  "distinct_payload_urls": 272,
+  "distinct_c2_hosts": 181,
+  "distinct_credentials": 1214,
+  "distinct_payload_urls": 275,
   "events": 1403307,
   "new_sources": 644,
-  "shared_c2_hosts": 31,
+  "shared_c2_hosts": 32,
   "sources": 644
  },
  "window": {
