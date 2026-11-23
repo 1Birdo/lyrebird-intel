@@ -13,15 +13,15 @@
    "sources": 5
   },
   {
+   "cve": "CVE-2017-9841",
+   "sources": 5
+  },
+  {
    "cve": "CVE-2014-8361",
    "sources": 4
   },
   {
    "cve": "CVE-2016-6277",
-   "sources": 4
-  },
-  {
-   "cve": "CVE-2017-9841",
    "sources": 4
   },
   {
@@ -73,8 +73,8 @@
   "connected": 4088,
   "delivered_sample": 111,
   "fetched_payload": 182,
-  "ran_commands": 1462,
-  "returned": 2314,
+  "ran_commands": 1465,
+  "returned": 2317,
   "tried_creds": 1643
  },
  "samples": [
@@ -161,7 +161,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   157
+   158
   ],
   [
    "ZTE CPE",
@@ -169,7 +169,7 @@
   ],
   [
    "DrayTek router",
-   115
+   116
   ],
   [
    "Huawei HG gateway",
@@ -177,11 +177,11 @@
   ],
   [
    "ISP-branded DSL gateway",
-   81
+   79
   ],
   [
    "firmware backdoor account",
-   60
+   57
   ],
   [
    "IoT OEM default account",
@@ -193,7 +193,7 @@
   ],
   [
    "WordPress",
-   12
+   13
   ],
   [
    "consumer router admin",
@@ -337,31 +337,31 @@
   ],
   [
    "root/Zte521",
-   49947
+   50029
   ],
   [
    "admin/admin",
-   31456
+   31636
   ],
   [
    "root/xmhdipc",
-   30432
+   30444
   ],
   [
    "root/xc3511",
-   26310
+   26316
   ],
   [
    "admin/1234",
-   18900
+   18925
   ],
   [
    "root/root",
-   11753
+   11780
   ],
   [
    "root/vizxv",
-   11112
+   11117
   ],
   [
    "root/svgodie",
@@ -369,43 +369,43 @@
   ],
   [
    "guest/12345",
-   10707
+   10714
   ],
   [
    "root/juantech",
-   10657
+   10662
   ],
   [
    "admin/smcadmin",
-   10598
+   10606
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9853
+   9851
   ],
   [
    "root/",
-   9557
+   9565
   ],
   [
    "administrator/1234",
-   8201
+   8202
   ],
   [
    "root/hi3518",
-   7776
+   7784
   ],
   [
    "admin/123456789",
-   7079
+   7081
   ],
   [
    "admin/qwerty",
-   6775
+   6777
   ],
   [
    "admin/bayandsl",
-   6648
+   6634
   ],
   [
    "root/12341234",
@@ -413,19 +413,19 @@
   ],
   [
    "root/samsung",
-   6043
+   6026
   ],
   [
    "root/admin",
-   5946
+   5948
   ],
   [
    "root/klv1234",
-   5883
+   5887
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   5777
+   5755
   ],
   [
    "user/user",
@@ -433,9 +433,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 411,
-  "distinct_credentials": 4286,
-  "distinct_payload_urls": 633,
+  "distinct_c2_hosts": 412,
+  "distinct_credentials": 4311,
+  "distinct_payload_urls": 635,
   "events": 9330196,
   "new_sources": 4088,
   "shared_c2_hosts": 85,

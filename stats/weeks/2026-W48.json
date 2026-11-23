@@ -2,38 +2,61 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 40
+   "sources": 63
   },
   {
    "cve": "CVE-2021-35394",
-   "sources": 3
+   "sources": 4
   },
   {
    "cve": "CVE-2014-8361",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2021-36260",
    "sources": 2
   },
   {
+   "cve": "CVE-2015-2051",
+   "sources": 1
+  },
+  {
    "cve": "CVE-2016-20016",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2016-6277",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2017-17215",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2017-9841",
+   "sources": 1
+  },
+  {
+   "cve": "CVE-2018-10561",
    "sources": 1
   }
  ],
  "funnel": {
-  "connected": 388,
-  "delivered_sample": 13,
-  "fetched_payload": 58,
-  "ran_commands": 171,
-  "returned": 277,
-  "tried_creds": 132
+  "connected": 535,
+  "delivered_sample": 19,
+  "fetched_payload": 62,
+  "ran_commands": 247,
+  "returned": 384,
+  "tried_creds": 163
  },
  "samples": [
   "18db2aa34ee477dd3f189d7697e853009cb38b5821f91f41bee83880df259daf",
   "79c8493c62ed5eecb6ce0bcf439eb89c7da1527bd864ab84900fecfb4b13906d",
   "a8b728e081182255a312a7cad6a8c7f40e406fc182564b222192830d4e0db224",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
+  "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
+  "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
+  "e34396228024a94990d5a41ed7ab0f8e60972b7186fecf594eede40b7b4ff1f5",
   "e8705b8cef34e528ac3cf80a4479393f5fe066f56d85a447708c89fea072dbda",
   "e8aa0d849d75570fdaef18c725062397a95051b79d75379434f8ab9b96553b9c",
   "ff784a3f8c3e059815c80774f642f023cc281d4a9e729b80c2fa9637fcfdd485"
@@ -41,42 +64,46 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   54
+   58
   ],
   [
    "GPON/ONT fibre terminal",
-   48
+   50
   ],
   [
    "ZTE CPE",
-   43
+   45
   ],
   [
    "Huawei HG gateway",
-   36
+   39
   ],
   [
    "DrayTek router",
-   35
+   38
   ],
   [
    "ISP-branded DSL gateway",
    22
   ],
   [
-   "firmware backdoor account",
-   18
+   "IoT OEM default account",
+   20
   ],
   [
-   "IoT OEM default account",
-   16
+   "firmware backdoor account",
+   19
   ],
   [
    "SMC Networks CPE",
-   6
+   4
   ],
   [
    "embedded web server (boa/goform)",
+   4
+  ],
+  [
+   "WordPress",
    3
   ],
   [
@@ -84,8 +111,8 @@
    2
   ],
   [
-   "WordPress",
-   2
+   "consumer router admin",
+   1
   ]
  ],
  "top_c2_hosts": [
@@ -106,11 +133,19 @@
    8
   ],
   [
+   "123.11.242.70",
+   8
+  ],
+  [
    "182.126.127.178",
    8
   ],
   [
    "210.208.110.147",
+   8
+  ],
+  [
+   "219.157.179.218",
    8
   ],
   [
@@ -134,8 +169,8 @@
    6
   ],
   [
-   "123.11.242.70",
-   5
+   "222.142.162.43",
+   6
   ],
   [
    "91.240.165.44",
@@ -150,15 +185,15 @@
    3
   ],
   [
+   "113.231.211.218",
+   3
+  ],
+  [
    "100.10.1.236",
    2
   ],
   [
    "112.198.193.5",
-   2
-  ],
-  [
-   "113.231.211.218",
    2
   ],
   [
@@ -180,126 +215,118 @@
   [
    "42.228.126.47",
    2
-  ],
-  [
-   "42.242.128.107",
-   2
-  ],
-  [
-   "60.208.154.67",
-   2
   ]
  ],
  "top_credentials": [
   [
    "localadmin/localadmin",
-   33416
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   19510
-  ],
-  [
-   "guest/123456",
-   17737
+   36905
   ],
   [
    "administrator/",
-   17255
+   20359
   ],
   [
    "super/sp-admin",
-   15234
+   19601
   ],
   [
-   "admin/admin",
-   14420
+   "CUAdmin/CUAdmin",
+   19527
+  ],
+  [
+   "guest/123456",
+   18438
   ],
   [
    "root/Zte521",
-   13867
+   15117
+  ],
+  [
+   "admin/admin",
+   14853
   ],
   [
    "support/support",
-   7359
-  ],
-  [
-   "root/xmhdipc",
-   6047
+   7396
   ],
   [
    "root/root",
-   5895
+   6277
   ],
   [
-   "admin/v2mprt",
-   5277
+   "root/xmhdipc",
+   6120
   ],
   [
    "root/xc3511",
-   5043
+   5297
   ],
   [
-   "root/Fireitup",
-   5010
+   "admin/v2mprt",
+   5291
   ],
   [
    "root/vertex25ektks123",
-   4304
+   5151
+  ],
+  [
+   "root/Fireitup",
+   5045
   ],
   [
    "support/support123",
-   4288
+   4685
   ],
   [
    "root/2010vesta",
-   3881
+   4024
+  ],
+  [
+   "nmgcuadmin/nmgcuadmin",
+   3468
   ],
   [
    "root/admin",
-   2963
+   3031
   ],
   [
    "root/12345",
-   2327
+   2399
   ],
   [
    "root/",
-   1555
+   1654
   ],
   [
    "root/12345678",
-   1415
+   1433
   ],
   [
    "admin/1234",
-   1275
+   1348
   ],
   [
    "ruijie/ruijie",
-   1248
+   1262
   ],
   [
    "admin/adminHW",
-   1154
+   1182
   ],
   [
    "root/123456",
-   1113
-  ],
-  [
-   "user/1234",
-   1068
+   1164
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 167,
-  "distinct_credentials": 858,
-  "distinct_payload_urls": 240,
-  "events": 938968,
-  "new_sources": 209,
-  "shared_c2_hosts": 28,
-  "sources": 388
+  "distinct_c2_hosts": 174,
+  "distinct_credentials": 1155,
+  "distinct_payload_urls": 250,
+  "events": 1306919,
+  "new_sources": 308,
+  "shared_c2_hosts": 30,
+  "sources": 535
  },
  "window": {
   "days": 1,
