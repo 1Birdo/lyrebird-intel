@@ -71,11 +71,11 @@
  ],
  "funnel": {
   "connected": 4088,
-  "delivered_sample": 107,
+  "delivered_sample": 108,
   "fetched_payload": 182,
-  "ran_commands": 1466,
-  "returned": 2325,
-  "tried_creds": 1642
+  "ran_commands": 1468,
+  "returned": 2327,
+  "tried_creds": 1643
  },
  "samples": [
   "00948f10976fc17d482aea5e4cbf874f0e7b6f76e2404206bca30e4a07881da1",
@@ -157,7 +157,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   168
+   167
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -165,27 +165,27 @@
   ],
   [
    "ZTE CPE",
-   128
+   129
   ],
   [
    "DrayTek router",
-   116
+   117
   ],
   [
    "Huawei HG gateway",
-   90
+   91
   ],
   [
    "ISP-branded DSL gateway",
-   82
+   83
   ],
   [
    "firmware backdoor account",
-   60
+   58
   ],
   [
    "IoT OEM default account",
-   55
+   56
   ],
   [
    "SMC Networks CPE",
@@ -337,43 +337,43 @@
   ],
   [
    "root/Zte521",
-   60873
+   60947
   ],
   [
    "admin/admin",
-   33894
+   34059
   ],
   [
    "root/xmhdipc",
-   30602
+   30596
   ],
   [
    "root/xc3511",
-   28879
+   28890
   ],
   [
    "admin/1234",
-   19221
+   19206
   ],
   [
    "root/root",
-   12621
+   12646
   ],
   [
    "root/juantech",
-   12329
+   12336
   ],
   [
    "root/vizxv",
-   11253
+   11259
   ],
   [
    "root/svgodie",
-   10989
+   10991
   ],
   [
    "root/",
-   10861
+   10886
   ],
   [
    "guest/12345",
@@ -381,35 +381,35 @@
   ],
   [
    "admin/smcadmin",
-   10656
+   10661
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9859
+   9860
   ],
   [
    "root/ikwb",
-   9796
+   9814
   ],
   [
    "administrator/1234",
-   8602
+   8601
   ],
   [
    "admin/123456789",
-   8536
+   8560
   ],
   [
    "root/hi3518",
-   8060
+   8068
   ],
   [
    "admin/bayandsl",
-   6964
+   6972
   ],
   [
    "admin/qwerty",
-   6877
+   6897
   ],
   [
    "root/12341234",
@@ -417,25 +417,25 @@
   ],
   [
    "root/admin",
-   6427
+   6452
   ],
   [
    "user/user",
-   6144
+   6157
   ],
   [
    "root/samsung",
-   6110
+   6121
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6059
+   6052
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 430,
-  "distinct_credentials": 4327,
-  "distinct_payload_urls": 671,
+  "distinct_c2_hosts": 431,
+  "distinct_credentials": 4333,
+  "distinct_payload_urls": 672,
   "events": 9330196,
   "new_sources": 3900,
   "shared_c2_hosts": 90,

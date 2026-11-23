@@ -1,0 +1,270 @@
+{
+ "cves": [],
+ "funnel": {
+  "connected": 37,
+  "delivered_sample": 1,
+  "fetched_payload": 32,
+  "ran_commands": 34,
+  "returned": 37,
+  "tried_creds": 34
+ },
+ "samples": [
+  "e8705b8cef34e528ac3cf80a4479393f5fe066f56d85a447708c89fea072dbda"
+ ],
+ "targets": [
+  [
+   "DVR / IP camera (OEM default)",
+   31
+  ],
+  [
+   "GPON/ONT fibre terminal",
+   28
+  ],
+  [
+   "ZTE CPE",
+   24
+  ],
+  [
+   "Huawei HG gateway",
+   19
+  ],
+  [
+   "DrayTek router",
+   16
+  ],
+  [
+   "IoT OEM default account",
+   12
+  ],
+  [
+   "firmware backdoor account",
+   12
+  ],
+  [
+   "ISP-branded DSL gateway",
+   9
+  ],
+  [
+   "SMC Networks CPE",
+   3
+  ]
+ ],
+ "top_c2_hosts": [
+  [
+   "100.10.0.255",
+   5
+  ],
+  [
+   "112.248.80.87",
+   5
+  ],
+  [
+   "114.228.186.172",
+   5
+  ],
+  [
+   "182.126.127.178",
+   5
+  ],
+  [
+   "42.224.97.81",
+   5
+  ],
+  [
+   "61.137.132.140",
+   5
+  ],
+  [
+   "115.63.8.47",
+   4
+  ],
+  [
+   "123.11.242.70",
+   4
+  ],
+  [
+   "210.208.110.147",
+   4
+  ],
+  [
+   "61.53.121.121",
+   4
+  ],
+  [
+   "123.5.177.27",
+   3
+  ],
+  [
+   "91.240.165.44",
+   3
+  ],
+  [
+   "100.10.5.147",
+   2
+  ],
+  [
+   "42.228.126.47",
+   2
+  ],
+  [
+   "42.242.128.107",
+   2
+  ],
+  [
+   "100.10.5.51",
+   1
+  ],
+  [
+   "103.18.14.56",
+   1
+  ],
+  [
+   "103.213.112.66",
+   1
+  ],
+  [
+   "103.26.86.210",
+   1
+  ],
+  [
+   "105.228.63.132",
+   1
+  ],
+  [
+   "110.86.100.2",
+   1
+  ],
+  [
+   "112.198.193.5",
+   1
+  ],
+  [
+   "112.239.96.88",
+   1
+  ],
+  [
+   "112.250.137.138",
+   1
+  ],
+  [
+   "113.231.211.218",
+   1
+  ]
+ ],
+ "top_credentials": [
+  [
+   "localadmin/localadmin",
+   23564
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   16153
+  ],
+  [
+   "guest/123456",
+   15562
+  ],
+  [
+   "root/Zte521",
+   10997
+  ],
+  [
+   "admin/admin",
+   9945
+  ],
+  [
+   "support/support",
+   5346
+  ],
+  [
+   "root/root",
+   4032
+  ],
+  [
+   "root/xc3511",
+   3751
+  ],
+  [
+   "support/support123",
+   3345
+  ],
+  [
+   "root/admin",
+   2701
+  ],
+  [
+   "root/2010vesta",
+   2346
+  ],
+  [
+   "root/vertex25ektks123",
+   2129
+  ],
+  [
+   "root/12345",
+   1090
+  ],
+  [
+   "admin/adminHW",
+   1036
+  ],
+  [
+   "user/1234",
+   1014
+  ],
+  [
+   "super/sp-admin",
+   981
+  ],
+  [
+   "e8ehome/e8ehome",
+   877
+  ],
+  [
+   "root/123456",
+   871
+  ],
+  [
+   "admin/1234",
+   853
+  ],
+  [
+   "admin/a1sev5y7c39k",
+   810
+  ],
+  [
+   "root/jvbzd",
+   779
+  ],
+  [
+   "root/Fireitup",
+   748
+  ],
+  [
+   "admin/BrAhMoS@15",
+   746
+  ],
+  [
+   "root/e2008jl",
+   743
+  ],
+  [
+   "super/super",
+   741
+  ]
+ ],
+ "totals": {
+  "distinct_c2_hosts": 82,
+  "distinct_credentials": 213,
+  "distinct_payload_urls": 112,
+  "events": 6486,
+  "shared_c2_hosts": 15,
+  "sources": 37
+ },
+ "window": {
+  "days": 1,
+  "first_day": "2026-11-23",
+  "last_day": "2026-11-23",
+  "week": "2026-W48"
+ }
+}
