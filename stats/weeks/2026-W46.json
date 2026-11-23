@@ -10,43 +10,19 @@
   },
   {
    "cve": "CVE-2015-2051",
-   "sources": 6
+   "sources": 5
   },
   {
    "cve": "CVE-2014-8361",
-   "sources": 5
+   "sources": 4
   },
   {
    "cve": "CVE-2016-6277",
-   "sources": 5
+   "sources": 4
   },
   {
    "cve": "CVE-2017-9841",
    "sources": 4
-  },
-  {
-   "cve": "CVE-2016-20016",
-   "sources": 3
-  },
-  {
-   "cve": "CVE-2017-17215",
-   "sources": 3
-  },
-  {
-   "cve": "CVE-2018-10561",
-   "sources": 3
-  },
-  {
-   "cve": "CVE-2018-10562",
-   "sources": 3
-  },
-  {
-   "cve": "CVE-2018-20062",
-   "sources": 3
-  },
-  {
-   "cve": "CVE-2021-36260",
-   "sources": 3
   },
   {
    "cve": "CVE-2021-41773",
@@ -54,6 +30,30 @@
   },
   {
    "cve": "CVE-2012-1823",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2016-20016",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2017-17215",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2018-10561",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2018-10562",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2018-20062",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2021-36260",
    "sources": 2
   },
   {
@@ -73,8 +73,8 @@
   "connected": 4088,
   "delivered_sample": 108,
   "fetched_payload": 182,
-  "ran_commands": 1468,
-  "returned": 2327,
+  "ran_commands": 1461,
+  "returned": 2308,
   "tried_creds": 1643
  },
  "samples": [
@@ -148,7 +148,6 @@
   "eaa166be02db7ecfe3e6c75ed9a98341a729ec92a5d63a152e4919d6d47e8f48",
   "ee637c722293880ee8fe966f8470af4c6df61bc3b026a8cc78b58b3c75e7add3",
   "eee8ca51a08a275e9077c5b9720b57fd8bf5b97432248a61fca317e62af8f50a",
-  "f0c557122a7b07a548ee502b20645c989994ce742a2484ee2ac0fa3a252a8b8e",
   "f3692020bbfeb72a49c75162c21b2fb6be1c61bbdf287d4f2d79570ae5397e13",
   "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d",
   "f7f96d8a6fd80b0717a21b5ba2807112fdb63e00000791fe41cda59d87a048f6",
@@ -157,7 +156,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   167
+   166
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -165,31 +164,31 @@
   ],
   [
    "ZTE CPE",
-   129
+   128
   ],
   [
    "DrayTek router",
-   117
+   115
   ],
   [
    "Huawei HG gateway",
-   91
+   89
   ],
   [
    "ISP-branded DSL gateway",
-   83
+   81
   ],
   [
    "firmware backdoor account",
-   58
+   60
   ],
   [
    "IoT OEM default account",
-   56
+   55
   ],
   [
    "SMC Networks CPE",
-   29
+   26
   ],
   [
    "WordPress",
@@ -197,7 +196,7 @@
   ],
   [
    "consumer router admin",
-   7
+   6
   ],
   [
    "embedded web server (boa/goform)",
@@ -213,7 +212,7 @@
   ],
   [
    "Hikvision / ONVIF camera",
-   3
+   2
   ],
   [
    "MikroTik RouterOS",
@@ -274,10 +273,6 @@
    4
   ],
   [
-   "27.213.98.226",
-   4
-  ],
-  [
    "90.224.208.190",
    4
   ],
@@ -287,10 +282,6 @@
   ],
   [
    "109.236.46.199",
-   3
-  ],
-  [
-   "110.72.21.169",
    3
   ],
   [
@@ -328,6 +319,14 @@
   [
    "217.60.102.5",
    3
+  ],
+  [
+   "219.156.190.219",
+   3
+  ],
+  [
+   "222.127.154.2",
+   3
   ]
  ],
  "top_credentials": [
@@ -337,108 +336,108 @@
   ],
   [
    "root/Zte521",
-   60947
+   49884
   ],
   [
    "admin/admin",
-   34059
+   31257
   ],
   [
    "root/xmhdipc",
-   30596
+   30416
   ],
   [
    "root/xc3511",
-   28890
+   26303
   ],
   [
    "admin/1234",
-   19206
+   18891
   ],
   [
    "root/root",
-   12646
-  ],
-  [
-   "root/juantech",
-   12336
+   11729
   ],
   [
    "root/vizxv",
-   11259
+   11101
   ],
   [
    "root/svgodie",
-   10991
-  ],
-  [
-   "root/",
-   10886
+   10915
   ],
   [
    "guest/12345",
-   10853
+   10705
+  ],
+  [
+   "root/juantech",
+   10650
   ],
   [
    "admin/smcadmin",
-   10661
+   10582
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9860
+   9852
   ],
   [
-   "root/ikwb",
-   9814
+   "root/",
+   9543
   ],
   [
    "administrator/1234",
-   8601
-  ],
-  [
-   "admin/123456789",
-   8560
+   8194
   ],
   [
    "root/hi3518",
-   8068
+   7767
   ],
   [
-   "admin/bayandsl",
-   6972
+   "admin/123456789",
+   7073
   ],
   [
    "admin/qwerty",
-   6897
+   6772
+  ],
+  [
+   "admin/bayandsl",
+   6647
   ],
   [
    "root/12341234",
-   6664
-  ],
-  [
-   "root/admin",
-   6452
-  ],
-  [
-   "user/user",
-   6157
+   6489
   ],
   [
    "root/samsung",
-   6121
+   6015
+  ],
+  [
+   "root/admin",
+   5940
+  ],
+  [
+   "root/klv1234",
+   5880
   ],
   [
    "yhtcAdmin/Cm1@YHfw",
-   6052
+   5753
+  ],
+  [
+   "user/user",
+   5737
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 431,
-  "distinct_credentials": 4333,
-  "distinct_payload_urls": 672,
+  "distinct_c2_hosts": 410,
+  "distinct_credentials": 4271,
+  "distinct_payload_urls": 632,
   "events": 9330196,
-  "new_sources": 3900,
-  "shared_c2_hosts": 90,
+  "new_sources": 4088,
+  "shared_c2_hosts": 84,
   "sources": 4088
  },
  "window": {
