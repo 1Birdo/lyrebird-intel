@@ -2,14 +2,14 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 94
-  },
-  {
-   "cve": "CVE-2021-35394",
-   "sources": 4
+   "sources": 105
   },
   {
    "cve": "CVE-2021-36260",
+   "sources": 5
+  },
+  {
+   "cve": "CVE-2021-35394",
    "sources": 4
   },
   {
@@ -17,11 +17,11 @@
    "sources": 3
   },
   {
-   "cve": "CVE-2016-20016",
-   "sources": 2
+   "cve": "CVE-2017-9841",
+   "sources": 3
   },
   {
-   "cve": "CVE-2017-9841",
+   "cve": "CVE-2016-20016",
    "sources": 2
   },
   {
@@ -42,12 +42,12 @@
   }
  ],
  "funnel": {
-  "connected": 772,
-  "delivered_sample": 37,
-  "fetched_payload": 72,
-  "ran_commands": 357,
-  "returned": 540,
-  "tried_creds": 217
+  "connected": 891,
+  "delivered_sample": 40,
+  "fetched_payload": 74,
+  "ran_commands": 401,
+  "returned": 621,
+  "tried_creds": 230
  },
  "samples": [
   "18db2aa34ee477dd3f189d7697e853009cb38b5821f91f41bee83880df259daf",
@@ -71,51 +71,51 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   64
+   67
   ],
   [
    "GPON/ONT fibre terminal",
-   60
+   63
   ],
   [
    "ZTE CPE",
-   52
+   54
   ],
   [
    "DrayTek router",
-   41
+   43
   ],
   [
    "Huawei HG gateway",
-   41
+   43
   ],
   [
    "ISP-branded DSL gateway",
-   29
+   35
+  ],
+  [
+   "firmware backdoor account",
+   26
   ],
   [
    "IoT OEM default account",
    24
   ],
   [
-   "firmware backdoor account",
-   24
+   "SMC Networks CPE",
+   6
+  ],
+  [
+   "Hikvision / ONVIF camera",
+   5
   ],
   [
    "WordPress",
    5
   ],
   [
-   "Hikvision / ONVIF camera",
-   4
-  ],
-  [
-   "SMC Networks CPE",
-   4
-  ],
-  [
    "embedded web server (boa/goform)",
-   4
+   5
   ],
   [
    "Java middleware",
@@ -168,6 +168,10 @@
    8
   ],
   [
+   "221.15.91.182",
+   8
+  ],
+  [
    "222.142.162.43",
    8
   ],
@@ -188,11 +192,19 @@
    7
   ],
   [
+   "174.105.154.212",
+   7
+  ],
+  [
    "61.53.121.121",
    7
   ],
   [
-   "174.105.154.212",
+   "182.121.109.178",
+   6
+  ],
+  [
+   "39.88.162.57",
    6
   ],
   [
@@ -208,140 +220,128 @@
    4
   ],
   [
+   "210.208.106.68",
+   4
+  ],
+  [
    "100.10.5.147",
    3
   ],
   [
-   "210.208.106.68",
-   3
-  ],
-  [
    "100.10.1.236",
-   2
-  ],
-  [
-   "112.198.193.5",
-   2
-  ],
-  [
-   "120.28.222.207",
-   2
-  ],
-  [
-   "123.14.235.128",
    2
   ]
  ],
  "top_credentials": [
   [
    "localadmin/localadmin",
-   42494
-  ],
-  [
-   "super/sp-admin",
-   22424
+   44859
   ],
   [
    "administrator/",
-   20359
+   23465
   ],
   [
-   "guest/123456",
-   20074
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   19530
+   "super/sp-admin",
+   23090
   ],
   [
    "root/Zte521",
-   17437
+   20861
   ],
   [
-   "admin/admin",
-   15092
+   "guest/123456",
+   20469
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   19567
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   14636
+   16216
   ],
   [
-   "support/support",
-   7403
-  ],
-  [
-   "root/root",
-   7227
+   "admin/admin",
+   15525
   ],
   [
    "root/vertex25ektks123",
-   6875
+   7605
+  ],
+  [
+   "root/root",
+   7514
+  ],
+  [
+   "support/support",
+   7427
   ],
   [
    "root/xmhdipc",
-   6650
+   6992
   ],
   [
    "root/xc3511",
-   5825
+   6136
   ],
   [
    "support/support123",
-   5464
+   5620
   ],
   [
    "admin/v2mprt",
-   5333
+   5354
   ],
   [
    "root/Fireitup",
-   5169
+   5224
   ],
   [
    "root/2010vesta",
-   4315
-  ],
-  [
-   "root/admin",
-   2978
+   4460
   ],
   [
    "e8telnet/e8telnet",
-   2738
+   3419
   ],
   [
-   "root/12345",
-   2525
+   "root/admin",
+   3062
   ],
   [
    "super/xJ4pCYeW",
-   2133
+   2681
+  ],
+  [
+   "root/12345",
+   2622
   ],
   [
    "admin/7ujMko0admin",
-   1815
+   2222
   ],
   [
    "root/",
-   1810
+   1891
   ],
   [
    "admin/1234",
-   1562
+   1763
   ],
   [
    "root/12345678",
-   1478
+   1517
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 185,
-  "distinct_credentials": 1452,
-  "distinct_payload_urls": 272,
-  "events": 2083653,
-  "new_sources": 477,
-  "shared_c2_hosts": 40,
-  "sources": 772
+  "distinct_c2_hosts": 192,
+  "distinct_credentials": 1501,
+  "distinct_payload_urls": 282,
+  "events": 2424603,
+  "new_sources": 552,
+  "shared_c2_hosts": 44,
+  "sources": 891
  },
  "window": {
   "days": 2,
