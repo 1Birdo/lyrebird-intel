@@ -71,10 +71,10 @@
  ],
  "funnel": {
   "connected": 3598,
-  "delivered_sample": 99,
+  "delivered_sample": 100,
   "fetched_payload": 163,
-  "ran_commands": 1250,
-  "returned": 2061,
+  "ran_commands": 1252,
+  "returned": 2066,
   "tried_creds": 1499
  },
  "samples": [
@@ -88,6 +88,7 @@
   "2123c57b1e8efccf3fe986cc47e400cbd875cfe64ab6c8891d499328bea53916",
   "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
   "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
+  "2dc4185d8ec610b0052ce7859fe5e3464c1636db653f1b9111e4a5ab69d2f148",
   "381b0255fab72feb258eec5b0efb22554e739d1018a2ee8f01039a81793e0532",
   "383b93b4a69633729d484ff0f575f7b981fb5afb2f41d7b990b09551801b6285",
   "38edb1a49cae7714dc6dea062734f13662f9e2436ef095f9dbb614ae5c5bf57a",
@@ -153,7 +154,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   139
+   140
   ],
   [
    "ZTE CPE",
@@ -165,15 +166,15 @@
   ],
   [
    "Huawei HG gateway",
-   80
+   79
   ],
   [
    "ISP-branded DSL gateway",
-   73
+   74
   ],
   [
    "firmware backdoor account",
-   56
+   54
   ],
   [
    "IoT OEM default account",
@@ -325,19 +326,19 @@
   ],
   [
    "root/Zte521",
-   37633
+   37710
   ],
   [
    "admin/admin",
-   28273
+   28392
   ],
   [
    "root/xc3511",
-   23740
+   23746
   ],
   [
    "admin/1234",
-   17433
+   17436
   ],
   [
    "root/xmhdipc",
@@ -345,85 +346,85 @@
   ],
   [
    "root/vizxv",
-   10948
+   10981
   ],
   [
    "root/root",
-   10809
+   10829
   ],
   [
    "guest/12345",
-   10485
+   10502
   ],
   [
    "admin/smcadmin",
-   10451
+   10458
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9787
+   9812
   ],
   [
    "root/",
-   7271
+   7288
   ],
   [
    "root/juantech",
-   6900
+   6902
   ],
   [
    "root/svgodie",
-   6690
+   6694
   ],
   [
    "admin/bayandsl",
-   6341
+   6357
   ],
   [
    "admin/123456789",
-   6067
+   6076
   ],
   [
    "root/samsung",
-   5998
+   6023
   ],
   [
    "root/hi3518",
-   5512
+   5524
   ],
   [
    "admin/54321",
-   5398
+   5407
   ],
   [
    "root/admin",
-   5388
+   5377
   ],
   [
    "user/user",
-   5365
+   5368
   ],
   [
    "root/12341234",
-   5320
+   5319
   ],
   [
    "root/1234horses",
-   5316
+   5318
   ],
   [
    "root/vertex25ektks123",
-   5123
+   5129
   ],
   [
    "telnetadmin/telnetadmin",
-   4709
+   4715
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 373,
-  "distinct_credentials": 3976,
-  "distinct_payload_urls": 567,
+  "distinct_c2_hosts": 376,
+  "distinct_credentials": 3997,
+  "distinct_payload_urls": 570,
   "events": 7101049,
   "new_sources": 3598,
   "shared_c2_hosts": 69,
