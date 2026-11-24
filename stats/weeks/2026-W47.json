@@ -72,10 +72,10 @@
  "funnel": {
   "connected": 3771,
   "delivered_sample": 129,
-  "fetched_payload": 164,
-  "ran_commands": 1316,
-  "returned": 2204,
-  "tried_creds": 1259
+  "fetched_payload": 165,
+  "ran_commands": 1317,
+  "returned": 2205,
+  "tried_creds": 1260
  },
  "samples": [
   "033b39708470da85ca3530dda80fff151113772086f909c31d90a39f939ba557",
@@ -107,6 +107,7 @@
   "7c4f57ae96d4690b0df9b50a17aa853b2bb0c20ce9ef31873551eeb71bf87bab",
   "8373f7e086bb27784827ef8f2f4ae118e05d58b67f513f82c2316dc57b0d896c",
   "8cb3e7ca7d29207906f3868ad099a1a2d74b67be4072e666d1e566cb126f92cf",
+  "949acf01d8c2cc136a8bf153bfadf7d1a333a6865c73079337d5b05c85e7b909",
   "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
   "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9a9a23dd3805700fa655ab724430abf8bf9ff12b2514c963368a86c01a76ed82",
@@ -146,7 +147,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   144
+   145
   ],
   [
    "ZTE CPE",
@@ -154,19 +155,19 @@
   ],
   [
    "DrayTek router",
-   97
+   98
   ],
   [
    "Huawei HG gateway",
-   93
+   92
   ],
   [
    "ISP-branded DSL gateway",
-   65
+   67
   ],
   [
    "IoT OEM default account",
-   47
+   46
   ],
   [
    "firmware backdoor account",
@@ -259,7 +260,15 @@
    8
   ],
   [
+   "222.142.162.43",
+   8
+  ],
+  [
    "112.248.80.87",
+   7
+  ],
+  [
+   "115.49.65.46",
    7
   ],
   [
@@ -272,10 +281,6 @@
   ],
   [
    "222.127.50.108",
-   6
-  ],
-  [
-   "222.142.162.43",
    6
   ],
   [
@@ -303,15 +308,11 @@
    4
   ],
   [
+   "138.204.196.254",
+   4
+  ],
+  [
    "193.163.187.230",
-   4
-  ],
-  [
-   "201.159.91.2",
-   4
-  ],
-  [
-   "219.156.190.219",
    4
   ]
  ],
@@ -322,108 +323,108 @@
   ],
   [
    "root/Zte521",
-   47767
+   48174
   ],
   [
    "admin/admin",
-   46307
+   46654
   ],
   [
    "localadmin/localadmin",
-   37488
+   40135
   ],
   [
    "root/xc3511",
-   34095
+   34352
   ],
   [
    "root/",
-   27948
+   28021
   ],
   [
    "support/support",
-   25313
+   25334
   ],
   [
    "guest/123456",
-   22310
-  ],
-  [
-   "CUAdmin/CUAdmin",
-   20526
+   23171
   ],
   [
    "super/sp-admin",
-   19956
+   21769
+  ],
+  [
+   "CUAdmin/CUAdmin",
+   20521
   ],
   [
    "admin/12345678",
-   17882
+   17890
   ],
   [
    "admin/54321",
-   15679
+   15681
   ],
   [
    "root/xmhdipc",
-   15016
+   15153
   ],
   [
    "admin/meinsm",
-   13451
-  ],
-  [
-   "root/Pon521",
-   11627
+   13457
   ],
   [
    "root/root",
-   11515
+   12029
+  ],
+  [
+   "root/Pon521",
+   11733
   ],
   [
    "admin/qwerty",
-   10873
+   10910
   ],
   [
    "gdcuadmin/gdcuadmin",
-   10714
+   10793
+  ],
+  [
+   "nmgcuadmin/nmgcuadmin",
+   9855
   ],
   [
    "root/vertex25ektks123",
-   9203
+   9243
   ],
   [
    "root/admin",
-   7021
+   7121
   ],
   [
    "admin/1234",
-   6864
+   6968
   ],
   [
    "root/12345",
-   6267
-  ],
-  [
-   "root/1234horses",
-   6128
-  ],
-  [
-   "admin/v2mprt",
-   5969
+   6345
   ],
   [
    "support/support123",
-   5788
+   6185
+  ],
+  [
+   "root/1234horses",
+   6181
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 361,
-  "distinct_credentials": 2939,
-  "distinct_payload_urls": 559,
+  "distinct_c2_hosts": 367,
+  "distinct_credentials": 2962,
+  "distinct_payload_urls": 571,
   "events": 9163846,
   "new_sources": 3052,
-  "shared_c2_hosts": 77,
+  "shared_c2_hosts": 80,
   "sources": 3771
  },
  "window": {
