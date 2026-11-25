@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 134
+   "sources": 153
   },
   {
    "cve": "CVE-2021-35394",
@@ -42,17 +42,18 @@
   }
  ],
  "funnel": {
-  "connected": 1116,
+  "connected": 1255,
   "delivered_sample": 49,
-  "fetched_payload": 85,
-  "ran_commands": 487,
-  "returned": 763,
-  "tried_creds": 256
+  "fetched_payload": 88,
+  "ran_commands": 540,
+  "returned": 835,
+  "tried_creds": 295
  },
  "samples": [
   "18db2aa34ee477dd3f189d7697e853009cb38b5821f91f41bee83880df259daf",
   "2123c57b1e8efccf3fe986cc47e400cbd875cfe64ab6c8891d499328bea53916",
   "2dc4185d8ec610b0052ce7859fe5e3464c1636db653f1b9111e4a5ab69d2f148",
+  "3475854ef9f2db49607153e72436e2155fb4053ad46c6b2df0f093d419a6f154",
   "44ea69f92c6cfd540aae61378d5214929075c171bc7915c81dccd3fd1b8b18cf",
   "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
   "72e2c5ac082fe501730437824ee4374c4e5e34492a26df0331064e5c27764773",
@@ -64,13 +65,13 @@
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
   "c4b34ca431cf5efd6ea685226fdc606f905ba978c8595c511552574b3174fa80",
+  "cced8465af40a07d04bc91ab8368e3764bfa8413db4ea698b6ee654c228f1ef5",
   "d4d7fbd24aeb0ca9217419f2160648b4e7229f5fa32a556e739e2051bafec1b2",
   "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
   "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
   "e34396228024a94990d5a41ed7ab0f8e60972b7186fecf594eede40b7b4ff1f5",
   "e8260137e47131e38f1a164ded9690d0341596ca8849368994392b2526bac245",
   "e8705b8cef34e528ac3cf80a4479393f5fe066f56d85a447708c89fea072dbda",
-  "e8aa0d849d75570fdaef18c725062397a95051b79d75379434f8ab9b96553b9c",
   "edfb4d25c64327c8aa76434c8cee65a3fd6ef2da8b455402d4ae4aa2c3099a59",
   "f3d7185122d325ceb750c3460905bdf759d8ac3de67d1780fbd6ac545b19bd42",
   "ff784a3f8c3e059815c80774f642f023cc281d4a9e729b80c2fa9637fcfdd485"
@@ -78,15 +79,15 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   75
+   80
   ],
   [
    "GPON/ONT fibre terminal",
-   69
+   71
   ],
   [
    "ZTE CPE",
-   59
+   62
   ],
   [
    "Huawei HG gateway",
@@ -94,19 +95,19 @@
   ],
   [
    "DrayTek router",
-   45
+   46
   ],
   [
    "ISP-branded DSL gateway",
-   34
-  ],
-  [
-   "firmware backdoor account",
-   26
+   41
   ],
   [
    "IoT OEM default account",
-   24
+   27
+  ],
+  [
+   "firmware backdoor account",
+   27
   ],
   [
    "embedded web server (boa/goform)",
@@ -211,15 +212,15 @@
    7
   ],
   [
+   "210.208.106.68",
+   7
+  ],
+  [
    "61.53.121.121",
    7
   ],
   [
    "182.121.109.178",
-   6
-  ],
-  [
-   "210.208.106.68",
    6
   ],
   [
@@ -235,120 +236,120 @@
    4
   ],
   [
-   "42.229.165.75",
+   "180.188.142.2",
    4
   ]
  ],
  "top_credentials": [
   [
    "localadmin/localadmin",
-   48009
+   49250
   ],
   [
    "administrator/",
-   25496
+   29670
   ],
   [
    "root/Zte521",
-   24236
+   25626
   ],
   [
    "super/sp-admin",
-   23724
+   23702
   ],
   [
    "guest/123456",
-   21264
+   21318
   ],
   [
    "CUAdmin/CUAdmin",
-   19589
+   19601
   ],
   [
    "admin/admin",
-   16622
+   16435
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16239
+   16221
   ],
   [
    "root/vertex25ektks123",
-   8460
+   8482
   ],
   [
    "root/root",
-   8022
-  ],
-  [
-   "support/support",
-   7472
+   8198
   ],
   [
    "root/xmhdipc",
-   7363
+   7441
+  ],
+  [
+   "support/support",
+   7408
   ],
   [
    "root/xc3511",
-   6563
+   6605
   ],
   [
    "support/support123",
-   6198
+   6263
   ],
   [
    "ftp/ftp",
-   5709
+   5718
   ],
   [
    "admin/v2mprt",
-   5473
+   5517
   ],
   [
    "root/Fireitup",
-   5264
+   5277
   ],
   [
    "root/2010vesta",
-   4753
+   4904
   ],
   [
    "e8telnet/e8telnet",
    3969
   ],
   [
-   "root/admin",
-   3172
-  ],
-  [
    "super/xJ4pCYeW",
-   3042
+   3049
   ],
   [
    "root/12345",
-   2853
+   3038
+  ],
+  [
+   "root/admin",
+   2943
   ],
   [
    "admin/7ujMko0admin",
-   2596
+   2588
+  ],
+  [
+   "root/Pon521",
+   2195
   ],
   [
    "root/",
-   2218
-  ],
-  [
-   "admin/1234",
-   2142
+   2190
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 206,
-  "distinct_credentials": 1583,
-  "distinct_payload_urls": 302,
-  "events": 2909685,
-  "new_sources": 723,
-  "shared_c2_hosts": 52,
-  "sources": 1116
+  "distinct_c2_hosts": 208,
+  "distinct_credentials": 1655,
+  "distinct_payload_urls": 308,
+  "events": 3067517,
+  "new_sources": 842,
+  "shared_c2_hosts": 56,
+  "sources": 1255
  },
  "window": {
   "days": 3,
