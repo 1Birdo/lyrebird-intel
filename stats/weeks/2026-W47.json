@@ -74,7 +74,7 @@
   "delivered_sample": 130,
   "fetched_payload": 165,
   "ran_commands": 1317,
-  "returned": 2189,
+  "returned": 2193,
   "tried_creds": 1259
  },
  "samples": [
@@ -169,15 +169,15 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   69
   ],
   [
    "IoT OEM default account",
-   48
+   47
   ],
   [
    "firmware backdoor account",
-   44
+   43
   ],
   [
    "embedded web server (boa/goform)",
@@ -329,108 +329,108 @@
   ],
   [
    "root/Zte521",
-   47931
+   48055
   ],
   [
    "localadmin/localadmin",
-   47553
+   47562
   ],
   [
    "admin/admin",
-   45607
+   45877
   ],
   [
    "root/xc3511",
-   35173
+   35247
   ],
   [
    "root/",
-   27074
+   27094
   ],
   [
    "support/support",
-   25154
+   25155
   ],
   [
    "guest/123456",
-   25055
+   25058
   ],
   [
    "super/sp-admin",
-   24010
+   24018
   ],
   [
    "CUAdmin/CUAdmin",
-   20543
+   20551
   ],
   [
    "admin/12345678",
-   16789
+   16813
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16508
+   16509
   ],
   [
    "root/xmhdipc",
-   15930
+   15938
   ],
   [
    "admin/54321",
-   15736
+   15741
   ],
   [
    "admin/meinsm",
-   13482
+   13475
   ],
   [
    "root/root",
-   12905
+   12939
   ],
   [
    "root/Pon521",
-   11859
+   11866
   ],
   [
    "gdcuadmin/gdcuadmin",
-   11255
+   11303
   ],
   [
    "root/vertex25ektks123",
-   9405
+   9458
   ],
   [
    "admin/qwerty",
-   9387
+   9394
   ],
   [
    "admin/1234",
-   7108
+   7119
   ],
   [
    "support/support123",
-   6937
+   6952
   ],
   [
    "root/admin",
-   6540
+   6571
   ],
   [
    "root/1234horses",
-   6269
+   6262
   ],
   [
-   "admin/v2mprt",
-   6022
+   "root/12345",
+   6038
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 371,
-  "distinct_credentials": 2889,
-  "distinct_payload_urls": 570,
+  "distinct_c2_hosts": 372,
+  "distinct_credentials": 2894,
+  "distinct_payload_urls": 574,
   "events": 9163846,
   "new_sources": 3155,
-  "shared_c2_hosts": 87,
+  "shared_c2_hosts": 88,
   "sources": 3771
  },
  "window": {
