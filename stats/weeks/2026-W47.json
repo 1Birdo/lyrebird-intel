@@ -74,8 +74,8 @@
   "delivered_sample": 130,
   "fetched_payload": 165,
   "ran_commands": 1317,
-  "returned": 2193,
-  "tried_creds": 1259
+  "returned": 2195,
+  "tried_creds": 1260
  },
  "samples": [
   "033b39708470da85ca3530dda80fff151113772086f909c31d90a39f939ba557",
@@ -165,11 +165,11 @@
   ],
   [
    "Huawei HG gateway",
-   96
+   95
   ],
   [
    "ISP-branded DSL gateway",
-   69
+   68
   ],
   [
    "IoT OEM default account",
@@ -329,35 +329,35 @@
   ],
   [
    "root/Zte521",
-   48055
+   48194
   ],
   [
    "localadmin/localadmin",
-   47562
+   47564
   ],
   [
    "admin/admin",
-   45877
+   46062
   ],
   [
    "root/xc3511",
-   35247
+   35297
   ],
   [
    "root/",
-   27094
+   27107
   ],
   [
    "support/support",
-   25155
+   25168
   ],
   [
    "guest/123456",
-   25058
+   25063
   ],
   [
    "super/sp-admin",
-   24018
+   24028
   ],
   [
    "CUAdmin/CUAdmin",
@@ -365,72 +365,72 @@
   ],
   [
    "admin/12345678",
-   16813
+   16817
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16509
+   16515
   ],
   [
    "root/xmhdipc",
-   15938
+   15944
   ],
   [
    "admin/54321",
-   15741
+   15749
   ],
   [
    "admin/meinsm",
-   13475
+   13453
   ],
   [
    "root/root",
-   12939
+   12982
   ],
   [
    "root/Pon521",
-   11866
+   11889
   ],
   [
    "gdcuadmin/gdcuadmin",
-   11303
+   11306
   ],
   [
    "root/vertex25ektks123",
-   9458
+   9483
   ],
   [
    "admin/qwerty",
-   9394
+   9404
   ],
   [
    "admin/1234",
-   7119
+   7144
   ],
   [
    "support/support123",
-   6952
+   6957
   ],
   [
    "root/admin",
-   6571
+   6591
   ],
   [
    "root/1234horses",
-   6262
+   6267
   ],
   [
    "root/12345",
-   6038
+   6060
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 372,
-  "distinct_credentials": 2894,
+  "distinct_credentials": 2917,
   "distinct_payload_urls": 574,
   "events": 9163846,
   "new_sources": 3155,
-  "shared_c2_hosts": 88,
+  "shared_c2_hosts": 89,
   "sources": 3771
  },
  "window": {
