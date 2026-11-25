@@ -74,7 +74,7 @@
   "delivered_sample": 100,
   "fetched_payload": 163,
   "ran_commands": 1252,
-  "returned": 2066,
+  "returned": 2069,
   "tried_creds": 1499
  },
  "samples": [
@@ -158,7 +158,7 @@
   ],
   [
    "ZTE CPE",
-   109
+   108
   ],
   [
    "DrayTek router",
@@ -166,23 +166,23 @@
   ],
   [
    "Huawei HG gateway",
-   79
+   81
   ],
   [
    "ISP-branded DSL gateway",
-   74
+   71
   ],
   [
    "firmware backdoor account",
-   54
+   55
   ],
   [
    "IoT OEM default account",
-   48
+   47
   ],
   [
    "SMC Networks CPE",
-   29
+   31
   ],
   [
    "WordPress",
@@ -326,71 +326,71 @@
   ],
   [
    "root/Zte521",
-   37710
+   37774
   ],
   [
    "admin/admin",
-   28392
+   28543
   ],
   [
    "root/xc3511",
-   23746
+   23749
   ],
   [
    "admin/1234",
-   17436
+   17431
   ],
   [
    "root/xmhdipc",
-   14279
+   14295
   ],
   [
    "root/vizxv",
-   10981
+   10959
   ],
   [
    "root/root",
-   10829
-  ],
-  [
-   "guest/12345",
-   10502
+   10850
   ],
   [
    "admin/smcadmin",
-   10458
+   10565
+  ],
+  [
+   "guest/12345",
+   10499
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9812
+   9809
   ],
   [
    "root/",
-   7288
+   7295
   ],
   [
    "root/juantech",
-   6902
+   6903
   ],
   [
    "root/svgodie",
-   6694
+   6710
   ],
   [
    "admin/bayandsl",
-   6357
+   6353
   ],
   [
    "admin/123456789",
-   6076
+   6074
   ],
   [
    "root/samsung",
-   6023
+   6010
   ],
   [
    "root/hi3518",
-   5524
+   5534
   ],
   [
    "admin/54321",
@@ -398,7 +398,7 @@
   ],
   [
    "root/admin",
-   5377
+   5392
   ],
   [
    "user/user",
@@ -410,21 +410,21 @@
   ],
   [
    "root/1234horses",
-   5318
+   5315
   ],
   [
    "root/vertex25ektks123",
-   5129
+   5128
   ],
   [
    "telnetadmin/telnetadmin",
-   4715
+   4712
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 376,
-  "distinct_credentials": 3997,
-  "distinct_payload_urls": 570,
+  "distinct_c2_hosts": 377,
+  "distinct_credentials": 3987,
+  "distinct_payload_urls": 572,
   "events": 7101049,
   "new_sources": 3598,
   "shared_c2_hosts": 69,
