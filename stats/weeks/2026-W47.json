@@ -73,9 +73,9 @@
   "connected": 3771,
   "delivered_sample": 130,
   "fetched_payload": 165,
-  "ran_commands": 1317,
-  "returned": 2195,
-  "tried_creds": 1260
+  "ran_commands": 1321,
+  "returned": 2203,
+  "tried_creds": 1262
  },
  "samples": [
   "033b39708470da85ca3530dda80fff151113772086f909c31d90a39f939ba557",
@@ -153,7 +153,7 @@
   ],
   [
    "GPON/ONT fibre terminal",
-   145
+   146
   ],
   [
    "ZTE CPE",
@@ -165,19 +165,19 @@
   ],
   [
    "Huawei HG gateway",
-   95
+   96
   ],
   [
    "ISP-branded DSL gateway",
-   68
+   69
   ],
   [
    "IoT OEM default account",
-   47
+   46
   ],
   [
    "firmware backdoor account",
-   43
+   44
   ],
   [
    "embedded web server (boa/goform)",
@@ -329,31 +329,31 @@
   ],
   [
    "root/Zte521",
-   48194
+   48299
   ],
   [
    "localadmin/localadmin",
-   47564
+   47566
   ],
   [
    "admin/admin",
-   46062
+   46247
   ],
   [
    "root/xc3511",
-   35297
+   35322
   ],
   [
    "root/",
-   27107
+   27115
   ],
   [
    "support/support",
-   25168
+   25178
   ],
   [
    "guest/123456",
-   25063
+   25072
   ],
   [
    "super/sp-admin",
@@ -361,76 +361,76 @@
   ],
   [
    "CUAdmin/CUAdmin",
-   20551
+   20552
   ],
   [
    "admin/12345678",
-   16817
+   16801
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16515
+   16518
   ],
   [
    "root/xmhdipc",
-   15944
+   15947
   ],
   [
    "admin/54321",
-   15749
+   15741
   ],
   [
    "admin/meinsm",
-   13453
+   13477
   ],
   [
    "root/root",
-   12982
+   13016
   ],
   [
    "root/Pon521",
-   11889
+   11900
   ],
   [
    "gdcuadmin/gdcuadmin",
-   11306
+   11661
   ],
   [
    "root/vertex25ektks123",
-   9483
+   9539
   ],
   [
    "admin/qwerty",
-   9404
+   9410
   ],
   [
    "admin/1234",
-   7144
+   7152
   ],
   [
    "support/support123",
-   6957
+   6976
   ],
   [
    "root/admin",
-   6591
+   6626
   ],
   [
    "root/1234horses",
-   6267
+   6274
   ],
   [
    "root/12345",
-   6060
+   6104
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 372,
-  "distinct_credentials": 2917,
-  "distinct_payload_urls": 574,
+  "distinct_c2_hosts": 375,
+  "distinct_credentials": 2910,
+  "distinct_payload_urls": 578,
   "events": 9163846,
   "new_sources": 3155,
-  "shared_c2_hosts": 89,
+  "shared_c2_hosts": 91,
   "sources": 3771
  },
  "window": {
