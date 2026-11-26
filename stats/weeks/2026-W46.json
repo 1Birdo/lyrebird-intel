@@ -69,8 +69,8 @@
   "connected": 2673,
   "delivered_sample": 69,
   "fetched_payload": 118,
-  "ran_commands": 847,
-  "returned": 1520,
+  "ran_commands": 848,
+  "returned": 1522,
   "tried_creds": 1205
  },
  "samples": [
@@ -133,28 +133,28 @@
    97
   ],
   [
-   "ZTE CPE",
-   76
-  ],
-  [
    "DrayTek router",
    74
   ],
   [
+   "ZTE CPE",
+   74
+  ],
+  [
    "Huawei HG gateway",
-   61
+   60
   ],
   [
    "ISP-branded DSL gateway",
-   50
-  ],
-  [
-   "firmware backdoor account",
-   35
+   48
   ],
   [
    "IoT OEM default account",
-   33
+   34
+  ],
+  [
+   "firmware backdoor account",
+   34
   ],
   [
    "SMC Networks CPE",
@@ -302,23 +302,23 @@
   ],
   [
    "root/Zte521",
-   27154
+   27229
   ],
   [
    "admin/admin",
-   26000
+   26127
   ],
   [
    "root/xc3511",
-   21565
+   21589
   ],
   [
    "root/vizxv",
-   10284
+   10275
   ],
   [
    "guest/12345",
-   10081
+   10082
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
@@ -326,80 +326,80 @@
   ],
   [
    "root/root",
-   7565
+   7572
   ],
   [
    "admin/smcadmin",
-   7351
+   7354
   ],
   [
    "root/xmhdipc",
-   5864
+   5884
   ],
   [
    "admin/bayandsl",
-   5673
+   5684
   ],
   [
    "root/samsung",
-   5500
+   5502
   ],
   [
    "root/1234horses",
-   5199
+   5201
   ],
   [
    "admin/123456789",
-   4916
+   4917
   ],
   [
    "root/vertex25ektks123",
-   4883
+   4887
   ],
   [
    "root/888888",
-   4509
-  ],
-  [
-   "ftp/ftp",
-   4209
+   4517
   ],
   [
    "root/hi3518",
+   4212
+  ],
+  [
+   "ftp/ftp",
    4205
   ],
   [
    "user/user",
-   4054
+   4053
   ],
   [
    "admin/1234",
-   3988
-  ],
-  [
-   "root/",
-   3895
+   3983
   ],
   [
    "root/admin",
-   3866
+   3885
+  ],
+  [
+   "root/",
+   3873
   ],
   [
    "root/12341234",
-   3787
+   3755
   ],
   [
    "support/support",
-   3223
+   3236
   ],
   [
    "admin/54321",
-   3196
+   3201
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 298,
-  "distinct_credentials": 2941,
+  "distinct_credentials": 2939,
   "distinct_payload_urls": 449,
   "events": 4480052,
   "new_sources": 2673,
