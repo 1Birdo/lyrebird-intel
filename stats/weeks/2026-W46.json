@@ -70,7 +70,7 @@
   "delivered_sample": 69,
   "fetched_payload": 118,
   "ran_commands": 847,
-  "returned": 1519,
+  "returned": 1520,
   "tried_creds": 1205
  },
  "samples": [
@@ -134,7 +134,7 @@
   ],
   [
    "ZTE CPE",
-   75
+   76
   ],
   [
    "DrayTek router",
@@ -149,11 +149,11 @@
    50
   ],
   [
-   "IoT OEM default account",
+   "firmware backdoor account",
    35
   ],
   [
-   "firmware backdoor account",
+   "IoT OEM default account",
    33
   ],
   [
@@ -302,19 +302,19 @@
   ],
   [
    "root/Zte521",
-   27105
+   27154
   ],
   [
    "admin/admin",
-   25827
+   26000
   ],
   [
    "root/xc3511",
-   21564
+   21565
   ],
   [
    "root/vizxv",
-   10282
+   10284
   ],
   [
    "guest/12345",
@@ -322,84 +322,84 @@
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9518
+   9517
   ],
   [
    "root/root",
-   7552
+   7565
   ],
   [
    "admin/smcadmin",
-   7343
+   7351
   ],
   [
    "root/xmhdipc",
-   5874
+   5864
   ],
   [
    "admin/bayandsl",
-   5684
+   5673
   ],
   [
    "root/samsung",
-   5499
+   5500
   ],
   [
    "root/1234horses",
-   5201
+   5199
   ],
   [
    "admin/123456789",
-   4915
+   4916
   ],
   [
    "root/vertex25ektks123",
-   4873
+   4883
   ],
   [
    "root/888888",
-   4517
-  ],
-  [
-   "root/hi3518",
-   4195
+   4509
   ],
   [
    "ftp/ftp",
-   4191
+   4209
+  ],
+  [
+   "root/hi3518",
+   4205
   ],
   [
    "user/user",
-   4052
+   4054
   ],
   [
    "admin/1234",
-   3965
+   3988
   ],
   [
    "root/",
-   3888
+   3895
   ],
   [
    "root/admin",
-   3869
+   3866
   ],
   [
    "root/12341234",
-   3755
+   3787
   ],
   [
    "support/support",
-   3217
+   3223
   ],
   [
    "admin/54321",
-   3195
+   3196
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 298,
-  "distinct_credentials": 2934,
+  "distinct_credentials": 2941,
   "distinct_payload_urls": 449,
   "events": 4480052,
   "new_sources": 2673,
