@@ -62,7 +62,7 @@
   "delivered_sample": 51,
   "fetched_payload": 89,
   "ran_commands": 664,
-  "returned": 1207,
+  "returned": 1208,
   "tried_creds": 1019
  },
  "samples": [
@@ -108,7 +108,7 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   84
+   85
   ],
   [
    "DVR / IP camera (OEM default)",
@@ -124,19 +124,19 @@
   ],
   [
    "Huawei HG gateway",
-   48
+   49
   ],
   [
    "ISP-branded DSL gateway",
-   43
+   42
   ],
   [
    "IoT OEM default account",
-   32
+   33
   ],
   [
    "firmware backdoor account",
-   29
+   28
   ],
   [
    "WordPress",
@@ -280,67 +280,67 @@
   ],
   [
    "admin/admin",
-   25400
+   25539
   ],
   [
    "root/Zte521",
-   23189
+   23239
   ],
   [
    "root/xc3511",
-   19584
+   19593
   ],
   [
    "guest/12345",
-   9886
+   9890
   ],
   [
    "admin/bayandsl",
-   5403
+   5404
   ],
   [
    "root/root",
-   5253
+   5264
   ],
   [
    "root/1234horses",
-   5143
+   5142
   ],
   [
    "root/vertex25ektks123",
-   4801
+   4803
   ],
   [
    "admin/123456789",
-   4792
+   4795
   ],
   [
    "ftp/ftp",
-   4194
+   4181
   ],
   [
    "root/xmhdipc",
-   3880
+   3867
   ],
   [
    "root/admin",
-   3392
+   3409
   ],
   [
    "root/",
-   3367
+   3369
   ],
   [
    "support/support",
-   3075
+   3085
   ],
   [
    "admin/54321",
-   3035
+   3038
   ],
   [
    "root/888888",
-   3001
+   3003
   ],
   [
    "root/12341234",
@@ -348,19 +348,19 @@
   ],
   [
    "root/anko",
-   2536
+   2537
   ],
   [
    "gdcuadmin/gdcuadmin",
-   2456
+   2458
   ],
   [
    "root/12345",
-   2292
+   2300
   ],
   [
    "service/service",
-   2243
+   2208
   ],
   [
    "root/bluehorse",
@@ -368,16 +368,16 @@
   ],
   [
    "888888/888888",
-   1872
+   1858
   ],
   [
    "root/12345678",
-   1758
+   1781
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 245,
-  "distinct_credentials": 2473,
+  "distinct_credentials": 2480,
   "distinct_payload_urls": 369,
   "events": 2900571,
   "new_sources": 2149,

@@ -74,7 +74,7 @@
   "delivered_sample": 130,
   "fetched_payload": 165,
   "ran_commands": 1319,
-  "returned": 2202,
+  "returned": 2206,
   "tried_creds": 1259
  },
  "samples": [
@@ -158,7 +158,7 @@
   ],
   [
    "ZTE CPE",
-   105
+   106
   ],
   [
    "Huawei HG gateway",
@@ -166,11 +166,11 @@
   ],
   [
    "DrayTek router",
-   95
+   96
   ],
   [
    "ISP-branded DSL gateway",
-   72
+   71
   ],
   [
    "IoT OEM default account",
@@ -186,7 +186,7 @@
   ],
   [
    "SMC Networks CPE",
-   24
+   22
   ],
   [
    "WordPress",
@@ -330,108 +330,108 @@
   ],
   [
    "localadmin/localadmin",
-   47579
+   47578
   ],
   [
    "root/Zte521",
-   46225
+   46309
   ],
   [
    "admin/admin",
-   45972
+   46142
   ],
   [
    "root/xc3511",
-   34961
+   34984
   ],
   [
    "guest/123456",
-   28333
+   28334
   ],
   [
    "root/",
-   26747
+   26750
   ],
   [
    "support/support",
-   25014
+   25023
   ],
   [
    "super/sp-admin",
-   23992
+   24014
   ],
   [
    "root/xmhdipc",
-   23787
+   23789
   ],
   [
    "CUAdmin/CUAdmin",
-   20438
+   20441
   ],
   [
    "gdcuadmin/gdcuadmin",
-   18163
+   18164
   ],
   [
    "admin/12345678",
-   16682
+   16705
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16536
+   16519
   ],
   [
    "admin/54321",
-   15716
+   15723
   ],
   [
    "root/root",
-   14298
+   14308
   ],
   [
    "admin/meinsm",
-   13466
+   13461
   ],
   [
    "root/Pon521",
-   11882
+   11892
   ],
   [
    "root/vertex25ektks123",
-   9590
+   9605
   ],
   [
    "admin/qwerty",
-   9207
+   9220
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8896
+   8885
   ],
   [
    "support/support123",
-   8450
+   8432
   ],
   [
    "admin/1234",
-   7094
+   7102
   ],
   [
    "admin/88888888",
-   6769
+   6765
   ],
   [
    "root/1234horses",
-   6214
+   6218
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 378,
-  "distinct_credentials": 2905,
-  "distinct_payload_urls": 583,
+  "distinct_c2_hosts": 381,
+  "distinct_credentials": 2909,
+  "distinct_payload_urls": 588,
   "events": 9163846,
   "new_sources": 3283,
-  "shared_c2_hosts": 98,
+  "shared_c2_hosts": 99,
   "sources": 3771
  },
  "window": {
