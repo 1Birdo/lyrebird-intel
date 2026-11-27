@@ -71,11 +71,11 @@
  ],
  "funnel": {
   "connected": 3771,
-  "delivered_sample": 130,
+  "delivered_sample": 131,
   "fetched_payload": 165,
-  "ran_commands": 1319,
-  "returned": 2206,
-  "tried_creds": 1259
+  "ran_commands": 1321,
+  "returned": 2209,
+  "tried_creds": 1260
  },
  "samples": [
   "033b39708470da85ca3530dda80fff151113772086f909c31d90a39f939ba557",
@@ -95,6 +95,7 @@
   "39141fa7d9dfd05ddb0734eddc073fbc965ff71e624c4cb31bdbb32a477bdb1d",
   "39fb1ae987e5b03e4e0c6e98fdb53f1257735acf23808833c7017830731ddde0",
   "3d7e59eed50101d2e4a811a8038469b4e464019d561966b5bd51ef72cbdcd384",
+  "3f10e8b0fa4514b1d74a15c44197da732dce8d70592d9151e1dcd08f28c77239",
   "44ea69f92c6cfd540aae61378d5214929075c171bc7915c81dccd3fd1b8b18cf",
   "486d9affb60dbb0063b03d8e23a6ccf6364ce203dc3a9f56f20e750eb41ecade",
   "508dd81e1b50362ec26b8f58167bae897d76300ec18f070f1c1984a03b98e5d9",
@@ -334,27 +335,27 @@
   ],
   [
    "root/Zte521",
-   46309
+   46407
   ],
   [
    "admin/admin",
-   46142
+   46302
   ],
   [
    "root/xc3511",
-   34984
+   35011
   ],
   [
    "guest/123456",
-   28334
+   28337
   ],
   [
    "root/",
-   26750
+   26760
   ],
   [
    "support/support",
-   25023
+   25022
   ],
   [
    "super/sp-admin",
@@ -362,11 +363,11 @@
   ],
   [
    "root/xmhdipc",
-   23789
+   23795
   ],
   [
    "CUAdmin/CUAdmin",
-   20441
+   20442
   ],
   [
    "gdcuadmin/gdcuadmin",
@@ -374,19 +375,19 @@
   ],
   [
    "admin/12345678",
-   16705
+   16709
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16519
+   16539
   ],
   [
    "admin/54321",
-   15723
+   15740
   ],
   [
    "root/root",
-   14308
+   14326
   ],
   [
    "admin/meinsm",
@@ -394,31 +395,31 @@
   ],
   [
    "root/Pon521",
-   11892
+   11896
   ],
   [
    "root/vertex25ektks123",
-   9605
+   9610
   ],
   [
    "admin/qwerty",
-   9220
+   9216
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8885
+   8891
   ],
   [
    "support/support123",
-   8432
+   8435
   ],
   [
    "admin/1234",
-   7102
+   7110
   ],
   [
    "admin/88888888",
-   6765
+   6789
   ],
   [
    "root/1234horses",
@@ -426,9 +427,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 381,
-  "distinct_credentials": 2909,
-  "distinct_payload_urls": 588,
+  "distinct_c2_hosts": 384,
+  "distinct_credentials": 2923,
+  "distinct_payload_urls": 591,
   "events": 9163846,
   "new_sources": 3283,
   "shared_c2_hosts": 99,

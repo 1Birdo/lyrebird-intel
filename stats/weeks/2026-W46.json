@@ -62,8 +62,8 @@
   "delivered_sample": 51,
   "fetched_payload": 89,
   "ran_commands": 664,
-  "returned": 1208,
-  "tried_creds": 1019
+  "returned": 1209,
+  "tried_creds": 1020
  },
  "samples": [
   "0114399fa06c6f6e78594d74d21afbf4a2d66216c62a1c53045fe0efab034cc0",
@@ -116,7 +116,7 @@
   ],
   [
    "ZTE CPE",
-   60
+   59
   ],
   [
    "DrayTek router",
@@ -124,15 +124,15 @@
   ],
   [
    "Huawei HG gateway",
-   49
+   50
   ],
   [
    "ISP-branded DSL gateway",
-   42
+   41
   ],
   [
    "IoT OEM default account",
-   33
+   32
   ],
   [
    "firmware backdoor account",
@@ -280,19 +280,19 @@
   ],
   [
    "admin/admin",
-   25539
+   25661
   ],
   [
    "root/Zte521",
-   23239
+   23301
   ],
   [
    "root/xc3511",
-   19593
+   19596
   ],
   [
    "guest/12345",
-   9890
+   9893
   ],
   [
    "admin/bayandsl",
@@ -300,7 +300,7 @@
   ],
   [
    "root/root",
-   5264
+   5284
   ],
   [
    "root/1234horses",
@@ -312,31 +312,31 @@
   ],
   [
    "admin/123456789",
-   4795
+   4798
   ],
   [
    "ftp/ftp",
-   4181
+   4179
   ],
   [
    "root/xmhdipc",
-   3867
+   3884
   ],
   [
    "root/admin",
-   3409
+   3419
   ],
   [
    "root/",
-   3369
+   3380
   ],
   [
    "support/support",
-   3085
+   3082
   ],
   [
    "admin/54321",
-   3038
+   3055
   ],
   [
    "root/888888",
@@ -356,29 +356,29 @@
   ],
   [
    "root/12345",
-   2300
+   2303
   ],
   [
    "service/service",
-   2208
+   2210
   ],
   [
    "root/bluehorse",
-   2139
+   2141
   ],
   [
    "888888/888888",
-   1858
+   1859
   ],
   [
    "root/12345678",
-   1781
+   1797
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 245,
-  "distinct_credentials": 2480,
-  "distinct_payload_urls": 369,
+  "distinct_c2_hosts": 246,
+  "distinct_credentials": 2500,
+  "distinct_payload_urls": 370,
   "events": 2900571,
   "new_sources": 2149,
   "shared_c2_hosts": 40,
