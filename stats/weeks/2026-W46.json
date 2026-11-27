@@ -67,11 +67,11 @@
  ],
  "funnel": {
   "connected": 2673,
-  "delivered_sample": 69,
+  "delivered_sample": 70,
   "fetched_payload": 118,
-  "ran_commands": 848,
-  "returned": 1522,
-  "tried_creds": 1205
+  "ran_commands": 850,
+  "returned": 1524,
+  "tried_creds": 1206
  },
  "samples": [
   "0114399fa06c6f6e78594d74d21afbf4a2d66216c62a1c53045fe0efab034cc0",
@@ -109,6 +109,7 @@
   "c7ec2097970b5198fdcfaea3f81e7736e1136d95f0281c36c5055bf560493d25",
   "d44a31fd775f06f1de1fdb3e384df4e31cc3d69ccf45134411d428b5c1cb48e7",
   "d4d7fbd24aeb0ca9217419f2160648b4e7229f5fa32a556e739e2051bafec1b2",
+  "d515b78dcc76a0345a7d56b68e147baa62cd25c8a08413c3d3d9d9f33f643e25",
   "db16d89fefdf54f513d65324457be671b0046cbfc980d714e3eb0e4d8454414b",
   "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
   "e2ac6eeff0f03c508e9bec144bb3792c91f8bd6f93d7c2f8d0e50757f3033933",
@@ -126,35 +127,35 @@
  "targets": [
   [
    "GPON/ONT fibre terminal",
-   106
+   107
   ],
   [
    "DVR / IP camera (OEM default)",
-   97
+   99
+  ],
+  [
+   "ZTE CPE",
+   75
   ],
   [
    "DrayTek router",
    74
   ],
   [
-   "ZTE CPE",
-   74
-  ],
-  [
    "Huawei HG gateway",
-   60
+   62
   ],
   [
    "ISP-branded DSL gateway",
-   48
+   50
   ],
   [
    "IoT OEM default account",
-   34
+   35
   ],
   [
    "firmware backdoor account",
-   34
+   33
   ],
   [
    "SMC Networks CPE",
@@ -302,55 +303,55 @@
   ],
   [
    "root/Zte521",
-   27229
+   27271
   ],
   [
    "admin/admin",
-   26127
+   26279
   ],
   [
    "root/xc3511",
-   21589
+   21593
   ],
   [
    "root/vizxv",
-   10275
+   10293
   ],
   [
    "guest/12345",
-   10082
+   10089
   ],
   [
    "TMAR#DLKT20060205/DLKT20060205",
-   9517
+   9519
   ],
   [
    "root/root",
-   7572
+   7580
   ],
   [
    "admin/smcadmin",
-   7354
+   7362
   ],
   [
    "root/xmhdipc",
-   5884
+   5866
   ],
   [
    "admin/bayandsl",
-   5684
+   5685
   ],
   [
    "root/samsung",
-   5502
+   5504
   ],
   [
    "root/1234horses",
-   5201
+   5198
   ],
   [
    "admin/123456789",
-   4917
+   4913
   ],
   [
    "root/vertex25ektks123",
@@ -358,11 +359,11 @@
   ],
   [
    "root/888888",
-   4517
+   4512
   ],
   [
    "root/hi3518",
-   4212
+   4222
   ],
   [
    "ftp/ftp",
@@ -370,27 +371,27 @@
   ],
   [
    "user/user",
-   4053
+   4056
   ],
   [
    "admin/1234",
-   3983
+   3991
   ],
   [
    "root/admin",
-   3885
+   3892
   ],
   [
    "root/",
-   3873
+   3882
   ],
   [
    "root/12341234",
-   3755
+   3786
   ],
   [
    "support/support",
-   3236
+   3246
   ],
   [
    "admin/54321",
@@ -398,9 +399,9 @@
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 298,
-  "distinct_credentials": 2939,
-  "distinct_payload_urls": 449,
+  "distinct_c2_hosts": 299,
+  "distinct_credentials": 2934,
+  "distinct_payload_urls": 450,
   "events": 4480052,
   "new_sources": 2673,
   "shared_c2_hosts": 50,
