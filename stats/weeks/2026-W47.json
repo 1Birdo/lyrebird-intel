@@ -73,9 +73,9 @@
   "connected": 3771,
   "delivered_sample": 130,
   "fetched_payload": 165,
-  "ran_commands": 1320,
-  "returned": 2219,
-  "tried_creds": 1260
+  "ran_commands": 1319,
+  "returned": 2202,
+  "tried_creds": 1259
  },
  "samples": [
   "033b39708470da85ca3530dda80fff151113772086f909c31d90a39f939ba557",
@@ -88,6 +88,7 @@
   "2123c57b1e8efccf3fe986cc47e400cbd875cfe64ab6c8891d499328bea53916",
   "243e2c9fad71045dd0bcc48493fe019f5ac2d07fdde8b38e6706aaa2a229d4b2",
   "285b35caf0c53463cea0ab7d26864515554274e1288651de37bcc00c0e19e4f6",
+  "2aecb881e4f7341a70ff7e7b87b9ccb363eb19312712e2cb19880b1991e01167",
   "2cbedad04772b0c119ad8894f6d317fb9daa189fbbe2e2de4f0e5be21967c65e",
   "3475854ef9f2db49607153e72436e2155fb4053ad46c6b2df0f093d419a6f154",
   "381b0255fab72feb258eec5b0efb22554e739d1018a2ee8f01039a81793e0532",
@@ -96,9 +97,9 @@
   "3d7e59eed50101d2e4a811a8038469b4e464019d561966b5bd51ef72cbdcd384",
   "44ea69f92c6cfd540aae61378d5214929075c171bc7915c81dccd3fd1b8b18cf",
   "486d9affb60dbb0063b03d8e23a6ccf6364ce203dc3a9f56f20e750eb41ecade",
-  "4e4c9f276006674c580313a31fc9ceb80f4eeed48bdb24f866f7cff5a2d93aa1",
   "508dd81e1b50362ec26b8f58167bae897d76300ec18f070f1c1984a03b98e5d9",
   "50babf3a91989967dfba12407e3bf539d62020edbc653eaf837bd6b6330461cd",
+  "5afb99208f59928fbe28423ad461d92d2daeee8a624c0db84c2f69a4bb144a71",
   "5d6455921650bd53e1091e7430219593634ea84a321a8f72bc7a3936ae6ca637",
   "6d1fe6ab3cd04ca5d1ab790339ee2b6577553bc042af3b7587ece0c195267c9b",
   "7036dabe0164055e327660539bebf6fab5d6f8a58347ebfb62b57c47d14e57d4",
@@ -113,10 +114,8 @@
   "8cb3e7ca7d29207906f3868ad099a1a2d74b67be4072e666d1e566cb126f92cf",
   "949acf01d8c2cc136a8bf153bfadf7d1a333a6865c73079337d5b05c85e7b909",
   "981c28fcd7d23759770eb64c177d48ee5dc43967478a998402f338138bb5e60c",
-  "99024845bea1161560f109aae30e148c4bb1b2e91aafda15188a8014491d21ff",
   "9a9a23dd3805700fa655ab724430abf8bf9ff12b2514c963368a86c01a76ed82",
   "a3ecb38ba6d2c13db0beac1aac928669c6ab271197b83cf6ec4ba90b85e6916b",
-  "a8076d3d28d21e02012b20eaf7dbf75409a6277134439025f282e368e3305abf",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "b1d4c3bd5a39a3f68080f2babd52057d6366789289ea0cbf3e75b498cd9b12e4",
   "b493b91f25b3c19459826bf2e9dbbea10bdb0821c0202681c9802b6fd82ac375",
@@ -151,27 +150,27 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   147
+   148
   ],
   [
    "GPON/ONT fibre terminal",
-   146
+   145
   ],
   [
    "ZTE CPE",
-   107
-  ],
-  [
-   "DrayTek router",
-   97
+   105
   ],
   [
    "Huawei HG gateway",
-   96
+   97
+  ],
+  [
+   "DrayTek router",
+   95
   ],
   [
    "ISP-branded DSL gateway",
-   68
+   72
   ],
   [
    "IoT OEM default account",
@@ -179,7 +178,7 @@
   ],
   [
    "firmware backdoor account",
-   42
+   44
   ],
   [
    "embedded web server (boa/goform)",
@@ -187,7 +186,7 @@
   ],
   [
    "SMC Networks CPE",
-   22
+   24
   ],
   [
    "WordPress",
@@ -330,109 +329,109 @@
    56158
   ],
   [
-   "root/Zte521",
-   48039
+   "localadmin/localadmin",
+   47579
   ],
   [
-   "localadmin/localadmin",
-   47577
+   "root/Zte521",
+   46225
   ],
   [
    "admin/admin",
-   46413
+   45972
   ],
   [
    "root/xc3511",
-   35241
+   34961
   ],
   [
    "guest/123456",
-   28323
+   28333
   ],
   [
    "root/",
-   26971
+   26747
   ],
   [
    "support/support",
-   25103
+   25014
   ],
   [
    "super/sp-admin",
-   24023
+   23992
   ],
   [
    "root/xmhdipc",
-   23831
+   23787
   ],
   [
    "CUAdmin/CUAdmin",
-   20513
+   20438
   ],
   [
    "gdcuadmin/gdcuadmin",
-   18157
+   18163
   ],
   [
    "admin/12345678",
-   16748
+   16682
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16543
+   16536
   ],
   [
    "admin/54321",
-   15728
+   15716
   ],
   [
    "root/root",
-   14453
+   14298
   ],
   [
    "admin/meinsm",
-   13437
+   13466
   ],
   [
    "root/Pon521",
-   11941
+   11882
   ],
   [
    "root/vertex25ektks123",
-   9630
+   9590
   ],
   [
    "admin/qwerty",
-   9290
+   9207
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8960
+   8896
   ],
   [
    "support/support123",
-   8512
+   8450
   ],
   [
    "admin/1234",
-   7195
+   7094
   ],
   [
-   "root/admin",
-   6302
+   "admin/88888888",
+   6769
   ],
   [
    "root/1234horses",
-   6241
+   6214
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 389,
-  "distinct_credentials": 2956,
-  "distinct_payload_urls": 594,
+  "distinct_c2_hosts": 378,
+  "distinct_credentials": 2905,
+  "distinct_payload_urls": 583,
   "events": 9163846,
-  "new_sources": 3207,
-  "shared_c2_hosts": 99,
+  "new_sources": 3283,
+  "shared_c2_hosts": 98,
   "sources": 3771
  },
  "window": {
