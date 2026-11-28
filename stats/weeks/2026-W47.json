@@ -73,8 +73,8 @@
   "connected": 3771,
   "delivered_sample": 131,
   "fetched_payload": 165,
-  "ran_commands": 1321,
-  "returned": 2209,
+  "ran_commands": 1323,
+  "returned": 2212,
   "tried_creds": 1260
  },
  "samples": [
@@ -159,7 +159,7 @@
   ],
   [
    "ZTE CPE",
-   106
+   107
   ],
   [
    "Huawei HG gateway",
@@ -171,7 +171,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   71
+   72
   ],
   [
    "IoT OEM default account",
@@ -179,7 +179,7 @@
   ],
   [
    "firmware backdoor account",
-   44
+   43
   ],
   [
    "embedded web server (boa/goform)",
@@ -331,104 +331,104 @@
   ],
   [
    "localadmin/localadmin",
-   47578
+   47579
   ],
   [
    "root/Zte521",
-   46407
+   46476
   ],
   [
    "admin/admin",
-   46302
+   46439
   ],
   [
    "root/xc3511",
-   35011
+   35021
   ],
   [
    "guest/123456",
-   28337
+   28342
   ],
   [
    "root/",
-   26760
+   26765
   ],
   [
    "support/support",
-   25022
+   25015
   ],
   [
    "super/sp-admin",
-   24014
+   24001
   ],
   [
    "root/xmhdipc",
-   23795
+   23815
   ],
   [
    "CUAdmin/CUAdmin",
-   20442
+   20443
   ],
   [
    "gdcuadmin/gdcuadmin",
-   18164
+   18165
   ],
   [
    "admin/12345678",
-   16709
+   16714
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16539
+   16545
   ],
   [
    "admin/54321",
-   15740
+   15735
   ],
   [
    "root/root",
-   14326
+   14332
   ],
   [
    "admin/meinsm",
-   13461
+   13466
   ],
   [
    "root/Pon521",
-   11896
+   11897
   ],
   [
    "root/vertex25ektks123",
-   9610
+   9611
   ],
   [
    "admin/qwerty",
-   9216
+   9219
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8891
+   8894
   ],
   [
    "support/support123",
-   8435
+   8436
   ],
   [
    "admin/1234",
-   7110
+   7124
   ],
   [
    "admin/88888888",
-   6789
+   6810
   ],
   [
    "root/1234horses",
-   6218
+   6215
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 384,
-  "distinct_credentials": 2923,
+  "distinct_credentials": 2927,
   "distinct_payload_urls": 591,
   "events": 9163846,
   "new_sources": 3283,

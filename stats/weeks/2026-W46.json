@@ -62,7 +62,7 @@
   "delivered_sample": 51,
   "fetched_payload": 89,
   "ran_commands": 664,
-  "returned": 1209,
+  "returned": 1211,
   "tried_creds": 1020
  },
  "samples": [
@@ -116,7 +116,7 @@
   ],
   [
    "ZTE CPE",
-   59
+   61
   ],
   [
    "DrayTek router",
@@ -124,11 +124,11 @@
   ],
   [
    "Huawei HG gateway",
-   50
+   49
   ],
   [
    "ISP-branded DSL gateway",
-   41
+   44
   ],
   [
    "IoT OEM default account",
@@ -136,7 +136,7 @@
   ],
   [
    "firmware backdoor account",
-   28
+   29
   ],
   [
    "WordPress",
@@ -144,7 +144,7 @@
   ],
   [
    "SMC Networks CPE",
-   7
+   6
   ],
   [
    "consumer router admin",
@@ -280,31 +280,31 @@
   ],
   [
    "admin/admin",
-   25661
+   25774
   ],
   [
    "root/Zte521",
-   23301
+   23353
   ],
   [
    "root/xc3511",
-   19596
+   19600
   ],
   [
    "guest/12345",
-   9893
+   9894
   ],
   [
    "admin/bayandsl",
-   5404
+   5405
   ],
   [
    "root/root",
-   5284
+   5288
   ],
   [
    "root/1234horses",
-   5142
+   5144
   ],
   [
    "root/vertex25ektks123",
@@ -316,31 +316,31 @@
   ],
   [
    "ftp/ftp",
-   4179
+   4195
   ],
   [
    "root/xmhdipc",
-   3884
+   3904
   ],
   [
    "root/admin",
-   3419
+   3429
   ],
   [
    "root/",
-   3380
+   3384
   ],
   [
    "support/support",
-   3082
+   3074
   ],
   [
    "admin/54321",
-   3055
+   3041
   ],
   [
    "root/888888",
-   3003
+   3021
   ],
   [
    "root/12341234",
@@ -348,7 +348,7 @@
   ],
   [
    "root/anko",
-   2537
+   2536
   ],
   [
    "gdcuadmin/gdcuadmin",
@@ -356,28 +356,28 @@
   ],
   [
    "root/12345",
-   2303
+   2312
   ],
   [
    "service/service",
-   2210
+   2251
   ],
   [
    "root/bluehorse",
-   2141
+   2146
   ],
   [
    "888888/888888",
-   1859
+   1860
   ],
   [
    "root/12345678",
-   1797
+   1826
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 246,
-  "distinct_credentials": 2500,
+  "distinct_credentials": 2499,
   "distinct_payload_urls": 370,
   "events": 2900571,
   "new_sources": 2149,

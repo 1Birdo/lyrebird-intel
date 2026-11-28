@@ -2,11 +2,15 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 338
+   "sources": 347
   },
   {
    "cve": "CVE-2021-35394",
    "sources": 8
+  },
+  {
+   "cve": "CVE-2022-0543",
+   "sources": 7
   },
   {
    "cve": "CVE-2017-9841",
@@ -14,10 +18,6 @@
   },
   {
    "cve": "CVE-2021-36260",
-   "sources": 5
-  },
-  {
-   "cve": "CVE-2022-0543",
    "sources": 5
   },
   {
@@ -30,10 +30,14 @@
   },
   {
    "cve": "CVE-2017-17215",
-   "sources": 3
+   "sources": 4
   },
   {
    "cve": "CVE-2016-20016",
+   "sources": 2
+  },
+  {
+   "cve": "CVE-2016-6277",
    "sources": 2
   },
   {
@@ -42,10 +46,6 @@
   },
   {
    "cve": "CVE-2016-20017",
-   "sources": 1
-  },
-  {
-   "cve": "CVE-2016-6277",
    "sources": 1
   },
   {
@@ -66,18 +66,20 @@
   }
  ],
  "funnel": {
-  "connected": 2471,
-  "delivered_sample": 97,
-  "fetched_payload": 126,
-  "ran_commands": 1056,
-  "returned": 1509,
-  "tried_creds": 542
+  "connected": 2560,
+  "delivered_sample": 103,
+  "fetched_payload": 128,
+  "ran_commands": 1098,
+  "returned": 1558,
+  "tried_creds": 555
  },
  "samples": [
   "0865704d2580b26f3bb690cc668a559671f3cb368f2e68428b7b748d2e40d3bb",
+  "132be58f3c2e7a489b41dd7148029097481b6b1a5f32f5572dde79ef84920cd3",
   "1351d9686de093f465fb9142fd90c2b28cee402c3ff8bb0f5ca67e526e9a38e3",
   "18db2aa34ee477dd3f189d7697e853009cb38b5821f91f41bee83880df259daf",
   "2123c57b1e8efccf3fe986cc47e400cbd875cfe64ab6c8891d499328bea53916",
+  "2751fabe07b1c3689f567613e47d3ab3c9b562b69ac2ebf452eb2e477661d078",
   "2aecb881e4f7341a70ff7e7b87b9ccb363eb19312712e2cb19880b1991e01167",
   "2cbedad04772b0c119ad8894f6d317fb9daa189fbbe2e2de4f0e5be21967c65e",
   "2dc4185d8ec610b0052ce7859fe5e3464c1636db653f1b9111e4a5ab69d2f148",
@@ -107,7 +109,9 @@
   "a8b728e081182255a312a7cad6a8c7f40e406fc182564b222192830d4e0db224",
   "a9fac398a8bc220f1ae88cbf80c130cbb279e51ee9378b7c5326dcc7008b5f5a",
   "ab7f307cd22f11f24c64be2231c443a81d03ff060b244790ed43912430bf5b8d",
+  "ac0c286763ddb8b78d6f96a3facd4937250d5bac16ed1519acb48a24a6a7a8a8",
   "bc36e729c6463e7120677c0d59b9d793401b320520201043048577d4d94cee28",
+  "c1a8fdbae124f9d0f67d2e35d671698382e5bbcf390584392020f808b668afb5",
   "c4b34ca431cf5efd6ea685226fdc606f905ba978c8595c511552574b3174fa80",
   "cced8465af40a07d04bc91ab8368e3764bfa8413db4ea698b6ee654c228f1ef5",
   "d41c451c7323fa2d8a74981a14a7e12ebfc45f66ebe8009729ab27ade238ce56",
@@ -123,6 +127,7 @@
   "e8705b8cef34e528ac3cf80a4479393f5fe066f56d85a447708c89fea072dbda",
   "edfb4d25c64327c8aa76434c8cee65a3fd6ef2da8b455402d4ae4aa2c3099a59",
   "ee637c722293880ee8fe966f8470af4c6df61bc3b026a8cc78b58b3c75e7add3",
+  "efd986c7182a1515045018062d1096815ca9d012a8dc5c175d5ecc1a378debd9",
   "f3d7185122d325ceb750c3460905bdf759d8ac3de67d1780fbd6ac545b19bd42",
   "f4b1a233c3172a9e929fe799323686f1d522c72d5df16fa79cd84bcf644a4799",
   "f74a8b06db4f8f48f4a19ea5c01bade2a0dfb9290c4ed04a3f1a3eaa298a843d",
@@ -134,35 +139,35 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   117
+   119
   ],
   [
    "GPON/ONT fibre terminal",
-   106
+   109
   ],
   [
    "ZTE CPE",
-   85
+   88
   ],
   [
    "Huawei HG gateway",
-   67
+   69
   ],
   [
    "DrayTek router",
-   62
+   65
   ],
   [
    "ISP-branded DSL gateway",
-   54
+   56
   ],
   [
    "IoT OEM default account",
-   33
+   34
   ],
   [
    "firmware backdoor account",
-   30
+   31
   ],
   [
    "embedded web server (boa/goform)",
@@ -181,11 +186,11 @@
    5
   ],
   [
-   "Java middleware",
-   4
+   "consumer router admin",
+   5
   ],
   [
-   "consumer router admin",
+   "Java middleware",
    4
   ],
   [
@@ -310,118 +315,118 @@
  "top_credentials": [
   [
    "administrator/",
-   62964
+   66065
   ],
   [
    "localadmin/localadmin",
-   54906
+   55480
   ],
   [
    "root/Zte521",
-   31404
+   34226
   ],
   [
    "guest/123456",
-   24820
+   24836
   ],
   [
    "super/sp-admin",
-   23753
+   23876
   ],
   [
    "admin/admin",
-   20013
+   20307
   ],
   [
    "CUAdmin/CUAdmin",
-   19653
+   19836
   ],
   [
    "root/xmhdipc",
-   18334
+   18439
   ],
   [
    "root/root",
-   16653
+   16978
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16296
+   16303
   ],
   [
    "administrator/administrator",
-   15740
+   15763
+  ],
+  [
+   "admin/ho4uku6at",
+   15188
   ],
   [
    "root/vertex25ektks123",
-   11875
+   11888
   ],
   [
    "root/vizxv",
-   11643
-  ],
-  [
-   "gdcuadmin/gdcuadmin",
-   8816
+   11776
   ],
   [
    "root/xc3511",
-   8701
+   8893
+  ],
+  [
+   "gdcuadmin/gdcuadmin",
+   8872
   ],
   [
    "admin/vnpt",
-   8627
+   8620
   ],
   [
    "support/support123",
-   8524
-  ],
-  [
-   "CMCCAdmin/CMCCAdmin",
-   8173
-  ],
-  [
-   "support/support",
-   7449
+   8518
   ],
   [
    "cuadmin/cu@Hnunicom",
-   7381
+   8238
   ],
   [
-   "admin/v2mprt",
-   6217
+   "CMCCAdmin/CMCCAdmin",
+   8180
   ],
   [
-   "ftp/ftp",
-   6210
-  ],
-  [
-   "root/2010vesta",
-   5922
+   "support/support",
+   7457
   ],
   [
    "supervisor/supervisor",
-   5681
+   7341
   ],
   [
-   "admin/88888888",
-   5557
+   "ftp/ftp",
+   6278
+  ],
+  [
+   "admin/v2mprt",
+   6270
+  ],
+  [
+   "root/2010vesta",
+   5929
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 268,
-  "distinct_credentials": 2247,
-  "distinct_payload_urls": 404,
-  "events": 6106825,
-  "new_sources": 1868,
-  "shared_c2_hosts": 79,
-  "sources": 2471
+  "distinct_c2_hosts": 272,
+  "distinct_credentials": 2292,
+  "distinct_payload_urls": 410,
+  "events": 6604489,
+  "new_sources": 1941,
+  "shared_c2_hosts": 82,
+  "sources": 2560
  },
  "window": {
-  "days": 5,
+  "days": 6,
   "first_day": "2026-11-23",
-  "last_day": "2026-11-27",
+  "last_day": "2026-11-28",
   "week": "2026-W48"
  }
 }
