@@ -2,7 +2,7 @@
  "cves": [
   {
    "cve": "CVE-2017-0144",
-   "sources": 362
+   "sources": 382
   },
   {
    "cve": "CVE-2021-35394",
@@ -10,7 +10,7 @@
   },
   {
    "cve": "CVE-2022-0543",
-   "sources": 7
+   "sources": 8
   },
   {
    "cve": "CVE-2017-17215",
@@ -38,7 +38,7 @@
   },
   {
    "cve": "CVE-2016-20016",
-   "sources": 2
+   "sources": 3
   },
   {
    "cve": "CVE-2012-1823",
@@ -70,12 +70,12 @@
   }
  ],
  "funnel": {
-  "connected": 2657,
-  "delivered_sample": 102,
-  "fetched_payload": 131,
-  "ran_commands": 1138,
-  "returned": 1613,
-  "tried_creds": 573
+  "connected": 2762,
+  "delivered_sample": 104,
+  "fetched_payload": 132,
+  "ran_commands": 1184,
+  "returned": 1665,
+  "tried_creds": 595
  },
  "samples": [
   "047a8afc6f0bd6d81fa0c1c86076b0c3d68c35371e38d2eec8d5dde3dc7f6f24",
@@ -93,7 +93,9 @@
   "3f10e8b0fa4514b1d74a15c44197da732dce8d70592d9151e1dcd08f28c77239",
   "4443477fd682d5472618aeed746919526e0154ffb7bb37c83b89f3d41d22fa80",
   "44ea69f92c6cfd540aae61378d5214929075c171bc7915c81dccd3fd1b8b18cf",
+  "4d17f66a54aba6b0e9fbea20394b7b768254536642886dbbfb1b00ce594140ca",
   "4e6f0b233c06bc61de2260e1fb1f545854f293265dd6d79b689caf602dc1f072",
+  "52f54799dd9bc3bb64c5cd5c945ee2bedf72ed09b3dd4fe0457db46020abc3f7",
   "5afb99208f59928fbe28423ad461d92d2daeee8a624c0db84c2f69a4bb144a71",
   "5cf179e6c25799e788dde3afc2c2ec1ade17462a45d0be3c5aef825be0e75ba6",
   "5e97a5b53082045f8c99226000651b68d2e6a73d4a5b5919bf8789f342b8dc02",
@@ -148,11 +150,11 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   120
+   121
   ],
   [
    "GPON/ONT fibre terminal",
-   110
+   114
   ],
   [
    "ZTE CPE",
@@ -160,15 +162,15 @@
   ],
   [
    "Huawei HG gateway",
-   70
+   72
   ],
   [
    "DrayTek router",
-   65
+   66
   ],
   [
    "ISP-branded DSL gateway",
-   52
+   55
   ],
   [
    "IoT OEM default account",
@@ -176,7 +178,7 @@
   ],
   [
    "firmware backdoor account",
-   32
+   31
   ],
   [
    "SMC Networks CPE",
@@ -234,10 +236,6 @@
   ],
   [
    "100.10.0.255",
-   8
-  ],
-  [
-   "100.10.4.108",
    8
   ],
   [
@@ -301,8 +299,8 @@
    8
   ],
   [
-   "61.52.193.193",
-   8
+   "100.10.4.108",
+   7
   ],
   [
    "138.204.196.254",
@@ -319,118 +317,122 @@
   [
    "61.52.133.55",
    7
+  ],
+  [
+   "61.52.193.193",
+   7
   ]
  ],
  "top_credentials": [
   [
    "administrator/",
-   66065
+   80203
   ],
   [
    "localadmin/localadmin",
-   55928
+   56398
   ],
   [
    "root/Zte521",
-   33780
+   34145
   ],
   [
    "guest/123456",
-   24922
+   24930
   ],
   [
    "super/sp-admin",
-   23850
+   23853
   ],
   [
    "admin/admin",
-   20214
+   20627
   ],
   [
    "CUAdmin/CUAdmin",
-   19841
+   19849
   ],
   [
    "root/xmhdipc",
-   18587
+   18680
   ],
   [
    "root/root",
-   16975
+   17008
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16296
+   16300
   ],
   [
    "administrator/administrator",
-   15678
+   15720
   ],
   [
    "admin/ho4uku6at",
-   15225
+   15234
   ],
   [
    "root/vertex25ektks123",
-   11915
+   11953
   ],
   [
    "root/vizxv",
-   11745
+   11749
   ],
   [
    "gdcuadmin/gdcuadmin",
-   8935
+   8996
   ],
   [
    "root/xc3511",
-   8878
+   8903
   ],
   [
    "admin/vnpt",
-   8623
+   8627
   ],
   [
    "support/support123",
-   8563
+   8570
   ],
   [
    "cuadmin/cu@Hnunicom",
-   8243
+   8244
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8153
-  ],
-  [
-   "support/support",
-   7407
+   8159
   ],
   [
    "supervisor/supervisor",
-   7388
+   7526
+  ],
+  [
+   "support/support",
+   7440
   ],
   [
    "admin/v2mprt",
-   6288
+   6334
   ],
   [
    "ftp/ftp",
-   6278
+   6302
   ],
   [
    "root/2010vesta",
-   6008
+   6071
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 276,
-  "distinct_credentials": 2334,
-  "distinct_payload_urls": 417,
-  "events": 6682326,
-  "new_sources": 2048,
-  "shared_c2_hosts": 83,
-  "sources": 2657
+  "distinct_c2_hosts": 277,
+  "distinct_credentials": 2344,
+  "distinct_payload_urls": 420,
+  "events": 6866927,
+  "new_sources": 2141,
+  "shared_c2_hosts": 85,
+  "sources": 2762
  },
  "window": {
   "days": 6,

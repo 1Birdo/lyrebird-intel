@@ -37,8 +37,8 @@
   "connected": 1525,
   "delivered_sample": 28,
   "fetched_payload": 79,
-  "ran_commands": 473,
-  "returned": 855,
+  "ran_commands": 474,
+  "returned": 856,
   "tried_creds": 741
  },
  "samples": [
@@ -65,7 +65,7 @@
   ],
   [
    "DVR / IP camera (OEM default)",
-   68
+   69
   ],
   [
    "ZTE CPE",
@@ -73,7 +73,7 @@
   ],
   [
    "DrayTek router",
-   43
+   44
   ],
   [
    "Huawei HG gateway",
@@ -81,7 +81,7 @@
   ],
   [
    "ISP-branded DSL gateway",
-   37
+   36
   ],
   [
    "IoT OEM default account",
@@ -89,7 +89,7 @@
   ],
   [
    "firmware backdoor account",
-   24
+   21
   ],
   [
    "SMC Networks CPE",
@@ -225,7 +225,7 @@
   ],
   [
    "admin/admin",
-   21500
+   21641
   ],
   [
    "root/xc3511",
@@ -233,27 +233,27 @@
   ],
   [
    "root/Zte521",
-   14868
+   14916
   ],
   [
    "guest/12345",
-   7590
+   7592
   ],
   [
    "root/1234horses",
-   5070
+   5074
   ],
   [
    "root/vertex25ektks123",
-   4752
+   4753
   ],
   [
    "admin/123456789",
-   4733
+   4736
   ],
   [
    "root/root",
-   3865
+   3870
   ],
   [
    "admin/bayandsl",
@@ -261,55 +261,55 @@
   ],
   [
    "root/xmhdipc",
-   3135
+   3098
   ],
   [
    "root/",
-   2904
+   2906
   ],
   [
    "root/admin",
-   2863
+   2888
   ],
   [
    "admin/54321",
-   2804
+   2809
   ],
   [
    "gdcuadmin/gdcuadmin",
-   2423
+   2425
   ],
   [
    "root/888888",
-   2419
+   2411
   ],
   [
    "root/anko",
-   2383
+   2394
   ],
   [
    "service/service",
-   2002
+   2005
   ],
   [
    "root/bluehorse",
-   1888
+   1892
   ],
   [
    "root/12345678",
-   1777
+   1797
   ],
   [
    "root/12345",
-   1721
+   1729
   ],
   [
    "888888/888888",
-   1623
+   1625
   ],
   [
    "root/2010vesta",
-   1453
+   1441
   ],
   [
    "root/12341234",
@@ -317,12 +317,12 @@
   ],
   [
    "root/666666",
-   1317
+   1319
   ]
  ],
  "totals": {
   "distinct_c2_hosts": 209,
-  "distinct_credentials": 1786,
+  "distinct_credentials": 1789,
   "distinct_payload_urls": 311,
   "events": 1821760,
   "new_sources": 1525,

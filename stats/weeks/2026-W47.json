@@ -73,8 +73,8 @@
   "connected": 3771,
   "delivered_sample": 128,
   "fetched_payload": 165,
-  "ran_commands": 1320,
-  "returned": 2166,
+  "ran_commands": 1321,
+  "returned": 2168,
   "tried_creds": 1258
  },
  "samples": [
@@ -150,7 +150,7 @@
  "targets": [
   [
    "DVR / IP camera (OEM default)",
-   147
+   148
   ],
   [
    "GPON/ONT fibre terminal",
@@ -161,16 +161,16 @@
    107
   ],
   [
-   "Huawei HG gateway",
+   "DrayTek router",
    94
   ],
   [
-   "DrayTek router",
+   "Huawei HG gateway",
    93
   ],
   [
    "ISP-branded DSL gateway",
-   67
+   68
   ],
   [
    "IoT OEM default account",
@@ -178,7 +178,7 @@
   ],
   [
    "firmware backdoor account",
-   43
+   42
   ],
   [
    "embedded web server (boa/goform)",
@@ -186,7 +186,7 @@
   ],
   [
    "SMC Networks CPE",
-   21
+   24
   ],
   [
    "WordPress",
@@ -240,10 +240,6 @@
   ],
   [
    "100.10.0.255",
-   8
-  ],
-  [
-   "100.10.4.108",
    8
   ],
   [
@@ -303,8 +299,8 @@
    8
   ],
   [
-   "61.52.193.193",
-   8
+   "100.10.4.108",
+   7
   ],
   [
    "119.179.42.216",
@@ -321,6 +317,10 @@
   [
    "42.224.83.253",
    7
+  ],
+  [
+   "61.52.133.55",
+   7
   ]
  ],
  "top_credentials": [
@@ -330,108 +330,108 @@
   ],
   [
    "localadmin/localadmin",
-   47577
+   47578
   ],
   [
    "admin/admin",
-   45977
+   46146
   ],
   [
    "root/Zte521",
-   44867
+   44926
   ],
   [
    "root/xc3511",
-   34756
+   34762
   ],
   [
    "guest/123456",
-   28409
+   28416
   ],
   [
    "root/",
-   26576
+   26578
   ],
   [
    "support/support",
-   24937
+   24960
   ],
   [
    "super/sp-admin",
-   23945
+   23967
   ],
   [
    "root/xmhdipc",
-   23780
+   23776
   ],
   [
    "CUAdmin/CUAdmin",
-   20411
+   20412
   ],
   [
    "gdcuadmin/gdcuadmin",
-   18163
+   18165
   ],
   [
    "admin/12345678",
-   16661
+   16666
   ],
   [
    "nmgcuadmin/nmgcuadmin",
-   16530
+   16531
   ],
   [
    "admin/54321",
-   15722
+   15730
   ],
   [
    "root/root",
-   14218
+   14229
   ],
   [
    "admin/meinsm",
-   13408
+   13414
   ],
   [
    "root/Pon521",
-   11858
+   11848
   ],
   [
    "root/vertex25ektks123",
-   9598
+   9629
   ],
   [
    "admin/qwerty",
-   9133
+   9137
   ],
   [
    "CMCCAdmin/CMCCAdmin",
-   8800
+   8807
   ],
   [
    "support/support123",
-   8432
+   8441
   ],
   [
    "admin/1234",
-   7031
+   7041
   ],
   [
    "admin/88888888",
-   6763
+   6806
   ],
   [
    "root/1234horses",
-   6184
+   6189
   ]
  ],
  "totals": {
-  "distinct_c2_hosts": 375,
-  "distinct_credentials": 2909,
-  "distinct_payload_urls": 571,
+  "distinct_c2_hosts": 376,
+  "distinct_credentials": 2919,
+  "distinct_payload_urls": 574,
   "events": 9163846,
   "new_sources": 3387,
-  "shared_c2_hosts": 97,
+  "shared_c2_hosts": 99,
   "sources": 3771
  },
  "window": {
